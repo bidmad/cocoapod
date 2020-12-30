@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "BidmadSDKA"
+  s.name         = "BidmadSDK"
   s.version      = "2.2.0"
   s.summary      = "BidmadSDK is a sample Project for exercising uploading Pod Compiled Project"
   s.description  = <<-DESC
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "http://www.adop.cc"
-  s.license      = { :type => "MIT", :file => "bidmad/cocoapod/license" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Kenneth" => "kenneth@adop.cc" }
   s.ios.deployment_target = '10.0'
   
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   
   s.static_framework = true
 
-  s.ios.vendored_frameworks = "bidmad/cocoapod/BidmadSDK.framework"
+  s.ios.vendored_frameworks = "BidmadSDK.framework"
   s.ios.dependency "GoogleMobileAdsMediationUnity"
   s.ios.dependency "GoogleMobileAdsMediationAdColony"
   s.ios.dependency "GoogleMobileAdsMediationAppLovin"
