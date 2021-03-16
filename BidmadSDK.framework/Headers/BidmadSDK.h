@@ -19,13 +19,12 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import "BIDMADSetting.h"
 #import "BIDMADBanner.h"
 #import "BIDMADInterstitial.h"
-
 #import "BIDMADRewardVideo.h"
 #import "BIDMADAppOpenAd.h"
-#import "BIDMADFacebook.h"
-#import "BIDMADFacebookBidding.h"
-#import "BIDMADAdmob.h"
+#import "BIDMADOfferwall.h"
 
+#import "BIDMADFacebook.h"
+#import "BIDMADAdmob.h"
 #import "BIDMADAdmanager.h"
 #import "BIDMADAtom.h"
 #import "BIDMADAtomInterstitial.h"

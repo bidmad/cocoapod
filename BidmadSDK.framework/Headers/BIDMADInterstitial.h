@@ -10,11 +10,9 @@
 #import "BIDMADUtil.h"
 #import "BIDMADSetting.h"
 #import "BIDMADFacebook.h"
-#import "BIDMADFacebookBidding.h"
 #import "BIDMADAdmanager.h"
 #import "BIDMADAdmob.h"
 #import "BIDMADAtomInterstitial.h"
-#import "BIDMADIronSource.h"
 
 @protocol BIDMADInterstitialDelegate <NSObject>
 
@@ -58,7 +56,6 @@
 
 @property (strong, nonatomic) NSDictionary*             ads_dic;
 @property (nonatomic) BOOL                     isDirectLoad;
-@property (strong,nonatomic) NSString*                     isFBB;
 
 @property (strong, nonatomic) NSDictionary*                      ecmp_rev_info;
 @property (strong, nonatomic) NSDictionary*                      area_info;
@@ -66,12 +63,18 @@
 @property (strong, nonatomic) NSDictionary*                    change_info;
 @property (strong, nonatomic) NSDictionary*                    date;
 
+@property (nonatomic) NSString * zoneID;
+
+@property (nonatomic) bool justLoading;
+
 @property (nonatomic) int mediationNumber;
 
 @property (nonatomic) BOOL                       isLabelService;
 @property (nonatomic) BOOL                       isLabelServiceAdmin;
 
 @property (nonatomic) NSString *                 realZoneId;
+
+@property (nonatomic) BOOL                       isLoaded;
 
 ///inititalize
 - (id)init;
@@ -92,7 +95,7 @@
 
 - (void)setTestDevice :(NSString *)deviceId;
 
-
+- (void)sendLog :(NSDictionary *) info :(NSString *) advertisementType :(NSString *) logType;
 
 @end
 

@@ -29,7 +29,8 @@
 @class BIDMADAppOpenAd;
 
 #ifdef GOOGLESDK_EXIST
-@interface BIDMADAdmob : NSObject<GADBannerViewDelegate,GADInterstitialDelegate, GADRewardedAdDelegate, GADFullScreenContentDelegate>
+@interface BIDMADAdmob : NSObject<GADBannerViewDelegate, GADFullScreenContentDelegate>
+
 #else
 @interface BIDMADAdmob : NSObject
 #endif

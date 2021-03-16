@@ -13,7 +13,7 @@
 @interface BIDMADAtom : WKWebView<WKNavigationDelegate>
 
 - (id)initWithAdDic:(NSDictionary *)dic;
-- (void)showBannerAds:(BIDMADBanner *)pv parentViewController:(UIViewController *)pvc;
+- (void)showBannerAds:(BIDMADBanner *)pv parentViewController:(UIViewController *)pvc bannerContainer:(UIView *)parentUIView;
 
 @property (strong,nonatomic) BIDMADBanner* banner;
 
