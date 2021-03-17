@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Kenneth" => "kenneth@adop.cc" }
   s.platform     = :ios, "10.0"
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '2.3.0' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '2.4.0' }
   
   s.static_framework = true
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }

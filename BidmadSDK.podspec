@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Kenneth" => "kenneth@adop.cc" }
   s.platform     = :ios, "10.0"
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '2.3.0' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '2.4.0' }
   
   s.static_framework = true
 
@@ -21,5 +21,7 @@ Pod::Spec.new do |s|
   s.dependency "GoogleMobileAdsMediationMoPub"
   s.dependency "GoogleMobileAdsMediationFacebook"
   s.dependency "GoogleMobileAdsMediationIronSource"
+  s.dependency "PersonalizedAdConsent"
+  s.dependency "TapjoySDK"
 
 end
