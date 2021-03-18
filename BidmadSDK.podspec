@@ -7,21 +7,23 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/bidmad/cocoapod.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Kenneth" => "kenneth@adop.cc" }
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "9.0"
   s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '2.4.0' }
   
   s.static_framework = true
+  s.requires_arc     = true
 
   s.vendored_frameworks = "BidmadSDK.framework"
-  s.dependency "GoogleMobileAdsMediationUnity"
-  s.dependency "GoogleMobileAdsMediationAdColony"
-  s.dependency "GoogleMobileAdsMediationAppLovin"
-  s.dependency "GoogleMobileAdsMediationChartboost"
-  s.dependency "GoogleMobileAdsMediationVungle"
-  s.dependency "GoogleMobileAdsMediationMoPub"
-  s.dependency "GoogleMobileAdsMediationFacebook"
-  s.dependency "GoogleMobileAdsMediationIronSource"
-  s.dependency "PersonalizedAdConsent"
-  s.dependency "TapjoySDK"
+
+  s.dependency 'GoogleMobileAdsMediationAppLovin'
+  s.dependency 'GoogleMobileAdsMediationFacebook'
+  s.dependency 'GoogleMobileAdsMediationAdColony'
+  s.dependency 'FBAudienceNetwork'
+  s.dependency 'FBSDKCoreKit'
+  s.dependency 'Google-Mobile-Ads-SDK'
+  s.dependency 'PersonalizedAdConsent'
+  s.dependency 'TapjoySDK'
+  s.dependency 'UnityAds'
+  s.dependency 'GoogleMobileAdsMediationUnity'
 
 end

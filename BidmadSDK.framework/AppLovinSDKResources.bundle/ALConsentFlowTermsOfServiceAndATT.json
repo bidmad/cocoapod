@@ -15,8 +15,7 @@
                 "key": "AGREE_TO_TERMS_BUTTON_TITLE"
             },
             "style": "default",
-            "destination_state_id": 13,
-            "event": "tos_ok"
+            "destination_state_id": 12
         }]
     }, {
         "id": 10,
@@ -26,11 +25,13 @@
         "type": "pp"
     }, {
         "id": 12,
-        "type": "huc",
-        "destination_state_id": 13
+        "type": "event",
+        "name": "tos_ok",
+        "destination_state_id": 14
     }, {
-        "id": 13,
-        "type": "att"
+        "id": 14,
+        "type": "att",
+        "destination_state_id": 99
     }, {
         "id": 99,
         "type": "reinit"
