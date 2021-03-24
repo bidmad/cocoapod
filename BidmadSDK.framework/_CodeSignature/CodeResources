@@ -214,7 +214,7 @@
 		</dict>
 		<key>FMMoveTableViewCell.nib</key>
 		<data>
-		kkGTo7Mx02w5qQydAb8SrbfUADo=
+		B1PsJiaLagPTC7OGRJ2H+puvAfw=
 		</data>
 		<key>Headers/BIDMADAdColony.h</key>
 		<data>
@@ -295,6 +295,10 @@
 		<key>Headers/BidmadSDK.h</key>
 		<data>
 		pL+AW05IYfxVoxG3V5Po5Lv48iM=
+		</data>
+		<key>Headers/BidmadsdkFlutterPlugin.h</key>
+		<data>
+		nBm9LsH7fmuNKZaTpceZ7bhooRA=
 		</data>
 		<key>Headers/FMMoveTableView.h</key>
 		<data>
@@ -821,11 +825,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kkGTo7Mx02w5qQydAb8SrbfUADo=
+			B1PsJiaLagPTC7OGRJ2H+puvAfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Vqw2WTBfAriV7yuN+jwKAHaFCLY4SUcymHvFwbuEvU=
+			NTmnFVLNSwEU2eUt86BefbGU9TaJDkJS89dNCwZlM0I=
 			</data>
 		</dict>
 		<key>Headers/BIDMADAdColony.h</key>
@@ -1046,6 +1050,17 @@
 			<key>hash2</key>
 			<data>
 			zMMIy6cFV20W4iVy5I9Mc1NR/Q3REXbVQLkY+hja75c=
+			</data>
+		</dict>
+		<key>Headers/BidmadsdkFlutterPlugin.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nBm9LsH7fmuNKZaTpceZ7bhooRA=
+			</data>
+			<key>hash2</key>
+			<data>
+			OHzsSoOXoHGTyQZW5ajVFhCmpxPp511KhYOXGuEVgo8=
 			</data>
 		</dict>
 		<key>Headers/FMMoveTableView.h</key>
