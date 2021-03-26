@@ -214,7 +214,7 @@
 		</dict>
 		<key>FMMoveTableViewCell.nib</key>
 		<data>
-		B1PsJiaLagPTC7OGRJ2H+puvAfw=
+		munKz1uvERrRcD5KwsrosCmYFNQ=
 		</data>
 		<key>Headers/BIDMADAdColony.h</key>
 		<data>
@@ -250,11 +250,27 @@
 		</data>
 		<key>Headers/BIDMADBanner.h</key>
 		<data>
-		aaSxP+u/hsfvgThsWkrsnf0D2K8=
+		2V8/osZhh0FrkCO79j0PyVm0kIY=
 		</data>
 		<key>Headers/BIDMADFacebook.h</key>
 		<data>
 		ULPOZYJjq9B3eKFXHhBRoBvN6VI=
+		</data>
+		<key>Headers/BIDMADFlutterBanner.h</key>
+		<data>
+		onmiQFRI9oSFNVkJey4jmS5wBuY=
+		</data>
+		<key>Headers/BIDMADFlutterCommon.h</key>
+		<data>
+		Ih+4LtaPAckF8MuaY4L1FF/DlTw=
+		</data>
+		<key>Headers/BIDMADFlutterInterstitial.h</key>
+		<data>
+		bZkr63wKqCaTAUDShvfrRNf91SA=
+		</data>
+		<key>Headers/BIDMADFlutterRewardVideo.h</key>
+		<data>
+		TuvulBzuj18oE8HYpwUHKcd5QSI=
 		</data>
 		<key>Headers/BIDMADGDPR.h</key>
 		<data>
@@ -294,11 +310,7 @@
 		</data>
 		<key>Headers/BidmadSDK.h</key>
 		<data>
-		pL+AW05IYfxVoxG3V5Po5Lv48iM=
-		</data>
-		<key>Headers/BidmadsdkFlutterPlugin.h</key>
-		<data>
-		nBm9LsH7fmuNKZaTpceZ7bhooRA=
+		a8e7hFfPwAa/hj9GpyOOFNvJZVM=
 		</data>
 		<key>Headers/FMMoveTableView.h</key>
 		<data>
@@ -334,7 +346,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Gz63FoJhfZgr8IkTF83YWScAOuo=
+		xIdc1PsczMrleldmIxt5h8dTXV4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -825,11 +837,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B1PsJiaLagPTC7OGRJ2H+puvAfw=
+			munKz1uvERrRcD5KwsrosCmYFNQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			NTmnFVLNSwEU2eUt86BefbGU9TaJDkJS89dNCwZlM0I=
+			d//X7MZweNYkDmGFW/YB60mD9/ZPUFBE3AQChXmZ9B8=
 			</data>
 		</dict>
 		<key>Headers/BIDMADAdColony.h</key>
@@ -924,11 +936,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aaSxP+u/hsfvgThsWkrsnf0D2K8=
+			2V8/osZhh0FrkCO79j0PyVm0kIY=
 			</data>
 			<key>hash2</key>
 			<data>
-			BVgQUHZU83SRtKLg9tmlUSGsg2jyu8FE+lR0YIl8FTk=
+			6Eec/BbE2b0gmJU7m0LDBZJaskpUwjeDZKxDK2YnvVs=
 			</data>
 		</dict>
 		<key>Headers/BIDMADFacebook.h</key>
@@ -940,6 +952,50 @@
 			<key>hash2</key>
 			<data>
 			6xvH4WW8mChoD1lJBLPMm5U9zKynNnqnmsls8CRb8yE=
+			</data>
+		</dict>
+		<key>Headers/BIDMADFlutterBanner.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			onmiQFRI9oSFNVkJey4jmS5wBuY=
+			</data>
+			<key>hash2</key>
+			<data>
+			Yxj9WXU20KZKgRB+jVQ/4mZD1Y8GF1KkEywm0iuSgK4=
+			</data>
+		</dict>
+		<key>Headers/BIDMADFlutterCommon.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ih+4LtaPAckF8MuaY4L1FF/DlTw=
+			</data>
+			<key>hash2</key>
+			<data>
+			qcBSyYEQrCjhk8YIzRZ9GDfrFbpfM/2i4rjyx1tK58Q=
+			</data>
+		</dict>
+		<key>Headers/BIDMADFlutterInterstitial.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bZkr63wKqCaTAUDShvfrRNf91SA=
+			</data>
+			<key>hash2</key>
+			<data>
+			CUCWyw3uK02+SDK5b4+sVoI/TSrle5DKnatlwypAyIU=
+			</data>
+		</dict>
+		<key>Headers/BIDMADFlutterRewardVideo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuvulBzuj18oE8HYpwUHKcd5QSI=
+			</data>
+			<key>hash2</key>
+			<data>
+			hPvIw2EZwb2CdTY15cH55249heb+vS4smQsA/lmttZM=
 			</data>
 		</dict>
 		<key>Headers/BIDMADGDPR.h</key>
@@ -1045,22 +1101,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pL+AW05IYfxVoxG3V5Po5Lv48iM=
+			a8e7hFfPwAa/hj9GpyOOFNvJZVM=
 			</data>
 			<key>hash2</key>
 			<data>
-			zMMIy6cFV20W4iVy5I9Mc1NR/Q3REXbVQLkY+hja75c=
-			</data>
-		</dict>
-		<key>Headers/BidmadsdkFlutterPlugin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nBm9LsH7fmuNKZaTpceZ7bhooRA=
-			</data>
-			<key>hash2</key>
-			<data>
-			OHzsSoOXoHGTyQZW5ajVFhCmpxPp511KhYOXGuEVgo8=
+			HhfFayefJsdbAlH98HDkvTEhU0nvEsaUGW6qfMQjFOU=
 			</data>
 		</dict>
 		<key>Headers/FMMoveTableView.h</key>

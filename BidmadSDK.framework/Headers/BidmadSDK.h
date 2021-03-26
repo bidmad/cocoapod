@@ -30,6 +30,5 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import "BIDMADAtomInterstitial.h"
 #import "BIDMADAtomReward.h"
 #import "BIDMADLabelView.h"
-#import "BIDMADAppLoving.h"
 #import "UIButton+circle.h"
 
