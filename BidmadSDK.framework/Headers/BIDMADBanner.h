@@ -50,8 +50,6 @@
 - (id)initWithParentViewController:(UIViewController *)parentVC adsPosition:(CGPoint)pointn bannerSize:(bannerSizeType) bannerTypeParam;
 - (id)initWithParentViewController:(UIViewController *)parentVC rootView:(UIView *)view    bannerSize:(bannerSizeType) bannerTypeParam;
 - (void)setTestDevice :(NSString *)deviceId;
-/// FOR FLUTTER
-- (void)setAdPoint:(CGPoint) viewAdPoint;
 /// REQUEST ADS
 - (void)requestBannerView;
 /// DELETE ADS

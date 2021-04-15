@@ -214,19 +214,15 @@
 		</dict>
 		<key>FMMoveTableViewCell.nib</key>
 		<data>
-		munKz1uvERrRcD5KwsrosCmYFNQ=
-		</data>
-		<key>Headers/BIDMADAdColony.h</key>
-		<data>
-		1DyuhDvUf+TM2iyiPakMeeXofuI=
+		egBsaaBcd0mIZcoWn0LkYi5uiXA=
 		</data>
 		<key>Headers/BIDMADAdmanager.h</key>
 		<data>
-		O3ZQfXWt1NjlWg1KaYZVT0yMqk4=
+		DEr2pS6+/PWQJPd1qIBO9J3k6+8=
 		</data>
 		<key>Headers/BIDMADAdmob.h</key>
 		<data>
-		uXIcSenXphmUrcoG0Lj2ZfkrTlI=
+		x4TGZWdaGQEKk7xIh3smGZ4rww0=
 		</data>
 		<key>Headers/BIDMADAppLoving.h</key>
 		<data>
@@ -250,7 +246,7 @@
 		</data>
 		<key>Headers/BIDMADBanner.h</key>
 		<data>
-		2V8/osZhh0FrkCO79j0PyVm0kIY=
+		aaSxP+u/hsfvgThsWkrsnf0D2K8=
 		</data>
 		<key>Headers/BIDMADFacebook.h</key>
 		<data>
@@ -264,6 +260,10 @@
 		<data>
 		Ih+4LtaPAckF8MuaY4L1FF/DlTw=
 		</data>
+		<key>Headers/BIDMADFlutterGDPRforGoogle.h</key>
+		<data>
+		CgUcsf1SQPsoEQNqpgACv4yJOVY=
+		</data>
 		<key>Headers/BIDMADFlutterInterstitial.h</key>
 		<data>
 		bZkr63wKqCaTAUDShvfrRNf91SA=
@@ -274,7 +274,11 @@
 		</data>
 		<key>Headers/BIDMADGDPR.h</key>
 		<data>
-		Ngk2vihthFpBVlYWmNUrG15FQHM=
+		9HPQs7OzIhVVfMg+Q6fpK57WwwE=
+		</data>
+		<key>Headers/BIDMADGDPRforGoogle.h</key>
+		<data>
+		Hia9E8vJmtD4J/z0Iy5rwPvnbwY=
 		</data>
 		<key>Headers/BIDMADInterstitial.h</key>
 		<data>
@@ -346,7 +350,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xIdc1PsczMrleldmIxt5h8dTXV4=
+		mvhAARqq2a5TaY4XaqJtS4oQto8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -837,44 +841,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			munKz1uvERrRcD5KwsrosCmYFNQ=
+			egBsaaBcd0mIZcoWn0LkYi5uiXA=
 			</data>
 			<key>hash2</key>
 			<data>
-			d//X7MZweNYkDmGFW/YB60mD9/ZPUFBE3AQChXmZ9B8=
-			</data>
-		</dict>
-		<key>Headers/BIDMADAdColony.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1DyuhDvUf+TM2iyiPakMeeXofuI=
-			</data>
-			<key>hash2</key>
-			<data>
-			J4XVFz2RZjRgPPk4fMbEsOYEC2JRbpj791U4ngJYL4w=
+			rxtMZvPJ5Uqyvq26txWcDBH+Z/n6IVdJ+5BoFqhd4Hw=
 			</data>
 		</dict>
 		<key>Headers/BIDMADAdmanager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O3ZQfXWt1NjlWg1KaYZVT0yMqk4=
+			DEr2pS6+/PWQJPd1qIBO9J3k6+8=
 			</data>
 			<key>hash2</key>
 			<data>
-			hPQ8SO0xWmXseXTM3fF9bsIvHB5qpZUDv6fEtqAJMmM=
+			XIFqYHBlpsjL51TMahGr+MGQ/3iEzrFBObUXk8zfMqQ=
 			</data>
 		</dict>
 		<key>Headers/BIDMADAdmob.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uXIcSenXphmUrcoG0Lj2ZfkrTlI=
+			x4TGZWdaGQEKk7xIh3smGZ4rww0=
 			</data>
 			<key>hash2</key>
 			<data>
-			YuFwTta+5iR9GhOmM0aalNUBW+wWHdSrNLQOxz2Z30M=
+			x9yw60pSlAI+i/lpGZq2Qxp4AxowXcC0J9OEYMOTZCY=
 			</data>
 		</dict>
 		<key>Headers/BIDMADAppLoving.h</key>
@@ -936,11 +929,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2V8/osZhh0FrkCO79j0PyVm0kIY=
+			aaSxP+u/hsfvgThsWkrsnf0D2K8=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Eec/BbE2b0gmJU7m0LDBZJaskpUwjeDZKxDK2YnvVs=
+			BVgQUHZU83SRtKLg9tmlUSGsg2jyu8FE+lR0YIl8FTk=
 			</data>
 		</dict>
 		<key>Headers/BIDMADFacebook.h</key>
@@ -976,6 +969,17 @@
 			qcBSyYEQrCjhk8YIzRZ9GDfrFbpfM/2i4rjyx1tK58Q=
 			</data>
 		</dict>
+		<key>Headers/BIDMADFlutterGDPRforGoogle.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CgUcsf1SQPsoEQNqpgACv4yJOVY=
+			</data>
+			<key>hash2</key>
+			<data>
+			tqhgNKPsCEUhoib4nwjEUoNVVCIY78yraRzrHn9aUL4=
+			</data>
+		</dict>
 		<key>Headers/BIDMADFlutterInterstitial.h</key>
 		<dict>
 			<key>hash</key>
@@ -1002,11 +1006,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ngk2vihthFpBVlYWmNUrG15FQHM=
+			9HPQs7OzIhVVfMg+Q6fpK57WwwE=
 			</data>
 			<key>hash2</key>
 			<data>
-			BUnXvyHjDA2GSH8aAstZCJj21/4sNw+jc2zsqNZ0L40=
+			GcFwNUNP71IOHymjY1pyMGOKA7FQAhis61wopSesZjE=
+			</data>
+		</dict>
+		<key>Headers/BIDMADGDPRforGoogle.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Hia9E8vJmtD4J/z0Iy5rwPvnbwY=
+			</data>
+			<key>hash2</key>
+			<data>
+			BcySWfVNXC6Rsrs2KZpMiD6n2YVLQ0FAeDYmWsYAO8Y=
 			</data>
 		</dict>
 		<key>Headers/BIDMADInterstitial.h</key>
