@@ -9,11 +9,14 @@ Pod::Spec.new do |s|
   s.author       = { "Kenneth" => "kenneth@adop.cc" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '2.6.0' }
+  s.resource_bundles = {
+    'bidmad_assets' => ['Assets/*.{png, xib}']
+  }
   
   s.static_framework = true
   s.requires_arc     = true
 
-  s.vendored_frameworks = "BidmadSDK.framework"
+  s.vendored_frameworks = "BidmadSDK.xcframework"
 
   s.dependency 'GoogleMobileAdsMediationAppLovin', '10.0.1.0'
   s.dependency 'GoogleMobileAdsMediationFacebook', '6.3.0.0'
