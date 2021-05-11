@@ -86,7 +86,7 @@
 
 - (void) sendLog :(NSDictionary *) info :(NSString *) advertisementType :(NSString *) logType;
 
-- (void) setTestDevice :(NSString *)deviceId;
+- (void) sendLog :(NSDictionary *) info :(NSString *) advertisementType :(NSString *) logType :(NSString *)recvSessionId;
 
 - (void) releaseBidmadResource;
 

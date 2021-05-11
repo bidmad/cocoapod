@@ -17,12 +17,26 @@
 //#import "BIDMADAdFit.h"
 
 @protocol BIDMADBannerDelegate;
+
+@protocol BIDMADBannerInnerDelegate <NSObject>
+
+@optional
+
+- (void)onBannerAllFail:(BIDMADBanner *)core;
+- (void)onBannerError:(BIDMADBanner *)core code:(NSString *)error failType:(NSString*)failType current:(NSDictionary*)currentDic passbackStr:(NSString*) passBackStr passback:(NSDictionary*) passbackDic;
+- (void)onBannerClosed:(BIDMADBanner *)core current:(NSDictionary*) currentDic;
+- (void)onBannerLoad:(BIDMADBanner *)core current:(NSDictionary*) currentDic;
+- (void)onBannerClick:(BIDMADBanner*) core current:(NSDictionary*) currentDic;
+
+@end
+
 @interface BIDMADBanner : UIView
 
 @property (assign, nonatomic) SEL requestSelector;
 @property (strong, nonatomic) NSDictionary* ads_dic;
 @property (nonatomic) bannerSizeType bannerType;
 @property (strong, nonatomic) id<BIDMADBannerDelegate> delegate;
+@property (strong, nonatomic) id<BIDMADBannerInnerDelegate> innerDelegate;
 
 @property (strong, nonatomic) NSDictionary* ecmp_rev_info;
 @property (strong, nonatomic) NSDictionary* area_info;
@@ -46,10 +60,11 @@
 
 @property (nonatomic, strong) NSString* houseBannerImgPath;
 
+@property (nonatomic) BOOL isRepeat; //default YES
+
 /// INITIALIZE ADS
 - (id)initWithParentViewController:(UIViewController *)parentVC adsPosition:(CGPoint)pointn bannerSize:(bannerSizeType) bannerTypeParam;
 - (id)initWithParentViewController:(UIViewController *)parentVC rootView:(UIView *)view    bannerSize:(bannerSizeType) bannerTypeParam;
-- (void)setTestDevice :(NSString *)deviceId;
 /// REQUEST ADS
 - (void)requestBannerView;
 /// DELETE ADS
@@ -59,6 +74,8 @@
 - (void)setParentController:(UIViewController *)parentVC;
 - (void)hideView;
 - (void)showView;
+- (void)sendLog :(NSDictionary *) info :(NSString *) advertisementType :(NSString *) logType;
+- (void)sendLog :(NSDictionary *) info :(NSString *) advertisementType :(NSString *) logType :(NSString *)recvSessionId;
 
 @end
 
@@ -68,14 +85,8 @@
 
 - (void)BIDMADBannerAllFail:(BIDMADBanner *)core;
 - (void)BIDMADBannerError:(BIDMADBanner *)core code:(NSString *)error;
-/// CLOSE BANNER VIEW
 - (void)BIDMADBannerClosed:(BIDMADBanner *)core;
-/// SHOW BANNER VIEW
-- (void)BIDMADBannerShow:(BIDMADBanner *)core;
-/// LOAD BANNER VIEW
 - (void)BIDMADBannerLoad:(BIDMADBanner *)core;
-// 배너가 변경될째 주는 Event
-- (void)BIDMADBannerIntervalClosed:(BIDMADBanner*) core;
 - (void)BIDMADBannerClick:(BIDMADBanner*) core;
 
 @end

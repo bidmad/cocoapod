@@ -73,4 +73,6 @@
 
 + (UIViewController*) topMostController;
 
++ (NSData*)bidmadResourceDataFetcherWithAssetName: (NSString*)assetName extension: (NSString*)extension;
+
 @end

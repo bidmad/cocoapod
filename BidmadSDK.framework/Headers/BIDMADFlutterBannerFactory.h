@@ -1,5 +1,5 @@
 #import <Flutter/Flutter.h>
-#import <BidmadSDK/BIDMADFlutterCommon.h>
+#import "BIDMADFlutterCommon.h"
 
 @interface BIDMADFlutterBannerFactory : NSObject <FlutterPlatformViewFactory>
 - (instancetype)initWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar;
