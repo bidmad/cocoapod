@@ -65,6 +65,8 @@
 
 + (NSInteger) iOSMajorSystemVersion;
 
++ (UIWindow*) fetchKeyWindow;
+
 + (BOOL) isIphoneX;
 
 + (BOOL) isOverIOS11;

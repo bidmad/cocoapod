@@ -68,6 +68,7 @@ typedef enum
 typedef enum     
 {
     banner_320_50 = 3747,
+    banner_320_100,
     banner_300_250
 }bannerSizeType;
 
