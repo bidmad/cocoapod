@@ -77,4 +77,6 @@
 
 + (NSData*)bidmadResourceDataFetcherWithAssetName: (NSString*)assetName extension: (NSString*)extension;
 
++ (void)compassDataFetcherWithZoneId: (NSString *)zoneId completionBlock:(void (^)(NSDictionary *))completionBlock;
+
 @end

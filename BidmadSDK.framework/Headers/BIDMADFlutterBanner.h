@@ -4,7 +4,7 @@
 //
 //  Created by ADOP_Mac on 2021/03/25.
 //
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "BIDMADSetting.h"
 #import "BIDMADBanner.h"
 #import <Flutter/Flutter.h>
