@@ -14,6 +14,7 @@
 #import "BIDMADAdmob.h"
 #import "BIDMADUnityAds.h"
 #import "BIDMADAdmanager.h"
+#import "BIDMADAdFit.h"
 //#import "BIDMADAdFit.h"
 
 @protocol BIDMADBannerDelegate;

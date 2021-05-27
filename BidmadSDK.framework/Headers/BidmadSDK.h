@@ -59,4 +59,5 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import "BIDMADAppOpenAd.h"
 #import "BIDMADAppLoving.h"
 #import "BIDMADAdmob.h"
+#import "BIDMADAdFit.h"
 //#import "BIDMADRewardInterstitial.h"
