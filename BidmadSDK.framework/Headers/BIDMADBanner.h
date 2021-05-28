@@ -63,6 +63,8 @@
 
 @property (nonatomic) BOOL isRepeat; //default YES
 
+@property (nonatomic, strong) NSString* currentAdNetwork;
+
 /// INITIALIZE ADS
 - (id)initWithParentViewController:(UIViewController *)parentVC adsPosition:(CGPoint)pointn bannerSize:(bannerSizeType) bannerTypeParam;
 - (id)initWithParentViewController:(UIViewController *)parentVC rootView:(UIView *)view    bannerSize:(bannerSizeType) bannerTypeParam;
