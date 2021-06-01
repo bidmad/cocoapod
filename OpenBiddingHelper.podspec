@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleMobileAdsMediationAppLovin', '10.0.1.0'
   s.dependency 'GoogleMobileAdsMediationFacebook', '6.3.0.0'
   s.dependency 'GoogleMobileAdsMediationAdColony', '4.5.0.0'
-  s.dependency 'GoogleMobileAdsMediationUnity', '3.7.1.0'
+  s.dependency 'GoogleMobileAdsMediationUnity', '3.6.2.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '8.3.0'
 
 end

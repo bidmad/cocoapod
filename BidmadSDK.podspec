@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleMobileAdsMediationAppLovin', '10.0.1.0'
   s.dependency 'GoogleMobileAdsMediationFacebook', '6.3.0.0'
   s.dependency 'GoogleMobileAdsMediationAdColony', '4.5.0.0'
-  s.dependency 'GoogleMobileAdsMediationUnity', '3.7.1.0'
+  s.dependency 'GoogleMobileAdsMediationUnity', '3.6.2.0'
   s.dependency 'FBAudienceNetwork', '6.3.0'
   s.dependency 'FBSDKCoreKit', '9.1.0'
   s.dependency 'Google-Mobile-Ads-SDK', '8.3.0'
   s.dependency 'TapjoySDK', '12.8.0'
-  s.dependency 'UnityAds', '3.7.1'
+  s.dependency 'UnityAds', '3.6.2'
   s.dependency 'Flutter'
 
   s.subspec 'WithAdFit' do |withadfit|
