@@ -7,14 +7,17 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/bidmad/cocoapod.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Kenneth" => "kenneth@adop.cc" }
-  s.platform     = :ios, "9.0"
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '2.7.0' }
+  s.platform     = :ios, "10.0"
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '2.7.4' }
   
   s.static_framework = true
   s.requires_arc     = true
 
   s.vendored_frameworks = "OpenBiddingHelper.framework"
 
-  s.dependency 'BidmadSDK'
+  s.dependency 'GoogleMobileAdsMediationAppLovin', '10.0.1.0'
+  s.dependency 'GoogleMobileAdsMediationFacebook', '6.3.0.0'
+  s.dependency 'GoogleMobileAdsMediationAdColony', '4.5.0.0'
+  s.dependency 'GoogleMobileAdsMediationUnity', '3.7.1.0'
 
 end

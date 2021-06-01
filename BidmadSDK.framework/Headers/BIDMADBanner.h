@@ -14,8 +14,11 @@
 #import "BIDMADAdmob.h"
 #import "BIDMADUnityAds.h"
 #import "BIDMADAdmanager.h"
+
+#if __has_include(<AdFitSDK/AdFitSDK.h>) || __has_include("AdFitSDK.h")
 #import "BIDMADAdFit.h"
-//#import "BIDMADAdFit.h"
+#define ADFITSDK_EXIST
+#endif
 
 @protocol BIDMADBannerDelegate;
 

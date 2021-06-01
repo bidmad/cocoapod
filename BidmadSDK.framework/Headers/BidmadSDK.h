@@ -19,9 +19,16 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #if __has_include(<Flutter/Flutter.h>) || __has_include("Flutter.h")
 #define FLUTTER_EXIST
 #endif
+
 #if __has_include(<Tapjoy/Tapjoy.h>) || __has_include("Tapjoy.h")
 #define TAPJOY_EXIST
 #endif
+
+#if __has_include(<AdFitSDK/AdFitSDK.h>) || __has_include("AdFitSDK.h")
+#define ADFITSDK_EXIST
+#endif
+
+
 
 #ifdef FLUTTER_EXIST
 #import "BIDMADFlutterRewardVideo.h"
@@ -59,5 +66,9 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import "BIDMADAppOpenAd.h"
 #import "BIDMADAppLoving.h"
 #import "BIDMADAdmob.h"
+
+
+#ifdef ADFITSDK_EXIST
 #import "BIDMADAdFit.h"
+#endif
 //#import "BIDMADRewardInterstitial.h"

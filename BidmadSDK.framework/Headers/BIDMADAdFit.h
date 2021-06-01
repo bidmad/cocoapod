@@ -10,8 +10,6 @@
 #import "BIDMADBanner.h"
 @import AdFitSDK;
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface BIDMADAdFit : NSObject<AdFitBannerAdViewDelegate>
 
 @property (strong,nonatomic) BIDMADBanner* banner;
@@ -27,5 +25,3 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeBannerAds;
 
 @end
-
-NS_ASSUME_NONNULL_END
