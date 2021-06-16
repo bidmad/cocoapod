@@ -34,10 +34,10 @@
 @interface BIDMADAdmob : NSObject
 #endif
 
-@property (strong,nonatomic) BIDMADBanner* banner;
-@property (strong,nonatomic) BIDMADInterstitial* interstitial;
-@property (strong,nonatomic) BIDMADRewardVideo* rewardVideo;
-@property (strong,nonatomic) BIDMADAppOpenAd * appOpenAd;
+@property (weak,nonatomic) BIDMADBanner* banner;
+@property (weak,nonatomic) BIDMADInterstitial* interstitial;
+@property (weak,nonatomic) BIDMADRewardVideo* rewardVideo;
+@property (weak,nonatomic) BIDMADAppOpenAd * appOpenAd;
 
 - (id)initWithAdBanner:(NSDictionary *)dic bidmadbanner:(BIDMADBanner *)banner;
 - (id)initWithInterstitial:(NSDictionary *)dic bidmadInterstitial:(BIDMADInterstitial *)interstitial;

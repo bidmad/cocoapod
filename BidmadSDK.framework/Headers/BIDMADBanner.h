@@ -34,7 +34,7 @@
 
 @end
 
-@interface BIDMADBanner : UIView
+@interface BIDMADBanner : UIView<BIDMADBannerInnerDelegate>
 
 @property (assign, nonatomic) SEL requestSelector;
 @property (strong, nonatomic) NSDictionary* ads_dic;
@@ -53,8 +53,6 @@
 @property (nonatomic) BOOL isLabelService;
 
 @property (nonatomic) BOOL isLabelServiceAdmin;
-
-@property (nonatomic) float arpmYpoint;
 
 @property (nonatomic) NSString* realZoneId;
 

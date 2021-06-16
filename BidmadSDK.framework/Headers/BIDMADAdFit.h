@@ -12,7 +12,7 @@
 
 @interface BIDMADAdFit : NSObject<AdFitBannerAdViewDelegate>
 
-@property (strong,nonatomic) BIDMADBanner* banner;
+@property (weak,nonatomic) BIDMADBanner* banner;
 
 - (id)initWithAdBanner:(NSDictionary *)dic bidmadbanner:(BIDMADBanner *)banner;
 - (void)adViewDidFailToReceiveAd:(AdFitBannerAdView *)bannerAdView error:(NSError *)error;
