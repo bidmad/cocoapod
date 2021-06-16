@@ -41,8 +41,6 @@
 @property (strong, nonatomic) NSDictionary* change_info;
 @property (strong, nonatomic) NSDictionary* date;
 
-@property (nonatomic) float arpmYpoint;
-
 @property (nonatomic) NSString* realZoneId;
 
 @property (nonatomic) NSString* zoneID;

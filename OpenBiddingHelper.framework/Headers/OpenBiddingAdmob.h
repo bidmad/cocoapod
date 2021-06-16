@@ -30,8 +30,8 @@
 @interface OpenBiddingAdmob : NSObject
 #endif
 
-@property (strong,nonatomic) OpenBiddingBanner* banner;
-@property (strong,nonatomic) OpenBiddingInterstitial* interstitial;
+@property (weak,nonatomic) OpenBiddingBanner* banner;
+@property (weak,nonatomic) OpenBiddingInterstitial* interstitial;
 @property (strong,nonatomic) OpenBiddingRewardVideo* rewardVideo;
 
 - (id)initWithAdBanner:(NSDictionary *)dic OpenBiddingBanner:(OpenBiddingBanner *)banner;
