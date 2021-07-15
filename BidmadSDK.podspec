@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
   s.dependency 'UnityAds', '3.6.2'
   s.dependency 'FBAudienceNetwork', '6.3.1'
   s.dependency 'Flutter'
+  s.dependency 'Ads-Global', '3.4.2.8'
 
   s.subspec 'WithAdFit' do |withadfit|
     withadfit.dependency 'AdFitSDK', '3.7.0'
