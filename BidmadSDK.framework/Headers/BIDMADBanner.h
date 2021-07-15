@@ -14,6 +14,7 @@
 #import "BIDMADAdmob.h"
 #import "BIDMADUnityAds.h"
 #import "BIDMADAdmanager.h"
+#import "BIDMADPangleBanner.h"
 
 #if __has_include(<AdFitSDK/AdFitSDK.h>) || __has_include("AdFitSDK.h")
 #import "BIDMADAdFit.h"
@@ -78,8 +79,6 @@
 - (void)setParentController:(UIViewController *)parentVC;
 - (void)hideView;
 - (void)showView;
-- (void)sendLog :(NSDictionary *) info :(NSString *) advertisementType :(NSString *) logType;
-- (void)sendLog :(NSDictionary *) info :(NSString *) advertisementType :(NSString *) logType :(NSString *)recvSessionId;
 
 @end
 
