@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface OpenBiddingUtility : NSObject
 
++ (NSString *)SDKVersion;
 + (NSURLSessionDataTask *)openBiddingDataFetcherWithZoneId: (NSString *)zoneId completionBlock:(void (^)(NSDictionary *, NSError *, NSDictionary *, NSString *, NSString *))completionBlock;
 + (void) sendLogOBH :(NSDictionary *)info :(NSString *)advertisementType :(NSString *)logType :(NSString*)sessionId :(NSString*)realZoneId;
 
