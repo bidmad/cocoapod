@@ -43,7 +43,7 @@
 @property (strong, nonatomic) id<BIDMADBannerDelegate> delegate;
 @property (strong, nonatomic) id<BIDMADBannerInnerDelegate> innerDelegate;
 
-@property (strong, nonatomic) NSDictionary* ecmp_rev_info;
+@property (strong, nonatomic) NSDictionary* ecpm_rev_info;
 @property (strong, nonatomic) NSDictionary* area_info;
 
 @property (strong, nonatomic) NSDictionary* change_info;
@@ -75,10 +75,29 @@
 - (id)initWithParentViewController:(UIViewController *)parentVC adsPosition:(CGPoint)point;
 - (id)initWithParentViewController:(UIViewController *)parentVC rootView:(UIView *)view;
 - (id)initWithParentViewController:(UIViewController *)parentVC yPoint:(int)yPoint;
+- (instancetype)initWithZoneID:(NSString * _Nonnull)zoneID
+          parentViewController:(UIViewController * _Nonnull)parentVC
+                    parentView:(UIView * _Nullable)parentView
+                   instanceOBH:(id _Nullable)instanceOBH
+                     sessionID:(NSString * _Nonnull)sessionID
+                     xPosition:(NSNumber * _Nullable)xPosition
+                     yPosition:(NSNumber * _Nullable)yPosition
+                       adsDict:(NSDictionary * _Nullable)adsDict
+                   revInfoECPM:(NSDictionary * _Nullable)revInfoECPM
+                      areaInfo:(NSDictionary * _Nullable)areaInfo
+                    changeInfo:(NSDictionary * _Nullable)changeInfo
+                          date:(NSDictionary * _Nullable)date
+                isLabelService:(NSNumber * _Nullable)isLabelService
+           isLabelServiceAdmin:(NSNumber * _Nullable)isLabelServiceAdmin;
 /// REQUEST ADS
 - (void)requestBannerView;
 /// DELETE ADS
 - (void)removeAds;
+/// This method sorts the dictionary of compass ads data from the least floor price to the highest.
+/// It returns the NSError if necessary properties are not available nor nil.
+/// If success, it lastly calls selectAds with the first ad with the highest floor price.
+- (NSError * _Nullable)sortBasedOnFloorPriceAndSelectFirstAd;
+- (NSError * _Nullable)withoutSortingJustSelectFirstAd;
 - (void)selectAds:(NSDictionary *)lv_dic isAdsExist:(BOOL)isAds;
 - (void)runAds;
 - (void)setParentController:(UIViewController *)parentVC;
