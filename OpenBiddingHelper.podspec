@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Kenneth" => "kenneth@adop.cc" }
   s.platform     = :ios, "11.0"
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '3.0.0' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '3.0.1' }
   
   s.static_framework = true
   s.requires_arc     = true
