@@ -1,22 +1,22 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BidmadSDK
 @_exported import BidmadSDK
 import Foundation
 import Swift
 import UIKit
-import _Concurrency
-@objc @_Concurrency.MainActor(unsafe) open class MediationTableView : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) public init(frame: CoreGraphics.CGRect, adOrder: [Swift.String], adEcpm: [Swift.String], adFill: [Swift.String], tableViewCellHeight: Swift.Int)
-  @objc @_Concurrency.MainActor(unsafe) required dynamic public init?(coder: Foundation.NSCoder)
+@objc open class MediationTableView : UIKit.UIView {
+  @objc public init(frame: CoreGraphics.CGRect, adOrder: [Swift.String], adEcpm: [Swift.String], adFill: [Swift.String], tableViewCellHeight: Swift.Int)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
 }
-extension BidmadSDK.MediationTableView : UIKit.UITableViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+extension MediationTableView : UIKit.UITableViewDelegate {
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
 }
-extension BidmadSDK.MediationTableView : UIKit.UITableViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+extension MediationTableView : UIKit.UITableViewDataSource {
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
 }
 @objc open class BidmadAdInfo : ObjectiveC.NSObject {
   @objc public var adInfoDict: Swift.Dictionary<Swift.String, Any>
@@ -32,9 +32,10 @@ extension BidmadSDK.MediationTableView : UIKit.UITableViewDataSource {
     @objc get
   }
   @objc deinit
+  @objc override dynamic public init()
 }
 @_inheritsConvenienceInitializers @objc open class BidmadUtilitySwift : ObjectiveC.NSObject {
   @objc public static func bidmadSwiftSort(_ adInfoArray: [BidmadSDK.BidmadAdInfo]) -> [BidmadSDK.BidmadAdInfo]
-  @objc override dynamic public init()
   @objc deinit
+  @objc override dynamic public init()
 }
