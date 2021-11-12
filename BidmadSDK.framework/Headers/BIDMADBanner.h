@@ -9,16 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "BIDMADUtil.h"
 #import "BIDMADSetting.h"
-#import "BIDMADFacebook.h"
 #import "BIDMADAtom.h"
 #import "BIDMADAdmob.h"
-#import "BIDMADUnityAdsBanner.h"
 #import "BIDMADAdmanager.h"
-#import "BIDMADPangleBanner.h"
 
-#if __has_include(<AdFitSDK/AdFitSDK.h>) || __has_include("AdFitSDK.h")
-#import "BIDMADAdFit.h"
-#import <AdFitSDK/AdFitSDK.h>
+#if __has_include(<BidmadAdapterFC/BidmadAdapterFC.h>) || __has_include("BidmadAdapterFC.h")
+#import <BidmadAdapterFC/BidmadAdapterFC.h>
+#endif
+
+#if __has_include(<BidmadAdapterFNC/BidmadAdapterFNC.h>) || __has_include("BidmadAdapterFNC.h")
+#import <BidmadAdapterFNC/BidmadAdapterFNC.h>
 #endif
 
 @protocol BIDMADBannerDelegate;
@@ -27,11 +27,11 @@
 
 @optional
 
-- (void)onBannerAllFail:(BIDMADBanner *)core;
+- (void)onBannerAllFail;
 - (void)onBannerError:(NSString *)error failType:(NSString *)failType;
-- (void)onBannerClosed:(BIDMADBanner *)core current:(NSDictionary*) currentDic;
-- (void)onBannerLoad:(BIDMADBanner *)core current:(NSDictionary*) currentDic;
-- (void)onBannerClick:(BIDMADBanner*) core current:(NSDictionary*) currentDic;
+- (void)onBannerClosed;
+- (void)onBannerLoad;
+- (void)onBannerClick;
 
 @end
 
@@ -88,7 +88,8 @@
                     changeInfo:(NSDictionary * _Nullable)changeInfo
                           date:(NSDictionary * _Nullable)date
                 isLabelService:(NSNumber * _Nullable)isLabelService
-           isLabelServiceAdmin:(NSNumber * _Nullable)isLabelServiceAdmin;
+           isLabelServiceAdmin:(NSNumber * _Nullable)isLabelServiceAdmin
+                    realZoneID:(NSString * _Nonnull)realZoneID;
 /// REQUEST ADS
 - (void)requestBannerView;
 /// DELETE ADS

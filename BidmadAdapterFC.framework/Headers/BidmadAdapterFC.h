@@ -14,5 +14,3 @@ FOUNDATION_EXPORT double BidmadAdapterFCVersionNumber;
 FOUNDATION_EXPORT const unsigned char BidmadAdapterFCVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <BidmadAdapterFC/PublicHeader.h>
-
-
