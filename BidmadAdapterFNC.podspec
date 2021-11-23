@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BidmadAdapterFNC"
-  s.version      = "4.0.0.0"
+  s.version      = "4.0.0.2"
   s.platform     = :ios, "11.0"
   s.summary      = "BidmadAdapterFC is an ad adapter with support for Tapjoy, AdFit, and Pangle."
   s.description  = "BidmadAdapterFC is an ad adapter with support for Tapjoy, AdFit, and Pangle. Please setup BidmadSDK (4.0.0.0 or higher) first."
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'Ads-Global', '3.8.1.0'
   s.dependency 'TapjoySDK', '12.8.1'
+  s.dependency 'GoogleMobileAdsMediationFacebook', '6.3.1.0'
   
   s.subspec 'ForNative' do |forNative|
     forNative.dependency 'AdFitSDK', '3.7.0'
@@ -27,9 +28,6 @@ Pod::Spec.new do |s|
   s.subspec 'ForGame' do |forgame|
     forgame.platform = :ios, "10.0"
     forgame.vendored_frameworks = "BidmadAdapterFNC.framework"
-    forgame.resource_bundles = {
-      'bidmad_asset' => ['Assets/*']
-    }
   end
 
 end

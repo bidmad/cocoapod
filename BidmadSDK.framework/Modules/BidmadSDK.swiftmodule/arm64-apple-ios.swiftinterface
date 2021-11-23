@@ -6,6 +6,12 @@ import Foundation
 import GoogleMobileAds
 import Swift
 import UIKit
+@_inheritsConvenienceInitializers @objc open class BidmadParentUIView : UIKit.UIView {
+  @objc override dynamic open func hitTest(_ point: CoreGraphics.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @objc deinit
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
 @objc public protocol BidmadAdapterEssential {
   @objc init(appID: Swift.String, pubID: Swift.String?, rootVC: UIKit.UIViewController, parentView: UIKit.UIView?, isChild: Foundation.NSNumber?, isGDPRConsent: Foundation.NSNumber?, isCCPAConsent: Foundation.NSNumber?)
   @objc func load()

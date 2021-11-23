@@ -421,6 +421,16 @@ SWIFT_CLASS("_TtC9BidmadSDK13BidmadNetwork")
 @end
 
 
+@class UIEvent;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC9BidmadSDK18BidmadParentUIView")
+@interface BidmadParentUIView : UIView
+- (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC9BidmadSDK13BidmadUtility")
 @interface BidmadUtility : NSObject
@@ -467,7 +477,6 @@ SWIFT_CLASS("_TtC9BidmadSDK12LabelService")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class NSCoder;
 
 SWIFT_CLASS("_TtC9BidmadSDK18MediationTableView")
 @interface MediationTableView : UIView
