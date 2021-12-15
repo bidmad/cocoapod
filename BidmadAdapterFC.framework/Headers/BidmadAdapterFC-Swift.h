@@ -188,7 +188,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import AdColony;
 @import AppLovinSDK;
 @import ObjectiveC;
 @import UnityAds;
@@ -220,60 +219,6 @@ SWIFT_CLASS("_TtC15BidmadAdapterFC26BidmadAdapterFCAdEssential")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
-
-SWIFT_CLASS("_TtC15BidmadAdapterFC20BidmadAdColonyBanner")
-@interface BidmadAdColonyBanner : BidmadAdapterFCAdEssential
-- (nonnull instancetype)initWithAppID:(NSString * _Nonnull)appID pubID:(NSString * _Nullable)pubID rootVC:(UIViewController * _Nonnull)rootVC parentView:(UIView * _Nullable)parentView isChild:(NSNumber * _Nullable)isChild isGDPRConsent:(NSNumber * _Nullable)isGDPRConsent isCCPAConsent:(NSNumber * _Nullable)isCCPAConsent OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@class AdColonyAdView;
-@class AdColonyAdRequestError;
-
-@interface BidmadAdColonyBanner (SWIFT_EXTENSION(BidmadAdapterFC)) <AdColonyAdViewDelegate>
-- (void)adColonyAdViewDidLoad:(AdColonyAdView * _Nonnull)adView;
-- (void)adColonyAdViewDidFailToLoad:(AdColonyAdRequestError * _Nonnull)error;
-- (void)adColonyAdViewDidReceiveClick:(AdColonyAdView * _Nonnull)adView;
-@end
-
-
-@interface BidmadAdColonyBanner (SWIFT_EXTENSION(BidmadAdapterFC))
-- (void)load;
-- (void)setIsDebug:(BOOL)isDebug;
-- (void)setBannerSize:(NSString * _Nonnull)sizeString;
-- (void)show;
-- (void)hide;
-- (void)remove;
-@end
-
-
-/// AdColony has ONE CLASS for both INTERSTITIAL and REWARD
-SWIFT_CLASS("_TtC15BidmadAdapterFC26BidmadAdColonyInterstitial")
-@interface BidmadAdColonyInterstitial : BidmadAdapterFCAdEssential
-- (nonnull instancetype)initWithAppID:(NSString * _Nonnull)appID pubID:(NSString * _Nullable)pubID rootVC:(UIViewController * _Nonnull)rootVC parentView:(UIView * _Nullable)parentView isChild:(NSNumber * _Nullable)isChild isGDPRConsent:(NSNumber * _Nullable)isGDPRConsent isCCPAConsent:(NSNumber * _Nullable)isCCPAConsent OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface BidmadAdColonyInterstitial (SWIFT_EXTENSION(BidmadAdapterFC))
-- (void)load;
-- (void)setIsDebug:(BOOL)isDebug;
-- (void)setIsRewardedAd:(BOOL)isRewardedAd;
-- (void)show;
-- (void)remove;
-@end
-
-@class AdColonyInterstitial;
-
-@interface BidmadAdColonyInterstitial (SWIFT_EXTENSION(BidmadAdapterFC)) <AdColonyInterstitialDelegate>
-- (void)adColonyInterstitialDidLoad:(AdColonyInterstitial * _Nonnull)interstitial;
-- (void)adColonyInterstitialDidFailToLoad:(AdColonyAdRequestError * _Nonnull)error;
-- (void)adColonyInterstitialExpired:(AdColonyInterstitial * _Nonnull)interstitial;
-- (void)adColonyInterstitialDidReceiveClick:(AdColonyInterstitial * _Nonnull)interstitial;
-- (void)adColonyInterstitialWillOpen:(AdColonyInterstitial * _Nonnull)interstitial;
-- (void)adColonyInterstitialDidClose:(AdColonyInterstitial * _Nonnull)interstitial;
-@end
-
 
 
 SWIFT_CLASS("_TtC15BidmadAdapterFC22BidmadAdapterFCUtility")
