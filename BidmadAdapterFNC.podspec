@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
 
   s.name         = "BidmadAdapterFNC"
-  s.version      = "4.0.0.2"
+  s.version      = "4.1.0.0"
   s.platform     = :ios, "11.0"
   s.summary      = "BidmadAdapterFC is an ad adapter with support for Tapjoy, AdFit, and Pangle."
-  s.description  = "BidmadAdapterFC is an ad adapter with support for Tapjoy, AdFit, and Pangle. Please setup BidmadSDK (4.0.0.0 or higher) first."
+  s.description  = "BidmadAdapterFC is an ad adapter with support for Tapjoy, AdFit, and Pangle. Please setup BidmadSDK (4.1.0.0 or higher) first."
   s.homepage     = "https://bidmad.net"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Markus" => "markus@adop.cc" }
   s.platform     = :ios, "11.0"
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '4.0.0.0' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '4.1.0.0' }
   s.default_subspec = 'ForNative'
   
   s.static_framework = true
