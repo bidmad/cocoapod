@@ -178,15 +178,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Bs9Z5s2aGcp/bDAxFgKXOKTPE98=
+		GbIxsYXMmRv9J2yzZTPtkjpr4RY=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		YMLRiYRGfvUKC8y/r0t0Ea4O90Y=
+		1vs97paPmEO4VFk+wg68YfgjEPs=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		YMLRiYRGfvUKC8y/r0t0Ea4O90Y=
+		1vs97paPmEO4VFk+wg68YfgjEPs=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -198,7 +198,7 @@
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+iDfbcfiuU4+739E+InET4OATqE=
+		09NfVE1LdCqu5LstoZ6GPtFcWaA=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		+iDfbcfiuU4+739E+InET4OATqE=
+		09NfVE1LdCqu5LstoZ6GPtFcWaA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -696,22 +696,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YMLRiYRGfvUKC8y/r0t0Ea4O90Y=
+			1vs97paPmEO4VFk+wg68YfgjEPs=
 			</data>
 			<key>hash2</key>
 			<data>
-			RFTgEg8Zek2xfoHtf1XVza/RQU+7GRRflNOWrxcpa7E=
+			ZVndiRfdiqgMHo3DjpJIOx5Xo5AnwNq8BjCfZidoM1M=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YMLRiYRGfvUKC8y/r0t0Ea4O90Y=
+			1vs97paPmEO4VFk+wg68YfgjEPs=
 			</data>
 			<key>hash2</key>
 			<data>
-			RFTgEg8Zek2xfoHtf1XVza/RQU+7GRRflNOWrxcpa7E=
+			ZVndiRfdiqgMHo3DjpJIOx5Xo5AnwNq8BjCfZidoM1M=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -740,11 +740,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+iDfbcfiuU4+739E+InET4OATqE=
+			09NfVE1LdCqu5LstoZ6GPtFcWaA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9B278WijWdQtX9ZRspQvsgBHALE62HqkMSQftS26CBM=
+			fJL6MhGMbeNcxJzi0yeG03B9J9+OmNTBFJA3SZtOBWo=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64.swiftdoc</key>
@@ -773,11 +773,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+iDfbcfiuU4+739E+InET4OATqE=
+			09NfVE1LdCqu5LstoZ6GPtFcWaA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9B278WijWdQtX9ZRspQvsgBHALE62HqkMSQftS26CBM=
+			fJL6MhGMbeNcxJzi0yeG03B9J9+OmNTBFJA3SZtOBWo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

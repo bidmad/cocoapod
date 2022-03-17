@@ -285,27 +285,23 @@ SWIFT_CLASS("_TtC17OpenBiddingHelper12BidmadCommon")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@protocol BIDMADOpenBiddingInterstitialDelegate;
+@class OpenBiddingInterstitial;
 
 SWIFT_CLASS("_TtC17OpenBiddingHelper20BidmadInterstitialAd")
-@interface BidmadInterstitialAd : NSObject
+@interface BidmadInterstitialAd : NSObject <BIDMADOpenBiddingInterstitialDelegate>
 @property (nonatomic, strong) id <BIDMADOpenBiddingInterstitialDelegate> _Nullable delegate;
+@property (nonatomic) BOOL isAutoReload;
 - (nonnull instancetype)initWith:(UIViewController * _Nonnull)parentViewController zoneID:(NSString * _Nonnull)zoneID OBJC_DESIGNATED_INITIALIZER;
 - (void)load;
 - (void)show;
 - (void)setCUID:(NSString * _Nonnull)cuid;
 - (BOOL)isLoaded SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class OpenBiddingInterstitial;
-
-@interface BidmadInterstitialAd (SWIFT_EXTENSION(OpenBiddingHelper)) <BIDMADOpenBiddingInterstitialDelegate>
 - (void)BIDMADOpenBiddingInterstitialLoad:(OpenBiddingInterstitial * _Null_unspecified)core;
 - (void)BIDMADOpenBiddingInterstitialShow:(OpenBiddingInterstitial * _Null_unspecified)core;
 - (void)BIDMADOpenBiddingInterstitialClose:(OpenBiddingInterstitial * _Null_unspecified)core;
 - (void)BIDMADOpenBiddingInterstitialAllFail:(OpenBiddingInterstitial * _Null_unspecified)core;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @protocol BIDMADOfferwallDelegate;
@@ -347,23 +343,17 @@ SWIFT_CLASS("_TtC17OpenBiddingHelper17BidmadOfferwallAd")
 - (void)BIDMADOfferwallInitFail:(BIDMADOfferwall * _Null_unspecified)core error:(NSString * _Null_unspecified)error;
 @end
 
-@protocol BIDMADOpenBiddingRewardVideoDelegate;
+@class OpenBiddingRewardVideo;
 
 SWIFT_CLASS("_TtC17OpenBiddingHelper14BidmadRewardAd")
-@interface BidmadRewardAd : NSObject
+@interface BidmadRewardAd : NSObject <BIDMADOpenBiddingRewardVideoDelegate>
 @property (nonatomic, strong) id <BIDMADOpenBiddingRewardVideoDelegate> _Nullable delegate;
+@property (nonatomic) BOOL isAutoReload;
 - (nonnull instancetype)initWith:(UIViewController * _Nonnull)parentViewController zoneID:(NSString * _Nonnull)zoneID OBJC_DESIGNATED_INITIALIZER;
 - (void)load;
 - (void)show;
 - (void)setCUID:(NSString * _Nonnull)cuid;
 - (BOOL)isLoaded SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class OpenBiddingRewardVideo;
-
-@interface BidmadRewardAd (SWIFT_EXTENSION(OpenBiddingHelper)) <BIDMADOpenBiddingRewardVideoDelegate>
 - (void)BIDMADOpenBiddingRewardSkipped:(OpenBiddingRewardVideo * _Null_unspecified)core;
 - (void)BIDMADOpenBiddingRewardVideoLoad:(OpenBiddingRewardVideo * _Null_unspecified)core;
 - (void)BIDMADOpenBiddingRewardVideoShow:(OpenBiddingRewardVideo * _Null_unspecified)core;
@@ -371,25 +361,23 @@ SWIFT_CLASS("_TtC17OpenBiddingHelper14BidmadRewardAd")
 - (void)BIDMADOpenBiddingRewardVideoClose:(OpenBiddingRewardVideo * _Null_unspecified)core;
 - (void)BIDMADOpenBiddingRewardVideoSucceed:(OpenBiddingRewardVideo * _Null_unspecified)core;
 - (void)BIDMADOpenBiddingRewardVideoAllFail:(OpenBiddingRewardVideo * _Null_unspecified)core;
-@end
-
-@protocol OpenBiddingRewardInterstitialDelegate;
-
-SWIFT_CLASS("_TtC17OpenBiddingHelper26BidmadRewardInterstitialAd")
-@interface BidmadRewardInterstitialAd : NSObject
-@property (nonatomic, strong) id <OpenBiddingRewardInterstitialDelegate> _Nullable delegate;
-- (nonnull instancetype)initWith:(UIViewController * _Nonnull)parentViewController zoneID:(NSString * _Nonnull)zoneID OBJC_DESIGNATED_INITIALIZER;
-- (void)load;
-- (void)show;
-- (void)setCUID:(NSString * _Nonnull)cuid;
-- (BOOL)isLoaded SWIFT_WARN_UNUSED_RESULT;
+- (void)bidmadOpenBiddingRewardVideoErrorLoadLog:(NSDictionary * _Null_unspecified)currentDic;
+- (void)bidmadOpenBiddingRewardVideoSuccessLoadLog:(NSDictionary * _Null_unspecified)currentDic;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class OpenBiddingRewardInterstitial;
 
-@interface BidmadRewardInterstitialAd (SWIFT_EXTENSION(OpenBiddingHelper)) <OpenBiddingRewardInterstitialDelegate>
+SWIFT_CLASS("_TtC17OpenBiddingHelper26BidmadRewardInterstitialAd")
+@interface BidmadRewardInterstitialAd : NSObject <OpenBiddingRewardInterstitialDelegate>
+@property (nonatomic, strong) id <OpenBiddingRewardInterstitialDelegate> _Nullable delegate;
+@property (nonatomic) BOOL isAutoReload;
+- (nonnull instancetype)initWith:(UIViewController * _Nonnull)parentViewController zoneID:(NSString * _Nonnull)zoneID OBJC_DESIGNATED_INITIALIZER;
+- (void)load;
+- (void)show;
+- (void)setCUID:(NSString * _Nonnull)cuid;
+- (BOOL)isLoaded SWIFT_WARN_UNUSED_RESULT;
 - (void)OpenBiddingRewardInterstitialLoad:(OpenBiddingRewardInterstitial * _Null_unspecified)core;
 - (void)OpenBiddingRewardInterstitialShow:(OpenBiddingRewardInterstitial * _Null_unspecified)core;
 - (void)OpenBiddingRewardInterstitialClick:(OpenBiddingRewardInterstitial * _Null_unspecified)core;
@@ -397,6 +385,8 @@ SWIFT_CLASS("_TtC17OpenBiddingHelper26BidmadRewardInterstitialAd")
 - (void)OpenBiddingRewardInterstitialSkipped:(OpenBiddingRewardInterstitial * _Null_unspecified)core;
 - (void)OpenBiddingRewardInterstitialSuccess:(OpenBiddingRewardInterstitial * _Null_unspecified)core;
 - (void)OpenBiddingRewardInterstitialAllFail:(OpenBiddingRewardInterstitial * _Null_unspecified)core;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #if __has_attribute(external_source_symbol)

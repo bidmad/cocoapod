@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BidmadAdapterFNC"
-  s.version      = "4.1.1.3"
+  s.version      = "4.1.1.4"
   s.platform     = :ios, "11.0"
   s.summary      = "BidmadAdapterFC is an ad adapter with support for Facebook Audience Network, Tapjoy, AdFit, Pangle, Fyber, and ADOP ads"
   s.description  = "BidmadAdapterFC is an ad adapter with support for Facebook Audience Network, Tapjoy, AdFit, Pangle, Fyber, and ADOP ads. Please setup BidmadSDK (4.1.0.0 or higher) first."
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Markus" => "markus@adop.cc" }
   s.platform     = :ios, "11.0"
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '4.1.1.3' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '4.1.1.4' }
   s.default_subspec = 'ForNative'
   
   s.static_framework = true
