@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/OpenBiddingHelper-Swift.h</key>
 		<data>
-		tRCownsqGXvZM7/VKyxFPpiO2os=
+		+kb+sz4/RN8yTeLeqkGFwx3OMhg=
 		</data>
 		<key>Headers/OpenBiddingHelper.h</key>
 		<data>
@@ -106,39 +106,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xUIVhUiXmH04gLzffd7LHiSzth8=
+		9DyoDsG4dqWIFcA6CaRSzXQehkw=
 		</data>
 		<key>Modules/OpenBiddingHelper.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		s+yHGzWNocJeJmpmYVCEvHwAU+g=
-		</data>
-		<key>Modules/OpenBiddingHelper.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		s+yHGzWNocJeJmpmYVCEvHwAU+g=
+		2yWF2NIEbWp/ZKgOEIdA1pTng8k=
 		</data>
 		<key>Modules/OpenBiddingHelper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		HKFXZ6PVO1C1KzxvgPmESu/pY5k=
+		K/aEXqQ/ypTtMPj5L9n4oOjuN5g=
 		</data>
 		<key>Modules/OpenBiddingHelper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		hRPXGHnsquJ4wc8sGbbLOZ0H37w=
+		jQU2p2nbndb6sdxnIL63SLD7HRM=
 		</data>
 		<key>Modules/OpenBiddingHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		cI6G2D+UVkmpkTEolOJ2BeTa4R4=
-		</data>
-		<key>Modules/OpenBiddingHelper.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		HKFXZ6PVO1C1KzxvgPmESu/pY5k=
-		</data>
-		<key>Modules/OpenBiddingHelper.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		hRPXGHnsquJ4wc8sGbbLOZ0H37w=
-		</data>
-		<key>Modules/OpenBiddingHelper.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		cI6G2D+UVkmpkTEolOJ2BeTa4R4=
+		HNV0uDy0ahUC7xsaUoByQQKyR6E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -294,11 +278,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tRCownsqGXvZM7/VKyxFPpiO2os=
+			+kb+sz4/RN8yTeLeqkGFwx3OMhg=
 			</data>
 			<key>hash2</key>
 			<data>
-			EO9zm6pUeNF56c8yKpiJme5QLw1spG3zor5+xbmSZGc=
+			8LRZ92yt3EgdWPWAZbrQi+qYs9KWvSYXzWmq7f4PnTo=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingHelper.h</key>
@@ -426,88 +410,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s+yHGzWNocJeJmpmYVCEvHwAU+g=
+			2yWF2NIEbWp/ZKgOEIdA1pTng8k=
 			</data>
 			<key>hash2</key>
 			<data>
-			eFIkIG2jHNJ1EJbh89Hpj/q8Gcv7cc0g8NOPamyQuk8=
-			</data>
-		</dict>
-		<key>Modules/OpenBiddingHelper.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			s+yHGzWNocJeJmpmYVCEvHwAU+g=
-			</data>
-			<key>hash2</key>
-			<data>
-			eFIkIG2jHNJ1EJbh89Hpj/q8Gcv7cc0g8NOPamyQuk8=
+			n49894wNVkonCZrDA2D8t/0FEqsL7jeFQWiZ1bnarqY=
 			</data>
 		</dict>
 		<key>Modules/OpenBiddingHelper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HKFXZ6PVO1C1KzxvgPmESu/pY5k=
+			K/aEXqQ/ypTtMPj5L9n4oOjuN5g=
 			</data>
 			<key>hash2</key>
 			<data>
-			A2dPDGDIcByxQkM25T9jpKFajcgGt70FeAJxXON61bw=
+			9S2OQkrSeXyhJOFGAKsnkkuEmGCZujVUAac8HOVcQp8=
 			</data>
 		</dict>
 		<key>Modules/OpenBiddingHelper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hRPXGHnsquJ4wc8sGbbLOZ0H37w=
+			jQU2p2nbndb6sdxnIL63SLD7HRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			J1RSSYNkHo8nf5qOPuc5KlDaJjV9uCFkdlGrVFufDIU=
+			zNDp1Hw+6iT3rWO0N1mMRs0BsO4jOoOU3e+//MC1VB4=
 			</data>
 		</dict>
 		<key>Modules/OpenBiddingHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cI6G2D+UVkmpkTEolOJ2BeTa4R4=
+			HNV0uDy0ahUC7xsaUoByQQKyR6E=
 			</data>
 			<key>hash2</key>
 			<data>
-			bCZ3pLDvjJsaXEC6e5luSMb3P6Cek+vSVamPR9Pb30Y=
-			</data>
-		</dict>
-		<key>Modules/OpenBiddingHelper.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HKFXZ6PVO1C1KzxvgPmESu/pY5k=
-			</data>
-			<key>hash2</key>
-			<data>
-			A2dPDGDIcByxQkM25T9jpKFajcgGt70FeAJxXON61bw=
-			</data>
-		</dict>
-		<key>Modules/OpenBiddingHelper.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hRPXGHnsquJ4wc8sGbbLOZ0H37w=
-			</data>
-			<key>hash2</key>
-			<data>
-			J1RSSYNkHo8nf5qOPuc5KlDaJjV9uCFkdlGrVFufDIU=
-			</data>
-		</dict>
-		<key>Modules/OpenBiddingHelper.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cI6G2D+UVkmpkTEolOJ2BeTa4R4=
-			</data>
-			<key>hash2</key>
-			<data>
-			bCZ3pLDvjJsaXEC6e5luSMb3P6Cek+vSVamPR9Pb30Y=
+			izIjwr+1TmZlDTTtirQz4wfRaYd3Ns8sohl/cUJ0Uy4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

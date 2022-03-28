@@ -1,10 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ADOPUtility
 @_exported import ADOPUtility
 import Foundation
 import Swift
 import UIKit
+import _Concurrency
 public enum BidmadAppLovinFailCases : Swift.Int {
   case fetch_ad_timeout
   case no_network
@@ -21,8 +22,8 @@ public enum BidmadAppLovinFailCases : Swift.Int {
   case incentivized_user_closed_video
   case invalid_url
   case unknown
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -43,10 +44,10 @@ public enum AdStatus {
   case isLoaded
   case isPlaying
   public static func == (a: ADOPUtility.AdStatus, b: ADOPUtility.AdStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public struct AdClassStatus : Swift.CustomStringConvertible {
   public var isInitProcess: [Foundation.UUID : Swift.Bool]
@@ -74,22 +75,22 @@ public enum bidmadSupportedBannerSize : Swift.String {
   case banner320x90
   case banner320x100
   case banner300x250
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
-extension UIView {
-  public func bidmadSetCenter(of viewToCenter: UIKit.UIView, withSize bannerSize: CoreGraphics.CGSize)
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func bidmadSetCenter(of viewToCenter: UIKit.UIView, withSize bannerSize: CoreGraphics.CGSize)
 }
 public struct ADOPScheduler {
   public init(_ dispatchQueue: Dispatch.DispatchQueue)
 }
-extension ADOPScheduler {
+extension ADOPUtility.ADOPScheduler {
   public func async(_ execute: @escaping () -> Swift.Void)
 }
-extension ADOPScheduler {
+extension ADOPUtility.ADOPScheduler {
   public static let main: ADOPUtility.ADOPScheduler
   public static let userInitiated: ADOPUtility.ADOPScheduler
   public static let background: ADOPUtility.ADOPScheduler
@@ -119,7 +120,7 @@ extension ADOPScheduler {
   case error(Swift.Error)
   case completed
 }
-extension ADOPEvent : Swift.CustomStringConvertible {
+extension ADOPUtility.ADOPEvent : Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
@@ -135,10 +136,10 @@ public enum BidmadInnerCallbackCases {
   case INIT
   case INIT_FAIL
   public static func == (a: ADOPUtility.BidmadInnerCallbackCases, b: ADOPUtility.BidmadInnerCallbackCases) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public enum BidmadFailCase : Swift.String {
   case unsupportedbannersize
@@ -153,8 +154,8 @@ public enum BidmadFailCase : Swift.String {
   case timeout
   case noresponse
   case cannotLoadWhilePlaying
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
@@ -175,7 +176,6 @@ public enum BidmadFailCase : Swift.String {
   public static func initialLoadabilityCheck<T>(classToCheck: T.Type) -> Swift.Bool where T : ADOPUtility.BidmadLoadabilityChecker
   public static func reasonForLoadabilityCheckFail<T>(classToCheck: T.Type) -> Swift.String where T : ADOPUtility.BidmadLoadabilityChecker
   @objc deinit
-  @objc override dynamic public init()
 }
 public class ADOPPublishSubject<E> : ADOPUtility.ADOPObservableType, ADOPUtility.ADOPObserverType {
   public init()
@@ -204,6 +204,9 @@ public class ADOPDisposer : ADOPUtility.ADOPDisposable {
   public func setDispose(_ dispose: @escaping () -> Swift.Void)
   @objc deinit
 }
+extension ADOPUtility.ADOPObservableType {
+  public func timeout(_ dueTime: Dispatch.DispatchTime) -> ADOPUtility.ADOPObservable<Self.Element>
+}
 @objc @_inheritsConvenienceInitializers @objcMembers open class BidmadTestEnvironment : ObjectiveC.NSObject {
   @objc public static func getTestADOPRewardVideoForSuccessCase() -> Foundation.Data
   @objc public static func getTestADOPRewardVideoForFailCase() -> Foundation.Data
@@ -213,8 +216,8 @@ public class ADOPDisposer : ADOPUtility.ADOPDisposable {
   @objc public static func getTestBannerForSuccessCase() -> Foundation.Data
   @objc public static func getTestBannerForFailCase() -> Foundation.Data
   @objc public static func getTestBannerForSuccessCase_RAW() -> Foundation.Data
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 public protocol ADOPObservableType {
   associatedtype Element
@@ -227,19 +230,19 @@ public class ADOPObservable<E> : ADOPUtility.ADOPObservableType {
   public func subscribe<Observer>(_ observer: Observer) -> ADOPUtility.ADOPDisposable where E == Observer.Element, Observer : ADOPUtility.ADOPObserverType
   @objc deinit
 }
-extension ADOPObservable {
+extension ADOPUtility.ADOPObservable {
   public static func create(_ subscribe: @escaping (ADOPUtility.ADOPObserver<E>) -> ADOPUtility.ADOPDisposable) -> ADOPUtility.ADOPObservable<E>
 }
-extension ADOPObservableType {
+extension ADOPUtility.ADOPObservableType {
   public func asObservable() -> ADOPUtility.ADOPObservable<Self.Element>
 }
-extension ADOPObservableType {
+extension ADOPUtility.ADOPObservableType {
   public func subscribeOn(_ scheduler: ADOPUtility.ADOPScheduler) -> ADOPUtility.ADOPObservable<Self.Element>
 }
-extension ADOPObservableType {
+extension ADOPUtility.ADOPObservableType {
   public func observeOn(_ scheduler: ADOPUtility.ADOPScheduler) -> ADOPUtility.ADOPObservable<Self.Element>
 }
-extension ADOPObservableType {
+extension ADOPUtility.ADOPObservableType {
   public func map<R>(_ transform: @escaping (Self.Element) -> R) -> ADOPUtility.ADOPObservable<R>
 }
 extension ADOPUtility.BidmadAppLovinFailCases : Swift.Equatable {}

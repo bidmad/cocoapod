@@ -106,7 +106,7 @@
 		</data>
 		<key>Headers/BidmadSDK-Swift.h</key>
 		<data>
-		GVE5RhYIe4UhsJE0GvqO+0wg2L4=
+		obnBlvJ+BSBXiOPTNhlzYU7Qsz8=
 		</data>
 		<key>Headers/BidmadSDK.h</key>
 		<data>
@@ -178,39 +178,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4czT6OWPbDBhMIxhhkgcRm/dw5c=
+		xii2MfXHOJOqVzCyygcr9+NCvCk=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		cTd3Edv4yO1A5pQX9w8XfBeFgEI=
-		</data>
-		<key>Modules/BidmadSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		cTd3Edv4yO1A5pQX9w8XfBeFgEI=
+		WYB96W8XHdn6mcrtmcBUQMQsGDE=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		WzFJ2N+M34uvaE0Srzy4TifQyh0=
+		dH5o/IpXd0IOhQAB0PqBLYCVq5w=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		MJHOmuBo4PJhuRWj9iYypZ2VCcY=
+		ErR+le4vxttSDQHbH26ah1FYB4w=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		V8qPofiLsICaJOPs2P5dXrGLZDw=
-		</data>
-		<key>Modules/BidmadSDK.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		WzFJ2N+M34uvaE0Srzy4TifQyh0=
-		</data>
-		<key>Modules/BidmadSDK.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		MJHOmuBo4PJhuRWj9iYypZ2VCcY=
-		</data>
-		<key>Modules/BidmadSDK.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		V8qPofiLsICaJOPs2P5dXrGLZDw=
+		AvkvXHsUOWAh/MHE4xN10j7HwUc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -498,11 +482,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GVE5RhYIe4UhsJE0GvqO+0wg2L4=
+			obnBlvJ+BSBXiOPTNhlzYU7Qsz8=
 			</data>
 			<key>hash2</key>
 			<data>
-			gC54DMH3p5O+JU6G4V5RKpqHMZkljRpBlFm1vBXVjg4=
+			TTBvBLESWqeIfgpXgX2IZbMIKhkFcPqRpe2ATrczHW0=
 			</data>
 		</dict>
 		<key>Headers/BidmadSDK.h</key>
@@ -696,88 +680,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cTd3Edv4yO1A5pQX9w8XfBeFgEI=
+			WYB96W8XHdn6mcrtmcBUQMQsGDE=
 			</data>
 			<key>hash2</key>
 			<data>
-			8+iP5KW098ljaiREFN3JFvQRpx4BZhOHzO/+KvIoRDg=
-			</data>
-		</dict>
-		<key>Modules/BidmadSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cTd3Edv4yO1A5pQX9w8XfBeFgEI=
-			</data>
-			<key>hash2</key>
-			<data>
-			8+iP5KW098ljaiREFN3JFvQRpx4BZhOHzO/+KvIoRDg=
+			y4igklXFAeLAkO9WT66hhLs4Z6VnbUf9YHthixTxMOc=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WzFJ2N+M34uvaE0Srzy4TifQyh0=
+			dH5o/IpXd0IOhQAB0PqBLYCVq5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			TNZTyefS5MQxomXO5bEVHhrI0KPXbUJ8920Tg91chlQ=
+			eQaBBXh4lpgMZ8ww4OJCKuH4cDuLIxhSJ09a4UlrkQE=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MJHOmuBo4PJhuRWj9iYypZ2VCcY=
+			ErR+le4vxttSDQHbH26ah1FYB4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			vT0fct7DY47z/CIFjNAOWz2fVBV7SfJJSjklZZpDF7g=
+			2TYCOiZfXMXthI07z7KXFOMgKnYmMm7e2cr+UlFneJg=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V8qPofiLsICaJOPs2P5dXrGLZDw=
+			AvkvXHsUOWAh/MHE4xN10j7HwUc=
 			</data>
 			<key>hash2</key>
 			<data>
-			3rUf5pmgkeBWNuug84nQDpLLML0Nt1c9tnfWdK+AHTE=
-			</data>
-		</dict>
-		<key>Modules/BidmadSDK.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WzFJ2N+M34uvaE0Srzy4TifQyh0=
-			</data>
-			<key>hash2</key>
-			<data>
-			TNZTyefS5MQxomXO5bEVHhrI0KPXbUJ8920Tg91chlQ=
-			</data>
-		</dict>
-		<key>Modules/BidmadSDK.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MJHOmuBo4PJhuRWj9iYypZ2VCcY=
-			</data>
-			<key>hash2</key>
-			<data>
-			vT0fct7DY47z/CIFjNAOWz2fVBV7SfJJSjklZZpDF7g=
-			</data>
-		</dict>
-		<key>Modules/BidmadSDK.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			V8qPofiLsICaJOPs2P5dXrGLZDw=
-			</data>
-			<key>hash2</key>
-			<data>
-			3rUf5pmgkeBWNuug84nQDpLLML0Nt1c9tnfWdK+AHTE=
+			7fk1cvrmv0ywVps4KqGxgxk6VkUSBeX7uVI+tmVYa8M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
