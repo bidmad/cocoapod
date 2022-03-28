@@ -215,11 +215,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		s/HV/e33Ns0TCrn0YLGBhMeFYBU=
+		krFN83iFjDSvloq/++T046uX8fg=
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Ga+7C5eLYRLfsu8fqTNzt71eIgw=
+		cKomUkxTAgYE/vkkUPik3T34YXQ=
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -231,7 +231,7 @@
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		uGx0n75NDREqE9NQ+2BpxoRUlzY=
+		SVW2cV15zS7rLjZTtsdRTSMiauE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -713,11 +713,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ga+7C5eLYRLfsu8fqTNzt71eIgw=
+			cKomUkxTAgYE/vkkUPik3T34YXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			sLR8CCcfGhxzbvqZSxpfe5bZUWU8pqIEUmbrum1HDuk=
+			x0q5XL0py8Ye1QPs6xP48O2e0g/WJE4jjFtvTN0w/x8=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -746,11 +746,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uGx0n75NDREqE9NQ+2BpxoRUlzY=
+			SVW2cV15zS7rLjZTtsdRTSMiauE=
 			</data>
 			<key>hash2</key>
 			<data>
-			hw+EjEwfAKaqMVTkbZGjD+qqGXwEvxT5Mq0dWtKPTyA=
+			AMObyOQlXVg2ycNagKQhHK5N6Trb01tZaDDTeXrglkM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

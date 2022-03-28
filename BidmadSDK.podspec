@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
-  s.name         = "BidmadSDK-Dev"
-  s.version      = "4.2.0.0-Test2"
+  s.name         = "BidmadSDK"
+  s.version      = "4.2.0.0"
   s.platform     = :ios, "11.0"
   s.summary      = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
   s.description  = "BidmadSDK allows users to communicate with Compass by ADOP. Our mediation platform optimizes for the utmost profit."
   s.homepage     = "https://bidmad.net"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Markus" => "markus@adop.cc" }
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '4.2.0.0-NRS' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '4.2.0.0-NRS2' }
   s.resource_bundles = {
     'bidmad_asset' => ['Assets/*']
   }
@@ -21,9 +21,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "BidmadSDK.framework"
 
   s.dependency 'Google-Mobile-Ads-SDK', '8.13.0'
-  s.dependency 'RxSwift', '>=5.0.0', '<6.0.0'
-  s.dependency 'RxRelay', '>=5.0.0', '<6.0.0'
-  s.dependency 'RxCocoa', '>=5.0.0', '<6.0.0'
   s.dependency 'ADOPUtility', '>=4.2.0.0', '<4.3.0.0'
   
   s.subspec 'ForNative' do |forNative|
