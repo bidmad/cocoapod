@@ -235,12 +235,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 @class GADAdLoader;
-
-@interface BIDMADAdmobNativeAd (SWIFT_EXTENSION(BidmadSDK)) <GADAdLoaderDelegate>
-- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didFailToReceiveAdWithError:(NSError * _Nonnull)error;
-- (void)adLoaderDidFinishLoading:(GADAdLoader * _Nonnull)adLoader;
-@end
-
 @class GADNativeAd;
 
 @interface BIDMADAdmobNativeAd (SWIFT_EXTENSION(BidmadSDK)) <GADNativeAdLoaderDelegate>
@@ -252,6 +246,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @interface BIDMADAdmobNativeAd (SWIFT_EXTENSION(BidmadSDK)) <GADVideoControllerDelegate>
 - (void)videoControllerDidPlayVideo:(GADVideoController * _Nonnull)videoController;
 - (void)videoControllerDidEndVideoPlayback:(GADVideoController * _Nonnull)videoController;
+@end
+
+
+@interface BIDMADAdmobNativeAd (SWIFT_EXTENSION(BidmadSDK)) <GADAdLoaderDelegate>
+- (void)adLoader:(GADAdLoader * _Nonnull)adLoader didFailToReceiveAdWithError:(NSError * _Nonnull)error;
+- (void)adLoaderDidFinishLoading:(GADAdLoader * _Nonnull)adLoader;
 @end
 
 
@@ -379,31 +379,6 @@ SWIFT_CLASS("_TtC9BidmadSDK12BidmadAdInfo")
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_PROTOCOL("_TtP9BidmadSDK29BidmadAdapterBannerAdditional_")
-@protocol BidmadAdapterBannerAdditional
-- (void)setBannerSize:(NSString * _Nonnull)sizeString;
-- (void)hide;
-@end
-
-@class UIView;
-
-SWIFT_PROTOCOL("_TtP9BidmadSDK22BidmadAdapterEssential_")
-@protocol BidmadAdapterEssential
-- (nonnull instancetype)initWithAppID:(NSString * _Nonnull)appID pubID:(NSString * _Nullable)pubID rootVC:(UIViewController * _Nonnull)rootVC parentView:(UIView * _Nullable)parentView isChild:(NSNumber * _Nullable)isChild isGDPRConsent:(NSNumber * _Nullable)isGDPRConsent isCCPAConsent:(NSNumber * _Nullable)isCCPAConsent;
-- (void)load;
-- (void)setBidmadController:(id _Nonnull)bidmadController;
-- (void)show;
-- (void)remove;
-- (void)setIsDebug:(BOOL)isDebug;
-@end
-
-
-SWIFT_PROTOCOL("_TtP9BidmadSDK29BidmadAdapterRewardAdditional_")
-@protocol BidmadAdapterRewardAdditional
-- (void)setIsRewardedAd:(BOOL)isRewardedAd;
 @end
 
 @class CompassReceivedData;

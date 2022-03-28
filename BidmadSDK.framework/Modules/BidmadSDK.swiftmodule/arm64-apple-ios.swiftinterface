@@ -165,21 +165,6 @@ extension BIDMADAdmobNativeAd : GoogleMobileAds.GADVideoControllerDelegate {
   @objc override dynamic public init()
   public func encode(to encoder: Swift.Encoder) throws
 }
-@objc public protocol BidmadAdapterEssential {
-  @objc init(appID: Swift.String, pubID: Swift.String?, rootVC: UIKit.UIViewController, parentView: UIKit.UIView?, isChild: Foundation.NSNumber?, isGDPRConsent: Foundation.NSNumber?, isCCPAConsent: Foundation.NSNumber?)
-  @objc func load()
-  @objc func setBidmadController(_ bidmadController: Swift.AnyObject)
-  @objc func show()
-  @objc func remove()
-  @objc func setIsDebug(_ isDebug: Swift.Bool)
-}
-@objc public protocol BidmadAdapterBannerAdditional {
-  @objc func setBannerSize(_ sizeString: Swift.String)
-  @objc func hide()
-}
-@objc public protocol BidmadAdapterRewardAdditional {
-  @objc func setIsRewardedAd(_ isRewardedAd: Swift.Bool)
-}
 @_inheritsConvenienceInitializers @objc open class BidmadUtility : ObjectiveC.NSObject {
   public static func sendLog(adtype: Swift.String?, adcode: Swift.String?, pubid: Swift.String?, areaidx: Swift.String?, order: Swift.Int?, adv_price: Swift.Int?, advertisementType: Swift.String?, logType: Swift.String, sessionId: Swift.String, realZoneId: Swift.String, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
   @objc public static func gdprSettingToOptionalBool() -> Foundation.NSNumber?

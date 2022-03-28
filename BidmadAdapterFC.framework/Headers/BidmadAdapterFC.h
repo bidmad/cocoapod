@@ -15,4 +15,7 @@ FOUNDATION_EXPORT const unsigned char BidmadAdapterFCVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <BidmadAdapterFC/PublicHeader.h>
 
+#import "BidmadIronSourceBridge.h"
+#import "BidmadVungleBridge.h"
 #import <BidmadAdapterFC/BidmadAdColonyInterface.h>
+#import <BidmadAdapterFC/BidmadInMobiInterface.h>

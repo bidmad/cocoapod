@@ -195,47 +195,59 @@
 		</data>
 		<key>Headers/BidmadAdapterFC-Swift.h</key>
 		<data>
-		q94d/n3w7GIMH2YQNSSrJPFvywg=
+		l9a6H4L9L+/cdSV4V/h+W16Cn24=
 		</data>
 		<key>Headers/BidmadAdapterFC.h</key>
 		<data>
-		Yiu9ksL2a47/3q1SDtWADrIAcGw=
+		WKerOUXdhrkXNNEpdPaeirICqgk=
+		</data>
+		<key>Headers/BidmadInMobiInterface.h</key>
+		<data>
+		AFrV9sfZWua4P5A71HvcpA3zofQ=
+		</data>
+		<key>Headers/BidmadIronSourceBridge.h</key>
+		<data>
+		906cYRy6YoMFOKzLmw+mE263Ams=
+		</data>
+		<key>Headers/BidmadVungleBridge.h</key>
+		<data>
+		x8iW3SLqXlKXnkDebsPhpmQPZJw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OL4fGR2dtOv4HvaTj/BdOXK80FI=
+		5YmGo+up5/rluyVAVwCTa5xh3SE=
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		zuaSY+QiIEw1ysmlNbrrOgHaS+Q=
+		smokn7ti2BKNWw6xKLPqDkt9DLQ=
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		zuaSY+QiIEw1ysmlNbrrOgHaS+Q=
+		smokn7ti2BKNWw6xKLPqDkt9DLQ=
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		OhGCnxE0ndhISDF1KTaa/D5KV8I=
+		ePB+vK8jYedHrO/s4xYuul9axjc=
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		LmyGLV/5YhPvEDziyUQwWXqf9pE=
+		SjuKwm4fWm5KfgXsbp4HY9fOlOw=
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		FXfnrwzGdmODeBa63seVoWebcYI=
+		VRqYtEHnUTdl6dh+gmmSha/1xw8=
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		OhGCnxE0ndhISDF1KTaa/D5KV8I=
+		ePB+vK8jYedHrO/s4xYuul9axjc=
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		LmyGLV/5YhPvEDziyUQwWXqf9pE=
+		SjuKwm4fWm5KfgXsbp4HY9fOlOw=
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		FXfnrwzGdmODeBa63seVoWebcYI=
+		VRqYtEHnUTdl6dh+gmmSha/1xw8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -662,110 +674,143 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q94d/n3w7GIMH2YQNSSrJPFvywg=
+			l9a6H4L9L+/cdSV4V/h+W16Cn24=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dmp3y0WY6QaU/Pih2GUdmib3UNw2COEeLEz/RRVvAYs=
+			0CZlFwkLnKZ+xk2o5uNJkMzsXehXI4WRzejI39bla7I=
 			</data>
 		</dict>
 		<key>Headers/BidmadAdapterFC.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Yiu9ksL2a47/3q1SDtWADrIAcGw=
+			WKerOUXdhrkXNNEpdPaeirICqgk=
 			</data>
 			<key>hash2</key>
 			<data>
-			a/d62LBn1dPefVklV8KnSSd+VEIsuRlgm8ooBLGseTA=
+			rxHVbsl3deDxCTSX1XlsdGSPpDhR7oPmi3w5dbtj/QA=
+			</data>
+		</dict>
+		<key>Headers/BidmadInMobiInterface.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AFrV9sfZWua4P5A71HvcpA3zofQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			kohUKfSI4jXYzDiG32x55x8eL6C3Iu5/tiiT+6eikRY=
+			</data>
+		</dict>
+		<key>Headers/BidmadIronSourceBridge.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			906cYRy6YoMFOKzLmw+mE263Ams=
+			</data>
+			<key>hash2</key>
+			<data>
+			oRqzB/kdbHQJmbVcPItCFJWV0OMaeIzHACz3M+4C/KM=
+			</data>
+		</dict>
+		<key>Headers/BidmadVungleBridge.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			x8iW3SLqXlKXnkDebsPhpmQPZJw=
+			</data>
+			<key>hash2</key>
+			<data>
+			hUpDSbILe+BftKPtkJuHL9kfQmPBJKpXDWU0O4FWTMQ=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFC.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zuaSY+QiIEw1ysmlNbrrOgHaS+Q=
+			smokn7ti2BKNWw6xKLPqDkt9DLQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			RMIuzG+QPo+IbcBxsbdQ1ctOyXlOe57OB/9lYRiJT5o=
+			Bpz6EgSIoWgqLCOGbEibpPCKFE1h6lwD4x0hBV56DsE=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFC.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zuaSY+QiIEw1ysmlNbrrOgHaS+Q=
+			smokn7ti2BKNWw6xKLPqDkt9DLQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			RMIuzG+QPo+IbcBxsbdQ1ctOyXlOe57OB/9lYRiJT5o=
+			Bpz6EgSIoWgqLCOGbEibpPCKFE1h6lwD4x0hBV56DsE=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OhGCnxE0ndhISDF1KTaa/D5KV8I=
+			ePB+vK8jYedHrO/s4xYuul9axjc=
 			</data>
 			<key>hash2</key>
 			<data>
-			0JZ+Uge6WxT2gkqB5zytvgzub44GtFi7HxBR90uAjtM=
+			blfynG9gFD/XLdJkhO8WWP4VispGLtE+IvhcYun1BsI=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LmyGLV/5YhPvEDziyUQwWXqf9pE=
+			SjuKwm4fWm5KfgXsbp4HY9fOlOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ob0F9ZNuFW/+MrWVd9H9zZh+Tjh1WiL+hv1g5J9Ug1M=
+			bp1HJ/gszxUjYewvV4Nzs2/1o/TNEpIzgAAiu6n+VTA=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FXfnrwzGdmODeBa63seVoWebcYI=
+			VRqYtEHnUTdl6dh+gmmSha/1xw8=
 			</data>
 			<key>hash2</key>
 			<data>
-			jT0k46vVt3CwOxTI2WOQJ9jpnVh1SC6A8+mpWRJUxUQ=
+			+c11LS+BPOCZqIF2g4c8RmSOdht/0z8MgmVJwf14o2E=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OhGCnxE0ndhISDF1KTaa/D5KV8I=
+			ePB+vK8jYedHrO/s4xYuul9axjc=
 			</data>
 			<key>hash2</key>
 			<data>
-			0JZ+Uge6WxT2gkqB5zytvgzub44GtFi7HxBR90uAjtM=
+			blfynG9gFD/XLdJkhO8WWP4VispGLtE+IvhcYun1BsI=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LmyGLV/5YhPvEDziyUQwWXqf9pE=
+			SjuKwm4fWm5KfgXsbp4HY9fOlOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ob0F9ZNuFW/+MrWVd9H9zZh+Tjh1WiL+hv1g5J9Ug1M=
+			bp1HJ/gszxUjYewvV4Nzs2/1o/TNEpIzgAAiu6n+VTA=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FXfnrwzGdmODeBa63seVoWebcYI=
+			VRqYtEHnUTdl6dh+gmmSha/1xw8=
 			</data>
 			<key>hash2</key>
 			<data>
-			jT0k46vVt3CwOxTI2WOQJ9jpnVh1SC6A8+mpWRJUxUQ=
+			+c11LS+BPOCZqIF2g4c8RmSOdht/0z8MgmVJwf14o2E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
