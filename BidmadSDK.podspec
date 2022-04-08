@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://bidmad.net"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Markus" => "markus@adop.cc" }
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '4.2.1.0' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '4.2.1.0-BRF' }
   s.resource_bundles = {
     'bidmad_asset' => ['Assets/*']
   }
