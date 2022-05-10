@@ -11,21 +11,36 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol BidmadMANativeAdView <NSObject>
+
+- (instancetype)init;
+@property (nonatomic, weak) IBOutlet UILabel *titleLabel;
+@property (nonatomic, weak) IBOutlet UILabel *advertiserLabel;
+@property (nonatomic, weak) IBOutlet UILabel *bodyLabel;
+@property (nonatomic, weak) IBOutlet UIImageView *iconImageView;
+@property (nonatomic, weak) IBOutlet UIView *mediaContentView;
+@property (nonatomic, weak, nullable) IBOutlet UIButton *callToActionButton;
+
+@end
+
 @interface BIDMADNativeAdView : GADNativeAdView
 
 @property(nonatomic, weak, nullable) IBOutlet UIImageView* iconViewCustom;
 @property(nonatomic, weak, nullable) IBOutlet UILabel* headlineViewCustom;
 @property(nonatomic, weak, nullable) IBOutlet UILabel* advertiserViewCustom;
-@property(nonatomic, weak, nullable) IBOutlet UIImageView* starRatingViewCustom;
+@property(nonatomic, weak, nullable) IBOutlet UIView* starRatingViewCustom;
 @property(nonatomic, weak, nullable) IBOutlet UILabel* bodyViewCustom;
 @property(nonatomic, weak, nullable) IBOutlet UIView* mediaViewCustom;
 @property(nonatomic, weak, nullable) IBOutlet UILabel* priceViewCustom;
 @property(nonatomic, weak, nullable) IBOutlet UILabel* storeViewCustom;
 @property(nonatomic, weak, nullable) IBOutlet UIButton* callToActionViewCustom;
-@property(nonatomic, weak, nullable) IBOutlet UIView* dislikeButtonContainerCustom;
+
+@property(nonatomic, strong, nullable) UIView* alMaxNativeAdView;
 
 - (void)setup;
-- (void)setupForGoogleAd;
+- (void)cleanUp;
+- (GADMediaView* _Nonnull)setupForGoogleAd:(GADMediaView* _Nullable)mediaViewToSetup;
+- (UIView *)setupForAppLovinAd:(UIView *)alNativeAdView;
 
 @end
 
