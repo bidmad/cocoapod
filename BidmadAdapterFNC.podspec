@@ -26,23 +26,23 @@ Pod::Spec.new do |s|
   s.dependency 'ADOPUtility', '>=4.3.0.0', '<4.4.0.0'
   
   s.subspec 'ForNative' do |forNative|
-    forNative.dependency 'AppLovinMediationFacebookAdapter', '6.3.1.0'
-    forNative.dependency 'GoogleMobileAdsMediationFacebook', '6.3.1.0'
+    forNative.dependency 'AppLovinMediationFacebookAdapter', '6.9.0.9'
+    forNative.dependency 'GoogleMobileAdsMediationFacebook', '6.9.0.0'
     forNative.dependency 'AppLovinMediationMyTargetAdapter', '5.15.1.0'
     forNative.dependency 'AdFitSDK', '3.7.0'
   end
   
   s.subspec 'ForGame' do |forgame|
-    forgame.dependency 'AppLovinMediationFacebookAdapter', '6.3.1.0'
-    forgame.dependency 'GoogleMobileAdsMediationFacebook', '6.3.1.0'
+    forgame.dependency 'AppLovinMediationFacebookAdapter', '6.9.0.9'
+    forgame.dependency 'GoogleMobileAdsMediationFacebook', '6.9.0.0'
     forgame.dependency 'AppLovinMediationMyTargetAdapter', '5.15.1.0'
     forgame.platform = :ios, "11.0"
     forgame.vendored_frameworks = "BidmadAdapterFNC.framework"
   end
   
   s.subspec 'Xcode12Compatibility' do |xcode12Compatibility|
-    xcode12Compatibility.dependency 'AppLovinMediationFacebookAdapter', '6.3.1.0'
-    xcode12Compatibility.dependency 'GoogleMobileAdsMediationFacebook', '6.3.1.0'
+    xcode12Compatibility.dependency 'AppLovinMediationFacebookAdapter', '6.9.0.9'
+    xcode12Compatibility.dependency 'GoogleMobileAdsMediationFacebook', '6.9.0.0'
     xcode12Compatibility.vendored_frameworks = "BidmadAdapterFNC.framework"
   end
 
