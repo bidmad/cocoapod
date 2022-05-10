@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.dependency 'UnityAds', '3.7.5'
   s.dependency 'IronSourceSDK','7.1.14'
   s.dependency 'VungleSDK-iOS', '6.10.5'
-  s.dependency 'ADOPUtility', '>=4.3.0.0', '<4.3.0.0'
+  s.dependency 'ADOPUtility', '>=4.3.0.0', '<4.4.0.0'
   
   s.subspec 'LatestXcode' do |latestXcode|
     latestXcode.dependency 'AppLovinMediationInMobiAdapter', '10.0.2.1'

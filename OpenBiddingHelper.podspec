@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "OpenBiddingHelper.framework"
 
   s.dependency 'Google-Mobile-Ads-SDK', '8.13.0'
-  s.dependency 'ADOPUtility', '>=4.3.0.0', '<4.3.0.0'
+  s.dependency 'ADOPUtility', '>=4.3.0.0', '<4.4.0.0'
 
 end
