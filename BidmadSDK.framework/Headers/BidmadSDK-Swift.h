@@ -219,6 +219,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 @class NSString;
+@protocol BidmadNativeAdDataInterface;
 @class NSNumber;
 @class GADAdLoader;
 @class GADNativeAd;
@@ -231,7 +232,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (NSString * _Nonnull)TEST_ADX_NATIVEAD SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, readonly, copy) NSString * _Nonnull appid;
 @property (nonatomic) BOOL isAdMob;
-- (nonnull instancetype)initWith:(NSString * _Nonnull)appid placementId:(NSString * _Nullable)placementId bidmadController:(id _Nonnull)bidmadController isDebug:(BOOL)isDebug isChildDirectedAds:(NSNumber * _Nullable)isChildDirectedAds OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly, copy) void (^ _Nonnull loadCallback)(id <BidmadNativeAdDataInterface> _Nullable);
+@property (nonatomic, readonly, copy) void (^ _Nonnull clickCallback)(id <BidmadNativeAdDataInterface> _Nonnull);
+- (nonnull instancetype)initWith:(NSString * _Nonnull)appid placementId:(NSString * _Nullable)placementId bidmadController:(id _Nonnull)bidmadController isDebug:(BOOL)isDebug isChildDirectedAds:(NSNumber * _Nullable)isChildDirectedAds loadCallback:(void (^ _Nonnull)(id <BidmadNativeAdDataInterface> _Nullable))loadCallback clickCallback:(void (^ _Nonnull)(id <BidmadNativeAdDataInterface> _Nullable))clickCallback OBJC_DESIGNATED_INITIALIZER;
 - (void)loadNativeAd;
 - (void)remove;
 - (void)adLoader:(GADAdLoader * _Nonnull)adLoader didFailToReceiveAdWithError:(NSError * _Nonnull)error;
@@ -276,14 +279,15 @@ SWIFT_CLASS("_TtC9BidmadSDK14BIDMADNativeAd")
 @property (nonatomic, copy) NSString * _Nullable store;
 @property (nonatomic, copy) NSString * _Nullable price;
 @property (nonatomic, copy) NSString * _Nullable advertiser;
-@property (nonatomic, strong) id _Nullable nativeAd;
+@property (nonatomic, strong) id _Nullable nativeAdAdMob;
+@property (nonatomic, strong) id _Nullable nativeAdPangle;
 @property (nonatomic, strong) GADMediaContent * _Nullable mediaContent;
 @property (nonatomic, strong) GADMediaView * _Nullable mediaView;
 @property (nonatomic, copy) NSString * _Nullable pangleMediaImageURL;
 @property (nonatomic, strong) UIView * _Nullable pangleMediaVideoView;
 @property (nonatomic, strong) UIImageView * _Nullable pangleMediaImageView;
-@property (nonatomic, strong) UIView * _Nullable alMaxNativeAdView;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
+- (void)remove;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

@@ -195,8 +195,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import ADOPUtility;
-@import AppLovinSDK;
 @import ObjectiveC;
 #endif
 
@@ -216,29 +214,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-
 SWIFT_CLASS("_TtC15BidmadAdapterFC22BidmadAdapterFCUtility")
 @interface BidmadAdapterFCUtility : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NSString;
-@class NSNumber;
-@class MAAd;
-@class MANativeAdView;
-@class MAError;
-
-SWIFT_CLASS("_TtC15BidmadAdapterFC25BidmadAppLovinMaxNativeAd")
-@interface BidmadAppLovinMaxNativeAd : NSObject <BIDMADNativeAdCommonInterface, MAAdRevenueDelegate, MANativeAdDelegate>
-@property (nonatomic) BOOL isAdMob;
-- (nonnull instancetype)initWith:(NSString * _Nonnull)appid placementId:(NSString * _Nullable)placementId bidmadController:(id _Nonnull)bidmadController isDebug:(BOOL)isDebug isChildDirectedAds:(NSNumber * _Nullable)isChildDirectedAds OBJC_DESIGNATED_INITIALIZER;
-- (void)didPayRevenueForAd:(MAAd * _Nonnull)ad;
-- (void)didLoadNativeAd:(MANativeAdView * _Nonnull)nativeAdView forAd:(MAAd * _Nonnull)ad;
-- (void)didFailToLoadNativeAdForAdUnitIdentifier:(NSString * _Nonnull)adUnitIdentifier withError:(MAError * _Nonnull)error;
-- (void)didClickNativeAd:(MAAd * _Nonnull)ad;
-- (void)remove;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #if __has_attribute(external_source_symbol)

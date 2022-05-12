@@ -11,18 +11,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol BidmadMANativeAdView <NSObject>
-
-- (instancetype)init;
-@property (nonatomic, weak) IBOutlet UILabel *titleLabel;
-@property (nonatomic, weak) IBOutlet UILabel *advertiserLabel;
-@property (nonatomic, weak) IBOutlet UILabel *bodyLabel;
-@property (nonatomic, weak) IBOutlet UIImageView *iconImageView;
-@property (nonatomic, weak) IBOutlet UIView *mediaContentView;
-@property (nonatomic, weak, nullable) IBOutlet UIButton *callToActionButton;
-
-@end
-
 @interface BIDMADNativeAdView : GADNativeAdView
 
 @property(nonatomic, weak, nullable) IBOutlet UIImageView* iconViewCustom;
@@ -35,12 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, weak, nullable) IBOutlet UILabel* storeViewCustom;
 @property(nonatomic, weak, nullable) IBOutlet UIButton* callToActionViewCustom;
 
-@property(nonatomic, strong, nullable) UIView* alMaxNativeAdView;
-
 - (void)setup;
-- (void)cleanUp;
+- (void)cleanUp:(NSString *)adNetworkNm;
 - (GADMediaView* _Nonnull)setupForGoogleAd:(GADMediaView* _Nullable)mediaViewToSetup;
-- (UIView *)setupForAppLovinAd:(UIView *)alNativeAdView;
 
 @end
 

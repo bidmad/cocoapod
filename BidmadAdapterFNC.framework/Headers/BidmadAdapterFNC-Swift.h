@@ -241,6 +241,7 @@ SWIFT_CLASS("_TtC16BidmadAdapterFNC17ATOMRewardedVideo")
 
 
 @class NSNumber;
+@protocol BidmadNativeAdDataInterface;
 @class BUNativeAdsManager;
 @class BUNativeAd;
 @class UIView;
@@ -250,7 +251,7 @@ SWIFT_CLASS("_TtC16BidmadAdapterFNC20BIDMADPangleNativeAd")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull ASYNC_DEALLOCATED_WARNING;)
 + (NSString * _Nonnull)ASYNC_DEALLOCATED_WARNING SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic) BOOL isAdMob;
-- (nonnull instancetype)initWith:(NSString * _Nonnull)appid placementId:(NSString * _Nullable)placementId bidmadController:(id _Nonnull)bidmadController isDebug:(BOOL)isDebug isChildDirectedAds:(NSNumber * _Nullable)isChildDirectedAds OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWith:(NSString * _Nonnull)appid placementId:(NSString * _Nullable)placementId bidmadController:(id _Nonnull)bidmadController isDebug:(BOOL)isDebug isChildDirectedAds:(NSNumber * _Nullable)isChildDirectedAds loadCallback:(void (^ _Nonnull)(id <BidmadNativeAdDataInterface> _Nullable))loadCallback clickCallback:(void (^ _Nonnull)(id <BidmadNativeAdDataInterface> _Nullable))clickCallback OBJC_DESIGNATED_INITIALIZER;
 - (void)remove;
 - (void)nativeAdsManagerSuccessToLoad:(BUNativeAdsManager * _Nonnull)adsManager nativeAds:(NSArray<BUNativeAd *> * _Nullable)nativeAdDataArray;
 - (void)nativeAdsManager:(BUNativeAdsManager * _Nonnull)adsManager didFailWithError:(NSError * _Nullable)error;

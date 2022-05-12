@@ -14,9 +14,9 @@ import _Concurrency
   @objc public static let TEST_ADX_NATIVEAD: Swift.String
   @objc final public let appid: Swift.String
   @objc public var isAdMob: Swift.Bool
-  public var loadObservable: ADOPUtility.ADOPObservable<ADOPUtility.BidmadNativeAdDataInterface>?
-  public var clickObservable: ADOPUtility.ADOPObservable<ADOPUtility.BidmadNativeAdDataInterface>?
-  @objc required public init(with appid: Swift.String, placementId: Swift.String?, bidmadController: Swift.AnyObject, isDebug: Swift.Bool, isChildDirectedAds: Foundation.NSNumber?)
+  @objc final public let loadCallback: ((ADOPUtility.BidmadNativeAdDataInterface?) -> Swift.Void)
+  @objc final public let clickCallback: ((ADOPUtility.BidmadNativeAdDataInterface) -> Swift.Void)
+  @objc required public init(with appid: Swift.String, placementId: Swift.String?, bidmadController: Swift.AnyObject, isDebug: Swift.Bool, isChildDirectedAds: Foundation.NSNumber?, loadCallback: @escaping ((ADOPUtility.BidmadNativeAdDataInterface?) -> Swift.Void), clickCallback: @escaping ((ADOPUtility.BidmadNativeAdDataInterface?) -> Swift.Void))
   @objc public func loadNativeAd()
   @objc public func remove()
   @objc public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didFailToReceiveAdWithError error: Swift.Error)
@@ -54,6 +54,7 @@ public struct BIDMADNativeAdError {
   @objc deinit
   @objc public func request(for zoneID: Swift.String)
   public static func nativeAdSetup(for nativeAd: BidmadSDK.BIDMADNativeAd, viewController: UIKit.UIViewController, adView: BidmadSDK.BIDMADNativeAdView)
+  public static func cleanUp(for nativeAd: BidmadSDK.BIDMADNativeAd, adView: BidmadSDK.BIDMADNativeAdView)
 }
 @objc public protocol CompassDataRequestDelegate {
   @objc func DataRequestSuccess()
@@ -119,16 +120,17 @@ extension UIKit.UIDevice {
   @objc public var store: Swift.String?
   @objc public var price: Swift.String?
   @objc public var advertiser: Swift.String?
-  @objc public var nativeAd: Swift.AnyObject?
+  @objc public var nativeAdAdMob: Swift.AnyObject?
+  @objc public var nativeAdPangle: Swift.AnyObject?
   @objc public var mediaContent: GoogleMobileAds.GADMediaContent?
   @objc public var mediaView: GoogleMobileAds.GADMediaView?
   @objc public var pangleMediaImageURL: Swift.String?
   @objc public var pangleMediaVideoView: UIKit.UIView?
   @objc public var pangleMediaImageView: UIKit.UIImageView?
-  @objc public var alMaxNativeAdView: UIKit.UIView?
   @objc override dynamic open var description: Swift.String {
     @objc get
   }
+  @objc public func remove()
   public typealias ID = Swift.Int
   @objc deinit
 }

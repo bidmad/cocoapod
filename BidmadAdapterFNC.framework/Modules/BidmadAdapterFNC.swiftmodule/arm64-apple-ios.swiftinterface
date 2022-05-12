@@ -82,9 +82,9 @@ extension BidmadAdapterFNC.BidmadAdmobAdapterPangleReward : BUAdSDK.BURewardedVi
 @objc open class BIDMADPangleNativeAd : ObjectiveC.NSObject, ADOPUtility.BIDMADNativeAdCommonInterface, ADOPUtility.BIDMADNativeAdCallbacks, BUAdSDK.BUNativeAdsManagerDelegate, BUAdSDK.BUNativeAdDelegate {
   @objc public static let ASYNC_DEALLOCATED_WARNING: Swift.String
   @objc public var isAdMob: Swift.Bool
-  public var loadObservable: ADOPUtility.ADOPObservable<ADOPUtility.BidmadNativeAdDataInterface>?
-  public var clickObservable: ADOPUtility.ADOPObservable<ADOPUtility.BidmadNativeAdDataInterface>?
-  @objc required public init(with appid: Swift.String, placementId: Swift.String?, bidmadController: Swift.AnyObject, isDebug: Swift.Bool, isChildDirectedAds: Foundation.NSNumber?)
+  final public let loadCallback: ((ADOPUtility.BidmadNativeAdDataInterface?) -> Swift.Void)
+  final public let clickCallback: ((ADOPUtility.BidmadNativeAdDataInterface) -> Swift.Void)
+  @objc required public init(with appid: Swift.String, placementId: Swift.String?, bidmadController: Swift.AnyObject, isDebug: Swift.Bool, isChildDirectedAds: Foundation.NSNumber?, loadCallback: @escaping ((ADOPUtility.BidmadNativeAdDataInterface?) -> Swift.Void), clickCallback: @escaping ((ADOPUtility.BidmadNativeAdDataInterface?) -> Swift.Void))
   @objc public func remove()
   @objc public func nativeAdsManagerSuccess(toLoad adsManager: BUAdSDK.BUNativeAdsManager, nativeAds nativeAdDataArray: [BUAdSDK.BUNativeAd]?)
   @objc public func nativeAdsManager(_ adsManager: BUAdSDK.BUNativeAdsManager, didFailWithError error: Swift.Error?)

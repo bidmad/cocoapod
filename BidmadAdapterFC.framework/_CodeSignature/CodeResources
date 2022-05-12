@@ -211,7 +211,7 @@
 		</data>
 		<key>Headers/BidmadAdapterFC-Swift.h</key>
 		<data>
-		9zA51/ATIlgPQhcXCid3ID+iazw=
+		vl/i6DxMR5y2q5CE3FVP9AJNXNA=
 		</data>
 		<key>Headers/BidmadAdapterFC.h</key>
 		<data>
@@ -235,7 +235,7 @@
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		LPGMCOLm1v+ud5JUu7mSGnSakj4=
+		oePAcgRqzxxmyaqGjIeVA2lGpEU=
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -243,11 +243,11 @@
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		AHPOKNGtCsUKrnr0ltL9pot/C7M=
+		kI7OTuqLWe78G488z6NVhSn34mM=
 		</data>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lCcJSzqbakVFdtnVKCwy5fERGBo=
+		6mBCj1jFy+AjhzUnTEa9XFZFkSw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -718,11 +718,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9zA51/ATIlgPQhcXCid3ID+iazw=
+			vl/i6DxMR5y2q5CE3FVP9AJNXNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dxyk+HshoLAA9I0d4qdJsRSvGaaabMmnGHBfFXNdS7E=
+			mi2dhVMdxRTsszxUNH77kJJDdaDo6+pOMf+3hR12jaw=
 			</data>
 		</dict>
 		<key>Headers/BidmadAdapterFC.h</key>
@@ -773,11 +773,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LPGMCOLm1v+ud5JUu7mSGnSakj4=
+			oePAcgRqzxxmyaqGjIeVA2lGpEU=
 			</data>
 			<key>hash2</key>
 			<data>
-			3MafWRn6Gl+zzSJLmVjuXtYLR4oXRgK6ndgTpKpsEmc=
+			p3NOXD6ADtWh+rwiEmCuEBktJdE4XIWt3BxAvLuMr0A=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -795,22 +795,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AHPOKNGtCsUKrnr0ltL9pot/C7M=
+			kI7OTuqLWe78G488z6NVhSn34mM=
 			</data>
 			<key>hash2</key>
 			<data>
-			qLaE4yfgbUTgtv2ciuUMT58ntPZcDt+uj/JYLL/pRts=
+			HI6Px0JXJWZs5M21XjETpOMSXnQrtsUFH8xPYR84BjE=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lCcJSzqbakVFdtnVKCwy5fERGBo=
+			6mBCj1jFy+AjhzUnTEa9XFZFkSw=
 			</data>
 			<key>hash2</key>
 			<data>
-			t0QHLNZNKZtbLod8yZPoiHahMgA5izLsYN4/qjstxAg=
+			fXhtGHt1hEEUB6Ba7XHgmu6T2H3nesouLUjpMg5oKQ8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

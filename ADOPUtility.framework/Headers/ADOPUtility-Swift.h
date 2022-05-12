@@ -234,11 +234,12 @@ SWIFT_CLASS("_TtC11ADOPUtility17ADOPRepeatStopper")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@protocol BidmadNativeAdDataInterface;
 
 SWIFT_PROTOCOL("_TtP11ADOPUtility29BIDMADNativeAdCommonInterface_")
 @protocol BIDMADNativeAdCommonInterface
 @property (nonatomic) BOOL isAdMob;
-- (nonnull instancetype)initWith:(NSString * _Nonnull)appid placementId:(NSString * _Nullable)placementId bidmadController:(id _Nonnull)bidmadController isDebug:(BOOL)isDebug isChildDirectedAds:(NSNumber * _Nullable)isChildDirectedAds;
+- (nonnull instancetype)initWith:(NSString * _Nonnull)appid placementId:(NSString * _Nullable)placementId bidmadController:(id _Nonnull)bidmadController isDebug:(BOOL)isDebug isChildDirectedAds:(NSNumber * _Nullable)isChildDirectedAds loadCallback:(void (^ _Nonnull)(id <BidmadNativeAdDataInterface> _Nullable))loadCallback clickCallback:(void (^ _Nonnull)(id <BidmadNativeAdDataInterface> _Nullable))clickCallback;
 - (void)remove;
 @end
 
@@ -308,11 +309,12 @@ SWIFT_PROTOCOL("_TtP11ADOPUtility27BidmadNativeAdDataInterface_")
 @property (nonatomic, copy) NSString * _Nullable store;
 @property (nonatomic, copy) NSString * _Nullable price;
 @property (nonatomic, copy) NSString * _Nullable advertiser;
-@property (nonatomic, strong) id _Nullable nativeAd;
+@property (nonatomic, strong) id _Nullable nativeAdAdMob;
+@property (nonatomic, strong) id _Nullable nativeAdPangle;
 @property (nonatomic, copy) NSString * _Nullable pangleMediaImageURL;
 @property (nonatomic, strong) UIView * _Nullable pangleMediaVideoView;
-@property (nonatomic, strong) UIView * _Nullable alMaxNativeAdView;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
+- (void)remove;
 @end
 
 @class NSData;

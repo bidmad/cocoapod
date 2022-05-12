@@ -48,6 +48,7 @@ extension OpenBiddingHelper.BidmadBannerAd : OpenBiddingHelper.BIDMADOpenBidding
   @objc required override dynamic public init()
   @objc public func load(for zoneID: Swift.String)
   @objc public static func setup(for nativeAd: BidmadSDK.BIDMADNativeAd, viewController: UIKit.UIViewController, adView: BidmadSDK.BIDMADNativeAdView)
+  @objc public static func cleanUp(for nativeAd: BidmadSDK.BIDMADNativeAd, adView: BidmadSDK.BIDMADNativeAdView)
   @objc public func bidmadNativeAd(loadedAd: BidmadSDK.BIDMADNativeAd)
   @objc public func bidmadNativeAd(clickedAd: BidmadSDK.BIDMADNativeAd)
   @objc public func bidmadNativeAdAllFail(_ error: Foundation.NSError)

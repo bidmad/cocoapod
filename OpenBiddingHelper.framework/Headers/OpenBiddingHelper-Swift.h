@@ -329,6 +329,7 @@ SWIFT_CLASS("_TtC17OpenBiddingHelper20BidmadNativeAdLoader")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)loadFor:(NSString * _Nonnull)zoneID;
 + (void)setupFor:(BIDMADNativeAd * _Nonnull)nativeAd viewController:(UIViewController * _Nonnull)viewController adView:(BIDMADNativeAdView * _Nonnull)adView;
++ (void)cleanUpFor:(BIDMADNativeAd * _Nonnull)nativeAd adView:(BIDMADNativeAdView * _Nonnull)adView;
 - (void)bidmadNativeAdWithLoadedAd:(BIDMADNativeAd * _Nonnull)loadedAd;
 - (void)bidmadNativeAdWithClickedAd:(BIDMADNativeAd * _Nonnull)clickedAd;
 - (void)bidmadNativeAdAllFail:(NSError * _Nonnull)error;

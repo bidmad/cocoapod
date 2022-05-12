@@ -225,12 +225,12 @@ extension ADOPUtility.ADOPObservableType {
 }
 @objc public protocol BIDMADNativeAdCommonInterface {
   @objc var isAdMob: Swift.Bool { get set }
-  @objc init(with appid: Swift.String, placementId: Swift.String?, bidmadController: Swift.AnyObject, isDebug: Swift.Bool, isChildDirectedAds: Foundation.NSNumber?)
+  @objc init(with appid: Swift.String, placementId: Swift.String?, bidmadController: Swift.AnyObject, isDebug: Swift.Bool, isChildDirectedAds: Foundation.NSNumber?, loadCallback: @escaping ((ADOPUtility.BidmadNativeAdDataInterface?) -> Swift.Void), clickCallback: @escaping ((ADOPUtility.BidmadNativeAdDataInterface?) -> Swift.Void))
   @objc func remove()
 }
 public protocol BIDMADNativeAdCallbacks {
-  var loadObservable: ADOPUtility.ADOPObservable<ADOPUtility.BidmadNativeAdDataInterface>? { get set }
-  var clickObservable: ADOPUtility.ADOPObservable<ADOPUtility.BidmadNativeAdDataInterface>? { get set }
+  var loadCallback: ((ADOPUtility.BidmadNativeAdDataInterface?) -> Swift.Void) { get }
+  var clickCallback: ((ADOPUtility.BidmadNativeAdDataInterface) -> Swift.Void) { get }
 }
 @objc @_inheritsConvenienceInitializers @objcMembers open class BidmadTestEnvironment : ObjectiveC.NSObject {
   @objc public static var testMode: Swift.Bool
@@ -285,11 +285,12 @@ extension ADOPUtility.ADOPObservableType {
   @objc var store: Swift.String? { get set }
   @objc var price: Swift.String? { get set }
   @objc var advertiser: Swift.String? { get set }
-  @objc var nativeAd: Swift.AnyObject? { get set }
+  @objc var nativeAdAdMob: Swift.AnyObject? { get set }
+  @objc var nativeAdPangle: Swift.AnyObject? { get set }
   @objc var pangleMediaImageURL: Swift.String? { get set }
   @objc var pangleMediaVideoView: UIKit.UIView? { get set }
-  @objc var alMaxNativeAdView: UIKit.UIView? { get set }
   @objc var description: Swift.String { get }
+  @objc func remove()
 }
 extension ADOPUtility.BidmadAppLovinFailCases : Swift.Equatable {}
 extension ADOPUtility.BidmadAppLovinFailCases : Swift.Hashable {}
