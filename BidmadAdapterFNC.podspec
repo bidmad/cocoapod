@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Markus" => "markus@adop.cc" }
   s.platform     = :ios, "11.0"
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '4.3.0.0' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '4.3.0.0-NAF' }
   s.default_subspec = 'ForNative'
   s.swift_version = '5.0'
   s.static_framework = true
