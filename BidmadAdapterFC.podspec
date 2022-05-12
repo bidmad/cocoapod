@@ -17,9 +17,6 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "BidmadAdapterFC.framework"
 
-  s.dependency 'AppLovinMediationGoogleAdManagerAdapter', '8.13.0.8'
-  s.dependency 'AppLovinMediationGoogleAdapter', '8.13.0.11'
-  s.dependency 'AppLovinMediationUnityAdsAdapter', '3.7.5.1'
   s.dependency 'GoogleMobileAdsMediationAppLovin', '11.0.0.0'
   s.dependency 'GoogleMobileAdsMediationUnity', '3.7.5.0'
   s.dependency 'GoogleMobileAdsMediationIronSource', '7.1.14.0'
@@ -31,7 +28,6 @@ Pod::Spec.new do |s|
   s.dependency 'ADOPUtility', '>=4.3.0.0', '<4.4.0.0'
   
   s.subspec 'LatestXcode' do |latestXcode|
-    latestXcode.dependency 'AppLovinMediationInMobiAdapter', '10.0.2.1'
     latestXcode.dependency 'GoogleMobileAdsMediationAdColony', '4.7.2.0'
     latestXcode.dependency 'GoogleMobileAdsMediationInMobi', '10.0.2.0'
     latestXcode.dependency 'AdColony', '4.7.2'
