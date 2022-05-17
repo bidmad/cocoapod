@@ -286,19 +286,19 @@
 		</data>
 		<key>Modules/BidmadAdapterFNC.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		M70SqQ09DdXUA8mfoLkEPzoZNUk=
+		uVi3BBqoZ6W2GUxRZv9HO65ZOvg=
 		</data>
 		<key>Modules/BidmadAdapterFNC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		OQaajxfhcSCd1pPW4E391+X12+Y=
+		2t70x+Q/RjKFHpvyi05Z34ARgyo=
 		</data>
 		<key>Modules/BidmadAdapterFNC.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		eWFoIWPpJnNUK3aYutrhqxN5CDs=
+		5UYRubwM4+cnWbg4DMgp2aUrP5k=
 		</data>
 		<key>Modules/BidmadAdapterFNC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9orGCSLFoa68rAPK4WeufnTPQSg=
+		P1MKl05wFJn1NtyR5PCQkVgl+mU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -882,44 +882,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M70SqQ09DdXUA8mfoLkEPzoZNUk=
+			uVi3BBqoZ6W2GUxRZv9HO65ZOvg=
 			</data>
 			<key>hash2</key>
 			<data>
-			gwUazTcp2D3+GkjIYMxbfcnEqb+TY5jm6HbcwnR+cqA=
+			0i9EqZt4qBNZY9obTjtZs7F+xQcbUTQTcBpu+Ad6C/U=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFNC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OQaajxfhcSCd1pPW4E391+X12+Y=
+			2t70x+Q/RjKFHpvyi05Z34ARgyo=
 			</data>
 			<key>hash2</key>
 			<data>
-			c1OTDQYWz9PyiNYAqyqfrhYMZvBzAtd3rdwTLQi08l0=
+			dbF1BHbc9fW+DGNBL4FZzj1Iu8ZzjiJaHLuzr2z2wQE=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFNC.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eWFoIWPpJnNUK3aYutrhqxN5CDs=
+			5UYRubwM4+cnWbg4DMgp2aUrP5k=
 			</data>
 			<key>hash2</key>
 			<data>
-			39uKKGe20DoPBUG5efdATYTm1F9IohMm/Jq8QuSlvIs=
+			yI+zJ/Z1iSqgOc4nprMgnpP0M7964zZqv1VMjRZoGfs=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterFNC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9orGCSLFoa68rAPK4WeufnTPQSg=
+			P1MKl05wFJn1NtyR5PCQkVgl+mU=
 			</data>
 			<key>hash2</key>
 			<data>
-			O9Djiv4x6VxbZQCn6BREeFqi2ZLlGmZcEQ2Q/hRD3So=
+			DMhO8cy3Tzh4hEYQjvZ/AECb74IKPw4VaCtPMBCtwNE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

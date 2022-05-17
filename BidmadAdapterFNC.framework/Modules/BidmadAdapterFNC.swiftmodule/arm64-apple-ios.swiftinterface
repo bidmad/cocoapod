@@ -11,7 +11,6 @@ import IASDKCore
 import MediaPlayer
 import Network
 import Swift
-import Tapjoy
 import UIKit
 import WebKit
 import _Concurrency
@@ -26,30 +25,6 @@ import _Concurrency
   @objc public func adViewDidFailToReceiveAd(_ bannerAdView: Swift.AnyObject, error: Swift.Error)
   @objc public func adViewDidReceiveAd(_ bannerAdView: Swift.AnyObject)
   @objc public func adViewDidClickAd(_ bannerAdView: Swift.AnyObject)
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objcMembers open class BidmadTapjoy : ADOPUtility.BidmadAdapterAdEssential, ADOPUtility.BidmadAdapterOfferwallAdditional, Tapjoy.TJPlacementDelegate, Tapjoy.TJPlacementVideoDelegate {
-  @objc required public init(appID: Swift.String, pubID: Swift.String?, rootVC: UIKit.UIViewController, parentView: UIKit.UIView?, isChild: Foundation.NSNumber?, isGDPRConsent: Foundation.NSNumber?, isCCPAConsent: Foundation.NSNumber?)
-  @objc public func load()
-  @objc public func shouldLoadAd()
-  @objc public func show()
-  @objc public func remove()
-  @objc public func setIsDebug(_ isDebug: Swift.Bool)
-  @objc public func getCurrency(completionHandler: ((Foundation.NSError?, [Swift.String : Any]?) -> Swift.Void)?)
-  @objc public func spendCurrency(_ amount: Swift.Int, completionHandler: ((Foundation.NSError?, [Swift.String : Any]?) -> Swift.Void)?)
-  @objc public func requestDidSucceed(_ placement: Tapjoy.TJPlacement!)
-  @objc public func contentIsReady(_ placement: Tapjoy.TJPlacement!)
-  @objc public func requestDidFail(_ placement: Tapjoy.TJPlacement!, error: Swift.Error!)
-  @objc public func contentDidAppear(_ placement: Tapjoy.TJPlacement!)
-  @objc public func contentDidDisappear(_ placement: Tapjoy.TJPlacement!)
-  @objc public func didClick(_ placement: Tapjoy.TJPlacement!)
-  @objc public func placement(_ placement: Tapjoy.TJPlacement!, didRequestPurchase request: Tapjoy.TJActionRequest!, productId: Swift.String!)
-  @objc public func placement(_ placement: Tapjoy.TJPlacement!, didRequestReward request: Tapjoy.TJActionRequest!, itemId: Swift.String!, quantity: Swift.Int32)
-  @objc public func placement(_ placement: Tapjoy.TJPlacement!, didRequestCurrency request: Tapjoy.TJActionRequest!, currency: Swift.String!, amount: Swift.Int32)
-  @objc public func placement(_ placement: Tapjoy.TJPlacement!, didRequestNavigation request: Tapjoy.TJActionRequest!, location: Swift.String!)
-  @objc public func videoDidStart(_ placement: Tapjoy.TJPlacement!)
-  @objc public func videoDidComplete(_ placement: Tapjoy.TJPlacement!)
-  @objc public func videoDidFail(_ placement: Tapjoy.TJPlacement!, error errorMsg: Swift.String!)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class BidmadAdapterFNCUtility : ObjectiveC.NSObject {
@@ -113,29 +88,6 @@ extension BidmadAdapterFNC.BidmadAdmobAdapterPangleReward : BUAdSDK.BURewardedVi
 }
 extension BidmadAdapterFNC.ATOMRewardedVideo : AVFoundation.AVAssetResourceLoaderDelegate {
 }
-@_inheritsConvenienceInitializers @objcMembers open class BidmadTapjoyInterstitial : BidmadAdapterFNC.BidmadTapjoyEssential, Tapjoy.TJPlacementDelegate, Tapjoy.TJPlacementVideoDelegate, ADOPUtility.BidmadLoadabilityChecker {
-  @objc public var adIdentifier: Foundation.UUID
-  public static var adClassStatus: ADOPUtility.AdClassStatus
-  public static var loadableConditions: ADOPUtility.LoadableConditions
-  @objc public var loadableConditionsPassed: Swift.Bool
-  @objc required public init(appID: Swift.String, pubID: Swift.String?, rootVC: UIKit.UIViewController, parentView: UIKit.UIView?, isChild: Foundation.NSNumber?, isGDPRConsent: Foundation.NSNumber?, isCCPAConsent: Foundation.NSNumber?)
-  @objc public func load()
-  @objc public func shouldLoadAd()
-  @objc public func show()
-  @objc public func remove()
-  @objc public func setIsDebug(_ isDebug: Swift.Bool)
-  @objc public func setIsRewardedAd(_ isRewardedAd: Swift.Bool)
-  @objc public func requestDidSucceed(_ placement: Tapjoy.TJPlacement!)
-  @objc public func requestDidFail(_ placement: Tapjoy.TJPlacement!, error: Swift.Error!)
-  @objc public func contentIsReady(_ placement: Tapjoy.TJPlacement!)
-  @objc public func contentDidAppear(_ placement: Tapjoy.TJPlacement!)
-  @objc public func contentDidDisappear(_ placement: Tapjoy.TJPlacement!)
-  @objc public func didClick(_ placement: Tapjoy.TJPlacement!)
-  @objc public func videoDidStart(_ placement: Tapjoy.TJPlacement!)
-  @objc public func videoDidComplete(_ placement: Tapjoy.TJPlacement!)
-  @objc public func videoDidFail(_ placement: Tapjoy.TJPlacement!, error errorMsg: Swift.String!)
-  @objc deinit
-}
 @_inheritsConvenienceInitializers @objcMembers open class BidmadFyberBanner : ADOPUtility.BidmadAdapterAdEssential, ADOPUtility.BidmadAdapterEssential, ADOPUtility.BidmadAdapterBannerAdditional, IASDKCore.IAMRAIDContentDelegate, IASDKCore.IAUnitDelegate {
   @objc required public init(appID: Swift.String, pubID: Swift.String?, rootVC: UIKit.UIViewController, parentView: UIKit.UIView?, isChild: Foundation.NSNumber?, isGDPRConsent: Foundation.NSNumber?, isCCPAConsent: Foundation.NSNumber?)
   @objc public func load()
@@ -147,12 +99,5 @@ extension BidmadAdapterFNC.ATOMRewardedVideo : AVFoundation.AVAssetResourceLoade
   @objc public func iaParentViewController(for unitController: IASDKCore.IAUnitController?) -> UIKit.UIViewController
   @objc public func iaAdDidReceiveClick(_ unitController: IASDKCore.IAUnitController?)
   @objc public func iaUnitControllerDidDismissFullscreen(_ unitController: IASDKCore.IAUnitController?)
-  @objc deinit
-}
-@_inheritsConvenienceInitializers open class BidmadTapjoyEssential : ADOPUtility.BidmadAdapterAdEssential {
-  final public let selfType: BidmadAdapterFNC.BidmadTapjoyEssential.Type
-  @objc public static let PREFIX: Swift.String
-  public func tapjoyInitialize(with appID: Swift.String) -> ADOPUtility.ADOPObservable<Swift.Bool>
-  @objc required public init(appID: Swift.String, pubID: Swift.String?, rootVC: UIKit.UIViewController, parentView: UIKit.UIView?, isChild: Foundation.NSNumber?, isGDPRConsent: Foundation.NSNumber?, isCCPAConsent: Foundation.NSNumber?)
   @objc deinit
 }
