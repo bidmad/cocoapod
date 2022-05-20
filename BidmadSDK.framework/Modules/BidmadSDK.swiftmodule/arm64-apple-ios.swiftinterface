@@ -109,7 +109,7 @@ public enum BidmadSendLogType : Swift.String {
 extension UIKit.UIDevice {
   @objc @_Concurrency.MainActor(unsafe) public static let bidmadModelNameChecker: Swift.String
 }
-@objc @objcMembers open class BIDMADNativeAd : ObjectiveC.NSObject, Swift.Identifiable, ADOPUtility.BidmadNativeAdDataInterface {
+@objc @objcMembers open class BIDMADNativeAd : ObjectiveC.NSObject, ADOPUtility.BidmadNativeAdDataInterface {
   @objc public var id: Swift.Int
   @objc required public init(identifier: Swift.Int)
   @objc public var headline: Swift.String?
@@ -131,7 +131,6 @@ extension UIKit.UIDevice {
     @objc get
   }
   @objc public func remove()
-  public typealias ID = Swift.Int
   @objc deinit
 }
 @objc @_Concurrency.MainActor(unsafe) open class MediationTableView : UIKit.UIView {
