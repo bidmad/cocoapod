@@ -94,7 +94,7 @@
 		</data>
 		<key>Headers/BIDMADSetting.h</key>
 		<data>
-		cA247m3AlZiOfFo6ONY3L6Q+yoc=
+		vXPobmjzkCh3nVt2C+F6RQ4pCTw=
 		</data>
 		<key>Headers/BIDMADUtil.h</key>
 		<data>
@@ -131,6 +131,10 @@
 		<key>Headers/Cocos2dxReward.h</key>
 		<data>
 		t45pwGGvMeeaPUpPCVry53Y/71k=
+		</data>
+		<key>Headers/OriginalATOMImageManager.h</key>
+		<data>
+		VkLR3Qa05A7Mz68963rgr9LHhO0=
 		</data>
 		<key>Headers/UIButton+circle.h</key>
 		<data>
@@ -178,7 +182,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		prkdS5kHeUDVeUQZ4HViL/0LcIE=
+		aNTjdNIQ+csVHtC3hiY8XLtWiW4=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
@@ -198,7 +202,7 @@
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		fyoh8mmTRHKMUrXF6GUiG6mBd+o=
+		ndV2YAVrlZ4z/VdtKtwVrSDrJ8Q=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -210,7 +214,7 @@
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		fyoh8mmTRHKMUrXF6GUiG6mBd+o=
+		ndV2YAVrlZ4z/VdtKtwVrSDrJ8Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -465,11 +469,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cA247m3AlZiOfFo6ONY3L6Q+yoc=
+			vXPobmjzkCh3nVt2C+F6RQ4pCTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			g27p6pL/M0FubYOyihp9OAGTox07x5O9oHMqnQWkLsw=
+			jocVOkK6IwUGsGZdTSsiqkRaXRS+lS6RgkDRrzWkWKQ=
 			</data>
 		</dict>
 		<key>Headers/BIDMADUtil.h</key>
@@ -569,6 +573,17 @@
 			<key>hash2</key>
 			<data>
 			HGjsgxnMQe0ZiIZgWTDCJrb2/dRqn+DB4qvONPO5wXA=
+			</data>
+		</dict>
+		<key>Headers/OriginalATOMImageManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VkLR3Qa05A7Mz68963rgr9LHhO0=
+			</data>
+			<key>hash2</key>
+			<data>
+			U//yQdip7a1SDN6vY9JQC5cnrdfFTeKDZYbP3XV2O7w=
 			</data>
 		</dict>
 		<key>Headers/UIButton+circle.h</key>
@@ -740,11 +755,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fyoh8mmTRHKMUrXF6GUiG6mBd+o=
+			ndV2YAVrlZ4z/VdtKtwVrSDrJ8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZH6kXbNwtv0ddItQgc7+EzxC7HrXYA7hjO3rA7er8Yk=
+			enYcRCoDYZmzr0Jva3c4hHYzCiI1WuXD2lEd8I7ePVg=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64.swiftdoc</key>
@@ -773,11 +788,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fyoh8mmTRHKMUrXF6GUiG6mBd+o=
+			ndV2YAVrlZ4z/VdtKtwVrSDrJ8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZH6kXbNwtv0ddItQgc7+EzxC7HrXYA7hjO3rA7er8Yk=
+			enYcRCoDYZmzr0Jva3c4hHYzCiI1WuXD2lEd8I7ePVg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

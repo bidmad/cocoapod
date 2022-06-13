@@ -319,7 +319,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL testMode;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) NSString * _Nullable testOverrideJSON;)
 + (NSString * _Nullable)testOverrideJSON SWIFT_WARN_UNUSED_RESULT;
 + (void)setTestOverrideJSON:(NSString * _Nullable)value;
-+ (void)displayText:(NSString * _Nonnull)text;
++ (void)displayText:(NSString * _Nonnull)text bottomPosition:(BOOL)bottomPosition;
 + (UIViewController * _Nullable)topViewControllerWithBase:(UIViewController * _Nullable)base SWIFT_WARN_UNUSED_RESULT;
 + (NSData * _Nonnull)getTestADOPRewardVideoForSuccessCase SWIFT_WARN_UNUSED_RESULT;
 + (NSData * _Nonnull)getTestADOPRewardVideoForFailCase SWIFT_WARN_UNUSED_RESULT;

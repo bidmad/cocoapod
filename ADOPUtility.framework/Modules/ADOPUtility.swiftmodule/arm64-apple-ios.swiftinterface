@@ -235,7 +235,7 @@ public protocol BIDMADNativeAdCallbacks {
 @objc @_inheritsConvenienceInitializers @objcMembers open class BidmadTestEnvironment : ObjectiveC.NSObject {
   @objc public static var testMode: Swift.Bool
   @objc public static var testOverrideJSON: Foundation.NSString?
-  @objc public static func displayText(_ text: Swift.String)
+  @objc public static func displayText(_ text: Swift.String, bottomPosition: Swift.Bool = false)
   @objc public static func topViewController(base: UIKit.UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIKit.UIViewController?
   @objc public static func getTestADOPRewardVideoForSuccessCase() -> Foundation.Data
   @objc public static func getTestADOPRewardVideoForFailCase() -> Foundation.Data
