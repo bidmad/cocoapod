@@ -17,25 +17,26 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "BidmadAdapterFNC.xcframework"
 
-  s.dependency 'GoogleMobileAdsMediationFyber', '8.1.2.0'
-  s.dependency 'Ads-Global', '3.8.1.0'
-  s.dependency 'TapjoySDK', '>=12.9.0', '<12.10.0'
-  s.dependency 'Fyber_Marketplace_SDK', '8.1.2'
-  s.dependency 'ADOPUtility', '>=4.3.0.0', '<4.4.0.0'
+  s.dependency 'GoogleMobileAdsMediationFyber', '8.1.5.0'
+  s.dependency 'GoogleMobileAdsMediationPangle', '4.5.2.8.0'
+  s.dependency 'Ads-Global', '4.5.2.8'
+  s.dependency 'TapjoySDK', '>=12.9.0', '<=12.10.0'
+  s.dependency 'Fyber_Marketplace_SDK', '8.1.5'
+  s.dependency 'ADOPUtility', '>=4.4.0.0', '<4.5.0.0'
   
   s.subspec 'ForNative' do |forNative|
-    forNative.dependency 'GoogleMobileAdsMediationFacebook', '6.9.0.0'
+    forNative.dependency 'GoogleMobileAdsMediationFacebook', '6.9.0.1'
     forNative.dependency 'AdFitSDK', '3.7.0'
   end
   
   s.subspec 'ForGame' do |forgame|
-    forgame.dependency 'GoogleMobileAdsMediationFacebook', '6.9.0.0'
+    forgame.dependency 'GoogleMobileAdsMediationFacebook', '6.9.0.1'
     forgame.platform = :ios, "11.0"
     forgame.vendored_frameworks = "BidmadAdapterFNC.xcframework"
   end
   
   s.subspec 'Xcode12Compatibility' do |xcode12Compatibility|
-    xcode12Compatibility.dependency 'GoogleMobileAdsMediationFacebook', '6.9.0.0'
+    xcode12Compatibility.dependency 'GoogleMobileAdsMediationFacebook', '6.9.0.1'
     xcode12Compatibility.vendored_frameworks = "BidmadAdapterFNC.xcframework"
   end
 
