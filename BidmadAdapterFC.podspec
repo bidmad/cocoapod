@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BidmadAdapterFC"
-  s.version      = "4.3.1.0"
+  s.version      = "4.4.0.0"
   s.platform     = :ios, "11.0"
   s.summary      = "BidmadAdapterFC is an ad adapter with support for AdColony, AppLovin, and UnityAds."
   s.description  = "BidmadAdapterFC is an ad adapter with support for AdColony, AppLovin, and UnityAds. Please setup BidmadSDK (4.1.0.0 or higher) first."
@@ -9,13 +9,13 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Markus" => "markus@adop.cc" }
   s.platform     = :ios, "11.0"
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '4.3.1.0' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => '4.4.0.0' }
   s.default_subspec = 'LatestXcode'
   s.swift_version = '5.0'
   s.static_framework = true
   s.requires_arc     = true
 
-  s.vendored_frameworks = "BidmadAdapterFC.framework"
+  s.vendored_frameworks = "BidmadAdapterFC.xcframework"
 
   s.dependency 'GoogleMobileAdsMediationAppLovin', '11.0.0.0'
   s.dependency 'GoogleMobileAdsMediationUnity', '3.7.5.0'
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'Xcode12Compatibility' do |xcode12Compatibility|
-    xcode12Compatibility.vendored_frameworks = "BidmadAdapterFC.framework"
+    xcode12Compatibility.vendored_frameworks = "BidmadAdapterFC.xcframework"
   end
 
 end
