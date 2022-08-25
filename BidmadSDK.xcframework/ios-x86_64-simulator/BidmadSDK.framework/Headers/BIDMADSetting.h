@@ -166,8 +166,6 @@ extern NSString* _Nonnull const BIDMAD_CCPA_CONSENT;
 
 @property (nonatomic) bool isLoadingAds;
 
-@property (nonatomic) bool IS_MNC;
-
 @property (nonatomic, strong) NSString* version;
 
 @property (nonatomic, strong) NSString* testDeviceId;
