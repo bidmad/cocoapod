@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.dependency 'TapjoySDK', '>=12.9.0', '<=12.10.0'
   s.dependency 'Fyber_Marketplace_SDK', '8.1.5'
   s.dependency 'ADOPUtility', '>=4.5.0.0', '<4.6.0.0'
+  s.dependency 'AdopPrebidSdk', '1.0.0'
   
   s.subspec 'ForNative' do |forNative|
     forNative.dependency 'GoogleMobileAdsMediationFacebook', '>=6.9.0.1', '<=6.11.2.0'
