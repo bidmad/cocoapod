@@ -37,3 +37,6 @@ FOUNDATION_EXPORT const unsigned char BidmadAdapterFNCVersionString[];
 #import "BidmadPrebidBanner.h"
 #import "BidmadPrebidInterstitial.h"
 #import "BidmadPrebidReward.h"
+#import "BidmadPubmaticBanner.h"
+#import "BidmadPubmaticInterstitial.h"
+#import "BidmadPubmaticReward.h"

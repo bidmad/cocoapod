@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BidmadAdapterFNC"
-  s.version      = "4.5.1.1"
+  s.version      = "4.6.0.0"
   s.platform     = :ios, "11.0"
   s.summary      = "BidmadAdapterFNC is an ad adapter with support for Facebook Audience Network, Tapjoy, AdFit, Pangle, Fyber, and ADOP ads"
   s.description  = "BidmadAdapterFNC is an ad adapter with support for Facebook Audience Network, Tapjoy, AdFit, Pangle, Fyber, and ADOP ads. Please setup BidmadSDK (4.1.0.0 or higher) first."
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Markus" => "markus@adop.cc" }
   s.platform     = :ios, "11.0"
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'FNC.4.5.1.1' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'FNC.4.6.0.0' }
   s.default_subspec = 'ForNative'
   s.swift_version = '5.0'
   s.static_framework = true
@@ -22,8 +22,10 @@ Pod::Spec.new do |s|
   s.dependency 'Ads-Global', '4.5.2.8'
   s.dependency 'TapjoySDK', '>=12.9.0', '<=12.10.0'
   s.dependency 'Fyber_Marketplace_SDK', '8.1.5'
-  s.dependency 'ADOPUtility', '>=4.5.0.0', '<4.6.0.0'
+  s.dependency 'ADOPUtility', '>=4.6.0.0', '<4.7.0.0'
   s.dependency 'AdopPrebidSdk', '>=1.0.0', '<1.1.0'
+  s.dependency 'OpenWrapHandlerDFP', '3.0.1'
+  s.dependency 'OpenWrapSDK', '2.6.2'
   
   s.subspec 'ForNative' do |forNative|
     forNative.dependency 'GoogleMobileAdsMediationFacebook', '>=6.9.0.1', '<=6.11.2.0'

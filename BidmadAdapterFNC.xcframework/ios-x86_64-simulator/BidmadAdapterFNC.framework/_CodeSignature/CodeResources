@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/BidmadAdapterFNC.h</key>
 		<data>
-		pffa0wZjn5UQ5DbOwAfEpzQGcyY=
+		WbWF7HGh2v7y9olYX1PnOZ/MmsI=
 		</data>
 		<key>Headers/BidmadAdapterFNCConsentManager.h</key>
 		<data>
@@ -87,6 +87,18 @@
 		<key>Headers/BidmadPrebidReward.h</key>
 		<data>
 		ue/7vvhxfkBRaMfoNvga3Z//+50=
+		</data>
+		<key>Headers/BidmadPubmaticBanner.h</key>
+		<data>
+		+fdwF3vTttHbPyI1mJKEd+ZCIrs=
+		</data>
+		<key>Headers/BidmadPubmaticInterstitial.h</key>
+		<data>
+		QkdhVRInls5hoX78bGVm5jjMwBM=
+		</data>
+		<key>Headers/BidmadPubmaticReward.h</key>
+		<data>
+		qEVMrER9e0mfj8HfejrU5vrG/u8=
 		</data>
 		<key>Headers/BidmadTapjoy.h</key>
 		<data>
@@ -194,7 +206,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FKGxWObZDvkMduWCjSW+jK5kHG0=
+		2X3uq9oIwXLOH/ZuIHJAIw88fQs=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -389,6 +401,26 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>POBResources.bundle/close.tiff</key>
+		<data>
+		PrIYaW8xqI1DT80Bov7Lgv00WK0=
+		</data>
+		<key>POBResources.bundle/mute.tiff</key>
+		<data>
+		2VYJIi2gXEpQDT4C6d6Z9lmtPm8=
+		</data>
+		<key>POBResources.bundle/omsdk-v1.js</key>
+		<data>
+		HLTF5+1HU2hoYquUpf0GG8R+ndA=
+		</data>
+		<key>POBResources.bundle/pmmraid.js</key>
+		<data>
+		MGFoLmH8A7/0UmZC7zvXUwXAXT4=
+		</data>
+		<key>POBResources.bundle/unmute.tiff</key>
+		<data>
+		8tm/TMgPijrWUWUKxlFuGmAS4RE=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -517,11 +549,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pffa0wZjn5UQ5DbOwAfEpzQGcyY=
+			WbWF7HGh2v7y9olYX1PnOZ/MmsI=
 			</data>
 			<key>hash2</key>
 			<data>
-			cL56aqVFDADgHeRGzjlkyEL3FgVLaCJxvyRwUq65xz0=
+			gtTuMMjTU3MjwCe6MPWSV6VCgU2RX9s6V8ZQ8G/OSyU=
 			</data>
 		</dict>
 		<key>Headers/BidmadAdapterFNCConsentManager.h</key>
@@ -621,6 +653,39 @@
 			<key>hash2</key>
 			<data>
 			Ai0G+HvW7tvKTPQaYoriMGFNgTSqkfj78r3xB9oKzBw=
+			</data>
+		</dict>
+		<key>Headers/BidmadPubmaticBanner.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+fdwF3vTttHbPyI1mJKEd+ZCIrs=
+			</data>
+			<key>hash2</key>
+			<data>
+			3O9Tc33yh49l6rgQvL9TIe7WgFdkDIqcl4hz7yNwwYw=
+			</data>
+		</dict>
+		<key>Headers/BidmadPubmaticInterstitial.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QkdhVRInls5hoX78bGVm5jjMwBM=
+			</data>
+			<key>hash2</key>
+			<data>
+			mtb7j4AykAyLAxzKOZ/TsY/TrYjrNGPBfg+BBb2+i4c=
+			</data>
+		</dict>
+		<key>Headers/BidmadPubmaticReward.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qEVMrER9e0mfj8HfejrU5vrG/u8=
+			</data>
+			<key>hash2</key>
+			<data>
+			tofp0O+ySNAlVDsMnvlww5HrSwkuUdVstOtWljFx8Q4=
 			</data>
 		</dict>
 		<key>Headers/BidmadTapjoy.h</key>
@@ -1239,6 +1304,61 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>POBResources.bundle/close.tiff</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PrIYaW8xqI1DT80Bov7Lgv00WK0=
+			</data>
+			<key>hash2</key>
+			<data>
+			lLi4B+ZzIR5MDzVk1Rf6IMGR/H6dyQ2ZXl2bjB7XNWA=
+			</data>
+		</dict>
+		<key>POBResources.bundle/mute.tiff</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2VYJIi2gXEpQDT4C6d6Z9lmtPm8=
+			</data>
+			<key>hash2</key>
+			<data>
+			CJKAYNRPGpsNY/nf1GUfQq9S+hudH8L9IN3jCwD1oXI=
+			</data>
+		</dict>
+		<key>POBResources.bundle/omsdk-v1.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HLTF5+1HU2hoYquUpf0GG8R+ndA=
+			</data>
+			<key>hash2</key>
+			<data>
+			En6uGQJYYOILrfT3vX3mLczuXMX2T0ywCOAksbzBdO4=
+			</data>
+		</dict>
+		<key>POBResources.bundle/pmmraid.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MGFoLmH8A7/0UmZC7zvXUwXAXT4=
+			</data>
+			<key>hash2</key>
+			<data>
+			fIFu7tRqDdgir1JY3oVXuAY3vqD4GAgAmf1llYkW/D4=
+			</data>
+		</dict>
+		<key>POBResources.bundle/unmute.tiff</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8tm/TMgPijrWUWUKxlFuGmAS4RE=
+			</data>
+			<key>hash2</key>
+			<data>
+			4fXEOvZbzSR311Q9cxj3x/9s0Mk0vYzu6x13tBWOCWw=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>

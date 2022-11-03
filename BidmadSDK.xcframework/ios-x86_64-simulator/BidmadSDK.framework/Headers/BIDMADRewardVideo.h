@@ -15,6 +15,7 @@
 #import "BIDMADAdmob.h"
 #import "BIDMADAdmanager.h"
 #import "BIDMADInterstitial.h"
+#import <ADOPUtility/BidmadLoadStatus.h>
 
 @class BIDMADInterstitial;
 
@@ -41,15 +42,9 @@
 
 @property (nonatomic) NSString * zoneID;
 
-@property (nonatomic) bool justLoading;
-
-@property (nonatomic, strong) NSString* userId;
-
 @property (nonatomic) BOOL                       isLabelService;
 @property (nonatomic) BOOL                       isLabelServiceAdmin;
 @property (nonatomic) BOOL                       testMode;
-@property (nonatomic) BOOL                       isComplete;
-@property (nonatomic) BOOL                       isLoaded;
 
 @property (nonatomic) NSString *                 realZoneId;
 
@@ -59,6 +54,9 @@
 @property (nonatomic, strong) BIDMADInterstitial* interstitial;
 
 @property (nonatomic, strong) NSString * _Nullable currentAdNetwork;
+
+@property (readonly) BOOL isLoaded;
+@property (nonatomic) BidmadLoadStatus loadStatus;
 
 ///inititalize
 - (id)init;
@@ -87,8 +85,6 @@
 
 ///InterstitialView Show
 - (void)showRewardVideo;
-
-- (void)directShowRewardView;
 
 - (void)selectAds:(NSDictionary *)lv_dic;
 

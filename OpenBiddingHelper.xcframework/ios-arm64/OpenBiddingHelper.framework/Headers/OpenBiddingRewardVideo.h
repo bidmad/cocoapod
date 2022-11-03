@@ -16,6 +16,7 @@
 #import "OpenBiddingAdmob.h"
 #import "OpenBiddingInterstitial.h"
 #import <BidmadSDK/BIDMADRewardVideo.h>
+#import <ADOPUtility/BidmadLoadStatus.h>
 
 @protocol BIDMADOpenBiddingRewardVideoDelegate;
 
@@ -35,19 +36,16 @@
 
 @property (nonatomic) NSString * zoneID;
 
-@property (nonatomic) bool justLoading;
-
-@property (nonatomic, strong) NSString* userId;
-
 @property (nonatomic) BOOL                       testMode;
-@property (nonatomic) BOOL                       isComplete;
-@property (nonatomic) BOOL                       isLoaded;
 
 @property (nonatomic) NSString *                 realZoneId;
 
 @property (nonatomic, strong) NSString * _Nullable CUID;
 
 @property (nonatomic, strong) NSString * _Nullable currentAdNetwork;
+
+@property (readonly) BOOL isLoaded;
+@property (nonatomic) BidmadLoadStatus loadStatus;
 
 ///inititalize
 - (id)init;
