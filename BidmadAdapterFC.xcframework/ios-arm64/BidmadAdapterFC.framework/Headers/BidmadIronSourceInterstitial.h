@@ -11,10 +11,11 @@
 #import "BidmadIronSourceInterstitial.h"
 #import <ADOPUtility/BidmadAdapterAdEssential.h>
 #import "BidmadIronSourceBridge.h"
+#import <ADOPUtility/BidmadAdapterEssential.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BidmadIronSourceInterstitial : BidmadAdapterAdEssential <BidmadBridgeISInterstitialDelegate, BidmadISLogDelegate>
+@interface BidmadIronSourceInterstitial : BidmadAdapterAdEssential <BidmadBridgeISInterstitialDelegate, BidmadISLogDelegate, BidmadAdapterEssential>
 
 @property (nonatomic, strong) NSUUID * _Nonnull adIdentifier;
 @property (nonatomic, strong) NSDictionary<NSString *, NSNumber *> * _Nonnull loadableConditions;
@@ -22,13 +23,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (nonnull instancetype)initWithAppID:(NSString * _Nonnull)appID
                                 pubID:(NSString * _Nullable)pubID
-                               rootVC:(UIViewController * _Nonnull)rootVC
+                               rootVC:(UIViewController * _Nullable)rootVC
                            parentView:(UIView * _Nullable)parentView
                               isChild:(NSNumber * _Nullable)isChild
                         isGDPRConsent:(NSNumber * _Nullable)isGDPRConsent
-                        isCCPAConsent:(NSNumber * _Nullable)isCCPAConsent;
+                        isCCPAConsent:(NSNumber * _Nullable)isCCPAConsent
+                     bidmadController:(id _Nonnull)bidmadController;
 - (void)load;
-- (void)show;
+- (void)showOnViewController:(UIViewController *)viewController;
 - (void)remove;
 - (void)setIsDebug:(BOOL)isDebug;
 - (void)interstitialDidLoad;

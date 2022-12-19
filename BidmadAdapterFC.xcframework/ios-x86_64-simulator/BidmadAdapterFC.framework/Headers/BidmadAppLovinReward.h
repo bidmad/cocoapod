@@ -11,26 +11,26 @@
 #import <ADOPUtility/BidmadAdapterAdEssential.h>
 #import <ADOPUtility/BidmadLoadabilityManager.h>
 #import <AppLovinSDK/AppLovinSDK.h>
+#import <ADOPUtility/BidmadAdapterEssential.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BidmadAppLovinReward : BidmadAdapterAdEssential <ALAdDisplayDelegate, ALAdLoadDelegate, ALAdRewardDelegate, ALAdVideoPlaybackDelegate>
+@interface BidmadAppLovinReward : BidmadAdapterAdEssential <ALAdDisplayDelegate, ALAdLoadDelegate, ALAdRewardDelegate, ALAdVideoPlaybackDelegate, BidmadAdapterEssential>
 
+@property (nonatomic, strong) NSString * _Nullable initializerFailCase;
 @property (nonatomic, strong) NSNumber * _Nonnull isAppLovinInitialized; //BOOLEAN
-@property (nonatomic, strong) NSUUID * _Nonnull adIdentifier;
-@property (nonatomic, strong) NSDictionary<NSString *, NSNumber *> * _Nonnull loadableConditions;
-@property (nonatomic) BOOL loadableConditionsPassed;
 
 - (nonnull instancetype)initWithAppID:(NSString * _Nonnull)appID
                                 pubID:(NSString * _Nullable)pubID
-                               rootVC:(UIViewController * _Nonnull)rootVC
+                               rootVC:(UIViewController * _Nullable)rootVC
                            parentView:(UIView * _Nullable)parentView
                               isChild:(NSNumber * _Nullable)isChild
                         isGDPRConsent:(NSNumber * _Nullable)isGDPRConsent
-                        isCCPAConsent:(NSNumber * _Nullable)isCCPAConsent;
+                        isCCPAConsent:(NSNumber * _Nullable)isCCPAConsent
+                     bidmadController:(id _Nonnull)bidmadController;
 - (void)load;
 - (void)setIsDebug:(BOOL)isDebug;
-- (void)show;
+- (void)showOnViewController:(UIViewController *)viewController;
 - (void)remove;
 - (void)setIsRewardedAd:(BOOL)isRewardedAd;
 
