@@ -10,19 +10,19 @@
 		</data>
 		<key>Headers/AdopPrebidBanner.h</key>
 		<data>
-		bxTvFqfswR+3JYrspyAKDz3WEEs=
+		nINiXOTeYfa+z8zFi6l1PNFbswQ=
 		</data>
 		<key>Headers/AdopPrebidInterstitial.h</key>
 		<data>
-		5AktkFTz/uDph34Fuo3Z6+YSt4Q=
+		033E8SdxFJAi26GIUtEZOWuPNs8=
 		</data>
 		<key>Headers/AdopPrebidReward.h</key>
 		<data>
-		nKwF1HVK9vJRtKVoBx/GWlRpbOs=
+		YtW30XuRRWQJq8UaQRbbf+3Abhs=
 		</data>
 		<key>Headers/AdopPrebidSdk-Swift.h</key>
 		<data>
-		i//zV6JzdWOv2RDcD+ZjFGxQJq0=
+		btS2LvcUGCBkUx0FAshF2Juj5Tg=
 		</data>
 		<key>Headers/AdopPrebidSdk.h</key>
 		<data>
@@ -34,19 +34,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XuPumOMAKtmPSsgcpZlwY/nENBs=
+		pGSu+qFHDPY6bND3AP+xzwe5fLA=
 		</data>
 		<key>Modules/AdopPrebidSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		hZIaf9dWDAUVlFXwdgW210Nwjk4=
+		WvjnbahssZLC+MLAxkA4z2dvAZk=
 		</data>
 		<key>Modules/AdopPrebidSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Gg+SiAvoJPLOO0RBoNVkxUQnx1o=
+		Zs2ZGdSdvZgdR30wC5owiJQknJg=
 		</data>
 		<key>Modules/AdopPrebidSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4/ptmGTdv8W8SSBmOP3AP7x3VJA=
+		OiAn3UGVaZ9fteklBfG5LCQiS7U=
+		</data>
+		<key>Modules/AdopPrebidSdk.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		WvjnbahssZLC+MLAxkA4z2dvAZk=
+		</data>
+		<key>Modules/AdopPrebidSdk.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		Zs2ZGdSdvZgdR30wC5owiJQknJg=
+		</data>
+		<key>Modules/AdopPrebidSdk.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		OiAn3UGVaZ9fteklBfG5LCQiS7U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,44 +82,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bxTvFqfswR+3JYrspyAKDz3WEEs=
+			nINiXOTeYfa+z8zFi6l1PNFbswQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jq3+W1eNmKQxkNk698UEwkIhQSP6aIZENxqYjKjiWPo=
+			UQRLRbUsrM7CFwGXqAQmSRHjnThU7zALLtagKYb57vw=
 			</data>
 		</dict>
 		<key>Headers/AdopPrebidInterstitial.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5AktkFTz/uDph34Fuo3Z6+YSt4Q=
+			033E8SdxFJAi26GIUtEZOWuPNs8=
 			</data>
 			<key>hash2</key>
 			<data>
-			TIfgG8e96ynhZ54cBHoXpxkkBt1iFNmNdRTrF5Kq5Cc=
+			S5+46iq02Nh0yM/K6i/x+XCPLTWtPIVuWMGreQMQx9w=
 			</data>
 		</dict>
 		<key>Headers/AdopPrebidReward.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nKwF1HVK9vJRtKVoBx/GWlRpbOs=
+			YtW30XuRRWQJq8UaQRbbf+3Abhs=
 			</data>
 			<key>hash2</key>
 			<data>
-			UQgNTS5geriCkjbz5hHcrKQ23cSGMyISS5xvLGcWuMs=
+			P+aKzR5eFDCj8SkryeL6c+r7CrKj41BkHdtXF+Nqf+U=
 			</data>
 		</dict>
 		<key>Headers/AdopPrebidSdk-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i//zV6JzdWOv2RDcD+ZjFGxQJq0=
+			btS2LvcUGCBkUx0FAshF2Juj5Tg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z4c3DKzUcOAp2h26g1ut54Y7aHrFyUgVOPWhCtPSm5o=
+			RjaEbxdd/6U3WDdEAxxsHBt59kvTxIQxJNQZqX0Q+b0=
 			</data>
 		</dict>
 		<key>Headers/AdopPrebidSdk.h</key>
@@ -136,33 +148,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hZIaf9dWDAUVlFXwdgW210Nwjk4=
+			WvjnbahssZLC+MLAxkA4z2dvAZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			5rujTwRW8XOGexhjoPRhOOrK1uo9O8NAa4F/55EjuZE=
+			CtbYlC/9jxF4ASZ74EafQasg+b+dnKw2HUwsuTZ4520=
 			</data>
 		</dict>
 		<key>Modules/AdopPrebidSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Gg+SiAvoJPLOO0RBoNVkxUQnx1o=
+			Zs2ZGdSdvZgdR30wC5owiJQknJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			1/AgDTmOGeCiaoDXTAuLi64zK93YrgY4VEIMGIFxNi0=
+			Yc332eI4ISgGUCM5ULLUGAB7XcT33oMbJZ31YuDICpI=
 			</data>
 		</dict>
 		<key>Modules/AdopPrebidSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4/ptmGTdv8W8SSBmOP3AP7x3VJA=
+			OiAn3UGVaZ9fteklBfG5LCQiS7U=
 			</data>
 			<key>hash2</key>
 			<data>
-			s5U4ZKqvT9XIn/uWLflj4U4+TmxPWIlS2+5lspQLRu8=
+			6z7gm27yye8eNVLpbuMu1jVFtb7nPWJ4V0bflhcejZw=
+			</data>
+		</dict>
+		<key>Modules/AdopPrebidSdk.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WvjnbahssZLC+MLAxkA4z2dvAZk=
+			</data>
+			<key>hash2</key>
+			<data>
+			CtbYlC/9jxF4ASZ74EafQasg+b+dnKw2HUwsuTZ4520=
+			</data>
+		</dict>
+		<key>Modules/AdopPrebidSdk.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Zs2ZGdSdvZgdR30wC5owiJQknJg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Yc332eI4ISgGUCM5ULLUGAB7XcT33oMbJZ31YuDICpI=
+			</data>
+		</dict>
+		<key>Modules/AdopPrebidSdk.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OiAn3UGVaZ9fteklBfG5LCQiS7U=
+			</data>
+			<key>hash2</key>
+			<data>
+			6z7gm27yye8eNVLpbuMu1jVFtb7nPWJ4V0bflhcejZw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
