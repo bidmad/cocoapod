@@ -198,11 +198,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+iYy29Z/4ZLsiqYdHaaMqCIh5Oc=
+		pEBe6VDhAKLuKC1xxoG3e0SVNRU=
 		</data>
 		<key>LICENSE</key>
 		<data>
 		Va1S8wKLCXt3oMK2dBq2DQ6Myjk=
+		</data>
+		<key>MobonSDKBundle.bundle/Assets.car</key>
+		<data>
+		Rh5V7TdIIYe0yqdfWY+jyZfjCQo=
+		</data>
+		<key>MobonSDKBundle.bundle/Info.plist</key>
+		<data>
+		Im92A68tpN7aijWTEuQJcuD+r/8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -957,6 +965,28 @@
 			<key>hash2</key>
 			<data>
 			9eTpQvKsVyRk4dNdHme0HiTf84PVFV5ALROXQ0iILSE=
+			</data>
+		</dict>
+		<key>MobonSDKBundle.bundle/Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Rh5V7TdIIYe0yqdfWY+jyZfjCQo=
+			</data>
+			<key>hash2</key>
+			<data>
+			3ktDPMG63Olfd9llvnQ6JGF4FKVseQAws2w3WG34u/0=
+			</data>
+		</dict>
+		<key>MobonSDKBundle.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Im92A68tpN7aijWTEuQJcuD+r/8=
+			</data>
+			<key>hash2</key>
+			<data>
+			JHN/0R94cFubSmxGhdRU8eZ+iifUvGWE0a1n4wEjCtM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/BIDMADSetting.h</key>
 		<data>
-		y6ZWLjEicE9ZO87fkBb4tJ4ykq4=
+		XCBxPcF93MReVb1xAcOtG7XI1zY=
 		</data>
 		<key>Headers/BIDMADUtil.h</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dYqhjw4t7Etsxj1jKscxsmtyUDI=
+		h9YMuDfutnm4LdOki8faqf9B2QE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -297,11 +297,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y6ZWLjEicE9ZO87fkBb4tJ4ykq4=
+			XCBxPcF93MReVb1xAcOtG7XI1zY=
 			</data>
 			<key>hash2</key>
 			<data>
-			e9PW6x0rRFj50eqWlinc/YsnnoNtWiXRkJqD3Xs51QA=
+			grzVsuuvffUJ47ypFY74LNnIh1heUSerxLtX2UfX1gc=
 			</data>
 		</dict>
 		<key>Headers/BIDMADUtil.h</key>

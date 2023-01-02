@@ -42,6 +42,7 @@
 #define VUNGLE                  @"1e1947d2-eff2-11e9-9e1d-02c31b446301"
 #define PREBID                  @"f797ee95-1172-11ed-a117-026864a21938"
 #define PUBMATIC                @"ec4a2c71-58c8-11ed-a117-026864a21938"
+#define MOBON                   @"259737b6-b23d-11e7-8214-02c31b446301"
 
 #define COMPASS_SERVING         @"https://bidmad.adop.cc/serving/ms3.php"
 #define COMPASS_SERVING_TEST    @"https://compasstest.adop.cc/serving/ms.php"
@@ -101,12 +102,12 @@ extern NSString* _Nonnull const BIDMAD_CCPA_CONSENT;
 
 @interface BIDMADSetting : NSObject <BidmadSettingInterface>
 
-+ (BIDMADSetting *)sharedInstance;
++ (BIDMADSetting * _Nonnull)sharedInstance;
 - (void)setAdvertiserTrackingEnabled:(BOOL)enable;
 - (BOOL)getAdvertiserTrackingEnabled;
-- (void)reqAdTrackingAuthorizationWithCompletionHandler:(CompleteHandler)completeHandler;
+- (void)reqAdTrackingAuthorizationWithCompletionHandler:(void (^_Nonnull)(BidmadTrackingAuthorizationStatus))completeHandler;
 - (void)initializeSdk;
-- (void)initializeSdkWithKey:(NSString *)appKey;
+- (void)initializeSdkWithKey:(NSString * _Nonnull)appKey;
 
 /// If your app is directed to kids under the age of 13, please set YES or true.
 - (void)setIsChildDirectedAds: (BOOL)isChildDirectedAdsNeeded;
