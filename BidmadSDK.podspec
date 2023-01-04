@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
   s.name         = "BidmadSDK"
-  s.version      = "5.1.0"
+  s.version      = "5.1.1"
   s.platform     = :ios, "11.0"
   s.summary      = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
   s.description  = "BidmadSDK allows users to communicate with Compass by ADOP. Our mediation platform optimizes for the utmost profit."
   s.homepage     = "https://bidmad.net"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Markus" => "markus@adop.cc" }
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'SDK.5.1.0' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'SDK.5.1.1' }
   s.resource_bundles = {
     'bidmad_asset' => ['Assets/*']
   }
