@@ -26,15 +26,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (nonnull instancetype)initWithAppID:(NSString * _Nonnull)appID
                                 pubID:(NSString * _Nullable)pubID
-                               rootVC:(UIViewController * _Nullable)rootVC
+                               rootVC:(UIViewController * _Nonnull)rootVC
                            parentView:(UIView * _Nullable)parentView
                               isChild:(NSNumber * _Nullable)isChild
                         isGDPRConsent:(NSNumber * _Nullable)isGDPRConsent
-                        isCCPAConsent:(NSNumber * _Nullable)isCCPAConsent
-                     bidmadController:(id _Nonnull)bidmadController;
+                        isCCPAConsent:(NSNumber * _Nullable)isCCPAConsent;
 - (void)setIsDebug:(BOOL)isDebug;
 - (void)load;
-- (void)showOnViewController:(UIViewController *)viewController;
+- (void)show;
 - (void)remove;
 
 - (UIViewController * _Nonnull)IAParentViewControllerForUnitController:(IAUnitController * _Nullable)unitController;

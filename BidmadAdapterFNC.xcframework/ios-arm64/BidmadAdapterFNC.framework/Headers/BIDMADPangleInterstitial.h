@@ -10,21 +10,22 @@
 
 #import <Foundation/Foundation.h>
 #import <BUAdSDK/BUAdSDK.h>
-#import <ADOPUtility/BidmadAdapterAdEssential.h>
-#import <ADOPUtility/BidmadAdapterEssential.h>
 
-@interface BIDMADPangleInterstitial : BidmadAdapterAdEssential<BUFullscreenVideoAdDelegate, BidmadAdapterEssential>
+@interface BIDMADPangleInterstitial : NSObject<BUFullscreenVideoAdDelegate>
+
+@property (weak,nonatomic) id __nullable bidmadControllerForCallbacks;
 
 - (id __nonnull)initWithAppID:(NSString * _Nonnull)appID
-                        pubID:(NSString * _Nullable)pubID
-                       rootVC:(UIViewController * _Nullable)rootVC
-                   parentView:(UIView * _Nullable)parentView
-                      isChild:(NSNumber * _Nullable)isChild
-                isGDPRConsent:(NSNumber * _Nullable)isGDPRConsent
-                isCCPAConsent:(NSNumber * _Nullable)isCCPAConsent
-             bidmadController:(id _Nonnull)bidmadController;
+                                pubID:(NSString * _Nullable)pubID
+                               rootVC:(UIViewController * _Nonnull)rootVC
+                           parentView:(UIView * _Nullable)parentView
+                              isChild:(NSNumber * _Nullable)isChild
+                        isGDPRConsent:(NSNumber * _Nullable)isGDPRConsent
+                        isCCPAConsent:(NSNumber * _Nullable)isCCPAConsent;
 - (void)load;
 - (void)setIsDebug:(BOOL)isDebug;
+- (void)setBidmadController:(id __nonnull)bidmadController;
+- (void)show;
 - (void)hide;
 - (void)remove;
 
