@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, weak, nullable) IBOutlet UIButton* callToActionViewCustom;
 
 @property (nonatomic, strong) GADMediaView * _Nullable mediaViewForGoogle;
-@property (nonatomic, strong) UIImageView * _Nullable mediaViewForPangle;
+@property (nonatomic, strong) UIView * _Nullable mediaViewForPangle;
 @property (nonatomic, strong) UIView * _Nullable innerMediaViewForPangle;
 
 @property (nonatomic, strong) id _Nullable nativeRelatedViewForPangle;
