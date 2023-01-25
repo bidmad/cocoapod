@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "BidmadSDK.xcframework"
 
   s.dependency 'Google-Mobile-Ads-SDK', '9.14.0'
-  s.dependency 'ADOPUtility', '>=5.1.0', '<5.2.0'
+  s.dependency 'ADOPUtility', '>=5.2.0', '<5.3.0'
   
   s.subspec 'ForNative' do |forNative|
   end

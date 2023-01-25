@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.dependency 'Ads-Global', '4.7.0.6'
   s.dependency 'TapjoySDK', '>=12.9.0', '<=12.11.0'
   s.dependency 'Fyber_Marketplace_SDK', '8.1.6'
-  s.dependency 'ADOPUtility', '>=5.1.0', '<5.2.0'
+  s.dependency 'ADOPUtility', '>=5.2.0', '<5.3.0'
   s.dependency 'AdopPrebidSdk', '>=1.1', '<1.2.0'
   s.dependency 'OpenWrapHandlerDFP', '3.0.1'
   s.dependency 'OpenWrapSDK', '2.6.2'
