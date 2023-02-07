@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "OpenBiddingHelper"
-  s.version      = "5.2.0"
+  s.version      = "5.3.0"
   s.platform     = :ios, "11.0"
   s.summary      = "OpenBiddingHelper is for Open Bidding Ads."
   s.description  = "OpenBiddingHelper is for Open Bidding Ads and is a wrapper provided by ADOP."
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Markus" => "markus@adop.cc" }
   s.platform     = :ios, "11.0"
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'OBH.5.2.0' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'OBH.5.3.0' }
   
   s.swift_version = '5.0'
   s.static_framework = true
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "OpenBiddingHelper.xcframework"
 
   s.dependency 'Google-Mobile-Ads-SDK', '9.14.0'
-  s.dependency 'ADOPUtility', '>=5.2.0', '<5.3.0'
+  s.dependency 'ADOPUtility', '>=5.3.0', '<5.4.0'
 
 end

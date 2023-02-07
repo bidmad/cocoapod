@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/BIDMADBanner.h</key>
 		<data>
-		Taf04tn3rWjnvCtpCJ7HHaxoqg4=
+		NOtf5QEWDoOho6zZwvIVjMyWDd4=
 		</data>
 		<key>Headers/BIDMADGDPR.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/BIDMADSetting.h</key>
 		<data>
-		XCBxPcF93MReVb1xAcOtG7XI1zY=
+		VQURfURnYuw82GtFXKiqa66OVqU=
 		</data>
 		<key>Headers/BIDMADUtil.h</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/PQvZ2jeKw9H6ZH4S1IFQghNCos=
+		YB7Xt8NhokWzxACfEitm29A82tc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -209,11 +209,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Taf04tn3rWjnvCtpCJ7HHaxoqg4=
+			NOtf5QEWDoOho6zZwvIVjMyWDd4=
 			</data>
 			<key>hash2</key>
 			<data>
-			hThJMm0QtSTPeCu/V0DndCJeoRtG+d9GB/60/sHEQWU=
+			R0iJBpRZdQbH3gF0o1BPXaT33KBog653KNLzK95nTI0=
 			</data>
 		</dict>
 		<key>Headers/BIDMADGDPR.h</key>
@@ -297,11 +297,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XCBxPcF93MReVb1xAcOtG7XI1zY=
+			VQURfURnYuw82GtFXKiqa66OVqU=
 			</data>
 			<key>hash2</key>
 			<data>
-			grzVsuuvffUJ47ypFY74LNnIh1heUSerxLtX2UfX1gc=
+			+aUlh84ARHNAu6q49DdYHvwjVGoaCvfxIrB+rjhuufc=
 			</data>
 		</dict>
 		<key>Headers/BIDMADUtil.h</key>
