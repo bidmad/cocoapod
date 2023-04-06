@@ -32,6 +32,15 @@
 @property (nonatomic) CGFloat ypoint;
 @property (nonatomic) BIDMADAdPosition position;
 @property (nonatomic, strong) NSString * _Nullable sessionId;
+@property (nonatomic) BidmadLoadStatus loadStatus;
+@property (readonly) BOOL isLoaded;
+
+/**
+ * A Boolean value that determines whether ad refresh feature is enabled.
+ * If YES, ad refresh feature is enabled and will refresh the ad every refresh interval seconds.
+ * If NO, ad refresh feature is disabled and will not refresh the ad.
+ */
+@property (nonatomic) BOOL adRefreshEnabled;
 
 - (id _Nonnull)initWithParentViewController:(UIViewController * _Nonnull)parentVC
                                 adsPosition:(CGPoint)point;
@@ -46,12 +55,10 @@
 - (void)requestBannerView;
 - (void)removeAds;
 - (void)selectAds:(NSDictionary * _Nonnull)lv_dic;
-- (void)runAds;
 - (void)setParentController:(UIViewController * _Nonnull)parentVC;
 - (void)hideView;
 - (void)showView;
 
-- (void)onBannerAllFail;
 - (void)onBannerError:(NSError * _Nonnull)error
              failType:(NSString * _Nonnull)failType;
 - (void)onBannerError:(NSError * _Nonnull)error

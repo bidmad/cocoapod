@@ -41,7 +41,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 // Inner Delegate Support
 
-- (void)onBannerAllFail;
 - (void)onBannerError:(NSString *)error failType:(NSString *)failType;
 - (void)onBannerClosed;
 - (void)onBannerLoad;

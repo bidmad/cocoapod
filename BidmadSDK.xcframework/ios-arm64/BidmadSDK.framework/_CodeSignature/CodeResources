@@ -311,7 +311,7 @@
 		</data>
 		<key>Headers/BIDMADUtil.h</key>
 		<data>
-		pKxoEbZjMneacldlVBR0l3PfNZU=
+		+2EdoDogkZx5IQQ5rRyQofOHHZk=
 		</data>
 		<key>Headers/BidmadARPM.h</key>
 		<data>
@@ -359,7 +359,7 @@
 		</data>
 		<key>Headers/BidmadAdNetworkTestLogic.h</key>
 		<data>
-		iAv+HIrkkZHFl61q93kCgPZQxrc=
+		lVlB98giIjdsSKtRmH3ExwD2LN0=
 		</data>
 		<key>Headers/BidmadAdNetworkTestViewController.h</key>
 		<data>
@@ -711,7 +711,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		As4PVOxQCl3DM9ev7cPuTX5osdQ=
+		XsSMdYxvCvNRZ8RWmLVNiAdWO50=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -1670,11 +1670,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pKxoEbZjMneacldlVBR0l3PfNZU=
+			+2EdoDogkZx5IQQ5rRyQofOHHZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			qmV4L2taUD1DbutYIwPpKSgsppW72HrnpNIlXW25pkA=
+			//85pxSVapnkoIhIMBFoCwrZIqL5P942n6IcnWRT8m8=
 			</data>
 		</dict>
 		<key>Headers/BidmadARPM.h</key>
@@ -1802,11 +1802,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iAv+HIrkkZHFl61q93kCgPZQxrc=
+			lVlB98giIjdsSKtRmH3ExwD2LN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6n7EYU/z7x/kjypKbBQWSlAv0nClSgrUeeQyVYgNHcM=
+			/ikqZOWiT8c6X+A/O+TxeJwLRb2eah7zjkcX5j+7rlY=
 			</data>
 		</dict>
 		<key>Headers/BidmadAdNetworkTestViewController.h</key>
