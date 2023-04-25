@@ -58,6 +58,7 @@
 - (void)setParentController:(UIViewController * _Nonnull)parentVC;
 - (void)hideView;
 - (void)showView;
+- (void)updateViewPosition;
 
 - (void)onBannerError:(NSError * _Nonnull)error
              failType:(NSString * _Nonnull)failType;

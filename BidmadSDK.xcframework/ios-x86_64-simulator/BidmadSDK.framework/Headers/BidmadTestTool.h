@@ -21,14 +21,12 @@ typedef struct {
     BidmadAdNetworkSingleStatus LegacyATOM;
     BidmadAdNetworkSingleStatus AdColony;
     BidmadAdNetworkSingleStatus AppLovin;
-    BidmadAdNetworkSingleStatus InMobi;
     BidmadAdNetworkSingleStatus IronSource;
     BidmadAdNetworkSingleStatus Vungle;
     BidmadAdNetworkSingleStatus UnityAds;
     BidmadAdNetworkSingleStatus NewATOM;
     BidmadAdNetworkSingleStatus AdFit;
     BidmadAdNetworkSingleStatus Fyber;
-    BidmadAdNetworkSingleStatus Tapjoy;
     BidmadAdNetworkSingleStatus Pangle;
 } BidmadAdNetworkStatus;
 

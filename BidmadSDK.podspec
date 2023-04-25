@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
   s.name         = "BidmadSDK"
-  s.version      = "6.1.0"
+  s.version      = "6.2.0"
   s.platform     = :ios, "11.0"
   s.summary      = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
   s.description  = "BidmadSDK allows users to communicate with Compass by ADOP. Our mediation platform optimizes for the utmost profit."
   s.homepage     = "https://bidmad.net"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Markus" => "markus@adop.cc" }
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'SDK.6.1.0' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'SDK.6.2.0' }
   s.resource_bundles = {
     'bidmad_asset' => ['Assets/*']
   }
@@ -21,14 +21,11 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "BidmadSDK.xcframework"
 
   s.dependency 'Google-Mobile-Ads-SDK', '9.14.0'
-  s.dependency 'ADOPUtility', '>=6.1.0', '<6.2.0'
+  s.dependency 'ADOPUtility', '>=6.2.0', '<6.3.0'
 
   # AdColony
   s.dependency 'GoogleMobileAdsMediationAdColony', '4.9.0.0'
   s.dependency 'AdColony', '4.9.0'
-  
-  # AdopPrebidSdk
-  s.dependency 'AdopPrebidSdk', '>=1.1', '<1.2.0'
   
   # AppLovin
   s.dependency 'GoogleMobileAdsMediationAppLovin', '11.4.2.0'
@@ -42,19 +39,12 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleMobileAdsMediationFyber', '8.1.6.0'
   s.dependency 'Fyber_Marketplace_SDK', '8.1.6'
   
-  # InMobi
-  s.dependency 'GoogleMobileAdsMediationInMobi', '10.1.0.0'
-  s.dependency 'InMobiSDK', '10.1.0'
-  
   # IronSource
   s.dependency 'GoogleMobileAdsMediationIronSource', '7.2.5.1.0'
   s.dependency 'IronSourceSDK','7.2.5.1'
   
   # Meta
   s.dependency 'GoogleMobileAdsMediationFacebook', '>=6.9.0.1', '<=6.12.0.1'
-  
-  # Tapjoy
-  s.dependency 'TapjoySDK', '>=12.9.0', '<=12.11.1'
   
   # UnityAds
   s.dependency 'GoogleMobileAdsMediationUnity', '4.4.1.0'

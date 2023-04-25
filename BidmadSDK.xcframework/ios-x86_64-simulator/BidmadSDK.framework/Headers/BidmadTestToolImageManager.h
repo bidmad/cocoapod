@@ -18,10 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIImage *)getADOPImage;
 + (UIImage *)getAppLovinImage;
 + (UIImage *)getFyberImage;
-+ (UIImage *)getInMobiImage;
 + (UIImage *)getIronSourceImage;
 + (UIImage *)getPangleImage;
-+ (UIImage *)getTapjoyImage;
 + (UIImage *)getUnityAdsImage;
 + (UIImage *)getVungleImage;
 + (UIImage *)getBackButtonImage;

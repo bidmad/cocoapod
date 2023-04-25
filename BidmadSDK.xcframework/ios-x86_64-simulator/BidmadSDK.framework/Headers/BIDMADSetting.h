@@ -27,15 +27,12 @@
 #define MOPUB                   @"3419a3a1-4bc1-11ea-a87c-02c31b446301"
 #define IRONSOURCE              @"defa83bc-d2e0-11ea-8e02-021baddf8c08"
 #define ADFIT                   @"5e0ce4ec-57ec-4dbd-9703-dc330d027c40"
-#define TAPJOY                  @"6c470ac8-6069-11eb-8e02-021baddf8c08"
 #define PANGLE                  @"640ab9f2-d8b8-11eb-8e02-021baddf8c08"
 #define ADMOB_OB                @"e2678be7-2fbf-11ec-8e02-021baddf8c08"
 #define NEW_ATOM                @"ee5efa3b-6dd9-11ec-8e02-021baddf8c08"
 #define FYBER                   @"b0745bea-6069-11eb-8e02-021baddf8c08"
 #define APPLOVIN_MAX            @"31534d43-944a-11ec-8e02-021baddf8c08"
-#define INMOBI                  @"f32a2be4-476b-4ddb-85dc-27e98e81e111"
 #define VUNGLE                  @"1e1947d2-eff2-11e9-9e1d-02c31b446301"
-#define PREBID                  @"f797ee95-1172-11ed-a117-026864a21938"
 #define PUBMATIC                @"ec4a2c71-58c8-11ed-a117-026864a21938"
 #define MOBON                   @"259737b6-b23d-11e7-8214-02c31b446301"
 #define TEADS                   @"56ad4c2b-c956-11ed-b4f4-026864a21938"
@@ -64,8 +61,30 @@ extern NSString* _Nonnull const BIDMAD_CCPA_CONSENT;
 - (void)setAdvertiserTrackingEnabled:(BOOL)enable;
 - (BOOL)getAdvertiserTrackingEnabled;
 - (void)reqAdTrackingAuthorizationWithCompletionHandler:(void (^_Nonnull)(BidmadTrackingAuthorizationStatus))completeHandler;
+
+/**
+Initializes our SDK with the app key fetched from Info.plist using the key "BidmadAppKey".
+*/
 - (void)initializeSdk;
+
+/**
+Initializes BidmadSDK with the app key fetched from Info.plist using the key "BidmadAppKey" and calls the completion handler with a BOOL parameter indicating whether the initialization succeeded or failed.
+@param completionHandler The completion handler to call once initialization is complete. This block takes a BOOL parameter indicating whether initialization succeeded (YES) or failed (NO).
+*/
+- (void)initializeSdkWithCompletionHandler:(void (^_Nullable)(BOOL))completionHandler;
+
+/**
+Initializes BidmadSDK with the provided app key.
+@param appKey The app key to use for SDK initialization.
+*/
 - (void)initializeSdkWithKey:(NSString * _Nonnull)appKey;
+
+/**
+Initializes BidmadSDK with the provided app key and calls the completion handler with a BOOL parameter indicating whether the initialization succeeded or failed.
+@param appKey The app key to use for SDK initialization.
+@param completionHandler The completion handler to call once initialization is complete. This block takes a BOOL parameter indicating whether initialization succeeded (YES) or failed (NO).
+*/
+- (void)initializeSdkWithKey:(NSString * _Nonnull)appKey completionHandler:(void (^_Nullable)(BOOL))completionHandler;
 
 /// If your app is directed to kids under the age of 13, please set YES or true.
 - (void)setIsChildDirectedAds: (BOOL)isChildDirectedAdsNeeded;

@@ -307,7 +307,7 @@
 		</data>
 		<key>Headers/BIDMADSetting.h</key>
 		<data>
-		G9xeuA+EEIQHQ8G6MN4NxCwKJPE=
+		Hn/tgLl8LscGJInHNxAygi5GgPk=
 		</data>
 		<key>Headers/BIDMADUtil.h</key>
 		<data>
@@ -421,18 +421,6 @@
 		<data>
 		k8hWo9+0tv8VgzBhEhsx+gvlPy0=
 		</data>
-		<key>Headers/BidmadInMobiBanner.h</key>
-		<data>
-		WS4GPF2CkhS3h9Bec3T/8CKdaNc=
-		</data>
-		<key>Headers/BidmadInMobiInterface.h</key>
-		<data>
-		bquUMwXyKg2kS+ADvJdrWwnKpHw=
-		</data>
-		<key>Headers/BidmadInMobiInterstitial.h</key>
-		<data>
-		Yh9AL9lPxzB027l5E6g/7SB5SEw=
-		</data>
 		<key>Headers/BidmadInitialize.h</key>
 		<data>
 		4qQL+l0ZluseyoN53XCbK5CZDRw=
@@ -501,18 +489,6 @@
 		<data>
 		gpoOw7Q95S09nc5ayRIV9CQmRKI=
 		</data>
-		<key>Headers/BidmadPrebidBanner.h</key>
-		<data>
-		8HZ/M/nyrtuY+2Gqo2vcD65SxBs=
-		</data>
-		<key>Headers/BidmadPrebidInterstitial.h</key>
-		<data>
-		HebF6Zwf1dwLeyq7vhbqDfCIL9g=
-		</data>
-		<key>Headers/BidmadPrebidReward.h</key>
-		<data>
-		ue/7vvhxfkBRaMfoNvga3Z//+50=
-		</data>
 		<key>Headers/BidmadPublisherZoneIDPriorityList.h</key>
 		<data>
 		Ajb6vjQtsncHczfOqWHPtXc0E/k=
@@ -535,11 +511,7 @@
 		</data>
 		<key>Headers/BidmadSDK.h</key>
 		<data>
-		Q7YjOTxg83aHXcUGdUZzHhUinXE=
-		</data>
-		<key>Headers/BidmadTapjoyInterstitial.h</key>
-		<data>
-		MTeNf/NpbuzgsUraT/nSHcQ7h5Y=
+		Ibi3pCB33OZXDaPCqmtmWEMHq8o=
 		</data>
 		<key>Headers/BidmadTestAdType.h</key>
 		<data>
@@ -551,7 +523,7 @@
 		</data>
 		<key>Headers/BidmadTestTool.h</key>
 		<data>
-		jgzKEp0clOwjTzJA/6t1TtZy7b8=
+		Zq3r/2uhrQJL05vCQ/odI9bj/xM=
 		</data>
 		<key>Headers/BidmadTestToolFloatingButton.h</key>
 		<data>
@@ -559,7 +531,7 @@
 		</data>
 		<key>Headers/BidmadTestToolImageManager.h</key>
 		<data>
-		KZc/P+RlI2ZTclb6JdXBewlHSto=
+		b6ubDiQ2LHmaVgoCUwZsIrEa3Yg=
 		</data>
 		<key>Headers/BidmadUnityAdsBanner.h</key>
 		<data>
@@ -711,7 +683,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SvwRPYy1ExTUnCdmDd/loWZmTJE=
+		qk/2igtl3kOxykY/iDumt6C581s=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -1659,11 +1631,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G9xeuA+EEIQHQ8G6MN4NxCwKJPE=
+			Hn/tgLl8LscGJInHNxAygi5GgPk=
 			</data>
 			<key>hash2</key>
 			<data>
-			qUY/RVYelVmlcnqj24/gXvo9ZSuwq+0k/P0JV07MeGA=
+			3nhMBDWPpWC6cEAwCMuWdgTY6Jl3WoKXYMaDJc+gYWU=
 			</data>
 		</dict>
 		<key>Headers/BIDMADUtil.h</key>
@@ -1974,39 +1946,6 @@
 			TNM201/Wf/QQujwYkSZ0oLOE/5P4ANl4mpX9dzLbmMo=
 			</data>
 		</dict>
-		<key>Headers/BidmadInMobiBanner.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WS4GPF2CkhS3h9Bec3T/8CKdaNc=
-			</data>
-			<key>hash2</key>
-			<data>
-			VdZziHgVxp91EUv6HP6ZdJyoHfTbdr3RxfEBIAqQiV8=
-			</data>
-		</dict>
-		<key>Headers/BidmadInMobiInterface.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bquUMwXyKg2kS+ADvJdrWwnKpHw=
-			</data>
-			<key>hash2</key>
-			<data>
-			ONgA1H5Ngk1YO4wscHXyzcTbOdGD9peXC294l1zzdWE=
-			</data>
-		</dict>
-		<key>Headers/BidmadInMobiInterstitial.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Yh9AL9lPxzB027l5E6g/7SB5SEw=
-			</data>
-			<key>hash2</key>
-			<data>
-			Mq4PuAAjcNrx19YxfgWI2iEtkXLOHO8rDfw4XpgX6bY=
-			</data>
-		</dict>
 		<key>Headers/BidmadInitialize.h</key>
 		<dict>
 			<key>hash</key>
@@ -2194,39 +2133,6 @@
 			kM2TyBIW8SfLRmiAMzMDau7xKqDHHmIV9uxQLoiw69o=
 			</data>
 		</dict>
-		<key>Headers/BidmadPrebidBanner.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8HZ/M/nyrtuY+2Gqo2vcD65SxBs=
-			</data>
-			<key>hash2</key>
-			<data>
-			xSE60Q75qx0XbXM/lC9B8q+ptqim6UmQOkLk7S0Pt6Y=
-			</data>
-		</dict>
-		<key>Headers/BidmadPrebidInterstitial.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HebF6Zwf1dwLeyq7vhbqDfCIL9g=
-			</data>
-			<key>hash2</key>
-			<data>
-			5hLf58VB2kS4pxvuTWBw0nuaMvcsv4HJomBJFL4PiEU=
-			</data>
-		</dict>
-		<key>Headers/BidmadPrebidReward.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ue/7vvhxfkBRaMfoNvga3Z//+50=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ai0G+HvW7tvKTPQaYoriMGFNgTSqkfj78r3xB9oKzBw=
-			</data>
-		</dict>
 		<key>Headers/BidmadPublisherZoneIDPriorityList.h</key>
 		<dict>
 			<key>hash</key>
@@ -2286,22 +2192,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q7YjOTxg83aHXcUGdUZzHhUinXE=
+			Ibi3pCB33OZXDaPCqmtmWEMHq8o=
 			</data>
 			<key>hash2</key>
 			<data>
-			InkYmSzkav+930bc0zmqIuk9q72mpIMZA/rYnyFtMRo=
-			</data>
-		</dict>
-		<key>Headers/BidmadTapjoyInterstitial.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MTeNf/NpbuzgsUraT/nSHcQ7h5Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			OwvbkBPiodYesIbiQWt7AN5DH7m6ZuVSxOP6CK5yTLU=
+			AltEQ6e1R+vMf0wJtoeMdElHoRiYuNJDvFkGA0TLkzo=
 			</data>
 		</dict>
 		<key>Headers/BidmadTestAdType.h</key>
@@ -2330,11 +2225,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jgzKEp0clOwjTzJA/6t1TtZy7b8=
+			Zq3r/2uhrQJL05vCQ/odI9bj/xM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ay7w/H3nXRVkjT+4+wx3LLA8qrwCjAmqmJPNmwxLYCU=
+			GFC3Gg/hTK1iXj2WCwS2nxmyHZAb4Ezh5L1miQSmdMc=
 			</data>
 		</dict>
 		<key>Headers/BidmadTestToolFloatingButton.h</key>
@@ -2352,11 +2247,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KZc/P+RlI2ZTclb6JdXBewlHSto=
+			b6ubDiQ2LHmaVgoCUwZsIrEa3Yg=
 			</data>
 			<key>hash2</key>
 			<data>
-			vDyo8vHbZUYcmOwT3VOd0D4gstgRFdPKxgTfyySoAZk=
+			Xf3BoHDWdeMwA1AozSmt4Y3t6NjblREzJcyjpGT8sCE=
 			</data>
 		</dict>
 		<key>Headers/BidmadUnityAdsBanner.h</key>
