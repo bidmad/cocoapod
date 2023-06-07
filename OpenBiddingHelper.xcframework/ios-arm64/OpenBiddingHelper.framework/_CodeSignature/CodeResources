@@ -301,9 +301,13 @@
 		<data>
 		LjwI7/STpSFoZGX60qA1IiV0Mb4=
 		</data>
+		<key>Headers/OpenBiddingFlutterBannerRefined.h</key>
+		<data>
+		BAtdN4dMDqUKsHeWg0KflZcjrb8=
+		</data>
 		<key>Headers/OpenBiddingFlutterCommon.h</key>
 		<data>
-		+2lA8U7FkHJuqT4D/+Ie5KfCRgA=
+		pEKGi3TlH3Cg64WiJ8Tg5FySLxI=
 		</data>
 		<key>Headers/OpenBiddingFlutterGDPRforGoogle.h</key>
 		<data>
@@ -323,7 +327,7 @@
 		</data>
 		<key>Headers/OpenBiddingHelper.h</key>
 		<data>
-		hy+pOw3z3PZz7kXoHFAqdqiRUG0=
+		ukMQWaUKfTruMEPlONYKDrnLLWg=
 		</data>
 		<key>Headers/OpenBiddingInterstitial.h</key>
 		<data>
@@ -439,7 +443,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OzMSlrsI4I1YlXSyihMrEMQtaHs=
+		m5HYZZID78DVsNRuNTJtEW2+GWU=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -1372,15 +1376,26 @@
 			seX3ZCMVzGLtM+kSlww3e3Vz0j9NdHzCMA/549FSQzw=
 			</data>
 		</dict>
+		<key>Headers/OpenBiddingFlutterBannerRefined.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BAtdN4dMDqUKsHeWg0KflZcjrb8=
+			</data>
+			<key>hash2</key>
+			<data>
+			chxaaperP+Bp8y9ZukzMjGeJlgGSu4WHvJv1KjIlLJw=
+			</data>
+		</dict>
 		<key>Headers/OpenBiddingFlutterCommon.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+2lA8U7FkHJuqT4D/+Ie5KfCRgA=
+			pEKGi3TlH3Cg64WiJ8Tg5FySLxI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tR3p24uMTRU+n0dlYFK52St3aWXje+68vWNHDgbYtK4=
+			GMfxltOTc8vjRajss5OicmSBWm8TYDhNv2Evg1/hN7Q=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingFlutterGDPRforGoogle.h</key>
@@ -1431,11 +1446,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hy+pOw3z3PZz7kXoHFAqdqiRUG0=
+			ukMQWaUKfTruMEPlONYKDrnLLWg=
 			</data>
 			<key>hash2</key>
 			<data>
-			mx9A5GZJp6rRNcxG9h8XotJzb18uIjRICXOhN1Pe5nw=
+			yCjk8A8ILtxmSM+9Jj9IKIQCHlxHen2W/way12g/qp4=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingInterstitial.h</key>

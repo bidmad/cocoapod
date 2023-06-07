@@ -275,7 +275,7 @@
 		</data>
 		<key>Headers/BIDMADNativeAdView.h</key>
 		<data>
-		gr4+H6i6htTXIA/p6Qgmg9sWs0k=
+		zuJ1HeUyfTRyyORpRderkpR7n9M=
 		</data>
 		<key>Headers/BIDMADNativeAdViewContainer.h</key>
 		<data>
@@ -283,7 +283,7 @@
 		</data>
 		<key>Headers/BIDMADNativeAdViewData.h</key>
 		<data>
-		r1vNa2DZx9/OpkWKZLQiyaVsqas=
+		9ndl5C1t8Pjy1CyNcwgfffBlG0M=
 		</data>
 		<key>Headers/BIDMADPangleBanner.h</key>
 		<data>
@@ -511,7 +511,7 @@
 		</data>
 		<key>Headers/BidmadSDK.h</key>
 		<data>
-		Ibi3pCB33OZXDaPCqmtmWEMHq8o=
+		QdKcPZmZv91T47eOh1goESPqgF0=
 		</data>
 		<key>Headers/BidmadTestAdType.h</key>
 		<data>
@@ -560,6 +560,14 @@
 		<key>Headers/BidmadVungleInterstitial.h</key>
 		<data>
 		zhLLyiwYFFLFmN3qD1L9+9zRgwI=
+		</data>
+		<key>Headers/BidmadVungleNativeAd.h</key>
+		<data>
+		/5k2pzrizYiVpebDKadDoShaeec=
+		</data>
+		<key>Headers/BidmadVungleNativeAdView.h</key>
+		<data>
+		sDit4der8nXQqTV5mPVlYt9ZWsM=
 		</data>
 		<key>Headers/Cocos2dxCommon.h</key>
 		<data>
@@ -683,7 +691,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qk/2igtl3kOxykY/iDumt6C581s=
+		jhv5bIJCwps5zbWLNo7LLxM8UEc=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -1543,11 +1551,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gr4+H6i6htTXIA/p6Qgmg9sWs0k=
+			zuJ1HeUyfTRyyORpRderkpR7n9M=
 			</data>
 			<key>hash2</key>
 			<data>
-			DJSOxeQ/LCMz/GxZRTwPD79TLulosHqlRMWZ2lqpMAI=
+			9KVB8ViwzIl2j7JSrj4GQH9fi6SwyjCgN6jdnY1ajbE=
 			</data>
 		</dict>
 		<key>Headers/BIDMADNativeAdViewContainer.h</key>
@@ -1565,11 +1573,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r1vNa2DZx9/OpkWKZLQiyaVsqas=
+			9ndl5C1t8Pjy1CyNcwgfffBlG0M=
 			</data>
 			<key>hash2</key>
 			<data>
-			J5k1N5T6HLqWa9PSGxvbbDtbuk5PKLbEwq5k9OxIzQ4=
+			YqZ6V6QHpHKksOvpz+X58DLLbgMN5th3bQizhK5I/O0=
 			</data>
 		</dict>
 		<key>Headers/BIDMADPangleBanner.h</key>
@@ -2192,11 +2200,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ibi3pCB33OZXDaPCqmtmWEMHq8o=
+			QdKcPZmZv91T47eOh1goESPqgF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			AltEQ6e1R+vMf0wJtoeMdElHoRiYuNJDvFkGA0TLkzo=
+			E4eVM4my8bmUNfxJO5i2484xvqIsTX9WkDxyCqeYMEo=
 			</data>
 		</dict>
 		<key>Headers/BidmadTestAdType.h</key>
@@ -2329,6 +2337,28 @@
 			<key>hash2</key>
 			<data>
 			r8WV01fH9UcXrYv9h8I+mcXw8HummFb5oyCXdWO9SqM=
+			</data>
+		</dict>
+		<key>Headers/BidmadVungleNativeAd.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/5k2pzrizYiVpebDKadDoShaeec=
+			</data>
+			<key>hash2</key>
+			<data>
+			4ufAcSbFhTx4TaEW/+hBvypJZn3L3kbSZRtnWrntOGQ=
+			</data>
+		</dict>
+		<key>Headers/BidmadVungleNativeAdView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sDit4der8nXQqTV5mPVlYt9ZWsM=
+			</data>
+			<key>hash2</key>
+			<data>
+			kggT3G9E/EhkzNE6ODWIoIssIvIiNF7x5/hOv6SUSTs=
 			</data>
 		</dict>
 		<key>Headers/Cocos2dxCommon.h</key>

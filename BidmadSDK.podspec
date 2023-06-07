@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BidmadSDK"
-  s.version      = "6.2.0"
+  s.version      = "6.2.1"
   s.platform     = :ios, "11.0"
   s.summary      = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
   s.description  = "BidmadSDK allows users to communicate with Compass by ADOP. Our mediation platform optimizes for the utmost profit."
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "BidmadSDK.xcframework"
 
   s.dependency 'Google-Mobile-Ads-SDK', '9.14.0'
-  s.dependency 'ADOPUtility', '>=6.2.0', '<6.3.0'
+  s.dependency 'ADOPUtility', '>=6.2.1', '<6.3.0'
 
   # AdColony
   s.dependency 'GoogleMobileAdsMediationAdColony', '4.9.0.0'

@@ -33,6 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) id _Nullable nativeRelatedViewForPangle;
 
 - (void)setupForAdNetwork:(BidmadNativeAdSupportedAdNetwork)supportedAdNetwork;
+- (void)setupForAdNetwork:(BidmadNativeAdSupportedAdNetwork)supportedAdNetwork stashedMediaView:(UIView * _Nullable)stashedMediaView;
 
 @end
 

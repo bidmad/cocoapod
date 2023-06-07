@@ -46,3 +46,4 @@ FOUNDATION_EXPORT const unsigned char OpenBiddingHelperVersionString[];
 #import "BidmadNativeAd.h"
 #import "OpenBiddingFlutterNativeAdViewFactory.h"
 #import "BidmadBannerManager.h"
+#import "OpenBiddingFlutterBannerRefined.h"

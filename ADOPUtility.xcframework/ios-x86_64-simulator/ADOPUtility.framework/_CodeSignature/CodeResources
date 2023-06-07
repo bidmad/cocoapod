@@ -66,11 +66,11 @@
 		</data>
 		<key>Headers/BidmadNativeAdDataInterface.h</key>
 		<data>
-		mMbpnYe52VJlHDTX/lgsCgP+qME=
+		0ByUJ3BuXMdfR2GDdXxvq2hasq0=
 		</data>
 		<key>Headers/BidmadNativeAdSupportedAdNetwork.h</key>
 		<data>
-		Cc9PVBcfZN6vZQmj27ZjnWstT7Q=
+		8av4ESgPL0O8UKqnvlnQbMdUjjM=
 		</data>
 		<key>Headers/BidmadNativeAdViewContainerProtocol.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JEKsoK+ePIIg3mN3qJz73fmzF1I=
+		rrVV4YRcDISs7Na+mLsvfeZxpMU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -208,14 +208,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T3TjYNomKU8BeEWu8KU/0cp/4Zm/HOiAo7bz1H96KtI=
+			FLQVzgD56oImmblk/3/Yp1NOMSe1nxmmPiZ5NB9BpIs=
 			</data>
 		</dict>
 		<key>Headers/BidmadNativeAdSupportedAdNetwork.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HszXgevWnOnwsGucAaV6eWnF3cqa1B+anU0ON32NOPI=
+			ESFZq5P0q9FfmRw7w7y+5MEnLE/AdtQOimEDQBxsTY0=
 			</data>
 		</dict>
 		<key>Headers/BidmadNativeAdViewContainerProtocol.h</key>

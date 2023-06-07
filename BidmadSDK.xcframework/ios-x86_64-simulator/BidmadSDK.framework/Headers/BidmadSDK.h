@@ -108,3 +108,5 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import "BidmadMediationTestData.h"
 #import "BidmadMediationTestMediationInfoTableView.h"
 #import "BidmadTestNativeAdView.h"
+#import "BidmadVungleNativeAd.h"
+#import "BidmadVungleNativeAdView.h"
