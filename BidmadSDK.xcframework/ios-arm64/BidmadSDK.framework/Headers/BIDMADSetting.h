@@ -36,6 +36,7 @@
 #define PUBMATIC                @"ec4a2c71-58c8-11ed-a117-026864a21938"
 #define MOBON                   @"259737b6-b23d-11e7-8214-02c31b446301"
 #define TEADS                   @"56ad4c2b-c956-11ed-b4f4-026864a21938"
+#define ADOP_COUPANG            @"d34710de-0e82-11ee-bb90-026864a21938"
 
 #define COMPASS_SERVING         @"https://bidmad.adop.cc/serving/ms3.php"
 #define BIDMAD_APPINFO_URL      @"https://appinfo.adop.cc/app_collect.php"

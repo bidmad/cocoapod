@@ -283,7 +283,7 @@
 		</data>
 		<key>Headers/BIDMADNativeAdViewData.h</key>
 		<data>
-		9ndl5C1t8Pjy1CyNcwgfffBlG0M=
+		qDHNdZ8UCJGoHWL4zg5DBat/WJ8=
 		</data>
 		<key>Headers/BIDMADPangleBanner.h</key>
 		<data>
@@ -307,7 +307,7 @@
 		</data>
 		<key>Headers/BIDMADSetting.h</key>
 		<data>
-		Hn/tgLl8LscGJInHNxAygi5GgPk=
+		YgGX/1T2rPDs/3eNylzMveAUFqY=
 		</data>
 		<key>Headers/BIDMADUtil.h</key>
 		<data>
@@ -691,7 +691,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8XUMZcMWS71rs8ljZ7H/sipG+P8=
+		smvK1VV1I+rlrdh5vOnJq/vrWIE=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -1573,11 +1573,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9ndl5C1t8Pjy1CyNcwgfffBlG0M=
+			qDHNdZ8UCJGoHWL4zg5DBat/WJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			YqZ6V6QHpHKksOvpz+X58DLLbgMN5th3bQizhK5I/O0=
+			VJQQaAnoRR8hHDNq8qVw2K0BvYt3etCl7gNM/TYklyI=
 			</data>
 		</dict>
 		<key>Headers/BIDMADPangleBanner.h</key>
@@ -1639,11 +1639,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Hn/tgLl8LscGJInHNxAygi5GgPk=
+			YgGX/1T2rPDs/3eNylzMveAUFqY=
 			</data>
 			<key>hash2</key>
 			<data>
-			3nhMBDWPpWC6cEAwCMuWdgTY6Jl3WoKXYMaDJc+gYWU=
+			+iYVy/6nOpFJPAqh+cWSg+/lSOlv6jE9lNkypM0e26A=
 			</data>
 		</dict>
 		<key>Headers/BIDMADUtil.h</key>

@@ -213,6 +213,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/BidmadAdFreeInformation.h</key>
+		<data>
+		fDVN8W/IPZQAa2zF8OSxFoAsJA0=
+		</data>
 		<key>Headers/BidmadAdStandardBanner.h</key>
 		<data>
 		BPA3X8mAR7G4q5H7oE7yHBZ1UKw=
@@ -327,7 +331,7 @@
 		</data>
 		<key>Headers/OpenBiddingHelper.h</key>
 		<data>
-		ukMQWaUKfTruMEPlONYKDrnLLWg=
+		PBMlrTceHmUZvSj5DvvxjTSuI6o=
 		</data>
 		<key>Headers/OpenBiddingInterstitial.h</key>
 		<data>
@@ -443,7 +447,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		m5HYZZID78DVsNRuNTJtEW2+GWU=
+		VlfVvaY9iGf4uGUod6rHwJSXWP8=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -1134,6 +1138,17 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/BidmadAdFreeInformation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fDVN8W/IPZQAa2zF8OSxFoAsJA0=
+			</data>
+			<key>hash2</key>
+			<data>
+			8MuJWXFn84QarXgnn4eTNrd9bGQOyeiUr9H4mxNs79M=
+			</data>
+		</dict>
 		<key>Headers/BidmadAdStandardBanner.h</key>
 		<dict>
 			<key>hash</key>
@@ -1446,11 +1461,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ukMQWaUKfTruMEPlONYKDrnLLWg=
+			PBMlrTceHmUZvSj5DvvxjTSuI6o=
 			</data>
 			<key>hash2</key>
 			<data>
-			yCjk8A8ILtxmSM+9Jj9IKIQCHlxHen2W/way12g/qp4=
+			CYmqAdR2fx+BbHSOnsDqUcxmgOTrD26ZBrjuwdn87XY=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingInterstitial.h</key>

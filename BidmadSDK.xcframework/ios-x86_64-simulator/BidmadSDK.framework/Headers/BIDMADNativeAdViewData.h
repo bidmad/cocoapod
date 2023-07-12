@@ -26,6 +26,7 @@
 @property (nonatomic, strong) id _Nullable nativeAdPangle;
 @property (nonatomic, strong) id _Nullable nativeAdTeads;
 @property (nonatomic, strong) id _Nullable nativeAdVungle;
+@property (nonatomic, strong) NSDictionary * _Nullable nativeAdCoupang;
 
 #pragma mark FOR GOOGLE
 
