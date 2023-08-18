@@ -9,17 +9,14 @@
 #pragma clang diagnostic ignored "-Wobjc-property-no-attribute"
 
 #import <Foundation/Foundation.h>
-#import <BUAdSDK/BUAdSDK.h>
 #import <ADOPUtility/BidmadAdapterAdEssential.h>
-#import <ADOPUtility/BidmadAdapterEssential.h>
-#import <ADOPUtility/BidmadAdapterBannerAdditional.h>
 
 /**
  Pangle only supports 300x250(point) and 320x50(point).
  When the 320x100 ad requests come in, pass onBannerError with reason being "Unsupported Ad Banner Size"
  */
 
-@interface BIDMADPangleBanner : BidmadAdapterAdEssential<BUNativeExpressBannerViewDelegate, BidmadAdapterEssential, BidmadAdapterBannerAdditional>
+@interface BIDMADPangleBanner : BidmadAdapterAdEssential
 
 - (id __nonnull)initWithAppID:(NSString * _Nonnull)appID
                                 pubID:(NSString * _Nullable)pubID

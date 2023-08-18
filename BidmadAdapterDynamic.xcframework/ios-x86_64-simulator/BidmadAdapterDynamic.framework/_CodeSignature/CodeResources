@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/BidmadAdapterDynamic-Swift.h</key>
 		<data>
-		p2SgrSIDT+fQFacEc75T0SzhOV0=
+		+CKxWTOlPqpCrhP6uuysENvR78k=
 		</data>
 		<key>Headers/BidmadAdapterDynamic.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Dvs3jUu4o/BLwQoihqiD7lYdFIg=
+		i5U/oBCxZoKFmZbMStaIpc2JRAI=
 		</data>
 		<key>MobonSDKBundle.bundle/Assets.car</key>
 		<data>
@@ -112,33 +112,29 @@
 		<data>
 		/Aq2KpDCvb9gWy1RNe/g/1c7y/Y=
 		</data>
+		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		7qbgkuQo202KMZdAQiBCZXpJCWM=
+		</data>
+		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		Tagjus8Z4yUhXmY0IiM0YAIPgn4=
+		</data>
 		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wkIGPNANb1YV9VE1hI02GH8atyI=
+		NIn3TyAsbfOVws9DJ+E5zNjtdBQ=
 		</data>
 		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/t9IEWrR7lz97bUmV+8p5fAlv3Q=
+		Tagjus8Z4yUhXmY0IiM0YAIPgn4=
 		</data>
 		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		U2eKUn7x475xaZMPEyc98mkpk8Y=
-		</data>
-		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		wkIGPNANb1YV9VE1hI02GH8atyI=
-		</data>
-		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		/t9IEWrR7lz97bUmV+8p5fAlv3Q=
-		</data>
-		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		U2eKUn7x475xaZMPEyc98mkpk8Y=
+		1R28fHAXmqhjxzfBFdDD29P6Ab4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ThLkWmRBGzoI0crg/fsL6C2x9BA=
+		UAOwi7iKYvKIPGr7Is2nijvbfUA=
 		</data>
 		<key>closeIcon.png</key>
 		<data>
@@ -158,7 +154,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LEJ1qD/4zNk6JUdcKclV6cewQh7bd6l5CvXHCaFjXNE=
+			Z8EaKpr4bdWVmLn5ZiJpd8OSN36PO2bmtbSAIj/0tqY=
 			</data>
 		</dict>
 		<key>Headers/BidmadAdapterDynamic.h</key>
@@ -329,53 +325,46 @@
 			cn7zHQa+oakhPxadwrwRB8CkLMify3DgbjATvmnDrt8=
 			</data>
 		</dict>
+		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sbM2QoCwD3hvVykSQ0z1lq0uG0gYIsUIc8Es4YZC1PI=
+			</data>
+		</dict>
+		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8Rgfxyzl+kHs7Qbtzp8LY8GT3T7TuY5r8n6jHqoGk0M=
+			</data>
+		</dict>
 		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQLRDDHHl9SBuWNrjdoNDNy35lFenJpJSBNFt8B3TqU=
+			350AJvPD15R0MomEVxZJr96JhxeZ6EVyqnXoS3mQP9c=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UgSbUjtb0XZCMav0RzZeoMVWCBNx1dy96MgyoamzRmI=
+			8Rgfxyzl+kHs7Qbtzp8LY8GT3T7TuY5r8n6jHqoGk0M=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Zr8DTqmvhtAlEHt9vDOmutskbLAlubwNeqO+Tz5XWA=
-			</data>
-		</dict>
-		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jQLRDDHHl9SBuWNrjdoNDNy35lFenJpJSBNFt8B3TqU=
-			</data>
-		</dict>
-		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UgSbUjtb0XZCMav0RzZeoMVWCBNx1dy96MgyoamzRmI=
-			</data>
-		</dict>
-		<key>Modules/BidmadAdapterDynamic.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0Zr8DTqmvhtAlEHt9vDOmutskbLAlubwNeqO+Tz5XWA=
+			duh7Z9nZ8yiiybPVdZlj40n6ujwjQ9S99oSu4cNmlT8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WDjTeGOmMRrH/xFEkwMb/enclI7WFXq3At8PDwFqyFw=
+			4HydUpMSvb7ZS8yW6V6NjrVjND6QwAsnzvrxjDbYec4=
 			</data>
 		</dict>
 		<key>closeIcon.png</key>

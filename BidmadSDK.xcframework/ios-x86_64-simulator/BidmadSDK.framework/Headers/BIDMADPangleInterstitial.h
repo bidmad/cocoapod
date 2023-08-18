@@ -9,11 +9,9 @@
 #pragma clang diagnostic ignored "-Wobjc-property-no-attribute"
 
 #import <Foundation/Foundation.h>
-#import <BUAdSDK/BUAdSDK.h>
 #import <ADOPUtility/BidmadAdapterAdEssential.h>
-#import <ADOPUtility/BidmadAdapterEssential.h>
 
-@interface BIDMADPangleInterstitial : BidmadAdapterAdEssential<BUFullscreenVideoAdDelegate, BidmadAdapterEssential>
+@interface BIDMADPangleInterstitial : BidmadAdapterAdEssential
 
 - (id __nonnull)initWithAppID:(NSString * _Nonnull)appID
                         pubID:(NSString * _Nullable)pubID

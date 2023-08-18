@@ -110,3 +110,4 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import "BidmadTestNativeAdView.h"
 #import "BidmadVungleNativeAd.h"
 #import "BidmadVungleNativeAdView.h"
+#import "BidmadPangleThreadSafe.h"
