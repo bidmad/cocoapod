@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "BidmadSDK"
   s.version      = "6.3.1"
-  s.platform     = :ios, "11.0"
+  s.platform     = :ios, "12.0"
   s.summary      = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
   s.description  = "BidmadSDK allows users to communicate with Compass by ADOP. Our mediation platform optimizes for the utmost profit."
   s.homepage     = "https://bidmad.net"
@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'ForFlutter' do |forflutter|
-    forflutter.platform = :ios, "11.0"
+    forflutter.platform = :ios, "12.0"
     forflutter.vendored_frameworks = "BidmadSDK.xcframework"
     forflutter.resource_bundles = {
       'bidmad_asset' => ['Assets/*']
