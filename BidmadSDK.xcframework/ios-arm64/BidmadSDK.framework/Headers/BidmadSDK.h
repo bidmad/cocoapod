@@ -63,7 +63,6 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import "BidmadIronSourceBanner.h"
 #import "BidmadIronSourceInterstitial.h"
 #import "BidmadIronSourceReward.h"
-#import "BidmadUnityAdsConsentSetting.h"
 #import "BidmadUnityAdsBanner.h"
 #import "BidmadVungleInterstitial.h"
 #import "BidmadVungleBanner.h"

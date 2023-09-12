@@ -535,7 +535,7 @@
 		</data>
 		<key>Headers/BidmadSDK.h</key>
 		<data>
-		etRxajN1N6tq/SXG8jJ5po5CDzk=
+		5Upt7xY5en2KcxwLBwOqv5Y2kU8=
 		</data>
 		<key>Headers/BidmadTestAdType.h</key>
 		<data>
@@ -559,15 +559,11 @@
 		</data>
 		<key>Headers/BidmadUnityAdsBanner.h</key>
 		<data>
-		4qcVpi47V9lvmCUwJh6ZXZPD9Xc=
-		</data>
-		<key>Headers/BidmadUnityAdsConsentSetting.h</key>
-		<data>
-		vZaIhT4zdS19/3kfXd5iZo2+JK0=
+		w2XV3SZ7Q5VReeamE1AefT3GZgI=
 		</data>
 		<key>Headers/BidmadUnityAdsInterstitial.h</key>
 		<data>
-		JGg0BdtrkXsKHSFHupOX5TSVfwo=
+		51fankw5kuR/nvXXk0ob77Cx9ow=
 		</data>
 		<key>Headers/BidmadUtility.h</key>
 		<data>
@@ -623,7 +619,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rXZo2oK7mRk65brOvGh9b0Hb7ho=
+		kuAFki59Z7nP7wfVK4jFQ3sDtcQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2240,11 +2236,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			etRxajN1N6tq/SXG8jJ5po5CDzk=
+			5Upt7xY5en2KcxwLBwOqv5Y2kU8=
 			</data>
 			<key>hash2</key>
 			<data>
-			t3EStqnzkErs8KmZd1l0yYlr5LYes4uk2GlcktU8kZk=
+			avMvEq7cg6aGzqCSHJpFD4ABZBLsNazsNwANNsev/cY=
 			</data>
 		</dict>
 		<key>Headers/BidmadTestAdType.h</key>
@@ -2306,33 +2302,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4qcVpi47V9lvmCUwJh6ZXZPD9Xc=
+			w2XV3SZ7Q5VReeamE1AefT3GZgI=
 			</data>
 			<key>hash2</key>
 			<data>
-			/nGnaB1tEX/0R3cepMsJOGJzSTLHK9jbMq1abT1CUFo=
-			</data>
-		</dict>
-		<key>Headers/BidmadUnityAdsConsentSetting.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vZaIhT4zdS19/3kfXd5iZo2+JK0=
-			</data>
-			<key>hash2</key>
-			<data>
-			OpS23LVQxxLMB4nvHrwk7EMbg3GxBw5hgn5Gw/K8N8o=
+			7tz5cAXzT6moVPZRnuREV7EaDfjCX/oHQ5KzwT7+TQs=
 			</data>
 		</dict>
 		<key>Headers/BidmadUnityAdsInterstitial.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JGg0BdtrkXsKHSFHupOX5TSVfwo=
+			51fankw5kuR/nvXXk0ob77Cx9ow=
 			</data>
 			<key>hash2</key>
 			<data>
-			4GxtjNI1YCy2foEZVD5WApgBjyqbss/IE0jrgrrOKrI=
+			CVL7c0oNGVUjJKPGdbiDeQKebl1hrB2XZ1+3cJKbjkk=
 			</data>
 		</dict>
 		<key>Headers/BidmadUtility.h</key>
