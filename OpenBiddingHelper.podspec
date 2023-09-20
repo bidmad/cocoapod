@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "OpenBiddingHelper"
-  s.version      = "6.3.3"
+  s.version      = "6.3.4"
   s.platform     = :ios, "12.0"
   s.summary      = "OpenBiddingHelper is for Open Bidding Ads."
   s.description  = "OpenBiddingHelper is for Open Bidding Ads and is a wrapper provided by ADOP."
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.vendored_frameworks = "OpenBiddingHelper.xcframework"
 
-  s.dependency 'Google-Mobile-Ads-SDK', '10.8.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '10.7.0'
   s.dependency 'ADOPUtility', '>=6.3.1', '<6.4.0'
 
 end
