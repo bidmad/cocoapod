@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "BidmadAppLovinAdapter.xcframework"
 
   s.dependency 'AppLovinSDK', '11.11.3'
+  s.dependency 'GoogleMobileAdsMediationAppLovin', '11.11.3.0'
 
 end
