@@ -1,0 +1,6 @@
+framework module BidmadIronSourceAdapter {
+  umbrella header "BidmadIronSourceAdapter.h"
+  export *
+
+  module * { export * }
+}
