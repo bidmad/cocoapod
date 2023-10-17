@@ -1,0 +1,6 @@
+framework module BidmadGoogleAdMobAdapter {
+  umbrella header "BidmadGoogleAdMobAdapter.h"
+  export *
+
+  module * { export * }
+}
