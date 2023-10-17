@@ -16,5 +16,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'AppLovinSDK', '11.11.3'
   s.dependency 'GoogleMobileAdsMediationAppLovin', '11.11.3.0'
+  s.dependency 'ADOPUtility', '>=7.0.0', '<7.1.0'
 
 end

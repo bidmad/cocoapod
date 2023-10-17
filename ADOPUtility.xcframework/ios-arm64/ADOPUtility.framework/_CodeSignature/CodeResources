@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/ADOPObjCUtility.h</key>
 		<data>
-		j4AGBJn+fpeSc+DcW7Azo3W6cCA=
+		FTDxRRVJ+i6JElgEu9TzJUPZ1K8=
 		</data>
 		<key>Headers/ADOPUtility.h</key>
 		<data>
-		8Kx6uEsoU3pcDdQ7xwWbCl3lJhc=
+		RZznWbiSRQ60yvYPtAZBDyBKNVc=
 		</data>
 		<key>Headers/BIDMADNativeAdCommonInterface.h</key>
 		<data>
@@ -47,10 +47,6 @@
 		<key>Headers/BidmadConsentProtocol.h</key>
 		<data>
 		0LJ6XIazZZj9jwednKQ34G4iZLk=
-		</data>
-		<key>Headers/BidmadCoupangTouchdownGestureRecognizer.h</key>
-		<data>
-		6UyOYFGN/x+wl9BzqLuF17vwZGk=
 		</data>
 		<key>Headers/BidmadInnerCallback.h</key>
 		<data>
@@ -94,11 +90,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EgcesjS5KjeEPoqDdIWihV8a5hg=
+		YM2GSMHJmO5ZJ+Et32ngK9dWlek=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		mI5UtMoJFKpBy+TGSPcwCqv+S4s=
+		Du9iscwWhM5G9zd4us7osEYeZ5M=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -114,14 +110,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DV21v8qp6H26XU8h9CAKt+DA4Szdw1obmWDTPS9y2z4=
+			B2VA6QPaFbN5QTR0u/UIy5Ws2w8qGZeCmwySB9THO4I=
 			</data>
 		</dict>
 		<key>Headers/ADOPUtility.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			esYBFV0SdnOk4wzuLbkNG+fUacPjXGLIJnFycMapM4U=
+			cIMwWZk/zKexn8qNkNrnNU7NAhCEnSDXiqThc/Bta20=
 			</data>
 		</dict>
 		<key>Headers/BIDMADNativeAdCommonInterface.h</key>
@@ -178,13 +174,6 @@
 			<key>hash2</key>
 			<data>
 			jh9zTQvIztOXi2f/v3ReFC81Fu0OYL1IFShszewbLks=
-			</data>
-		</dict>
-		<key>Headers/BidmadCoupangTouchdownGestureRecognizer.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AfNkbYISbIiEXxadGB6RODj5RPG4dw4Ox/8c9/m3M64=
 			</data>
 		</dict>
 		<key>Headers/BidmadInnerCallback.h</key>
@@ -261,7 +250,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kEIX+6hxvn1dr/UW0O1rHnOIQePak91QtUtGnP/knCw=
+			uQIYeLoDN8gMDY6lBfz7XUzkXoyJYaFmIfyBZ4FLddQ=
 			</data>
 		</dict>
 	</dict>

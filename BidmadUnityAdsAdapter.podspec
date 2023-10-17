@@ -16,5 +16,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'UnityAds', '4.8.0'
   s.dependency 'GoogleMobileAdsMediationUnity', '4.8.0.0'
+  s.dependency 'ADOPUtility', '>=7.0.0', '<7.1.0'
 
 end
