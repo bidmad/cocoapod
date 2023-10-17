@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.requires_arc     = true
   s.vendored_frameworks = "BidmadAppLovinAdapter.xcframework"
+  s.swift_version = '5.0'
 
   s.dependency 'AppLovinSDK', '11.11.3'
   s.dependency 'GoogleMobileAdsMediationAppLovin', '11.11.3.0'

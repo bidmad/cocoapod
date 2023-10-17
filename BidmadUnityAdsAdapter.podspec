@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.requires_arc     = true
   s.vendored_frameworks = "BidmadUnityAdsAdapter.xcframework"
+  s.swift_version = '5.0'
 
   s.dependency 'UnityAds', '4.8.0'
   s.dependency 'GoogleMobileAdsMediationUnity', '4.8.0.0'

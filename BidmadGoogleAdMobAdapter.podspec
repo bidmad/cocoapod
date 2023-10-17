@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.requires_arc     = true
   s.vendored_frameworks = "BidmadGoogleAdMobAdapter.xcframework"
+  s.swift_version = '5.0'
 
   s.dependency 'Google-Mobile-Ads-SDK', '10.12.0'
 
