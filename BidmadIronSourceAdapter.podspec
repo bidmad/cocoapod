@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version          = "7.5.0.0.0"
   s.platform         = :ios, "12.0"
   s.summary          = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
-  s.description      = "BidmadSDK Mediation Adapter for AppLovin"
+  s.description      = "BidmadSDK Mediation Adapter for IronSource"
   s.homepage         = "https://bidmad.net"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Markus" => "markus@adop.cc" }
