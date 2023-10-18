@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "BidmadAdColonyAdapter.xcframework"
   s.swift_version = '5.0'
 
-  pod 'AdColony', '4.9.0'
-  pod 'GoogleMobileAdsMediationAdColony', '4.9.0.2'
+  s.dependency 'AdColony', '4.9.0'
+  s.dependency 'GoogleMobileAdsMediationAdColony', '4.9.0.2'
   s.dependency 'ADOPUtility', '>=7.0.0', '<7.1.0'
 
 end
