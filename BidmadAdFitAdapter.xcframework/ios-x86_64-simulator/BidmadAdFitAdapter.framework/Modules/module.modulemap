@@ -1,6 +1,6 @@
 framework module BidmadAdFitAdapter {
   umbrella header "BidmadAdFitAdapter.h"
-  export *
 
+  export *
   module * { export * }
 }

@@ -1,6 +1,6 @@
 framework module BidmadUnityAdsAdapter {
   umbrella header "BidmadUnityAdsAdapter.h"
-  export *
 
+  export *
   module * { export * }
 }

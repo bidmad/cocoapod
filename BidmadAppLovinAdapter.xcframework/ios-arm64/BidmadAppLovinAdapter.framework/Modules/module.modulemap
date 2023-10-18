@@ -1,6 +1,6 @@
 framework module BidmadAppLovinAdapter {
   umbrella header "BidmadAppLovinAdapter.h"
-  export *
 
+  export *
   module * { export * }
 }

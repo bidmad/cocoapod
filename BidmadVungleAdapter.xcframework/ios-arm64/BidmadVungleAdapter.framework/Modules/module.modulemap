@@ -1,6 +1,6 @@
 framework module BidmadVungleAdapter {
   umbrella header "BidmadVungleAdapter.h"
-  export *
 
+  export *
   module * { export * }
 }

@@ -1,6 +1,6 @@
 framework module BidmadADOPCoupangAdapter {
   umbrella header "BidmadADOPCoupangAdapter.h"
-  export *
 
+  export *
   module * { export * }
 }
