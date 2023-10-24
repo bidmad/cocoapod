@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'Ads-Global', '5.3.1.0'
   s.dependency 'GoogleMobileAdsMediationPangle', '5.3.1.0.0'
-  s.dependency 'ADOPUtility', '>=7.0.0', '<7.1.0'
+  s.dependency 'ADOPUtility', '>=6.4.0', '<6.5.0'
 
 end

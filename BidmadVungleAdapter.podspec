@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'VungleAds', '7.1.0'
   s.dependency 'GoogleMobileAdsMediationVungle', '7.1.0.0'
-  s.dependency 'ADOPUtility', '>=7.0.0', '<7.1.0'
+  s.dependency 'ADOPUtility', '>=6.4.0', '<6.5.0'
 
 end

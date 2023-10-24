@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.dependency 'AdColony', '4.9.0'
-  s.dependency 'GoogleMobileAdsMediationAdColony', '4.9.0.2'
-  s.dependency 'ADOPUtility', '>=7.0.0', '<7.1.0'
+  s.dependency 'ADOPUtility', '>=6.4.0', '<6.5.0'
 
 end

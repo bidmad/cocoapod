@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'IronSourceSDK', '7.5.0.0'
   s.dependency 'GoogleMobileAdsMediationIronSource', '7.5.0.0.0'
-  s.dependency 'ADOPUtility', '>=7.0.0', '<7.1.0'
+  s.dependency 'ADOPUtility', '>=6.4.0', '<6.5.0'
 
 end

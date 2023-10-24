@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'Fyber_Marketplace_SDK', '8.2.4'
   s.dependency 'GoogleMobileAdsMediationFyber', '8.2.4.0'
-  s.dependency 'ADOPUtility', '>=7.0.0', '<7.1.0'
+  s.dependency 'ADOPUtility', '>=6.4.0', '<6.5.0'
 
 end
