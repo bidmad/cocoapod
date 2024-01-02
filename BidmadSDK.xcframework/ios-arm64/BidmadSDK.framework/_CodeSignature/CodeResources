@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/BIDMADGDPRforGoogle.h</key>
 		<data>
-		gNsK56xta0z7IRe6mITMfkZPxh8=
+		PDecT49K1X/zCWZ8FdSR6NkkdnM=
 		</data>
 		<key>Headers/BIDMADInterstitial.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/BIDMADNativeAdView.h</key>
 		<data>
-		/3Muam8Ft4RXx5LrM+ibfKF8dwU=
+		aVD8QWPZS88jRtg6JsJx/KfQBSo=
 		</data>
 		<key>Headers/BIDMADNativeAdViewContainer.h</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fGMu7nAhGBB8zKnaVz+XpjrQN3k=
+		UW9OkOBZiPjhFutrayracPMKSds=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gNsK56xta0z7IRe6mITMfkZPxh8=
+			PDecT49K1X/zCWZ8FdSR6NkkdnM=
 			</data>
 			<key>hash2</key>
 			<data>
-			rWPqzagTAJ0Bb/DliRWw8ypos6AFS9YWHo9TrVFXqLg=
+			8DsdgfXRji+DsrDog8nuaqXcW8HirRzZswUFykntYW8=
 			</data>
 		</dict>
 		<key>Headers/BIDMADInterstitial.h</key>
@@ -221,11 +221,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/3Muam8Ft4RXx5LrM+ibfKF8dwU=
+			aVD8QWPZS88jRtg6JsJx/KfQBSo=
 			</data>
 			<key>hash2</key>
 			<data>
-			7ONFkDjy/HRe4PCjhRfvvBAfDvDnNbv8cLcEMQ9LB5E=
+			MMRNT3N3X3j9i0g/YDgHBF52tLUeNH/LmdGRfUKURnc=
 			</data>
 		</dict>
 		<key>Headers/BIDMADNativeAdViewContainer.h</key>
