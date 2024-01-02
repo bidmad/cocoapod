@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.vendored_frameworks = "BidmadSDK.xcframework"
 
+  s.dependency 'GoogleUserMessagingPlatform', '2.1.0'
   s.dependency 'ADOPUtility', '>=6.5.0', '<6.6.0'
   
   s.subspec 'ForNative' do |forNative|
