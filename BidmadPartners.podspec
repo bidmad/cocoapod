@@ -10,55 +10,54 @@ Pod::Spec.new do |s|
   s.author        = { "Markus" => "markus@adop.cc" }
   s.source        = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'PARTNER.1.0.0' }
   s.swift_version = '5.0'
-  
-  s.static_framework = false
-  s.requires_arc     = true
-  s.vendored_frameworks = "ADOPUtility.xcframework"
+  s.static_framework = true
+  s.requires_arc = true
+  s.vendored_frameworks = "EmptyProject.xcframework"
 
-  s.subspec 'AdMobBidding' do |AdMobBidding|
-    AdMobBidding.dependency 'BidmadVungleAdapter', '7.1.0.1'
-    AdMobBidding.dependency 'GoogleMobileAdsMediationVungle', '7.1.0.0'
-    AdMobBidding.dependency 'BidmadPangleAdapter', '5.3.1.0.1'
-    AdMobBidding.dependency 'GoogleMobileAdsMediationPangle', '5.3.1.0.0'
-    AdMobBidding.dependency 'BidmadFyberAdapter', '8.2.4.1'
-    AdMobBidding.dependency 'GoogleMobileAdsMediationFyber', '8.2.4.0'
-    AdMobBidding.dependency 'BidmadUnityAdsAdapter', '4.8.0.1'
-    AdMobBidding.dependency 'GoogleMobileAdsMediationUnity', '4.8.0.0'
-    AdMobBidding.dependency 'BidmadIronSourceAdapter', '7.5.0.0.1'
-    AdMobBidding.dependency 'GoogleMobileAdsMediationIronSource', '7.5.0.0.0'
-    AdMobBidding.dependency 'BidmadAppLovinAdapter', '11.11.3.1'
-    AdMobBidding.dependency 'GoogleMobileAdsMediationAppLovin', '11.11.3.0'
-    AdMobBidding.dependency 'BidmadTeadsAdapter', '5.0.27.1'
-    AdMobBidding.dependency 'BidmadPubmaticAdapter', '3.2.0.1'
-    AdMobBidding.dependency 'BidmadAtomAdapter', '1.0.0.1'
-    AdMobBidding.dependency 'BidmadAdFitAdapter', '3.12.7.1'
-    AdMobBidding.dependency 'BidmadAdColonyAdapter', '4.9.0.1'
-    AdMobBidding.dependency 'BidmadADOPCoupangAdapter', '1.0.0.1'
-    AdMobBidding.dependency 'BidmadGoogleAdMobAdapter', '10.12.0.1'
-    AdMobBidding.dependency 'BidmadGoogleAdManagerAdapter', '10.12.0.1'
+  s.subspec 'AdMobBidding' do |admob_bidding|
+    admob_bidding.dependency 'BidmadVungleAdapter', '7.1.0.1'
+    admob_bidding.dependency 'GoogleMobileAdsMediationVungle', '7.1.0.0'
+    admob_bidding.dependency 'BidmadPangleAdapter', '5.3.1.0.1'
+    admob_bidding.dependency 'GoogleMobileAdsMediationPangle', '5.3.1.0.0'
+    admob_bidding.dependency 'BidmadFyberAdapter', '8.2.4.1'
+    admob_bidding.dependency 'GoogleMobileAdsMediationFyber', '8.2.4.0'
+    admob_bidding.dependency 'BidmadUnityAdsAdapter', '4.8.0.1'
+    admob_bidding.dependency 'GoogleMobileAdsMediationUnity', '4.8.0.0'
+    admob_bidding.dependency 'BidmadIronSourceAdapter', '7.5.0.0.1'
+    admob_bidding.dependency 'GoogleMobileAdsMediationIronSource', '7.5.0.0.0'
+    admob_bidding.dependency 'BidmadAppLovinAdapter', '11.11.3.1'
+    admob_bidding.dependency 'GoogleMobileAdsMediationAppLovin', '11.11.3.0'
+    admob_bidding.dependency 'BidmadTeadsAdapter', '5.0.27.1'
+    admob_bidding.dependency 'BidmadPubmaticAdapter', '3.2.0.1'
+    admob_bidding.dependency 'BidmadAtomAdapter', '1.0.0.1'
+    admob_bidding.dependency 'BidmadAdFitAdapter', '3.12.7.1'
+    admob_bidding.dependency 'BidmadAdColonyAdapter', '4.9.0.1'
+    admob_bidding.dependency 'BidmadADOPCoupangAdapter', '1.0.0.1'
+    admob_bidding.dependency 'BidmadGoogleAdMobAdapter', '10.12.0.1'
+    admob_bidding.dependency 'BidmadGoogleAdManagerAdapter', '10.12.0.1'
   end
   
-  s.subspec 'AppLovinMax' do |AppLovinMax|
-    AppLovinMax.dependency 'BidmadVungleAdapter', '7.1.0.1'
-    AppLovinMax.dependency 'AppLovinMediationVungleAdapter', '7.1.0.2'
-    AppLovinMax.dependency 'BidmadPangleAdapter', '5.3.1.0.1'
-    AppLovinMax.dependency 'AppLovinMediationByteDanceAdapter', '5.3.1.0.0'
-    AppLovinMax.dependency 'BidmadFyberAdapter', '8.2.4.1'
-    AppLovinMax.dependency 'AppLovinMediationFyberAdapter', '8.2.4.0'
-    AppLovinMax.dependency 'BidmadUnityAdsAdapter', '4.8.0.1'
-    AppLovinMax.dependency 'AppLovinMediationUnityAdsAdapter', '4.8.0.1'
-    AppLovinMax.dependency 'BidmadIronSourceAdapter', '7.5.0.0.1'
-    AppLovinMax.dependency 'AppLovinMediationIronSourceAdapter', '7.5.0.0.0'
-    AppLovinMax.dependency 'BidmadGoogleAdMobAdapter', '10.12.0.1'
-    AppLovinMax.dependency 'AppLovinMediationGoogleAdapter', '10.12.0.0'
-    AppLovinMax.dependency 'BidmadGoogleAdManagerAdapter', '10.12.0.1'
-    AppLovinMax.dependency 'BidmadAdColonyAdapter', '4.9.0.1'
-    AppLovinMax.dependency 'BidmadAppLovinAdapter', '11.11.3.1'
-    AppLovinMax.dependency 'BidmadAtomAdapter', '1.0.0.1'
-    AppLovinMax.dependency 'BidmadTeadsAdapter', '5.0.27.1'
-    AppLovinMax.dependency 'BidmadPubmaticAdapter', '3.2.0.1'
-    AppLovinMax.dependency 'BidmadAdFitAdapter', '3.12.7.1'
-    AppLovinMax.dependency 'BidmadADOPCoupangAdapter', '1.0.0.1'
+  s.subspec 'AppLovinMax' do |applovin_max|
+    applovin_max.dependency 'BidmadVungleAdapter', '7.1.0.1'
+    applovin_max.dependency 'AppLovinMediationVungleAdapter', '7.1.0.2'
+    applovin_max.dependency 'BidmadPangleAdapter', '5.3.1.0.1'
+    applovin_max.dependency 'AppLovinMediationByteDanceAdapter', '5.3.1.0.0'
+    applovin_max.dependency 'BidmadFyberAdapter', '8.2.4.1'
+    applovin_max.dependency 'AppLovinMediationFyberAdapter', '8.2.4.0'
+    applovin_max.dependency 'BidmadUnityAdsAdapter', '4.8.0.1'
+    applovin_max.dependency 'AppLovinMediationUnityAdsAdapter', '4.8.0.1'
+    applovin_max.dependency 'BidmadIronSourceAdapter', '7.5.0.0.1'
+    applovin_max.dependency 'AppLovinMediationIronSourceAdapter', '7.5.0.0.0'
+    applovin_max.dependency 'BidmadGoogleAdMobAdapter', '10.12.0.1'
+    applovin_max.dependency 'AppLovinMediationGoogleAdapter', '10.12.0.0'
+    applovin_max.dependency 'BidmadGoogleAdManagerAdapter', '10.12.0.1'
+    applovin_max.dependency 'BidmadAdColonyAdapter', '4.9.0.1'
+    applovin_max.dependency 'BidmadAppLovinAdapter', '11.11.3.1'
+    applovin_max.dependency 'BidmadAtomAdapter', '1.0.0.1'
+    applovin_max.dependency 'BidmadTeadsAdapter', '5.0.27.1'
+    applovin_max.dependency 'BidmadPubmaticAdapter', '3.2.0.1'
+    applovin_max.dependency 'BidmadAdFitAdapter', '3.12.7.1'
+    applovin_max.dependency 'BidmadADOPCoupangAdapter', '1.0.0.1'
   end
 
 end
