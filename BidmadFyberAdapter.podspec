@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "BidmadFyberAdapter.xcframework"
   s.swift_version = '5.0'
 
+  s.dependency 'BidmadSDK', '6.5.0'
   s.dependency 'Fyber_Marketplace_SDK', '8.2.4'
   s.dependency 'ADOPUtility', '>=6.5.0', '<6.6.0'
 
