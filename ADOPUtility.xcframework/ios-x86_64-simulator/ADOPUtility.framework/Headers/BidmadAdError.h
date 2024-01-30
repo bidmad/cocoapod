@@ -34,7 +34,8 @@ typedef NS_ENUM(NSUInteger, BidmadError) {
     BidmadErrorNetworkInitError = 21,
     BidmadErrorNetworkUninitializedRequestError = 22,
     BidmadErrorMethodCallFail = 23,
-    BidmadErrorNoAdsInZone = 24
+    BidmadErrorNoAdsInZone = 24,
+    BidmadErrorShowError = 25,
 };
 
 @interface BidmadAdError : NSObject
@@ -44,6 +45,7 @@ typedef NS_ENUM(NSUInteger, BidmadError) {
 + (NSString *)reasonFromBidmadError:(BidmadError)error;
 + (NSError *)errorFromBidmadError:(BidmadError)error;
 + (NSError *)errorFromBidmadError:(BidmadError)error detail:(NSString *)detail;
++ (NSError *)errorFromBidmadError:(BidmadError)error detail:(NSString *)detail adNetworkName:(NSString * _Nullable)adNetworkName;
 
 @end
 
