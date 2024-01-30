@@ -47,9 +47,7 @@ typedef NS_ENUM(NSUInteger, BIDMAD_UMPConsentStatus) {
 -(void)requestConsentInfoUpdate;
 -(void)loadForm;
 -(void)showForm;
-+ (BOOL)shouldGDPRFalseBeSetWithStatus:(NSInteger)bidmadGDPRStatus;
-+ (NSArray<NSError *> * _Nullable)bulkSetAdapterConsentFrom:(NSArray <NSString *> * _Nonnull)classNames consent:(BOOL)consentStatus;
-+ (NSError * _Nullable)setAdapterConsentFrom:(NSString * _Nonnull)className consent:(BOOL)consentStatus;
++ (void)setPurposeConsentOnLocalStoarge;
 
 @end
 

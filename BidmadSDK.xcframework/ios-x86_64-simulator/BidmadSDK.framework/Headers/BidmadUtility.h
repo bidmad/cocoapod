@@ -35,6 +35,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIViewController * _Nullable)getActiveViewController;
 @property (class, nonatomic, strong, nullable) UIImage *mainAppIcon;
 + (NSString * (^)(NSString *))whiteSpaceRemoved;
++ (BOOL)checkIfInvisibleForViewController:(UIViewController *)viewController;
++ (NSTimeInterval)showFailCheckTimeWindow;
 
 @end
 

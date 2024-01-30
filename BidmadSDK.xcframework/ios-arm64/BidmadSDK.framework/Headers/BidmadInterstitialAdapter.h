@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)dismissedWith:(__kindof BidmadInterstitialAdapter *)ad;
 - (void)presentedWith:(__kindof BidmadInterstitialAdapter *)ad;
+- (void)failedToPresentWith:(__kindof BidmadInterstitialAdapter *)ad error:(NSError *)error;
 - (void)clickedWith:(__kindof BidmadInterstitialAdapter *)ad;
 
 @end

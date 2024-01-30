@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 
 - (void)onShowAdUnit:(BidmadAdUnit *)adUnit;
+- (void)onShowFailAdUnit:(BidmadAdUnit *)adUnit error:(NSError *)error;
 - (void)onRewardedAdUnit:(BidmadAdUnit *)adUnit;
 - (void)onSkippedAdUnit:(BidmadAdUnit *)adUnit;
 - (void)onDismissedAdUnit:(BidmadAdUnit *)adUnit;

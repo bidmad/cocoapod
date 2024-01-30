@@ -95,4 +95,6 @@ Initializes BidmadSDK with the provided app key and calls the completion handler
 
 @property (nonatomic, strong) NSDictionary *adNetworkSupport;
 
+@property (nonatomic) BOOL isATTPopupAllowed;
+
 @end

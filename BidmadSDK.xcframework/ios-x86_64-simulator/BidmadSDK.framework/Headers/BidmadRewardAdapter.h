@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)dismissedWith:(__kindof BidmadRewardAdapter *)ad;
 - (void)presentedWith:(__kindof BidmadRewardAdapter *)ad;
+- (void)failedToPresentWith:(__kindof BidmadRewardAdapter *)ad error:(NSError *)error;
 - (void)clickedWith:(__kindof BidmadRewardAdapter *)ad;
 - (void)rewardedWith:(__kindof BidmadRewardAdapter *)ad;
 - (void)skippedWith:(__kindof BidmadRewardAdapter *)ad;
