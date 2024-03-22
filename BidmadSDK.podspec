@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.requires_arc     = true
   s.vendored_frameworks = "BidmadSDK.xcframework"
+  s.resource_bundles = {'BidmadSDK_Privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 
   s.dependency 'PromisesObjC', '2.4.0'
   s.dependency 'GoogleUserMessagingPlatform', '2.1.0'
