@@ -4,17 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<data>
+		fLMcPGjlPCRDDboS6E2RU7/lCYw=
+		</data>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		VWCA3MeaiPMoOAS1uOteTSLX8js=
+		</data>
 		<key>Headers/BidmadPubmaticAdapter.h</key>
 		<data>
 		ZLPzX3Q+AVQLDPkD7D44Ed3fabA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z5oPNh5Nt3aF8X0MDs6z8EyFDfo=
+		hhvScFvYtBjM2qMTI5UFap4uMFs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		YjNDka9p1j4vV8S3bj//Z8c12p4=
+		jxIovofk4jIDMlUa53FnTjaMeVk=
 		</data>
 		<key>POBNativeResources.bundle/Info.plist</key>
 		<data>
@@ -67,6 +75,28 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fLMcPGjlPCRDDboS6E2RU7/lCYw=
+			</data>
+			<key>hash2</key>
+			<data>
+			d5fnxuRV82zt0ispOO/4Bc+bjiELSwQEcZPJGgmKLXg=
+			</data>
+		</dict>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VWCA3MeaiPMoOAS1uOteTSLX8js=
+			</data>
+			<key>hash2</key>
+			<data>
+			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
+			</data>
+		</dict>
 		<key>Headers/BidmadPubmaticAdapter.h</key>
 		<dict>
 			<key>hash</key>
@@ -82,11 +112,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YjNDka9p1j4vV8S3bj//Z8c12p4=
+			jxIovofk4jIDMlUa53FnTjaMeVk=
 			</data>
 			<key>hash2</key>
 			<data>
-			5f9mDTpQQEOmB/spG6J1TpEHi3siMcc1YbMlhigeUHw=
+			Pcyu2+hSyNj8+yRmwQ1dNAwFi+JzXhdqMY6kFx+HAIk=
 			</data>
 		</dict>
 		<key>POBNativeResources.bundle/Info.plist</key>

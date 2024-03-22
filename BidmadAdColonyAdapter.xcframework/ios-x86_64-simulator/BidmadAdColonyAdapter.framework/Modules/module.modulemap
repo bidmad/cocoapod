@@ -1,6 +1,0 @@
-framework module BidmadAdColonyAdapter {
-  umbrella header "BidmadAdColonyAdapter.h"
-
-  export *
-  module * { export * }
-}
