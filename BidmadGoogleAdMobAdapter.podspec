@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.dependency 'BidmadSDK', '>=6.6.0', '<6.7.0'
-  s.dependency 'GoogleMobileAdsMediationFacebook', '>=6.12.0.1', '<=6.15.0.0'
+  # s.dependency 'GoogleMobileAdsMediationFacebook', '6.15.0.0' -> FacebookSDK currently does not support Google Mobile Ads v11.2.0
   s.dependency 'Google-Mobile-Ads-SDK', '11.2.0'
   s.dependency 'ADOPUtility', '>=6.6.0', '<6.7.0'
 
