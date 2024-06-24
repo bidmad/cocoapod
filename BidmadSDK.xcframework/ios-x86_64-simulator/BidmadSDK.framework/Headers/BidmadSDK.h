@@ -22,7 +22,6 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import <BidmadSDK/BIDMADBanner.h>
 #import <BidmadSDK/BidmadSDK.h>
 #import <BidmadSDK/BIDMADNativeAd.h>
-#import <BidmadSDK/BIDMADNativeAdViewContainer.h>
 #import <BidmadSDK/BidmadBannerAdapter.h>
 #import <BidmadSDK/BidmadRewardAdapter.h>
 #import <BidmadSDK/BidmadNativeAdapter.h>
@@ -49,3 +48,11 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import <BidmadSDK/BidmadAppOpenAdapter.h>
 #import <BidmadSDK/BidmadAdapterInfo.h>
 #import <BidmadSDK/OBHCommunicationDelegate.h>
+#import <BidmadSDK/BidmadSendLogDelegate.h>
+#import <BidmadSDK/BidmadAdError.h>
+#import <BidmadSDK/BidmadMacro.h>
+#import <BidmadSDK/NSArray+HigherOrderFunctionsForADOP.h>
+#import <BidmadSDK/ADOPLog.h>
+#import <BidmadSDK/BidmadLoadStatus.h>
+#import <BidmadSDK/BidmadBannerSizeStrategy.h>
+#import <BidmadSDK/BidmadErasableView.h>

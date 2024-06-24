@@ -1,0 +1,6 @@
+framework module BidmadAdPopcornAdapter {
+  umbrella header "BidmadAdPopcornAdapter.h"
+  export *
+
+  module * { export * }
+}

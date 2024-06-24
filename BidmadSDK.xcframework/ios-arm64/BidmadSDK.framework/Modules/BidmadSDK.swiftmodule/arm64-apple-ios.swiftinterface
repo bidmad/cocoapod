@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BidmadSDK
+@_exported import BidmadSDK
+import CoreData
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers open class BidmadPersistenceManager : ObjectiveC.NSObject {
+  @objc public static func initializeProperties()
+  @objc public static func detectedSizes(for zoneId: Swift.String) -> [Foundation.NSNumber]
+  @objc public static func add(newWidth: Swift.Int, for zoneId: Swift.String)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(BidmadDetectedSize) public class BidmadDetectedSize : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension BidmadSDK.BidmadDetectedSize {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<BidmadSDK.BidmadDetectedSize>
+  @objc @NSManaged dynamic public var width: Swift.Int16 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var associatedZone: BidmadSDK.BidmadZoneInfo? {
+    @objc get
+    @objc set
+  }
+}
+@_inheritsConvenienceInitializers @objc(BidmadZoneInfo) public class BidmadZoneInfo : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension BidmadSDK.BidmadZoneInfo {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<BidmadSDK.BidmadZoneInfo>
+  @objc @NSManaged dynamic public var zoneId: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var detectedSize: Foundation.NSOrderedSet? {
+    @objc get
+    @objc set
+  }
+}
+extension BidmadSDK.BidmadZoneInfo {
+  @objc(insertObject:inDetectedSizeAtIndex:) @NSManaged dynamic public func insertIntoDetectedSize(_ value: BidmadSDK.BidmadDetectedSize, at idx: Swift.Int)
+  @objc(removeObjectFromDetectedSizeAtIndex:) @NSManaged dynamic public func removeFromDetectedSize(at idx: Swift.Int)
+  @objc(insertDetectedSize:atIndexes:) @NSManaged dynamic public func insertIntoDetectedSize(_ values: [BidmadSDK.BidmadDetectedSize], at indexes: Foundation.NSIndexSet)
+  @objc(removeDetectedSizeAtIndexes:) @NSManaged dynamic public func removeFromDetectedSize(at indexes: Foundation.NSIndexSet)
+  @objc(replaceObjectInDetectedSizeAtIndex:withObject:) @NSManaged dynamic public func replaceDetectedSize(at idx: Swift.Int, with value: BidmadSDK.BidmadDetectedSize)
+  @objc(replaceDetectedSizeAtIndexes:withDetectedSize:) @NSManaged dynamic public func replaceDetectedSize(at indexes: Foundation.NSIndexSet, with values: [BidmadSDK.BidmadDetectedSize])
+  @objc(addDetectedSizeObject:) @NSManaged dynamic public func addToDetectedSize(_ value: BidmadSDK.BidmadDetectedSize)
+  @objc(removeDetectedSizeObject:) @NSManaged dynamic public func removeFromDetectedSize(_ value: BidmadSDK.BidmadDetectedSize)
+  @objc(addDetectedSize:) @NSManaged dynamic public func addToDetectedSize(_ values: Foundation.NSOrderedSet)
+  @objc(removeDetectedSize:) @NSManaged dynamic public func removeFromDetectedSize(_ values: Foundation.NSOrderedSet)
+}

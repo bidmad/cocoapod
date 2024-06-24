@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) id<BidmadNativeAdapterDelegate> delegate;
 
 - (void)loadAdWith:(void (^)(BidmadNativeAdapter * _Nullable, NSError * _Nullable))completionHandler;
-- (void)showAdTo:(BIDMADNativeAdView *)adView;
+- (CGSize)showAdTo:(BIDMADNativeAdView *)adView defaultSize:(CGSize)defaultSize;
 - (void)removeAdFrom:(BIDMADNativeAdView *)adView;
 - (instancetype)initWithAdUnit:(BidmadAdUnit *)adUnit;
 

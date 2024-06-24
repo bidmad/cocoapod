@@ -13,7 +13,7 @@
 #import <Foundation/Foundation.h>
 #import <BidmadSDK/BIDMADUtil.h>
 #import <BidmadSDK/BIDMADSetting.h>
-#import <ADOPUtility/BidmadLoadStatus.h>
+#import <BidmadSDK/BidmadLoadStatus.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

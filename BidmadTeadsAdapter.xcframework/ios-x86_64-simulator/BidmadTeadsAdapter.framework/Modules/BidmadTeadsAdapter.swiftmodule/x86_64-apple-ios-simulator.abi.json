@@ -46,7 +46,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(BidmadSDK.BidmadInterstitialAdapter?, Swift.Error?) -> ()",
+                "printedName": "(BidmadSDK.BidmadInterstitialAdapter?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -56,7 +56,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(BidmadSDK.BidmadInterstitialAdapter?, Swift.Error?)",
+                    "printedName": "(BidmadSDK.BidmadInterstitialAdapter?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -75,12 +75,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -521,7 +521,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(BidmadSDK.BidmadNativeAdapter?, Swift.Error?) -> ()",
+                "printedName": "(BidmadSDK.BidmadNativeAdapter?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -531,7 +531,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(BidmadSDK.BidmadNativeAdapter?, Swift.Error?)",
+                    "printedName": "(BidmadSDK.BidmadNativeAdapter?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -550,12 +550,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -583,26 +583,33 @@
           {
             "kind": "Function",
             "name": "showAd",
-            "printedName": "showAd(to:)",
+            "printedName": "showAd(to:defaultSize:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
               },
               {
                 "kind": "TypeNominal",
                 "name": "BIDMADNativeAdView",
                 "printedName": "BidmadSDK.BIDMADNativeAdView",
                 "usr": "c:objc(cs)BIDMADNativeAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@BidmadTeadsAdapter@objc(cs)BidmadNativeTeadsAdapterSwift(im)showAdTo:",
-            "mangledName": "$s18BidmadTeadsAdapter0a6NativebC5SwiftC6showAd2toySo012BIDMADNativeG4ViewC_tF",
+            "usr": "c:@M@BidmadTeadsAdapter@objc(cs)BidmadNativeTeadsAdapterSwift(im)showAdTo:defaultSize:",
+            "mangledName": "$s18BidmadTeadsAdapter0a6NativebC5SwiftC6showAd2to11defaultSizeSo6CGSizeVSo012BIDMADNativeG4ViewC_AHtF",
             "moduleName": "BidmadTeadsAdapter",
             "overriding": true,
-            "objc_name": "showAdTo:",
+            "objc_name": "showAdTo:defaultSize:",
             "declAttributes": [
               "Dynamic",
               "ObjC",

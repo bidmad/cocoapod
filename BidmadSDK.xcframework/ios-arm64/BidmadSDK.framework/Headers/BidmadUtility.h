@@ -28,15 +28,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BidmadUtility : NSObject
 
++ (CGFloat)bannerAdWidthLimit;
 + (NSNumber * _Nullable)gdprSettingToOptionalBool;
 + (NSArray<BidmadAdInfo *> *)arraySortedWithOrder:(NSArray<BidmadAdInfo *> *)adInfoArray;
 + (NSArray<BidmadAdInfo *> *)bidmadSwiftSort:(NSArray<BidmadAdInfo *> *)adInfoArray;
 + (NSString*)deviceName;
 + (UIViewController * _Nullable)getActiveViewController;
-@property (class, nonatomic, strong, nullable) UIImage *mainAppIcon;
-+ (NSString * (^)(NSString *))whiteSpaceRemoved;
+@property (class, readonly, nullable) UIImage *mainAppIcon;
 + (BOOL)checkIfInvisibleForViewController:(UIViewController *)viewController;
 + (NSTimeInterval)showFailCheckTimeWindow;
++ (BOOL)shouldNetworkReqWithCriterion:(double)adWeight;
 
 @end
 

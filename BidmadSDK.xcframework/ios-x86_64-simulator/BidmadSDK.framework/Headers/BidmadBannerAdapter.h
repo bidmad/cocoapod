@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadAdFrom:(UIViewController *)viewController
               with:(void (^)(BidmadBannerAdapter * _Nullable,
                              UIView * _Nullable,
+                             CGSize,
                              NSError * _Nullable))completionHandler;
 - (instancetype)initWithAdUnit:(BidmadAdUnit *)adUnit;
 

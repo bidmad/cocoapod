@@ -1,0 +1,991 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadMobonAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadMobonAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "MobonSDKFramework",
+        "printedName": "MobonSDKFramework",
+        "declKind": "Import",
+        "moduleName": "BidmadMobonAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadMobonBridgeBannerDelegate",
+        "printedName": "BidmadMobonBridgeBannerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "mobonClicked",
+            "printedName": "mobonClicked()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeBannerDelegate(im)mobonClicked",
+            "mangledName": "$s18BidmadMobonAdapter0aB20BridgeBannerDelegateP12mobonClickedyyF",
+            "moduleName": "BidmadMobonAdapter",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate>",
+            "sugared_genericSig": "<Self where Self : BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeBannerDelegate",
+        "mangledName": "$s18BidmadMobonAdapter0aB20BridgeBannerDelegateP",
+        "moduleName": "BidmadMobonAdapter",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadMobonBridgeInterstitialDelegate",
+        "printedName": "BidmadMobonBridgeInterstitialDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "mobonPresented",
+            "printedName": "mobonPresented()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeInterstitialDelegate(im)mobonPresented",
+            "mangledName": "$s18BidmadMobonAdapter0aB26BridgeInterstitialDelegateP14mobonPresentedyyF",
+            "moduleName": "BidmadMobonAdapter",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate>",
+            "sugared_genericSig": "<Self where Self : BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mobonFailedToPresent",
+            "printedName": "mobonFailedToPresent(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeInterstitialDelegate(im)mobonFailedToPresentWithError:",
+            "mangledName": "$s18BidmadMobonAdapter0aB26BridgeInterstitialDelegateP20mobonFailedToPresent5errorys5Error_p_tF",
+            "moduleName": "BidmadMobonAdapter",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate>",
+            "sugared_genericSig": "<Self where Self : BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mobonClicked",
+            "printedName": "mobonClicked()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeInterstitialDelegate(im)mobonClicked",
+            "mangledName": "$s18BidmadMobonAdapter0aB26BridgeInterstitialDelegateP12mobonClickedyyF",
+            "moduleName": "BidmadMobonAdapter",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate>",
+            "sugared_genericSig": "<Self where Self : BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mobonClosed",
+            "printedName": "mobonClosed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeInterstitialDelegate(im)mobonClosed",
+            "mangledName": "$s18BidmadMobonAdapter0aB26BridgeInterstitialDelegateP11mobonClosedyyF",
+            "moduleName": "BidmadMobonAdapter",
+            "genericSig": "<τ_0_0 where τ_0_0 : BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate>",
+            "sugared_genericSig": "<Self where Self : BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeInterstitialDelegate",
+        "mangledName": "$s18BidmadMobonAdapter0aB26BridgeInterstitialDelegateP",
+        "moduleName": "BidmadMobonAdapter",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadMobonBridge",
+        "printedName": "BidmadMobonBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bannerDelegate",
+            "printedName": "bannerDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadMobonBridgeBannerDelegate",
+                    "printedName": "any BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate",
+                    "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeBannerDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(py)bannerDelegate",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC14bannerDelegateAA0abd6BannerF0_pSgvp",
+            "moduleName": "BidmadMobonAdapter",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidmadMobonBridgeBannerDelegate",
+                        "printedName": "any BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate",
+                        "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeBannerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)bannerDelegate",
+                "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC14bannerDelegateAA0abd6BannerF0_pSgvg",
+                "moduleName": "BidmadMobonAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidmadMobonBridgeBannerDelegate",
+                        "printedName": "any BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate",
+                        "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeBannerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)setBannerDelegate:",
+                "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC14bannerDelegateAA0abd6BannerF0_pSgvs",
+                "moduleName": "BidmadMobonAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidmadMobonAdapter0aB6BridgeC14bannerDelegateAA0abd6BannerF0_pSgvM",
+                "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC14bannerDelegateAA0abd6BannerF0_pSgvM",
+                "moduleName": "BidmadMobonAdapter",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interstitialDelegate",
+            "printedName": "interstitialDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadMobonBridgeInterstitialDelegate",
+                    "printedName": "any BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate",
+                    "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeInterstitialDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(py)interstitialDelegate",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC20interstitialDelegateAA0abd12InterstitialF0_pSgvp",
+            "moduleName": "BidmadMobonAdapter",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidmadMobonBridgeInterstitialDelegate",
+                        "printedName": "any BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate",
+                        "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeInterstitialDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)interstitialDelegate",
+                "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC20interstitialDelegateAA0abd12InterstitialF0_pSgvg",
+                "moduleName": "BidmadMobonAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidmadMobonBridgeInterstitialDelegate",
+                        "printedName": "any BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate",
+                        "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeInterstitialDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)setInterstitialDelegate:",
+                "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC20interstitialDelegateAA0abd12InterstitialF0_pSgvs",
+                "moduleName": "BidmadMobonAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18BidmadMobonAdapter0aB6BridgeC20interstitialDelegateAA0abd12InterstitialF0_pSgvM",
+                "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC20interstitialDelegateAA0abd12InterstitialF0_pSgvM",
+                "moduleName": "BidmadMobonAdapter",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "requestBannerAd",
+            "printedName": "requestBannerAd(viewController:size:maxWidth:mediaId:unitId:sizingStrategy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadBannerSizeStrategy",
+                "printedName": "BidmadSDK.BidmadBannerSizeStrategy",
+                "usr": "c:@E@BidmadBannerSizeStrategy"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any Swift.Error)?, UIKit.UIView?, CoreFoundation.CGSize) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((any Swift.Error)?, UIKit.UIView?, CoreFoundation.CGSize)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIView",
+                            "printedName": "UIKit.UIView",
+                            "usr": "c:objc(cs)UIView"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)requestBannerAdWithViewController:size:maxWidth:mediaId:unitId:sizingStrategy:completionHandler:",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC15requestBannerAd14viewController4size8maxWidth7mediaId04unitN014sizingStrategy17completionHandlerySo06UIViewI0C_So6CGSizeV12CoreGraphics7CGFloatVS2SSo0af4SizeQ0Vys5Error_pSg_So0T0CSgAOtctF",
+            "moduleName": "BidmadMobonAdapter",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestInterstitialAd",
+            "printedName": "requestInterstitialAd(mediaId:unitId:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)requestInterstitialAdWithMediaId:unitId:completionHandler:",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC21requestInterstitialAd7mediaId04unitI017completionHandlerySS_SSys5Error_pSgctF",
+            "moduleName": "BidmadMobonAdapter",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentInterstitialAd",
+            "printedName": "presentInterstitialAd(on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)presentInterstitialAdOn:",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC21presentInterstitialAd2onySo16UIViewControllerC_tF",
+            "moduleName": "BidmadMobonAdapter",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadMobonBridge",
+                "printedName": "BidmadMobonAdapter.BidmadMobonBridge",
+                "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)init",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeCACycfc",
+            "moduleName": "BidmadMobonAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "adViewDidReceiveAd",
+            "printedName": "adViewDidReceiveAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonBannerAdView",
+                "printedName": "MobonSDKFramework.MobonBannerAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)adViewDidReceiveAd:",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC18adViewDidReceiveAdyy0B12SDKFramework0b6BanneriF0CF",
+            "moduleName": "BidmadMobonAdapter",
+            "objc_name": "adViewDidReceiveAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adViewFailedAd",
+            "printedName": "adViewFailedAd(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonBannerAdView",
+                "printedName": "MobonSDKFramework.MobonBannerAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)adViewFailedAd::",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC14adViewFailedAdyy0B12SDKFramework0b6BannerhF0C_SStF",
+            "moduleName": "BidmadMobonAdapter",
+            "objc_name": "adViewFailedAd::",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adViewClicked",
+            "printedName": "adViewClicked(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonBannerAdView",
+                "printedName": "MobonSDKFramework.MobonBannerAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonBannerAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)adViewClicked:",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC13adViewClickedyy0B12SDKFramework0b8BannerAdF0CF",
+            "moduleName": "BidmadMobonAdapter",
+            "objc_name": "adViewClicked:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialAdNotLoaded",
+            "printedName": "interstitialAdNotLoaded(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonInterstitialAdView",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)interstitialAdNotLoaded:",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC23interstitialAdNotLoadedyy0B12SDKFramework0b12InterstitialF4ViewCF",
+            "moduleName": "BidmadMobonAdapter",
+            "objc_name": "interstitialAdNotLoaded:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialDidReceiveAd",
+            "printedName": "interstitialDidReceiveAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonInterstitialAdView",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)interstitialDidReceiveAd:",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC24interstitialDidReceiveAdyy0B12SDKFramework0b12InterstitialH4ViewCF",
+            "moduleName": "BidmadMobonAdapter",
+            "objc_name": "interstitialDidReceiveAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialFailedAd",
+            "printedName": "interstitialFailedAd(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonInterstitialAdView",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)interstitialFailedAd::",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC20interstitialFailedAdyy0B12SDKFramework0b12InterstitialG4ViewC_SStF",
+            "moduleName": "BidmadMobonAdapter",
+            "objc_name": "interstitialFailedAd::",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialClicked",
+            "printedName": "interstitialClicked(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonInterstitialAdView",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)interstitialClicked:",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC19interstitialClickedyy0B12SDKFramework0B18InterstitialAdViewCF",
+            "moduleName": "BidmadMobonAdapter",
+            "objc_name": "interstitialClicked:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialClose",
+            "printedName": "interstitialClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobonInterstitialAdView",
+                "printedName": "MobonSDKFramework.MobonInterstitialAdView",
+                "usr": "c:@M@MobonSDKFramework@objc(cs)MobonInterstitialAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)interstitialClose:",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC17interstitialCloseyy0B12SDKFramework0B18InterstitialAdViewCF",
+            "moduleName": "BidmadMobonAdapter",
+            "objc_name": "interstitialClose:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge",
+        "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC",
+        "moduleName": "BidmadMobonAdapter",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MobonBannerAdViewDelegate",
+            "printedName": "MobonBannerAdViewDelegate",
+            "usr": "c:@M@MobonSDKFramework@objc(pl)MobonBannerAdViewDelegate",
+            "mangledName": "$s17MobonSDKFramework0A20BannerAdViewDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MobonInterstitialAdViewDelegate",
+            "printedName": "MobonInterstitialAdViewDelegate",
+            "usr": "c:@M@MobonSDKFramework@objc(pl)MobonInterstitialAdViewDelegate",
+            "mangledName": "$s17MobonSDKFramework0A26InterstitialAdViewDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

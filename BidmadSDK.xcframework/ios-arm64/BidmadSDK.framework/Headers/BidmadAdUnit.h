@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "BidmadAdType.h"
+#import "BidmadBannerSizeStrategy.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -19,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) double weight;
 @property (nonatomic) NSInteger width;
 @property (nonatomic) NSInteger height;
+@property (nonatomic) CGFloat maxWidth;
 @property (nonatomic) double floorPrice;
 @property (nonatomic, strong) NSString *adNetworkId;
 @property (nonatomic, strong) NSString *areaIndex;
@@ -34,6 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
                   sessionId:(NSString *)sessionId
                  dictionary:(NSDictionary *)dictionary;
 - (NSString *)adNetworkName;
+- (BidmadBannerSizeStrategy)bannerSizeStrategy;
 
 @end
 

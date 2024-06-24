@@ -22,6 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 
+- (void)onLoadAdUnit:(BidmadAdUnit *)adUnit
+             adWidth:(CGFloat)width
+            adHeight:(CGFloat)height;
 - (void)onShowAdUnit:(BidmadAdUnit *)adUnit;
 - (void)onShowFailAdUnit:(BidmadAdUnit *)adUnit error:(NSError *)error;
 - (void)onRewardedAdUnit:(BidmadAdUnit *)adUnit;

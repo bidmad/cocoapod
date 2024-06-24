@@ -11,7 +11,7 @@
 #pragma clang diagnostic ignored "-Wobjc-property-no-attribute"
 
 #import <Foundation/Foundation.h>
-#import <ADOPUtility/BidmadSendLogDelegate.h>
+#import "BidmadSendLogDelegate.h"
 
 #define COMPASS_SERVING         @"https://bidmad.adop.cc/serving/ms3.php"
 #define BIDMAD_APPINFO_URL      @"https://appinfo.adop.cc/app_collect.php"
@@ -70,12 +70,9 @@ Initializes BidmadSDK with the provided app key and calls the completion handler
 
 @property (nonatomic)bool isDebug;
 
-/// keywords. ex) sports, cars, finance, football
-@property (nonatomic, strong) NSString *keyword;
+@property (nonatomic, strong) NSString * _Nonnull version;
 
-@property (nonatomic, strong) NSString *version;
-
-@property (nonatomic, strong) NSString *testDeviceId;
+@property (nonatomic, strong) NSString * _Nullable testDeviceId;
 
 /// Setting for Child-Directed Treament for COPPA-Compliance.
 @property (nonatomic, strong) NSNumber * __nullable isChildDirectedTreatment;
@@ -93,7 +90,7 @@ Initializes BidmadSDK with the provided app key and calls the completion handler
 
 @property (readonly) BOOL isInitialized;
 
-@property (nonatomic, strong) NSDictionary *adNetworkSupport;
+@property (nonatomic, strong) NSDictionary * _Nullable adNetworkSupport;
 
 @property (nonatomic) BOOL isATTPopupAllowed;
 

@@ -15,7 +15,7 @@
 #import <BidmadSDK/BIDMADSetting.h>
 #import "OpenBiddingInterstitial.h"
 #import <BidmadSDK/BIDMADRewardVideo.h>
-#import <ADOPUtility/BidmadLoadStatus.h>
+#import <BidmadSDK/BidmadLoadStatus.h>
 
 @protocol BIDMADOpenBiddingRewardVideoDelegate;
 

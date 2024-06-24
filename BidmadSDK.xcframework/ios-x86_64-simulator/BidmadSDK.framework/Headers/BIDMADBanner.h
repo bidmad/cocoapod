@@ -17,7 +17,13 @@
 
 @protocol OBHBannerExtraDelegate <NSObject>
 
-- (UIView * _Nonnull)setBannerFrameFromAd:(BidmadAdUnit * _Nonnull)ad;
+@property (nonatomic) NSString * _Nullable zoneID;
+- (void)addLoadedAdView:(UIView * _Nonnull)adView
+                adWidth:(CGFloat)adWidth
+               adHeight:(CGFloat)adHeight
+               strategy:(BidmadBannerSizeStrategy)strategy
+              keyWindow:(UIWindow * _Nonnull)keyWindow
+                  error:(NSError * _Nullable * _Nonnull)error;
 - (void)cleanPreviousAdView;
 
 @end

@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/BidmadAdStandardNativeAd.h</key>
 		<data>
-		UHGgNmyIqyQlK7VGMrCyqe8znx0=
+		FHfG57k1c11gyWfxFym8iUoUf3w=
 		</data>
 		<key>Headers/BidmadAppOpenAd.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/BidmadNativeAd.h</key>
 		<data>
-		k3NQSd/SM1H4d3l6EZKBkf3XAPQ=
+		Cy2Eb5FqZy4joi2UymNzOzQsawY=
 		</data>
 		<key>Headers/BidmadRewardAd.h</key>
 		<data>
@@ -78,51 +78,19 @@
 		</data>
 		<key>Headers/OpenBiddingBanner.h</key>
 		<data>
-		SMY6GdxryYpxiGWrRiQh3HNPpQw=
-		</data>
-		<key>Headers/OpenBiddingFlutterBanner.h</key>
-		<data>
-		SYGRVEqC3t9bawMgxo7NpjQCAHE=
-		</data>
-		<key>Headers/OpenBiddingFlutterBannerFactory.h</key>
-		<data>
-		LjwI7/STpSFoZGX60qA1IiV0Mb4=
-		</data>
-		<key>Headers/OpenBiddingFlutterBannerRefined.h</key>
-		<data>
-		BAtdN4dMDqUKsHeWg0KflZcjrb8=
-		</data>
-		<key>Headers/OpenBiddingFlutterCommon.h</key>
-		<data>
-		pEKGi3TlH3Cg64WiJ8Tg5FySLxI=
-		</data>
-		<key>Headers/OpenBiddingFlutterGDPRforGoogle.h</key>
-		<data>
-		BKvzDsd/dCT9IVjqJKXTs45Ee2g=
-		</data>
-		<key>Headers/OpenBiddingFlutterInterstitial.h</key>
-		<data>
-		fuMpnZGQQvmroaE0cZqsU2oUbcQ=
-		</data>
-		<key>Headers/OpenBiddingFlutterNativeAdViewFactory.h</key>
-		<data>
-		ksZ1OeiZI7p0dmItjrxfd9Xils4=
-		</data>
-		<key>Headers/OpenBiddingFlutterRewardVideo.h</key>
-		<data>
-		XLyNI0XWRjY7krYMYXTH4+on5II=
+		EGa++ZCINQK4y80vav64FaUfm48=
 		</data>
 		<key>Headers/OpenBiddingHelper.h</key>
 		<data>
-		Fd2iARTS9UdKWF7HR679oO7OOeo=
+		tmgZxr4ynLW1BFvzTD7TPj27Ipk=
 		</data>
 		<key>Headers/OpenBiddingInterstitial.h</key>
 		<data>
-		tqm5VDNg4dDaIfJ3tmO8iBpMz4g=
+		4gQu+UW56CqtTSk2vpV6b378Nho=
 		</data>
 		<key>Headers/OpenBiddingRewardVideo.h</key>
 		<data>
-		/KjE9PdWhFMHe9rEt9AL7dJtdNM=
+		0QNU4tMe8Z1xlU1n/ez4HhpMTvg=
 		</data>
 		<key>Headers/OpenBiddingUnrealInterstitial.h</key>
 		<data>
@@ -138,7 +106,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yZyt82dbLZGLxiNFW1GE7VNi/dE=
+		An4+PxHqdUpCNQ71Iw3VTbzGBAQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -184,11 +152,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UHGgNmyIqyQlK7VGMrCyqe8znx0=
+			FHfG57k1c11gyWfxFym8iUoUf3w=
 			</data>
 			<key>hash2</key>
 			<data>
-			aY7IKE6BAJYne/sKPg1Ft+2Ns65pNeyWT20BmbXCTXQ=
+			euo5wlSJaaHQQosYRgvEXNpEbfvdUWaDa+v0kwXu8QU=
 			</data>
 		</dict>
 		<key>Headers/BidmadAppOpenAd.h</key>
@@ -283,11 +251,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k3NQSd/SM1H4d3l6EZKBkf3XAPQ=
+			Cy2Eb5FqZy4joi2UymNzOzQsawY=
 			</data>
 			<key>hash2</key>
 			<data>
-			wo+s5ckLxwih0GaHmhsQ9sYxtA8yBAu8yqMXoE6aaDE=
+			JJ07bPYft6av80YQR1xa7KYBV8EXxuZbsoJTyjcEuO8=
 			</data>
 		</dict>
 		<key>Headers/BidmadRewardAd.h</key>
@@ -349,132 +317,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SMY6GdxryYpxiGWrRiQh3HNPpQw=
+			EGa++ZCINQK4y80vav64FaUfm48=
 			</data>
 			<key>hash2</key>
 			<data>
-			up8HFHf8JAgltS2IXO8yntPUPaoGZpQHw6rE5LZJXFw=
-			</data>
-		</dict>
-		<key>Headers/OpenBiddingFlutterBanner.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SYGRVEqC3t9bawMgxo7NpjQCAHE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Q2aH7IbzLTkgFt0RU5F2ne5NQVdvy/oY13m2VW7gV6o=
-			</data>
-		</dict>
-		<key>Headers/OpenBiddingFlutterBannerFactory.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LjwI7/STpSFoZGX60qA1IiV0Mb4=
-			</data>
-			<key>hash2</key>
-			<data>
-			seX3ZCMVzGLtM+kSlww3e3Vz0j9NdHzCMA/549FSQzw=
-			</data>
-		</dict>
-		<key>Headers/OpenBiddingFlutterBannerRefined.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BAtdN4dMDqUKsHeWg0KflZcjrb8=
-			</data>
-			<key>hash2</key>
-			<data>
-			chxaaperP+Bp8y9ZukzMjGeJlgGSu4WHvJv1KjIlLJw=
-			</data>
-		</dict>
-		<key>Headers/OpenBiddingFlutterCommon.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pEKGi3TlH3Cg64WiJ8Tg5FySLxI=
-			</data>
-			<key>hash2</key>
-			<data>
-			GMfxltOTc8vjRajss5OicmSBWm8TYDhNv2Evg1/hN7Q=
-			</data>
-		</dict>
-		<key>Headers/OpenBiddingFlutterGDPRforGoogle.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BKvzDsd/dCT9IVjqJKXTs45Ee2g=
-			</data>
-			<key>hash2</key>
-			<data>
-			oqUctVGyPdSgacO9lSknesDj7qvUOn0r34M25LHyBC0=
-			</data>
-		</dict>
-		<key>Headers/OpenBiddingFlutterInterstitial.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fuMpnZGQQvmroaE0cZqsU2oUbcQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ggij9Dadjg5eyERL5BPvVl9W35jRpi9HOb7xACYYQyk=
-			</data>
-		</dict>
-		<key>Headers/OpenBiddingFlutterNativeAdViewFactory.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ksZ1OeiZI7p0dmItjrxfd9Xils4=
-			</data>
-			<key>hash2</key>
-			<data>
-			ATAs4xzrFpV6gvBIhtOidOE4rzpRIfWCydZM3oUJh+o=
-			</data>
-		</dict>
-		<key>Headers/OpenBiddingFlutterRewardVideo.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XLyNI0XWRjY7krYMYXTH4+on5II=
-			</data>
-			<key>hash2</key>
-			<data>
-			rqaQ5QMuAB7FEfrsQFyD0qhan43jlCqZYpeHjnja1yc=
+			EpjJ4xj5bv3clzxSCrAJkyhNARyse7sZhnskMfrA0KQ=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingHelper.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Fd2iARTS9UdKWF7HR679oO7OOeo=
+			tmgZxr4ynLW1BFvzTD7TPj27Ipk=
 			</data>
 			<key>hash2</key>
 			<data>
-			veC6m7kIVbZEkQKdq0w64gJBGNkKag0Ykw2j+tFZ0rE=
+			JEucy17G3X/EVQEnIEczyXC1hW5wq4t3bjCRTSTp4sI=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingInterstitial.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tqm5VDNg4dDaIfJ3tmO8iBpMz4g=
+			4gQu+UW56CqtTSk2vpV6b378Nho=
 			</data>
 			<key>hash2</key>
 			<data>
-			ExDtdJiugiyqpEOU6hX0k5gk6SsqZg890bG9xjRwUqI=
+			J+PA0SIDqucxL9WfaS4doxHcTWeE/l24WdxQ/H++mXs=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingRewardVideo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/KjE9PdWhFMHe9rEt9AL7dJtdNM=
+			0QNU4tMe8Z1xlU1n/ez4HhpMTvg=
 			</data>
 			<key>hash2</key>
 			<data>
-			CPPms+lIPqfKJnQzaDuQdSHh9lqVVBS/RAX8R5w7gKs=
+			KRZ9oisXhk52Yhtaf6oPpjCuEjjKpO9StLXW9SpGoL8=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingUnrealInterstitial.h</key>

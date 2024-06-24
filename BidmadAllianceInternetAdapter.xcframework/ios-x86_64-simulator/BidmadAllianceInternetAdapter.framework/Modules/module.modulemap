@@ -1,0 +1,11 @@
+framework module BidmadAllianceInternetAdapter {
+  umbrella header "BidmadAllianceInternetAdapter.h"
+  export *
+
+  module * { export * }
+}
+
+module BidmadAllianceInternetAdapter.Swift {
+  header "BidmadAllianceInternetAdapter-Swift.h"
+  requires objc
+}

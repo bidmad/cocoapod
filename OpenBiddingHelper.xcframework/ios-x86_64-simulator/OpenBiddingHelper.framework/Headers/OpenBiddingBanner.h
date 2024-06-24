@@ -9,7 +9,7 @@
 #pragma clang diagnostic ignored "-Wobjc-property-no-attribute"
 
 #import <UIKit/UIKit.h>
-#import <ADOPUtility/BidmadLoadStatus.h>
+#import <BidmadSDK/BidmadLoadStatus.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -28,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) CGFloat ypoint;
 @property (nonatomic) NSUInteger position;
 @property (readonly) BOOL isLoaded;
+@property (nonatomic, strong) NSString * _Nullable flutterKey;
 
 /**
  * A Boolean value that determines whether ad refresh feature is enabled.
@@ -58,6 +59,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)onLoadFailAd:(OpenBiddingBanner * _Nonnull)bidmadAd error:(NSError * _Nonnull)error;
 - (void)onLoadAd:(OpenBiddingBanner * _Nonnull)bidmadAd;
+- (void)onLoadAd:(OpenBiddingBanner * _Nonnull)bidmadAd
+         adWidth:(CGFloat)width
+        adHeight:(CGFloat)height;
 - (void)onClickAd:(OpenBiddingBanner* _Nonnull) bidmadAd;
 
 @end
