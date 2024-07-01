@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "BidmadFlutterBridge"
-  s.version          = "6.7.0"
+  s.version          = "6.7.1"
   s.platform         = :ios, "12.0"
   s.summary          = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
   s.description      = "BidmadSDK Flutter Bridge codes collection."
@@ -16,5 +16,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'BidmadSDK', '>=6.7.0', '<6.8.0'
   s.dependency 'OpenBiddingHelper', '>=6.7.0', '<6.8.0'
+  s.dependency 'Flutter'
 
 end
