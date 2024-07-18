@@ -6,11 +6,11 @@
 	<dict>
 		<key>Frameworks/MobonSDKFramework.framework/Info.plist</key>
 		<data>
-		T8W75a6EbOtklO1wGSCWrZfaLQ4=
+		DlWoQxz9Fos4KBNDP1yvIlwnayQ=
 		</data>
 		<key>Frameworks/MobonSDKFramework.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		A/6bxU7Mj+YvJlzO8DvW6S8CFGI=
+		/UeHSoYez3kjQu/GmMqz8lhd65Q=
 		</data>
 		<key>Frameworks/MobonSDKFramework.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Frameworks/MobonSDKFramework.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		arqRQysFm6hlnientHsqpwsttaQ=
+		gn7J2/qveTc5xIGiB5kpX2J8cGo=
 		</data>
 		<key>Frameworks/MobonSDKFramework.framework/_CodeSignature/CodeResources</key>
 		<data>
-		BhHBWLElxYABl2960/IaALRdLZ4=
+		9MOktsuy0DAVAuJ8owGyz4fUDAQ=
 		</data>
 		<key>Frameworks/MobonSDKFramework.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/BidmadMobonAdapter-Swift.h</key>
 		<data>
-		re70T1TZuXpJQEPtQNuOuglcSbg=
+		ZKUp+n7ZlP0G78DftEdCFEd7Ad4=
 		</data>
 		<key>Headers/BidmadMobonAdapter.h</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/BidmadMobonAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/pMCgQO65Y2vJFVnW2G5EMbKANM=
+		sjZA5mHJgDSlBmiT62PVXxXUUpw=
 		</data>
 		<key>Modules/BidmadMobonAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		m4zXxADuG3E5lfeneaRD4HmsXqU=
+		pgLivPAluDBjAlFCeXXMIQGcjNk=
 		</data>
 		<key>Modules/BidmadMobonAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/BidmadMobonAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		m4zXxADuG3E5lfeneaRD4HmsXqU=
+		pgLivPAluDBjAlFCeXXMIQGcjNk=
 		</data>
 		<key>Modules/BidmadMobonAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UCr9B6V4LPJChL/B1cqZ6U7r86M=
+		3REYoKhKZwoMxgGfvsgLAsVHlAE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ue9vBtdrfeujESlczvXjLI/LeNqQfyBI2qf8UOdqhBg=
+			HrBo6zwiE8g2giTRYbJJgTGuB/KsNuHrz5TOU3WuqTY=
 			</data>
 		</dict>
 		<key>Frameworks/MobonSDKFramework.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IJyffI/98+dXwBEhYpC+8Ark7HpTH7d7+GLjCvKTq/I=
+			Q0++gSxWn4DEmWMEzgruojV7vWkBWC7RptbiHrc8ujA=
 			</data>
 		</dict>
 		<key>Frameworks/MobonSDKFramework.framework/_CodeSignature/CodeRequirements</key>
@@ -92,14 +92,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rnfy1qtRqVFcOq6oF+/4QRJVihs4zFuISwuC9x8BFaI=
+			OaMPXjjZi5qRMF8B8GZpwe8pZ5P/9Ea1GBTRRUNRnMQ=
 			</data>
 		</dict>
 		<key>Frameworks/MobonSDKFramework.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iuQ84xU3Uvx4bOxw9LhigKdSD/ymu+BdeYAhToXw/K0=
+			fcFYv6kVXPzo+Ypaitnm1WfZWnUxlvg3jF2GUWTXeJA=
 			</data>
 		</dict>
 		<key>Frameworks/MobonSDKFramework.framework/_CodeSignature/CodeSignature</key>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bk60wizcio7Rvvcm5IWJixirfoDSSEGxGw7JM3hXgZM=
+			AvfzV0DA5NvIZm0xHdMCGjO5uPVxramFPaw2EnpR9PE=
 			</data>
 		</dict>
 		<key>Headers/BidmadMobonAdapter.h</key>
@@ -127,14 +127,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AcUdj6M6zkWbC9EeSmxJy4EqkeA3DpdEIqNwYTq7I/U=
+			I6U04H/vhuF9tpmKISalI21nK3p8h9uTy8CKixyZyX4=
 			</data>
 		</dict>
 		<key>Modules/BidmadMobonAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T671OUgn3yDcMfGRI8DhX6tS00M9uO7iJJuYasLqQwI=
+			WXhOZ/2pxYYJrWRizEkAOUJOwkLfRy9KDmg79tddIr8=
 			</data>
 		</dict>
 		<key>Modules/BidmadMobonAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -148,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T671OUgn3yDcMfGRI8DhX6tS00M9uO7iJJuYasLqQwI=
+			WXhOZ/2pxYYJrWRizEkAOUJOwkLfRy9KDmg79tddIr8=
 			</data>
 		</dict>
 		<key>Modules/BidmadMobonAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iiLPdxwZdLDb7+TZwcG+eyGxGMvL2OjyXwmT8fGrdQ8=
+			oVNJae6xHFdXZHdv9mAUdnM4ATrkJmV5u9pf+bJkIKk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

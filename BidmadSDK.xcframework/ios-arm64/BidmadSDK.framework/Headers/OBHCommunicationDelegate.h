@@ -5,7 +5,7 @@
 //  Created by 플랫폼-오승섭-맥북 on 2023/09/26.
 //
 
-#import "BidmadAdUnit.h"
+#import <BidmadSDK/BidmadAdUnit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

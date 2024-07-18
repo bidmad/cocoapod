@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BidmadBannerSizeStrategy.h"
+#import <BidmadSDK/BidmadBannerSizeStrategy.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

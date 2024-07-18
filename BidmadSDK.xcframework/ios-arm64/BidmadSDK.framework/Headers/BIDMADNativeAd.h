@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BIDMADNativeAdView.h"
+#import <BidmadSDK/BIDMADNativeAdView.h>
 
 @protocol BIDMADNativeAdDelegate;
 @interface BIDMADNativeAd : NSObject

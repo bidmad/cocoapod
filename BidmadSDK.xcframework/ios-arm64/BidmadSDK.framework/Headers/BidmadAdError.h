@@ -28,14 +28,15 @@ typedef NS_ENUM(NSUInteger, BidmadError) {
     BidmadErrorNetworkAdapterNotFound = 15,
     BidmadErrorNetworkAdRequestTimeout = 16,
     BidmadErrorNetworkLoadabilityCheckFail = 17,
-    BidmadErrorAdDataUnavailable = 18,
-    BidmadErrorNetworkLoadError = 19,
-    BidmadErrorNetworkInsufficientParameter = 20,
-    BidmadErrorNetworkInitError = 21,
-    BidmadErrorNetworkUninitializedRequestError = 22,
-    BidmadErrorMethodCallFail = 23,
-    BidmadErrorNoAdsInZone = 24,
-    BidmadErrorShowError = 25,
+    BidmadErrorEmptyZoneIdFail = 18,
+    BidmadErrorAdDataUnavailable = 19,
+    BidmadErrorNetworkLoadError = 20,
+    BidmadErrorNetworkInsufficientParameter = 21,
+    BidmadErrorNetworkInitError = 22,
+    BidmadErrorNetworkUninitializedRequestError = 23,
+    BidmadErrorMethodCallFail = 24,
+    BidmadErrorNoAdsInZone = 25,
+    BidmadErrorShowError = 26,
 };
 
 @interface BidmadAdError : NSObject

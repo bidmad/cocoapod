@@ -6,8 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BIDMADNativeAdView.h"
-#import "BidmadAdUnit.h"
+#import <BidmadSDK/BIDMADNativeAdView.h>
+#import <BidmadSDK/BidmadAdUnit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

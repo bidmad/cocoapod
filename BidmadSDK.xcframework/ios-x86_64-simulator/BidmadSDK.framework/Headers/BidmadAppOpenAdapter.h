@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BidmadAdUnit.h"
+#import <BidmadSDK/BidmadAdUnit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

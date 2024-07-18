@@ -9,8 +9,8 @@
 #pragma clang diagnostic ignored "-Wobjc-property-no-attribute"
 
 #import <UIKit/UIKit.h>
-#import "BidmadAdUnit.h"
-#import "OBHCommunicationDelegate.h"
+#import <BidmadSDK/BidmadAdUnit.h>
+#import <BidmadSDK/OBHCommunicationDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

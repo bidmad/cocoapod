@@ -277,8 +277,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreData;
-@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -300,59 +298,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSEntityDescription;
-@class NSManagedObjectContext;
-
-SWIFT_CLASS_NAMED("BidmadDetectedSize")
-@interface BidmadDetectedSize : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class BidmadZoneInfo;
-
-@interface BidmadDetectedSize (SWIFT_EXTENSION(BidmadSDK))
-@property (nonatomic) int16_t width;
-@property (nonatomic, strong) BidmadZoneInfo * _Nullable associatedZone;
-@end
-
 @class NSString;
-@class NSNumber;
 
-SWIFT_CLASS("_TtC9BidmadSDK24BidmadPersistenceManager")
-@interface BidmadPersistenceManager : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-+ (void)initializeProperties;
-+ (NSArray<NSNumber *> * _Nonnull)detectedSizesFor:(NSString * _Nonnull)zoneId SWIFT_WARN_UNUSED_RESULT;
-+ (void)addWithNewWidth:(NSInteger)newWidth for:(NSString * _Nonnull)zoneId;
-@end
-
-
-SWIFT_CLASS_NAMED("BidmadZoneInfo")
-@interface BidmadZoneInfo : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NSOrderedSet;
-
-@interface BidmadZoneInfo (SWIFT_EXTENSION(BidmadSDK))
-@property (nonatomic, copy) NSString * _Nullable zoneId;
-@property (nonatomic, strong) NSOrderedSet * _Nullable detectedSize;
-@end
-
-@class NSIndexSet;
-
-@interface BidmadZoneInfo (SWIFT_EXTENSION(BidmadSDK))
-- (void)insertObject:(BidmadDetectedSize * _Nonnull)value inDetectedSizeAtIndex:(NSInteger)idx;
-- (void)removeObjectFromDetectedSizeAtIndex:(NSInteger)idx;
-- (void)insertDetectedSize:(NSArray<BidmadDetectedSize *> * _Nonnull)values atIndexes:(NSIndexSet * _Nonnull)indexes;
-- (void)removeDetectedSizeAtIndexes:(NSIndexSet * _Nonnull)indexes;
-- (void)replaceObjectInDetectedSizeAtIndex:(NSInteger)idx withObject:(BidmadDetectedSize * _Nonnull)value;
-- (void)replaceDetectedSizeAtIndexes:(NSIndexSet * _Nonnull)indexes withDetectedSize:(NSArray<BidmadDetectedSize *> * _Nonnull)values;
-- (void)addDetectedSizeObject:(BidmadDetectedSize * _Nonnull)value;
-- (void)removeDetectedSizeObject:(BidmadDetectedSize * _Nonnull)value;
-- (void)addDetectedSize:(NSOrderedSet * _Nonnull)values;
-- (void)removeDetectedSize:(NSOrderedSet * _Nonnull)values;
+SWIFT_CLASS("_TtC9BidmadSDK18BidmadStateManager")
+@interface BidmadStateManager : NSObject
++ (BOOL)checkCollapsibleRequestedPreviouslyFor:(NSString * _Nonnull)zoneId SWIFT_WARN_UNUSED_RESULT;
++ (void)setWithCollapsibleRequested:(BOOL)collapsibleRequested to:(NSString * _Nonnull)zoneId;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif

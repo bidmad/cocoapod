@@ -10,13 +10,13 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
-#import "BIDMADSetting.h"
-#import "BIDMADBanner.h"
-#import "BIDMADInterstitial.h"
-#import "BIDMADRewardVideo.h"
+#import <BidmadSDK/BIDMADSetting.h>
+#import <BidmadSDK/BIDMADBanner.h>
+#import <BidmadSDK/BIDMADInterstitial.h>
+#import <BidmadSDK/BIDMADRewardVideo.h>
 #import <SystemConfiguration/CaptiveNetwork.h>
 #import <CoreLocation/CoreLocation.h>
-#import "BidmadAdUnit.h"
+#import <BidmadSDK/BidmadAdUnit.h>
 
 @class BidmadAdUnit;
 

@@ -309,11 +309,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC18BidmadMobonAdapter17BidmadMobonBridge")
 @interface BidmadMobonBridge : NSObject
-@property (nonatomic, strong) id <BidmadMobonBridgeBannerDelegate> _Nullable bannerDelegate;
-@property (nonatomic, strong) id <BidmadMobonBridgeInterstitialDelegate> _Nullable interstitialDelegate;
+@property (nonatomic, weak) id <BidmadMobonBridgeBannerDelegate> _Nullable bannerDelegate;
+@property (nonatomic, weak) id <BidmadMobonBridgeInterstitialDelegate> _Nullable interstitialDelegate;
 - (void)requestBannerAdWithViewController:(UIViewController * _Nonnull)viewController size:(CGSize)size maxWidth:(CGFloat)maxWidth mediaId:(NSString * _Nonnull)mediaId unitId:(NSString * _Nonnull)unitId sizingStrategy:(BidmadBannerSizeStrategy)sizingStrategy completionHandler:(void (^ _Nonnull)(NSError * _Nullable, UIView * _Nullable, CGSize))completionHandler;
 - (void)requestInterstitialAdWithMediaId:(NSString * _Nonnull)mediaId unitId:(NSString * _Nonnull)unitId completionHandler:(void (^ _Nonnull)(NSError * _Nullable))completionHandler;
 - (void)presentInterstitialAdOn:(UIViewController * _Nonnull)viewController;
+- (void)removeBannerAd;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

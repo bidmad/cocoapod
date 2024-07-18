@@ -200,17 +200,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BidmadMobonBridgeBannerDelegate",
-                    "printedName": "any BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate",
-                    "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeBannerDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "(any BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -220,9 +211,11 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl",
               "ObjC"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -317,17 +310,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BidmadMobonBridgeInterstitialDelegate",
-                    "printedName": "any BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate",
-                    "usr": "c:@M@BidmadMobonAdapter@objc(pl)BidmadMobonBridgeInterstitialDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "WeakStorage",
+                "printedName": "(any BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -337,9 +321,11 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
+              "ReferenceOwnership",
               "AccessControl",
               "ObjC"
             ],
+            "ownership": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -616,6 +602,27 @@
             "declKind": "Func",
             "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)presentInterstitialAdOn:",
             "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC21presentInterstitialAd2onySo16UIViewControllerC_tF",
+            "moduleName": "BidmadMobonAdapter",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeBannerAd",
+            "printedName": "removeBannerAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobonAdapter@objc(cs)BidmadMobonBridge(im)removeBannerAd",
+            "mangledName": "$s18BidmadMobonAdapter0aB6BridgeC14removeBannerAdyyF",
             "moduleName": "BidmadMobonAdapter",
             "declAttributes": [
               "AccessControl",

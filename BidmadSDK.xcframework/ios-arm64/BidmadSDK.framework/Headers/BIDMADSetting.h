@@ -11,7 +11,7 @@
 #pragma clang diagnostic ignored "-Wobjc-property-no-attribute"
 
 #import <Foundation/Foundation.h>
-#import "BidmadSendLogDelegate.h"
+#import <BidmadSDK/BidmadSendLogDelegate.h>
 
 #define COMPASS_SERVING         @"https://bidmad.adop.cc/serving/ms3.php"
 #define BIDMAD_APPINFO_URL      @"https://appinfo.adop.cc/app_collect.php"

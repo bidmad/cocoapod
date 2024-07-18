@@ -6,8 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BidmadAdType.h"
-#import "BidmadBannerSizeStrategy.h"
+#import <BidmadSDK/BidmadAdType.h>
+#import <BidmadSDK/BidmadBannerSizeStrategy.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -28,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) BidmadAdType adType;
 @property (nonatomic, strong) NSString *key;
 @property (nonatomic, strong) NSString *realZoneId;
+@property (nonatomic, strong) NSString *requestedZoneId;
 @property (nonatomic, strong) BidmadAdUnit * _Nullable nextAdUnit;
 
 + (NSDictionary<NSString *, NSString *> *)supportedAdNetworks;

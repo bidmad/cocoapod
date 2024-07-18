@@ -9,11 +9,11 @@
 #pragma clang diagnostic ignored "-Wobjc-property-no-attribute"
 
 #import <UIKit/UIKit.h>
-#import "BIDMADUtil.h"
-#import "BIDMADSetting.h"
-#import "BidmadAdUnit.h"
-#import "BidmadBannerAdapter.h"
-#import "OBHCommunicationDelegate.h"
+#import <BidmadSDK/BIDMADUtil.h>
+#import <BidmadSDK/BIDMADSetting.h>
+#import <BidmadSDK/BidmadAdUnit.h>
+#import <BidmadSDK/BidmadBannerAdapter.h>
+#import <BidmadSDK/OBHCommunicationDelegate.h>
 
 @protocol OBHBannerExtraDelegate <NSObject>
 

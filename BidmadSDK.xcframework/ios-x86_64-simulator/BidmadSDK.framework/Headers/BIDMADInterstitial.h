@@ -9,10 +9,10 @@
 #pragma clang diagnostic ignored "-Wobjc-property-no-attribute"
 
 #import <Foundation/Foundation.h>
-#import "BIDMADUtil.h"
-#import "BIDMADSetting.h"
-#import "BidmadAdUnit.h"
-#import "OBHCommunicationDelegate.h"
+#import <BidmadSDK/BIDMADUtil.h>
+#import <BidmadSDK/BIDMADSetting.h>
+#import <BidmadSDK/BidmadAdUnit.h>
+#import <BidmadSDK/OBHCommunicationDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

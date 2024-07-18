@@ -19,11 +19,12 @@ import _SwiftConcurrencyShims
   @objc func mobonClosed()
 }
 @objc @_inheritsConvenienceInitializers @objcMembers open class BidmadMobonBridge : ObjectiveC.NSObject {
-  @objc public var bannerDelegate: (any BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate)?
-  @objc public var interstitialDelegate: (any BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate)?
+  @objc weak public var bannerDelegate: (any BidmadMobonAdapter.BidmadMobonBridgeBannerDelegate)?
+  @objc weak public var interstitialDelegate: (any BidmadMobonAdapter.BidmadMobonBridgeInterstitialDelegate)?
   @objc public func requestBannerAd(viewController: UIKit.UIViewController, size: CoreFoundation.CGSize, maxWidth: CoreFoundation.CGFloat, mediaId: Swift.String, unitId: Swift.String, sizingStrategy: BidmadSDK.BidmadBannerSizeStrategy, completionHandler: @escaping ((any Swift.Error)?, UIKit.UIView?, CoreFoundation.CGSize) -> Swift.Void)
   @objc public func requestInterstitialAd(mediaId: Swift.String, unitId: Swift.String, completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
   @objc public func presentInterstitialAd(on viewController: UIKit.UIViewController)
+  @objc public func removeBannerAd()
   @objc override dynamic public init()
   @objc deinit
 }

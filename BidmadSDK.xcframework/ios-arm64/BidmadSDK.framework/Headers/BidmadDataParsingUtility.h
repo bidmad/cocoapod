@@ -5,8 +5,8 @@
 //  Created by Kenneth on 2022/11/07.
 //
 
-#import "BidmadAdType.h"
-#import "BidmadAdUnit.h"
+#import <BidmadSDK/BidmadAdType.h>
+#import <BidmadSDK/BidmadAdUnit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -24,10 +24,6 @@ typedef void (^BidmadFetchBlock)(BidmadAdUnit * _Nullable, NSError * _Nullable);
 + (void)fetchAdUnitWithZoneId:(NSString *)zoneId
                        adType:(BidmadAdType)adType
                    completion:(BidmadFetchBlock)completion;
-
-+ (BidmadAdUnit * _Nullable)getAdUnitFrom:(NSDictionary *)dictionary
-                                 adsCount:(NSUInteger)adsCount
-                                   adType:(BidmadAdType)adType;
 
 @end
 
