@@ -22,9 +22,9 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 extension BidmadFlutterBridge.OpenBiddingFlutterBannerRefined : OpenBiddingHelper.BIDMADOpenBiddingBannerDelegate {
-  @objc dynamic public func onLoadAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingBanner, adWidth width: CoreFoundation.CGFloat, adHeight height: CoreFoundation.CGFloat)
+  @objc dynamic public func onLoadAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingBanner, info: BidmadSDK.BidmadInfo)
   @objc dynamic public func onLoadFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingBanner, error: any Swift.Error)
-  @objc dynamic public func onClickAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingBanner)
+  @objc dynamic public func onClickAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingBanner, info: BidmadSDK.BidmadInfo)
 }
 @objc @objcMembers open class OpenBiddingFlutterBannerRefinedPlatformView : ObjectiveC.NSObject, Flutter.FlutterPlatformView {
   @objc public init(key: Swift.String)
@@ -42,9 +42,9 @@ extension BidmadFlutterBridge.OpenBiddingFlutterBannerRefined : OpenBiddingHelpe
   @objc deinit
 }
 extension BidmadFlutterBridge.OpenBiddingFlutterInterstitial : OpenBiddingHelper.BIDMADOpenBiddingInterstitialDelegate {
-  @objc dynamic public func onLoadAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial)
-  @objc dynamic public func onShowAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial)
-  @objc dynamic public func onShowFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial, error: any Swift.Error)
-  @objc dynamic public func onCloseAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial)
+  @objc dynamic public func onLoadAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial, info: BidmadSDK.BidmadInfo)
+  @objc dynamic public func onShowAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial, info: BidmadSDK.BidmadInfo)
+  @objc dynamic public func onShowFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial, info: BidmadSDK.BidmadInfo, error: any Swift.Error)
+  @objc dynamic public func onCloseAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial, info: BidmadSDK.BidmadInfo)
   @objc dynamic public func onLoadFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial, error: any Swift.Error)
 }

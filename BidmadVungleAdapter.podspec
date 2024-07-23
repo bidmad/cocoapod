@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "BidmadVungleAdapter.xcframework"
   s.swift_version = '5.0'
 
-  s.dependency 'BidmadSDK', '>=6.8.0', '<6.9.0'
+  s.dependency 'BidmadSDK', '>=6.9.0', '<6.10.0'
   s.dependency 'VungleAds', '7.2.2'
 
 end

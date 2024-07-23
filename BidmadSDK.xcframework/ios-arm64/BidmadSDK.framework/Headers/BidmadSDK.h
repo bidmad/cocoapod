@@ -20,7 +20,6 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import <BidmadSDK/BIDMADInterstitial.h>
 #import <BidmadSDK/BIDMADRewardVideo.h>
 #import <BidmadSDK/BIDMADBanner.h>
-#import <BidmadSDK/BidmadSDK.h>
 #import <BidmadSDK/BIDMADNativeAd.h>
 #import <BidmadSDK/BidmadBannerAdapter.h>
 #import <BidmadSDK/BidmadRewardAdapter.h>

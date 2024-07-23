@@ -412,7 +412,7 @@
           {
             "kind": "Function",
             "name": "onLoadAd",
-            "printedName": "onLoadAd(_:adWidth:adHeight:)",
+            "printedName": "onLoadAd(_:info:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -427,22 +427,16 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterBannerRefined(im)onLoadAd:adWidth:adHeight:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB13BannerRefinedC8onLoadAd_7adWidth0K6HeightySo0deF0C_12CoreGraphics7CGFloatVAKtF",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterBannerRefined(im)onLoadAd:info:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB13BannerRefinedC8onLoadAd_4infoySo0deF0C_0A3SDK0A4InfoCtF",
             "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onLoadAd:adWidth:adHeight:",
+            "objc_name": "onLoadAd:info:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -490,7 +484,7 @@
           {
             "kind": "Function",
             "name": "onClickAd",
-            "printedName": "onClickAd(_:)",
+            "printedName": "onClickAd(_:info:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -502,13 +496,19 @@
                 "name": "OpenBiddingBanner",
                 "printedName": "OpenBiddingHelper.OpenBiddingBanner",
                 "usr": "c:objc(cs)OpenBiddingBanner"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterBannerRefined(im)onClickAd:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB13BannerRefinedC9onClickAdyySo0deF0CF",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterBannerRefined(im)onClickAd:info:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB13BannerRefinedC9onClickAd_4infoySo0deF0C_0A3SDK0A4InfoCtF",
             "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onClickAd:",
+            "objc_name": "onClickAd:info:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -988,7 +988,7 @@
           {
             "kind": "Function",
             "name": "onLoadAd",
-            "printedName": "onLoadAd(_:)",
+            "printedName": "onLoadAd(_:info:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1000,13 +1000,19 @@
                 "name": "OpenBiddingInterstitial",
                 "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
                 "usr": "c:objc(cs)OpenBiddingInterstitial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterInterstitial(im)onLoadAd:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB12InterstitialC8onLoadAdyySo0deF0CF",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterInterstitial(im)onLoadAd:info:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB12InterstitialC8onLoadAd_4infoySo0deF0C_0A3SDK0A4InfoCtF",
             "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onLoadAd:",
+            "objc_name": "onLoadAd:info:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -1018,7 +1024,7 @@
           {
             "kind": "Function",
             "name": "onShowAd",
-            "printedName": "onShowAd(_:)",
+            "printedName": "onShowAd(_:info:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1030,13 +1036,19 @@
                 "name": "OpenBiddingInterstitial",
                 "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
                 "usr": "c:objc(cs)OpenBiddingInterstitial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterInterstitial(im)onShowAd:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB12InterstitialC8onShowAdyySo0deF0CF",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterInterstitial(im)onShowAd:info:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB12InterstitialC8onShowAd_4infoySo0deF0C_0A3SDK0A4InfoCtF",
             "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onShowAd:",
+            "objc_name": "onShowAd:info:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -1048,7 +1060,7 @@
           {
             "kind": "Function",
             "name": "onShowFailAd",
-            "printedName": "onShowFailAd(_:error:)",
+            "printedName": "onShowFailAd(_:info:error:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1063,16 +1075,22 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Error",
                 "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterInterstitial(im)onShowFailAd:error:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB12InterstitialC12onShowFailAd_5errorySo0deF0C_s5Error_ptF",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterInterstitial(im)onShowFailAd:info:error:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB12InterstitialC12onShowFailAd_4info5errorySo0deF0C_0A3SDK0A4InfoCs5Error_ptF",
             "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onShowFailAd:error:",
+            "objc_name": "onShowFailAd:info:error:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -1084,7 +1102,7 @@
           {
             "kind": "Function",
             "name": "onCloseAd",
-            "printedName": "onCloseAd(_:)",
+            "printedName": "onCloseAd(_:info:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1096,13 +1114,19 @@
                 "name": "OpenBiddingInterstitial",
                 "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
                 "usr": "c:objc(cs)OpenBiddingInterstitial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterInterstitial(im)onCloseAd:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB12InterstitialC9onCloseAdyySo0deF0CF",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterInterstitial(im)onCloseAd:info:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB12InterstitialC9onCloseAd_4infoySo0deF0C_0A3SDK0A4InfoCtF",
             "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onCloseAd:",
+            "objc_name": "onCloseAd:info:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -1277,7 +1301,7 @@
     {
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
-      "offset": 7857,
+      "offset": 7889,
       "length": 43,
       "value": "\"BidmadFlutterBridge.OpenBiddingFlutterBannerRefinedPlatformView\""
     },

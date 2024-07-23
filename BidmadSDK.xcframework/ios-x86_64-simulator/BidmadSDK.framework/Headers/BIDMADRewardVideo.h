@@ -11,10 +11,13 @@
 #import <UIKit/UIKit.h>
 #import <BidmadSDK/BidmadAdUnit.h>
 #import <BidmadSDK/OBHCommunicationDelegate.h>
+#import <BidmadSDK/BidmadRewardAdapter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BIDMADRewardVideo : NSObject
+
+@property (nonatomic, strong) BidmadRewardAdapter *adapter;
 
 - (instancetype)initWithInstanceOBH:(id<OBHCommunicationDelegate>)instanceOBH;
 - (void)selectAdUnit:(BidmadAdUnit *)adUnit;

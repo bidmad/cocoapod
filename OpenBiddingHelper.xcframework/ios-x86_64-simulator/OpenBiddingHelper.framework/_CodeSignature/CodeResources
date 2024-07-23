@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/BidmadNativeAd.h</key>
 		<data>
-		Cy2Eb5FqZy4joi2UymNzOzQsawY=
+		wX6mfKky8G45gIuTO2c7CqRQ/NQ=
 		</data>
 		<key>Headers/BidmadRewardAd.h</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Headers/OpenBiddingAppOpenAd.h</key>
 		<data>
-		8kOydFkXCrqqos0eUsPiwtLccvg=
+		Vh1cRd8MA90i60unYkkEbQaIoVs=
 		</data>
 		<key>Headers/OpenBiddingBanner.h</key>
 		<data>
-		EGa++ZCINQK4y80vav64FaUfm48=
+		E1+a0mFnF9Yttq+HYx+UiigAiFA=
 		</data>
 		<key>Headers/OpenBiddingHelper.h</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Headers/OpenBiddingInterstitial.h</key>
 		<data>
-		4gQu+UW56CqtTSk2vpV6b378Nho=
+		3XwlLGL28v1V0MsOITZwCGdBcUw=
 		</data>
 		<key>Headers/OpenBiddingRewardVideo.h</key>
 		<data>
-		0QNU4tMe8Z1xlU1n/ez4HhpMTvg=
+		ty3S/g931zjpt5ncFNR7OVFUez0=
 		</data>
 		<key>Headers/OpenBiddingUnrealInterstitial.h</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rBJs7PY6IkAg2GkPVmeLDtJeEnc=
+		QZc8PX+n1H6nQSER0LWo3xgsHAw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -251,11 +251,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Cy2Eb5FqZy4joi2UymNzOzQsawY=
+			wX6mfKky8G45gIuTO2c7CqRQ/NQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			JJ07bPYft6av80YQR1xa7KYBV8EXxuZbsoJTyjcEuO8=
+			5X2ntPAui6ve+VmMHkrti3oCalW2TGSbVS59myDJVts=
 			</data>
 		</dict>
 		<key>Headers/BidmadRewardAd.h</key>
@@ -306,22 +306,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8kOydFkXCrqqos0eUsPiwtLccvg=
+			Vh1cRd8MA90i60unYkkEbQaIoVs=
 			</data>
 			<key>hash2</key>
 			<data>
-			EsHqNMZQVFqVCcvr4vJzmHJEJ1dOxBBFecFaGMuT3aI=
+			2fn1yY2UzRxSdwsa5ls0h/MqmkK+BEOpUiRrkVaSYxw=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingBanner.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EGa++ZCINQK4y80vav64FaUfm48=
+			E1+a0mFnF9Yttq+HYx+UiigAiFA=
 			</data>
 			<key>hash2</key>
 			<data>
-			EpjJ4xj5bv3clzxSCrAJkyhNARyse7sZhnskMfrA0KQ=
+			5Ly3FTs4tI+CZ/QxX6yqGmCHwK53qgp76fOVzRwnOmE=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingHelper.h</key>
@@ -339,22 +339,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4gQu+UW56CqtTSk2vpV6b378Nho=
+			3XwlLGL28v1V0MsOITZwCGdBcUw=
 			</data>
 			<key>hash2</key>
 			<data>
-			J+PA0SIDqucxL9WfaS4doxHcTWeE/l24WdxQ/H++mXs=
+			Ih+VBY0VqKnzGuaVugGDU5t+616TsFeTMnHZmPLsm/A=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingRewardVideo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0QNU4tMe8Z1xlU1n/ez4HhpMTvg=
+			ty3S/g931zjpt5ncFNR7OVFUez0=
 			</data>
 			<key>hash2</key>
 			<data>
-			KRZ9oisXhk52Yhtaf6oPpjCuEjjKpO9StLXW9SpGoL8=
+			NjzUSXt2dfqKIGafg0QudPRlhAdQkstlSaLU2B65mhQ=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingUnrealInterstitial.h</key>

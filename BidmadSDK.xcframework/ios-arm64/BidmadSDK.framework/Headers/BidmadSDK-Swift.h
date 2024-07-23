@@ -277,8 +277,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import ObjectiveC;
 #endif
+
+#import <BidmadSDK/BidmadSDK.h>
 
 #endif
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -298,7 +301,29 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class BidmadInfo;
+
+@interface BidmadAdUnit (SWIFT_EXTENSION(BidmadSDK))
+- (BidmadInfo * _Nonnull)stripToInfo SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class NSString;
+@class NSDictionary;
+
+SWIFT_CLASS("_TtC9BidmadSDK10BidmadInfo")
+@interface BidmadInfo : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull networkName;
+@property (nonatomic, readonly) BidmadAdType type;
+@property (nonatomic, readonly) CGSize requestedBannerSize;
+@property (nonatomic, readonly) CGSize loadedBannerSize;
+@property (nonatomic, readonly, copy) NSString * _Nonnull descriptiveType;
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
+@property (nonatomic, readonly, copy) NSString * _Nonnull debugDescription;
+@property (nonatomic, readonly, strong) NSDictionary * _Nonnull flutterArgs;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 SWIFT_CLASS("_TtC9BidmadSDK18BidmadStateManager")
 @interface BidmadStateManager : NSObject

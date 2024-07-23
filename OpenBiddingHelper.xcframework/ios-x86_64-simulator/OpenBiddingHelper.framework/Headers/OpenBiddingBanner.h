@@ -10,6 +10,8 @@
 
 #import <UIKit/UIKit.h>
 #import <BidmadSDK/BidmadLoadStatus.h>
+#import <BidmadSDK/BIDMADBanner.h>
+#import <BidmadSDK/BidmadSDK-Swift.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -29,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) NSUInteger position;
 @property (readonly) BOOL isLoaded;
 @property (nonatomic, strong) NSString * _Nullable flutterKey;
+@property (nonatomic, strong) BIDMADBanner *bidmadBanner;
 
 /**
  * A Boolean value that determines whether ad refresh feature is enabled.
@@ -58,11 +61,14 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 
 - (void)onLoadFailAd:(OpenBiddingBanner * _Nonnull)bidmadAd error:(NSError * _Nonnull)error;
-- (void)onLoadAd:(OpenBiddingBanner * _Nonnull)bidmadAd;
+- (void)onLoadAd:(OpenBiddingBanner * _Nonnull)bidmadAd __deprecated_msg("use onLoadAd:info: instead");
 - (void)onLoadAd:(OpenBiddingBanner * _Nonnull)bidmadAd
          adWidth:(CGFloat)width
-        adHeight:(CGFloat)height;
-- (void)onClickAd:(OpenBiddingBanner* _Nonnull) bidmadAd;
+        adHeight:(CGFloat)height __deprecated_msg("use onLoadAd:info: instead");
+- (void)onLoadAd:(OpenBiddingBanner * _Nonnull)bidmadAd
+            info:(BidmadInfo *)info;
+- (void)onClickAd:(OpenBiddingBanner* _Nonnull) bidmadAd __deprecated_msg("use onClickAd:info: instead");
+- (void)onClickAd:(OpenBiddingBanner * _Nonnull)bidmadAd info:(BidmadInfo * _Nonnull)info;
 
 @end
 

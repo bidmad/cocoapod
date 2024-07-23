@@ -7,11 +7,13 @@
 
 #import <UIKit/UIKit.h>
 #import <BidmadSDK/BIDMADNativeAdView.h>
+#import <BidmadSDK/BidmadNativeAdapter.h>
 
 @protocol BIDMADNativeAdDelegate;
 @interface BIDMADNativeAd : NSObject
 @property (nonatomic, weak) id<BIDMADNativeAdDelegate> _Nullable delegate;
 @property (nonatomic) NSString * _Nullable zoneID;
+@property (nonatomic, strong) BidmadNativeAdapter * _Nullable adapter;
 - (nonnull instancetype)init;
 - (void)requestNativeAd;
 - (CGSize)setAdView:(UIViewController * _Nonnull)viewController adView:(BIDMADNativeAdView * _Nonnull)adView defaultSize:(CGSize)defaultSize;

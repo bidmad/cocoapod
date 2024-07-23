@@ -7,9 +7,31 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_hasMissingDesignatedInitializers @objcMembers open class BidmadInfo : ObjectiveC.NSObject {
+  @objc final public let networkName: Swift.String
+  @objc final public let type: BidmadSDK.BidmadAdType
+  @objc final public let requestedBannerSize: CoreFoundation.CGSize
+  @objc final public let loadedBannerSize: CoreFoundation.CGSize
+  @objc public var descriptiveType: Swift.String {
+    @objc get
+  }
+  @objc override dynamic open var description: Swift.String {
+    @objc get
+  }
+  @objc override dynamic open var debugDescription: Swift.String {
+    @objc get
+  }
+  @objc public var flutterArgs: Foundation.NSDictionary {
+    @objc get
+  }
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @objcMembers open class BidmadStateManager : ObjectiveC.NSObject {
   @objc public static func checkCollapsibleRequestedPreviously(for zoneId: Swift.String) -> Swift.Bool
   @objc public static func set(collapsibleRequested: Swift.Bool, to zoneId: Swift.String)
   @objc override dynamic public init()
   @objc deinit
+}
+extension BidmadSDK.BidmadAdUnit {
+  @objc dynamic public func stripToInfo() -> BidmadSDK.BidmadInfo
 }

@@ -12,10 +12,13 @@
 #import <BidmadSDK/BIDMADUtil.h>
 #import <BidmadSDK/BIDMADSetting.h>
 #import <BidmadSDK/BidmadAdUnit.h>
+#import <BidmadSDK/BidmadAppOpenAdapter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BIDMADAppOpenAd : NSObject
+
+@property (nonatomic, strong) BidmadAppOpenAdapter *adapter;
 
 - (instancetype _Nonnull)initWithInstanceOBH:(id _Nullable)instanceOBH;
 - (void)showAppOpenAdOnViewController:(UIViewController * _Nonnull)viewController;

@@ -13,10 +13,13 @@
 #import <BidmadSDK/BIDMADSetting.h>
 #import <BidmadSDK/BidmadAdUnit.h>
 #import <BidmadSDK/OBHCommunicationDelegate.h>
+#import <BidmadSDK/BidmadInterstitialAdapter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BIDMADInterstitial : NSObject
+
+@property (nonatomic, strong) BidmadInterstitialAdapter *adapter;
 
 - (instancetype)initWithInstanceOBH:(id<OBHCommunicationDelegate>)instanceOBH;
 - (void)showInterstitialViewOnViewController:(UIViewController * _Nonnull)viewController;

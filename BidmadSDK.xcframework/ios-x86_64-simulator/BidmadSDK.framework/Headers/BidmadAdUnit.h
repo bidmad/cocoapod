@@ -30,6 +30,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *realZoneId;
 @property (nonatomic, strong) NSString *requestedZoneId;
 @property (nonatomic, strong) BidmadAdUnit * _Nullable nextAdUnit;
+@property (nonatomic) CGSize requestedBannerAdSize;
+@property (nonatomic) CGSize loadedBannerAdSize;
 
 + (NSDictionary<NSString *, NSString *> *)supportedAdNetworks;
 - (instancetype)initWithKey:(NSString *)key

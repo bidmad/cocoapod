@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import "BidmadAdStandardNativeAd.h"
+#import <BidmadSDK/BidmadSDK-Swift.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -25,9 +26,11 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol BidmadNativeAdDelegate <NSObject>
 
 @optional
-- (void)onLoadAd:(BidmadNativeAd * _Nonnull)bidmadAd;
+- (void)onLoadAd:(BidmadNativeAd * _Nonnull)bidmadAd __deprecated_msg("use onLoadAd:info: instead");
+- (void)onLoadAd:(BidmadNativeAd * _Nonnull)bidmadAd info:(BidmadInfo *)info;
 - (void)onLoadFailAd:(BidmadNativeAd * _Nonnull)bidmadAd error:(NSError * _Nonnull)error;
-- (void)onClickAd:(BidmadNativeAd * _Nonnull)bidmadAd;
+- (void)onClickAd:(BidmadNativeAd * _Nonnull)bidmadAd __deprecated_msg("use onClickAd:info: instead");
+- (void)onClickAd:(BidmadNativeAd * _Nonnull)bidmadAd info:(BidmadInfo *)info;
 
 @end
 

@@ -15,6 +15,509 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "BidmadInfo",
+        "printedName": "BidmadInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkName",
+            "printedName": "networkName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(py)networkName",
+            "mangledName": "$s9BidmadSDK0A4InfoC11networkNameSSvp",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(im)networkName",
+                "mangledName": "$s9BidmadSDK0A4InfoC11networkNameSSvg",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAdType",
+                "printedName": "BidmadSDK.BidmadAdType",
+                "usr": "c:@E@BidmadAdType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(py)type",
+            "mangledName": "$s9BidmadSDK0A4InfoC4typeSo0A6AdTypeVvp",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadAdType",
+                    "printedName": "BidmadSDK.BidmadAdType",
+                    "usr": "c:@E@BidmadAdType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(im)type",
+                "mangledName": "$s9BidmadSDK0A4InfoC4typeSo0A6AdTypeVvg",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestedBannerSize",
+            "printedName": "requestedBannerSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(py)requestedBannerSize",
+            "mangledName": "$s9BidmadSDK0A4InfoC19requestedBannerSizeSo6CGSizeVvp",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(im)requestedBannerSize",
+                "mangledName": "$s9BidmadSDK0A4InfoC19requestedBannerSizeSo6CGSizeVvg",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loadedBannerSize",
+            "printedName": "loadedBannerSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(py)loadedBannerSize",
+            "mangledName": "$s9BidmadSDK0A4InfoC16loadedBannerSizeSo6CGSizeVvp",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(im)loadedBannerSize",
+                "mangledName": "$s9BidmadSDK0A4InfoC16loadedBannerSizeSo6CGSizeVvg",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "descriptiveType",
+            "printedName": "descriptiveType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(py)descriptiveType",
+            "mangledName": "$s9BidmadSDK0A4InfoC15descriptiveTypeSSvp",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(im)descriptiveType",
+                "mangledName": "$s9BidmadSDK0A4InfoC15descriptiveTypeSSvg",
+                "moduleName": "BidmadSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(py)description",
+            "mangledName": "$s9BidmadSDK0A4InfoC11descriptionSSvp",
+            "moduleName": "BidmadSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "description",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(im)description",
+                "mangledName": "$s9BidmadSDK0A4InfoC11descriptionSSvg",
+                "moduleName": "BidmadSDK",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "description",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debugDescription",
+            "printedName": "debugDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(py)debugDescription",
+            "mangledName": "$s9BidmadSDK0A4InfoC16debugDescriptionSSvp",
+            "moduleName": "BidmadSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "debugDescription",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(im)debugDescription",
+                "mangledName": "$s9BidmadSDK0A4InfoC16debugDescriptionSSvg",
+                "moduleName": "BidmadSDK",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "debugDescription",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flutterArgs",
+            "printedName": "flutterArgs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(py)flutterArgs",
+            "mangledName": "$s9BidmadSDK0A4InfoC11flutterArgsSo12NSDictionaryCvp",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(im)flutterArgs",
+                "mangledName": "$s9BidmadSDK0A4InfoC11flutterArgsSo12NSDictionaryCvg",
+                "moduleName": "BidmadSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(im)init",
+            "mangledName": "$s9BidmadSDK0A4InfoCACycfc",
+            "moduleName": "BidmadSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo",
+        "mangledName": "$s9BidmadSDK0A4InfoC",
+        "moduleName": "BidmadSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -189,11 +692,121 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadAdUnit",
+        "printedName": "BidmadAdUnit",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "stripToInfo",
+            "printedName": "stripToInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadSDK@@objc(cs)BidmadAdUnit(im)stripToInfo",
+            "mangledName": "$sSo12BidmadAdUnitC0A3SDKE11stripToInfoAC0aG0CyF",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)BidmadAdUnit",
+        "moduleName": "BidmadSDK",
+        "isOpen": true,
+        "objc_name": "BidmadAdUnit",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 142,
+      "length": 10,
+      "value": "\"BidmadSDK.BidmadInfo\""
+    },
     {
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadSDK\/BidmadStateManager.swift",
       "kind": "BooleanLiteral",

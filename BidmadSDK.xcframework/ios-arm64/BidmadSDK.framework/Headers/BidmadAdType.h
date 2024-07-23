@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSInteger, BidmadAdType) {
+typedef NS_CLOSED_ENUM(NSInteger, BidmadAdType) {
     BidmadAdTypeBanner,
     BidmadAdTypeInterstitial,
     BidmadAdTypeReward,
