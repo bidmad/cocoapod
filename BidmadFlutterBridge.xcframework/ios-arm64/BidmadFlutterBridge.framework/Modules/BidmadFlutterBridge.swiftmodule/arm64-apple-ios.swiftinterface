@@ -47,4 +47,5 @@ extension BidmadFlutterBridge.OpenBiddingFlutterInterstitial : OpenBiddingHelper
   @objc dynamic public func onShowFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial, info: BidmadSDK.BidmadInfo, error: any Swift.Error)
   @objc dynamic public func onCloseAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial, info: BidmadSDK.BidmadInfo)
   @objc dynamic public func onLoadFailAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial, error: any Swift.Error)
+  @objc dynamic public func onClickAd(_ bidmadAd: OpenBiddingHelper.OpenBiddingInterstitial, info: BidmadSDK.BidmadInfo)
 }

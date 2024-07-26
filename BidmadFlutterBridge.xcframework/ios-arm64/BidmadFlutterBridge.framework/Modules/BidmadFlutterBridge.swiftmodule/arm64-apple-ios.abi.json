@@ -1170,6 +1170,42 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClickAd",
+            "printedName": "onClickAd(_:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingInterstitial",
+                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
+                "usr": "c:objc(cs)OpenBiddingInterstitial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterInterstitial(im)onClickAd:info:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB12InterstitialC9onClickAd_4infoySo0deF0C_0A3SDK0A4InfoCtF",
+            "moduleName": "BidmadFlutterBridge",
+            "objc_name": "onClickAd:info:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1392,6 +1428,13 @@
     {
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
+      "offset": 515,
+      "length": 11,
+      "value": "\"onClickAd\""
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "kind": "StringLiteral",
       "offset": 384,
       "length": 10,
       "value": "\"onLoadAd\""
@@ -1420,7 +1463,14 @@
     {
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 520,
+      "offset": 515,
+      "length": 11,
+      "value": "\"onClickAd\""
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
       "length": 30,
       "value": "\"BidmadFlutterBridge.OpenBiddingFlutterInterstitial\""
     }
