@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.license = { :type => 'MIT', :text => 'LICENSE' }
     s.author             = { "Markus" => "markus@adop.cc" }
     s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'AdPopcornCaulyWrapper.0.0.2' }
-    s.vendored_frameworks = "Cauly.xcframework"
+    s.vendored_frameworks = "CaulySDK.xcframework"
     s.platform = :ios
     s.swift_version = "5.0"
     s.ios.deployment_target  = '12.0'
