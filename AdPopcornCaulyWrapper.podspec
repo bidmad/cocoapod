@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name         = "AdPopcornCaulyWrapper"
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
     s.summary      = "This repository is built to wrap Cauly SDK."
     s.description  = "This repository is built to wrap Cauly SDK. Use this repository for AdPopcorn adapter support."
     s.homepage     = "https://www.cauly.net/index.html#/"
     s.license = { :type => 'MIT', :text => 'LICENSE' }
     s.author             = { "Markus" => "markus@adop.cc" }
-    s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'AdPopcornCaulyWrapper.0.0.1' }
+    s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'AdPopcornCaulyWrapper.0.0.2' }
     s.vendored_frameworks = "Cauly.xcframework"
     s.platform = :ios
     s.swift_version = "5.0"
