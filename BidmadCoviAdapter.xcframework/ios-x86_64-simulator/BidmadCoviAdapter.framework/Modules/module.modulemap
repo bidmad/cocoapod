@@ -1,0 +1,6 @@
+framework module BidmadCoviAdapter {
+  umbrella header "BidmadCoviAdapter.h"
+  export *
+
+  module * { export * }
+}

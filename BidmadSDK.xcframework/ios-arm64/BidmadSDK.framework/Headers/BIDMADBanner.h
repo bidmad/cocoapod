@@ -28,14 +28,14 @@
 
 @end
 
-typedef NS_ENUM(NSUInteger, BIDMADBannerViewCase) {
+typedef NS_CLOSED_ENUM(NSUInteger, BIDMADBannerViewCase) {
     BIDMADBannerViewCaseXYCoordinateGiven = 0,
     BIDMADBannerViewCaseContainerViewGiven = 1,
     BIDMADBannerViewCaseOnlyYCoordinateGiven = 2,
     BIDMADBannerViewCaseAdPositionAnchorGiven = 3,
 };
 
-typedef NS_ENUM(NSUInteger, BIDMADAdPosition) {
+typedef NS_CLOSED_ENUM(NSUInteger, BIDMADAdPosition) {
     BIDMADAdPositionCenter = 0,
     BIDMADAdPositionTop = 1,
     BIDMADAdPositionBottom = 2,

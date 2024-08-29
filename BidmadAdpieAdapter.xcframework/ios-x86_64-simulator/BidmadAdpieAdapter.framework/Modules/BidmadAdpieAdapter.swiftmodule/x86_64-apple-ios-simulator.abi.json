@@ -1,0 +1,91 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadAdpieAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAdpieAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdPieSDK",
+        "printedName": "AdPieSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAdpieAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadAdpieAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAdpieAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdPieSDK",
+        "printedName": "AdPieSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAdpieAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BidmadAdpieAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BidmadAdpieAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdPieSDK",
+        "printedName": "AdPieSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAdpieAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadAdpieAdapter\/BidmadInterstitialAdpieAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 180,
+      "length": 30,
+      "value": "\"BidmadAdpieAdapter.BidmadInterstitialAdpieAdapter\""
+    }
+  ]
+}

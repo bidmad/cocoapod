@@ -308,6 +308,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @end
 
 @class NSString;
+
+SWIFT_CLASS("_TtC9BidmadSDK15BidmadConstants")
+@interface BidmadConstants : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull info_plist_appstore_id;)
++ (NSString * _Nonnull)info_plist_appstore_id SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull info_plist_cauly_app_code;)
++ (NSString * _Nonnull)info_plist_cauly_app_code SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSDictionary;
 
 SWIFT_CLASS("_TtC9BidmadSDK10BidmadInfo")
@@ -331,6 +341,7 @@ SWIFT_CLASS("_TtC9BidmadSDK18BidmadStateManager")
 + (void)setWithCollapsibleRequested:(BOOL)collapsibleRequested to:(NSString * _Nonnull)zoneId;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 #endif
 #if __has_attribute(external_source_symbol)

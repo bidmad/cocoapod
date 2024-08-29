@@ -387,17 +387,45 @@
 		<data>
 		7tJM4K60twtKlup5Di8UBO23EjM=
 		</data>
+		<key>Headers/BidmadAdPopcornAdapter-Swift.h</key>
+		<data>
+		gyY4owqQ0NI6qSkLaY9w0tVihgA=
+		</data>
 		<key>Headers/BidmadAdPopcornAdapter.h</key>
 		<data>
-		/3ULFPp2bZEE8/ZVFu0aME54PSo=
+		9ogAtomJnqnRCiqm/kLY6m0AEWg=
+		</data>
+		<key>Headers/BidmadAdPopcornCore.h</key>
+		<data>
+		RXLBTBUJOVAOFtfIQ+xuUsj4pFU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TmDyTuAkUNEMUDVMbtBaWt2qjyI=
+		ELTnHLfkQ0Xi9P/ZDbfTBOOb7gE=
+		</data>
+		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		kit/X87ZkLhY5gbSBQmbIKIoq70=
+		</data>
+		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		9NWrivxcHy5CEnYJ3YPFRcKDRS8=
+		</data>
+		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		bfShnvytNCYVwy351sbQRAzKhVg=
+		</data>
+		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		9NWrivxcHy5CEnYJ3YPFRcKDRS8=
+		</data>
+		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		4lENOl+z3vPfyNB/+W7oWgXAJLM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		PXeTTDVrh/O4MrTqU5hLQXQ3ulk=
+		/p1iMPG5DVaRpICmSBeT/hVhnI8=
 		</data>
 		<key>NAMSDKResources.bundle/Info.plist</key>
 		<data>
@@ -1334,26 +1362,103 @@
 			7w0/bxAkOVh8L41FdbI/Tnjur3nVz/5iVO3moTlQ4UM=
 			</data>
 		</dict>
+		<key>Headers/BidmadAdPopcornAdapter-Swift.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gyY4owqQ0NI6qSkLaY9w0tVihgA=
+			</data>
+			<key>hash2</key>
+			<data>
+			rpYhMYhJjy4+SZwJNAStkWbAgnZkbkDFkLmDLUPk9mo=
+			</data>
+		</dict>
 		<key>Headers/BidmadAdPopcornAdapter.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/3ULFPp2bZEE8/ZVFu0aME54PSo=
+			9ogAtomJnqnRCiqm/kLY6m0AEWg=
 			</data>
 			<key>hash2</key>
 			<data>
-			rRT9qJLAWDFlWtGvWY4Jvvdl/Z0bbXA0Yjo5XGj6gCE=
+			9Nox9JUQq1WNL5g8KychDRveT80mZ+P4asWqyd3Fy+Q=
+			</data>
+		</dict>
+		<key>Headers/BidmadAdPopcornCore.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RXLBTBUJOVAOFtfIQ+xuUsj4pFU=
+			</data>
+			<key>hash2</key>
+			<data>
+			TYOvLEG18ILeGL2sTBYTZMT84t4N0249aLVeQorCKwM=
+			</data>
+		</dict>
+		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kit/X87ZkLhY5gbSBQmbIKIoq70=
+			</data>
+			<key>hash2</key>
+			<data>
+			KSdp8l5SdYSB7XAWK4ZZw58k1Luq9dw72eu0HExW10Q=
+			</data>
+		</dict>
+		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9NWrivxcHy5CEnYJ3YPFRcKDRS8=
+			</data>
+			<key>hash2</key>
+			<data>
+			5knJRzMd2LGvbsEw/ekk+4g30Qf0ao8Zr0BcxWXgNUA=
+			</data>
+		</dict>
+		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bfShnvytNCYVwy351sbQRAzKhVg=
+			</data>
+			<key>hash2</key>
+			<data>
+			o+ndghlp/Uzo9+76Yov7xqeCf1yDhsBLCUSwOCUQcq4=
+			</data>
+		</dict>
+		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9NWrivxcHy5CEnYJ3YPFRcKDRS8=
+			</data>
+			<key>hash2</key>
+			<data>
+			5knJRzMd2LGvbsEw/ekk+4g30Qf0ao8Zr0BcxWXgNUA=
+			</data>
+		</dict>
+		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4lENOl+z3vPfyNB/+W7oWgXAJLM=
+			</data>
+			<key>hash2</key>
+			<data>
+			m3AmUQacM8xUdgtbF/s+XSV8iUDQ7Ry1lmIxi+XiDtA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PXeTTDVrh/O4MrTqU5hLQXQ3ulk=
+			/p1iMPG5DVaRpICmSBeT/hVhnI8=
 			</data>
 			<key>hash2</key>
 			<data>
-			X8z92w4pWXMuFtN5B3PiziTJBghEYmya0GeHDaW5ryo=
+			J0MqTsIFezgzsqfrEeElb8DjZULvn/w2yuIr7HyabTo=
 			</data>
 		</dict>
 		<key>NAMSDKResources.bundle/Info.plist</key>

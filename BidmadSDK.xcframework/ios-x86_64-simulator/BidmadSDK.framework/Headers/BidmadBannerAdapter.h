@@ -28,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
                              UIView * _Nullable,
                              CGSize,
                              NSError * _Nullable))completionHandler;
+- (void)destroyed;
 - (instancetype)initWithAdUnit:(BidmadAdUnit *)adUnit;
 
 @end

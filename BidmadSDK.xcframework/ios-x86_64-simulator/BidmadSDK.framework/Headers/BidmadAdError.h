@@ -37,6 +37,7 @@ typedef NS_ENUM(NSUInteger, BidmadError) {
     BidmadErrorMethodCallFail = 24,
     BidmadErrorNoAdsInZone = 25,
     BidmadErrorShowError = 26,
+    BidmadErrorLowIOSVersion = 27,
 };
 
 @interface BidmadAdError : NSObject

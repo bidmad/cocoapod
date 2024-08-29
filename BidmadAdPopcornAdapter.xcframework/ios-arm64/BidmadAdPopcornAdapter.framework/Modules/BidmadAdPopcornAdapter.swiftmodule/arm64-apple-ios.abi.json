@@ -1,0 +1,35 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadAdPopcornAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAdPopcornAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdPopcornSSP",
+        "printedName": "AdPopcornSSP",
+        "declKind": "Import",
+        "moduleName": "BidmadAdPopcornAdapter"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

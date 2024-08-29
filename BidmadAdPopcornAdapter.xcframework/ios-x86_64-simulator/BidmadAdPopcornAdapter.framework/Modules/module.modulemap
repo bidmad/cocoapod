@@ -4,3 +4,8 @@ framework module BidmadAdPopcornAdapter {
 
   module * { export * }
 }
+
+module BidmadAdPopcornAdapter.Swift {
+  header "BidmadAdPopcornAdapter-Swift.h"
+  requires objc
+}

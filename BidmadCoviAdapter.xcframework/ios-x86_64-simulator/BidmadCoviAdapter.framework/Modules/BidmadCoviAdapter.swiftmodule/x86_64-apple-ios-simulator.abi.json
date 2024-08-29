@@ -1,0 +1,308 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadCoviAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadCoviAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BidmadCoviAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BidmadCoviAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BidmadCoviAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BidmadCoviAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BidmadCoviAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BidmadCoviAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadCoviVastPlayer",
+        "printedName": "BidmadCoviVastPlayer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ad:tracker:viewController:click:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadCoviVastPlayer",
+                "printedName": "BidmadCoviAdapter.BidmadCoviVastPlayer",
+                "usr": "s:17BidmadCoviAdapter0aB10VastPlayerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VastAd",
+                "printedName": "BidmadSDK.VastAd",
+                "usr": "s:9BidmadSDK6VastAdV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VastTracker",
+                "printedName": "BidmadSDK.VastTracker",
+                "usr": "s:9BidmadSDK11VastTrackerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17BidmadCoviAdapter0aB10VastPlayerV2ad7tracker14viewController5clickAC0A3SDK0D2AdV_AH0D7TrackerCSo06UIViewI0CSgyyctcfc",
+            "mangledName": "$s17BidmadCoviAdapter0aB10VastPlayerV2ad7tracker14viewController5clickAC0A3SDK0D2AdV_AH0D7TrackerCSo06UIViewI0CSgyyctcfc",
+            "moduleName": "BidmadCoviAdapter",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BidmadCoviAdapter0aB10VastPlayerV4bodyQrvp",
+            "mangledName": "$s17BidmadCoviAdapter0aB10VastPlayerV4bodyQrvp",
+            "moduleName": "BidmadCoviAdapter",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BidmadCoviAdapter0aB10VastPlayerV4bodyQrvg",
+                "mangledName": "$s17BidmadCoviAdapter0aB10VastPlayerV4bodyQrvg",
+                "moduleName": "BidmadCoviAdapter",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17BidmadCoviAdapter0aB10VastPlayerV",
+        "mangledName": "$s17BidmadCoviAdapter0aB10VastPlayerV",
+        "moduleName": "BidmadCoviAdapter",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadCoviAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadBannerCoviAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 284,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadBannerCoviAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3638,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 27,
+      "value": "\"BidmadCoviAdapter.BidmadCoviVideoPlayerUIView\""
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 2072,
+      "length": 32,
+      "value": "\"BidmadCoviAdapter.BidmadCoviFullscreenPlayerUIView\""
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5213,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5301,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5447,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
