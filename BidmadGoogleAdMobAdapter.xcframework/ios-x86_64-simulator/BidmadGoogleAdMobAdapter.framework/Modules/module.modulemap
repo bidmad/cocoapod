@@ -4,3 +4,8 @@ framework module BidmadGoogleAdMobAdapter {
 
   module * { export * }
 }
+
+module BidmadGoogleAdMobAdapter.Swift {
+  header "BidmadGoogleAdMobAdapter-Swift.h"
+  requires objc
+}
