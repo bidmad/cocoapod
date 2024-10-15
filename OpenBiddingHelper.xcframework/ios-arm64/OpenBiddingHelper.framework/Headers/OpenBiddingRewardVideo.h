@@ -22,8 +22,8 @@
 
 @interface OpenBiddingRewardVideo : NSObject
 
-@property (nonatomic, strong) id<BIDMADOpenBiddingRewardVideoDelegate> _Nullable delegate;
-@property (nonatomic, strong) id<BIDMADOpenBiddingRewardVideoDelegate> _Nullable preloadDelegate;
+@property (nonatomic, weak) id<BIDMADOpenBiddingRewardVideoDelegate> _Nullable delegate;
+@property (nonatomic, weak) id<BIDMADOpenBiddingRewardVideoDelegate> _Nullable preloadDelegate;
 @property (nonatomic) BidmadLoadStatus loadStatus;
 @property (readonly) BOOL isLoaded;
 @property (nonatomic, strong) NSString * _Nonnull zoneID;

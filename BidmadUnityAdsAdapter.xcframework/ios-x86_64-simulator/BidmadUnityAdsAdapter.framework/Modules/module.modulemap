@@ -4,3 +4,8 @@ framework module BidmadUnityAdsAdapter {
 
   module * { export * }
 }
+
+module BidmadUnityAdsAdapter.Swift {
+  header "BidmadUnityAdsAdapter-Swift.h"
+  requires objc
+}

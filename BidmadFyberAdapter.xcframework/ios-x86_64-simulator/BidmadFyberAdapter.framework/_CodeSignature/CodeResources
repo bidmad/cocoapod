@@ -4,21 +4,89 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Fyber_Marketplace_SDK.bundle/Info.plist</key>
+		<data>
+		Amsdq7W7YTJrDvoeJJLk5Kp2Te4=
+		</data>
+		<key>Fyber_Marketplace_SDK.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		wQj/VbiBnny3b63k0acjA2qnfNs=
+		</data>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<data>
+		JJOj9PTsWnD54jJ9RqAK/XgDhv0=
+		</data>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		VWCA3MeaiPMoOAS1uOteTSLX8js=
+		</data>
 		<key>Headers/BidmadFyberAdapter.h</key>
 		<data>
 		aSKKPsiruSh2cvMYqgoNmjnc4+4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QgKzwBERw2pqPq2BS4IB5qh/at0=
+		kTuABqAOMwQjymN8kR39uIEshNY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		WO+Qnzfc/yw6MnZJEVzBQDsEuzo=
 		</data>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<data>
+		mgCFYoMJjXEf+i3pL8cO3XU9jKE=
+		</data>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		k9OFlDPBRWfteJ+bfG12WAoBuls=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Fyber_Marketplace_SDK.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Amsdq7W7YTJrDvoeJJLk5Kp2Te4=
+			</data>
+			<key>hash2</key>
+			<data>
+			2dvudbdpulsC8lCoXDV9QooR4yJCKXSoCnmdAgVljx8=
+			</data>
+		</dict>
+		<key>Fyber_Marketplace_SDK.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wQj/VbiBnny3b63k0acjA2qnfNs=
+			</data>
+			<key>hash2</key>
+			<data>
+			dDIi4xb1Sm+j5OK6zfnCY49nltBpkaMQSrbcnLj/KfY=
+			</data>
+		</dict>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JJOj9PTsWnD54jJ9RqAK/XgDhv0=
+			</data>
+			<key>hash2</key>
+			<data>
+			0OfRUz64Bg2n4a/foTxGag5ZEEOV/+En/Un7uhW+rfA=
+			</data>
+		</dict>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VWCA3MeaiPMoOAS1uOteTSLX8js=
+			</data>
+			<key>hash2</key>
+			<data>
+			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
+			</data>
+		</dict>
 		<key>Headers/BidmadFyberAdapter.h</key>
 		<dict>
 			<key>hash</key>
@@ -39,6 +107,28 @@
 			<key>hash2</key>
 			<data>
 			GRSaWKpKUYWeA0YJX4Bvf3AlXjtV3ZCqJFZXkOQ5bCk=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mgCFYoMJjXEf+i3pL8cO3XU9jKE=
+			</data>
+			<key>hash2</key>
+			<data>
+			WEhP8aXoP32NhvYPoWwhuzRVhwZj8bKePEx3LMB/vR0=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k9OFlDPBRWfteJ+bfG12WAoBuls=
+			</data>
+			<key>hash2</key>
+			<data>
+			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=
 			</data>
 		</dict>
 	</dict>

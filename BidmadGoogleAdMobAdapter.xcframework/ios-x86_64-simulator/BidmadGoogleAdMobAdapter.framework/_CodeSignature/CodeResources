@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		RPh2e3oNLE/O5VO1UCF4AZsiAhg=
+		JJOj9PTsWnD54jJ9RqAK/XgDhv0=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		X1IMXV8JgXTbFzl77VMquzb+Wd0=
+		2BOkkXbOKAM2uxQeZYjk9i4bRC4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,11 +63,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RPh2e3oNLE/O5VO1UCF4AZsiAhg=
+			JJOj9PTsWnD54jJ9RqAK/XgDhv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ro/CytijyOl2pH+XdNE4ZVGlcc1IbA2YzPXNGxfmhbo=
+			0OfRUz64Bg2n4a/foTxGag5ZEEOV/+En/Un7uhW+rfA=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -151,11 +151,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X1IMXV8JgXTbFzl77VMquzb+Wd0=
+			2BOkkXbOKAM2uxQeZYjk9i4bRC4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PgSAk77o3g94uPQ1s1y0phA5jfiy3PPHXVVeJdqFb3I=
+			y65eEkJhWzt7r9Qu9f9HKkLzLIScrufRSmevCjCk8Hg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

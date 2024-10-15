@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		09ld/OTNuBJdfoFFD9JPznxMe4c=
+		FJG7JauJzdU3qEq3voJ9DYciiZQ=
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xfQfNKgPtm7Z9V+35Qs/D8cPtRc=
+		B3s7880omtvVcdqce3EFpJ2LeW0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xfQfNKgPtm7Z9V+35Qs/D8cPtRc=
+			B3s7880omtvVcdqce3EFpJ2LeW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			p5aVOH4H9prAnmKLxNMxwbSKxWvbft7IfAbxCGzLty4=
+			8veAPVha0/FI3hCAwPjgLyTa3tJUwzAwo5qM8myaXdM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -4,21 +4,67 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<data>
+		JJOj9PTsWnD54jJ9RqAK/XgDhv0=
+		</data>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		VWCA3MeaiPMoOAS1uOteTSLX8js=
+		</data>
 		<key>Headers/BidmadIronSourceAdapter.h</key>
 		<data>
 		kHYTr5U0tigA+lK1fCBtYummOK0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9cXgZ6fUkLOlTK/qiZUnbRPdVMk=
+		sMEzOlf54Ssm+GFu/7FUomOQRZs=
+		</data>
+		<key>IronSourcePrivacyInfo.bundle/Info.plist</key>
+		<data>
+		EFribm/DIR0JPelwl2AJnyeBNlA=
+		</data>
+		<key>IronSourcePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		BLNjR6VVI/K82v3iQCE5o0YXgGI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		eih5hNnkPh6pd7K3/4Xp6GQ5ymk=
 		</data>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<data>
+		mgCFYoMJjXEf+i3pL8cO3XU9jKE=
+		</data>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		k9OFlDPBRWfteJ+bfG12WAoBuls=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JJOj9PTsWnD54jJ9RqAK/XgDhv0=
+			</data>
+			<key>hash2</key>
+			<data>
+			0OfRUz64Bg2n4a/foTxGag5ZEEOV/+En/Un7uhW+rfA=
+			</data>
+		</dict>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VWCA3MeaiPMoOAS1uOteTSLX8js=
+			</data>
+			<key>hash2</key>
+			<data>
+			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
+			</data>
+		</dict>
 		<key>Headers/BidmadIronSourceAdapter.h</key>
 		<dict>
 			<key>hash</key>
@@ -30,6 +76,28 @@
 			CAT+mo+wEnqkfitJ5LYi9qvR1vATDwymHx/C7D0EP4s=
 			</data>
 		</dict>
+		<key>IronSourcePrivacyInfo.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EFribm/DIR0JPelwl2AJnyeBNlA=
+			</data>
+			<key>hash2</key>
+			<data>
+			jUl7ZIaoq4hgsvpoE6HqRP2Kp/+61/o7hiBtMHFhRak=
+			</data>
+		</dict>
+		<key>IronSourcePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BLNjR6VVI/K82v3iQCE5o0YXgGI=
+			</data>
+			<key>hash2</key>
+			<data>
+			ES/wHPURrhqoWqlouH6JyVI5Y7FKY1pgaWMpkbPGo0E=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -39,6 +107,28 @@
 			<key>hash2</key>
 			<data>
 			n5NE0RycJ/Pfzo77S9I3aBbzTz6752ZSzv/ntHMuxeQ=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mgCFYoMJjXEf+i3pL8cO3XU9jKE=
+			</data>
+			<key>hash2</key>
+			<data>
+			WEhP8aXoP32NhvYPoWwhuzRVhwZj8bKePEx3LMB/vR0=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k9OFlDPBRWfteJ+bfG12WAoBuls=
+			</data>
+			<key>hash2</key>
+			<data>
+			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=
 			</data>
 		</dict>
 	</dict>

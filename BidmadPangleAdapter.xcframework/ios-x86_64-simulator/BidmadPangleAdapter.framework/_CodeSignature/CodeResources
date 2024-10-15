@@ -4,13 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AdsGlobalSDK.bundle/Info.plist</key>
+		<data>
+		wg9fX2J2V+wPRgk3+6vNU6Hzpqw=
+		</data>
+		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		/9EtcEGxvliJS6WqSyAMGN1TBwE=
+		</data>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<data>
+		JJOj9PTsWnD54jJ9RqAK/XgDhv0=
+		</data>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		VWCA3MeaiPMoOAS1uOteTSLX8js=
+		</data>
 		<key>Headers/BidmadPangleAdapter.h</key>
 		<data>
 		Ys/yK546c4OPHyAzT6d69p6WDQs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		odmJ8AcrgPTZAOZfxluGpS4g2EQ=
+		cjTo7Wk4JFHUwqSc5OZC6qqHR1Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -18,21 +34,21 @@
 		</data>
 		<key>PAGAdSDK.bundle/Assets.car</key>
 		<data>
-		P7xHMDHBSjRNbUXA62Yt6C8DzD4=
+		k1jRERLUW6HSSrZsWCgyV+zfXmY=
 		</data>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<data>
-		oivDmWZl0xFk7xFDiXfKXWRbraw=
+		BTjw7lsOgRGvKvJw8ZCtk91eTvs=
 		</data>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
-		CuKnx6erFVqn6Bb3/O1B/slSB2A=
+		/9EtcEGxvliJS6WqSyAMGN1TBwE=
 		</data>
 		<key>PAGAdSDK.bundle/ar.lproj/BULanguage.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5495dvARBDHRoJEFnjCtA2T+XfE=
+			4eaGI9trJIGWCfn3lMhmKLrPyhU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -43,15 +59,7 @@
 		</data>
 		<key>PAGAdSDK.bundle/bu_dynamic_default.json</key>
 		<data>
-		oQBpequa6EP2bIV0oeaKF3vtf4c=
-		</data>
-		<key>PAGAdSDK.bundle/bu_logo@2x.data</key>
-		<data>
-		+mtwru9JejoXxD0IZqBa0U0UawM=
-		</data>
-		<key>PAGAdSDK.bundle/bu_logo@3x.data</key>
-		<data>
-		W2jGO8ru7N6WDPaAizhoT5zVVF4=
+		bq+EQgtComvnQStA2ZiGevb/z9Y=
 		</data>
 		<key>PAGAdSDK.bundle/bu_slienceAudio.aiff</key>
 		<data>
@@ -61,7 +69,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X5yFOZVMrUiw9ZkDGXrEfenccSE=
+			1xcX6dAJnRfpxFnLtAYDW8Z77qE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -70,7 +78,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WPk+SoItn8E+9+y2Xo1qGJJtvKo=
+			58Npg7w8TY7shN7my/ywUxt/ARo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -79,7 +87,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WmON5jmb5xHdqPbkJEMmIgz41XU=
+			RO2O9PnFEF8SaBlXqZ9d3EZMY1E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -88,7 +96,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xvS/7hYjwSvgHoov8JXlkMnhvVE=
+			6uc2M/+dSxEaRY1LfYZzdLXuJcI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -97,7 +105,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MFAUkyfOMWv3gcZz1TR1ONyYTfw=
+			evCM/3g9lrqdARjHA7rEH8hEdjs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -106,7 +114,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nlgf5wSFwq51F04+haBszNZA/0o=
+			SyxuD58zcWd2cK25u6HOlxWnUIQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -115,7 +123,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UwhQTqbLKFW6rPTbHKDx/kzJ9ME=
+			rhzNvMqLlBZxFoxa9ZBcYmlch30=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -124,7 +132,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vF6sV084YPkxTUb1NnRAWjk4ees=
+			AxrqixmnReya7x4HzVhH+XnJ+iQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -133,7 +141,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xzqhUPmTjVQv54pcqJCLhnIiaPM=
+			j7eK4DXWtr7srFumMxen2eX5TkM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -142,7 +150,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cGjY6m4TquPd3grwFEis6rInxMY=
+			6dFl2OWKvGDXOQW6SZvpyRxspR8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -155,7 +163,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ikSXFPq3DgWtN+OKn+BbXPOYFcA=
+			Iik9TjhcuZ3yronDbVFhrUkDNRc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -164,7 +172,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			odl/Q0y0LWMqOcvTHUpTHAtk7nA=
+			Hyv+NaqMKUOArsTBwTwyxRiGd9Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -173,7 +181,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RYwllR7vDJFVxnbAs3l83+k+pn0=
+			pd7No7wzDyU/4ehShd/PIXHYxQw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -190,7 +198,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5dJ5p46AMue2jHzTDiyBlrsNRP8=
+			WvKpn2sLPi9SwI9KV+pFWkLelIM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -199,20 +207,20 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BR2SiixL4R5uLS4EJaUFQrYlpNY=
+			xvcxbmHj7ATa68mXJIYVjEMxQuw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		m/farAdmcomAlP1TGO+4/qSooAg=
+		yHcIW1SS3PVZZXH7FuVgHksDcow=
 		</data>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			puMu67GOoZaW2GGyJm1HAxTLzNY=
+			j14MAF+acsCeRtTugubXq7SsLPA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -221,7 +229,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			92msRAtJqlzBTgroA4uVIXoQmK8=
+			zWW5DO89ZZ5Eg5wcs1pKOxWlbnE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -230,14 +238,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D9J30JlusBLIENsMP0VS7YGp/ZE=
+			VAB8x7rCkBYnw2VLao0BL85zxWA=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<data>
+		mgCFYoMJjXEf+i3pL8cO3XU9jKE=
+		</data>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		k9OFlDPBRWfteJ+bfG12WAoBuls=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AdsGlobalSDK.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wg9fX2J2V+wPRgk3+6vNU6Hzpqw=
+			</data>
+			<key>hash2</key>
+			<data>
+			9fMNQfkq0kxFJ4XK/hKNDd4k95C+HaRe9QwhsSzVK8o=
+			</data>
+		</dict>
+		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/9EtcEGxvliJS6WqSyAMGN1TBwE=
+			</data>
+			<key>hash2</key>
+			<data>
+			y5cXDuafZAHCK9CZXFBYYkEI7u+LZGwDEwlq24JR8ik=
+			</data>
+		</dict>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JJOj9PTsWnD54jJ9RqAK/XgDhv0=
+			</data>
+			<key>hash2</key>
+			<data>
+			0OfRUz64Bg2n4a/foTxGag5ZEEOV/+En/Un7uhW+rfA=
+			</data>
+		</dict>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VWCA3MeaiPMoOAS1uOteTSLX8js=
+			</data>
+			<key>hash2</key>
+			<data>
+			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
+			</data>
+		</dict>
 		<key>Headers/BidmadPangleAdapter.h</key>
 		<dict>
 			<key>hash</key>
@@ -264,44 +324,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P7xHMDHBSjRNbUXA62Yt6C8DzD4=
+			k1jRERLUW6HSSrZsWCgyV+zfXmY=
 			</data>
 			<key>hash2</key>
 			<data>
-			YxqKhqfQ+Vpv5WtyfQdutGDG/PzGNcAn+LuV4oTDpMk=
+			trYzmVVZgXlKvcvIEG2q0OIeTxqNzVYMg26IH5mOp2Y=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oivDmWZl0xFk7xFDiXfKXWRbraw=
+			BTjw7lsOgRGvKvJw8ZCtk91eTvs=
 			</data>
 			<key>hash2</key>
 			<data>
-			1uD7EhplsWUczaPOzCv2yBZSL1RwSA4M1gg3w8MVihA=
+			qxqGRQRp5+RlwkRstLTjGMW8q/zhUXYw0xJJfBYKulc=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CuKnx6erFVqn6Bb3/O1B/slSB2A=
+			/9EtcEGxvliJS6WqSyAMGN1TBwE=
 			</data>
 			<key>hash2</key>
 			<data>
-			X0Xj+FR91iFgNRnDa5mIeJ1FKubEiMGUJfnb2k6jH7I=
+			y5cXDuafZAHCK9CZXFBYYkEI7u+LZGwDEwlq24JR8ik=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/ar.lproj/BULanguage.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5495dvARBDHRoJEFnjCtA2T+XfE=
+			4eaGI9trJIGWCfn3lMhmKLrPyhU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ogwb3G09qvCoBVP/UUl9Ugmmmuj5fUV9PfauudZpGtI=
+			dShjCXAjRpH2/6vYEw1GNWl6/8Pf/1ebKmv7jpBAur0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -321,33 +381,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oQBpequa6EP2bIV0oeaKF3vtf4c=
+			bq+EQgtComvnQStA2ZiGevb/z9Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			G0MNs8gvhZqWd3c3/MV4p/phSAD7VvXr15bPxMhq1aA=
-			</data>
-		</dict>
-		<key>PAGAdSDK.bundle/bu_logo@2x.data</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+mtwru9JejoXxD0IZqBa0U0UawM=
-			</data>
-			<key>hash2</key>
-			<data>
-			FcLQwj/fRQoBHL9SO/VdQ6fCdWj6lBxjAoP8HbOaaOM=
-			</data>
-		</dict>
-		<key>PAGAdSDK.bundle/bu_logo@3x.data</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W2jGO8ru7N6WDPaAizhoT5zVVF4=
-			</data>
-			<key>hash2</key>
-			<data>
-			ga6+snmS16+p0gfOTOTeZfA8E5NRQEMICArPOz0Rihc=
+			qtl0P/D3t/4DW5mLgbINpsvwyAMS3btgAv+o3j8oZgo=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/bu_slienceAudio.aiff</key>
@@ -365,11 +403,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X5yFOZVMrUiw9ZkDGXrEfenccSE=
+			1xcX6dAJnRfpxFnLtAYDW8Z77qE=
 			</data>
 			<key>hash2</key>
 			<data>
-			JQEw0lrzw1OvTuga5hAmHVoZlrqRCnBlEiWa2AAgFqg=
+			L8LyBjl4+gCYiH2ob96UVE0pMi8bqKjivRlkyNWD4lM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -378,11 +416,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WPk+SoItn8E+9+y2Xo1qGJJtvKo=
+			58Npg7w8TY7shN7my/ywUxt/ARo=
 			</data>
 			<key>hash2</key>
 			<data>
-			+TGPo7+NsfS5uzyM9R+OIfzGhTeyUWv9RXiEBZ6idE8=
+			io08t+wX0Q05YM/MWVHq7DgwkYjLqx/6gB9Feumtngs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -391,11 +429,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WmON5jmb5xHdqPbkJEMmIgz41XU=
+			RO2O9PnFEF8SaBlXqZ9d3EZMY1E=
 			</data>
 			<key>hash2</key>
 			<data>
-			nTqli4eWwIj4ZGPQ1N1BiiONAQxlu5vLwdOiSut6yKE=
+			O/zE+6RbSukdeEf6YOuFSgVD+yhI2XVJTUdmqKoueSw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -404,11 +442,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xvS/7hYjwSvgHoov8JXlkMnhvVE=
+			6uc2M/+dSxEaRY1LfYZzdLXuJcI=
 			</data>
 			<key>hash2</key>
 			<data>
-			MJWFRLXALNXrT3xpzzdaJ+bpSieF9xK8q6ZDKk3T/9E=
+			A158r2IWMd1vgWVkKZsAFNZJxg+UCP+jOyMov42hyhs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -417,11 +455,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MFAUkyfOMWv3gcZz1TR1ONyYTfw=
+			evCM/3g9lrqdARjHA7rEH8hEdjs=
 			</data>
 			<key>hash2</key>
 			<data>
-			+edIrtEfrVQjz0FVge+wY/CazjoLvzVpNMLWZQl3Ug8=
+			FP2Fbxn3a5/RZ/eoBqx9PNbYcqb/v9ikw8EcMBCIKsM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -430,11 +468,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nlgf5wSFwq51F04+haBszNZA/0o=
+			SyxuD58zcWd2cK25u6HOlxWnUIQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			omEXmr+MrqmW318oHVAD3sMqjxVjHhgUXNFRDapTQcc=
+			nW5apDuJrMLzXQu9t9RR/AbTmo/BSoafp7zUsU3YMdg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -443,11 +481,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UwhQTqbLKFW6rPTbHKDx/kzJ9ME=
+			rhzNvMqLlBZxFoxa9ZBcYmlch30=
 			</data>
 			<key>hash2</key>
 			<data>
-			UspVuRNZQrnbtg23nKYxxTUP4oej5ASo/+/l6CJPd0Y=
+			CB6Qy5wRPAzcZIPiyyme15E3Y0SgLvumpF9EKQtuRpY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -456,11 +494,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vF6sV084YPkxTUb1NnRAWjk4ees=
+			AxrqixmnReya7x4HzVhH+XnJ+iQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			y4T/3JMpKV9sVGzJIJGTaeK4DYG+1F0zUnCmLjxR80s=
+			ZOamkKCCJhUlPZWpxwd54Wf9l1nuSIK6/F2ITlpunLY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -469,11 +507,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xzqhUPmTjVQv54pcqJCLhnIiaPM=
+			j7eK4DXWtr7srFumMxen2eX5TkM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ivlxIrgJsGNfc2zEq1D91WCb9UZ014t1/+vv/HYsx40=
+			bqiWFCLI1pNOXU3gf0wIjTFoX6TozQEG3mnyWXVq/MY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -482,11 +520,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cGjY6m4TquPd3grwFEis6rInxMY=
+			6dFl2OWKvGDXOQW6SZvpyRxspR8=
 			</data>
 			<key>hash2</key>
 			<data>
-			xDWXuncGKbzKGKF5GDXxoIy62AtifBhRLpR8PLJDEaI=
+			UC2i63NJi5WOGzkmXZaRR1qP11jVoFvtv6qyCkEUnlk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -506,11 +544,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ikSXFPq3DgWtN+OKn+BbXPOYFcA=
+			Iik9TjhcuZ3yronDbVFhrUkDNRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			1hq7h608uS6xrXnheLvAmQcphvG9O+CRY7DdYlNNkLA=
+			iKb3qTGlrwLyoWHwJXkgmYDgytEvFpQLvMuKfnUY/Fo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -519,11 +557,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			odl/Q0y0LWMqOcvTHUpTHAtk7nA=
+			Hyv+NaqMKUOArsTBwTwyxRiGd9Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			og8bK6e5YUBh0/CZXVgj3klvBY2eoao5r79gZ/eJq2c=
+			vneXsIUSdNVGIbFz+1BT12BvCw7NvM+FaiQmn7Tiupw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -532,11 +570,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RYwllR7vDJFVxnbAs3l83+k+pn0=
+			pd7No7wzDyU/4ehShd/PIXHYxQw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Yiw1Pi0Jga4u1zOXmSORiprxAm5yg/NBDY4f7EpHjGA=
+			HwLgI99tR9x5xiTJCg+dZZZqP1keIiRMyiM6te67tMQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -567,11 +605,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5dJ5p46AMue2jHzTDiyBlrsNRP8=
+			WvKpn2sLPi9SwI9KV+pFWkLelIM=
 			</data>
 			<key>hash2</key>
 			<data>
-			vdGPPGdaiJkK8qW1JU/ej5HRXaUxL6VpZ3NmbctEyWI=
+			zJxBMa19gID3am+FbOWS7hC8QVncCsl5mZgmNwCpKmI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -580,11 +618,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BR2SiixL4R5uLS4EJaUFQrYlpNY=
+			xvcxbmHj7ATa68mXJIYVjEMxQuw=
 			</data>
 			<key>hash2</key>
 			<data>
-			H8iyIhfcwpoD5csgpoECx4cAUURHfovhlTt4LNzq54o=
+			3kUIAPfK0iKCqh3UPmp3aqFWIDL/ZhVBTNXIAXrumrA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -593,22 +631,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m/farAdmcomAlP1TGO+4/qSooAg=
+			yHcIW1SS3PVZZXH7FuVgHksDcow=
 			</data>
 			<key>hash2</key>
 			<data>
-			78Jm6Kd+7WL8j1TIVvx+V97HFqPOO2KKDu54rSzJeBc=
+			Zhh+7mmNazmAdMG0jLyw/jDew0bgJVY4K1oTaSAh8+Y=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			puMu67GOoZaW2GGyJm1HAxTLzNY=
+			j14MAF+acsCeRtTugubXq7SsLPA=
 			</data>
 			<key>hash2</key>
 			<data>
-			yjWump6NX9M3tuJVPK6DmYwMBz8t9dn34/n77eoBKf4=
+			DlWsmp6I0FRrOz6yVHn8S+23vY3s8Ko9Pz3Lq6Vegu4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -617,11 +655,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			92msRAtJqlzBTgroA4uVIXoQmK8=
+			zWW5DO89ZZ5Eg5wcs1pKOxWlbnE=
 			</data>
 			<key>hash2</key>
 			<data>
-			B8l3TQIP4rnAXDAY4L9k9jCfVCRns9yI+6flUbimsPo=
+			YMztNgl/h5BT9k2orUMnlAGdHHedBM6t0SvaKF7y2aU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -630,14 +668,36 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D9J30JlusBLIENsMP0VS7YGp/ZE=
+			VAB8x7rCkBYnw2VLao0BL85zxWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			UKJseHwV/QB0f8dW5YiCCP+CiXmt+U0AX7zdvQIXxR4=
+			XToq3Se0w85ke14QXVHqp7gjsqlFlSHq6tESxgvqZVE=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mgCFYoMJjXEf+i3pL8cO3XU9jKE=
+			</data>
+			<key>hash2</key>
+			<data>
+			WEhP8aXoP32NhvYPoWwhuzRVhwZj8bKePEx3LMB/vR0=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k9OFlDPBRWfteJ+bfG12WAoBuls=
+			</data>
+			<key>hash2</key>
+			<data>
+			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>

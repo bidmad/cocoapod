@@ -1,0 +1,64 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadUnityAdsAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UnityAds",
+        "printedName": "UnityAds",
+        "declKind": "Import",
+        "moduleName": "BidmadUnityAdsAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadUnityAdsAdapter"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadUnityAdsAdapter\/BidmadRewardUnityAdsAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 305,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadUnityAdsAdapter\/BidmadRewardUnityAdsAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 28,
+      "value": "\"Bidmad-UnityAds-RewardedAd\""
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadUnityAdsAdapter\/BidmadRewardUnityAdsAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 594,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadUnityAdsAdapter\/BidmadInterstitialUnityAdsAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 24,
+      "length": 33,
+      "value": "\"BidmadUnityAdsAdapter.BidmadInterstitialUnityAdsAdapter\""
+    }
+  ]
+}

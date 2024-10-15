@@ -4,3 +4,8 @@ framework module BidmadVungleAdapter {
 
   module * { export * }
 }
+
+module BidmadVungleAdapter.Swift {
+  header "BidmadVungleAdapter-Swift.h"
+  requires objc
+}
