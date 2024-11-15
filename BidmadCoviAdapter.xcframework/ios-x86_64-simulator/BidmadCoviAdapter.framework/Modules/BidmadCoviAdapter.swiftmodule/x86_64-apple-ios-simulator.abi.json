@@ -74,7 +74,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(ad:tracker:viewController:click:)",
+            "printedName": "init(ad:tracker:adView:viewController:videoPos:videoDuration:isAdComplete:isAdInitialized:click:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -97,6 +97,20 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "UIKit.UIViewController?",
                 "children": [
                   {
@@ -107,6 +121,86 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CurrentValueSubject",
+                "printedName": "Combine.CurrentValueSubject<Swift.Double, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine19CurrentValueSubjectC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CurrentValueSubject",
+                "printedName": "Combine.CurrentValueSubject<Swift.Double, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine19CurrentValueSubjectC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CurrentValueSubject",
+                "printedName": "Combine.CurrentValueSubject<Swift.Bool, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine19CurrentValueSubjectC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CurrentValueSubject",
+                "printedName": "Combine.CurrentValueSubject<Swift.Bool, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine19CurrentValueSubjectC"
               },
               {
                 "kind": "TypeFunc",
@@ -127,8 +221,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17BidmadCoviAdapter0aB10VastPlayerV2ad7tracker14viewController5clickAC0A3SDK0D2AdV_AH0D7TrackerCSo06UIViewI0CSgyyctcfc",
-            "mangledName": "$s17BidmadCoviAdapter0aB10VastPlayerV2ad7tracker14viewController5clickAC0A3SDK0D2AdV_AH0D7TrackerCSo06UIViewI0CSgyyctcfc",
+            "usr": "s:17BidmadCoviAdapter0aB10VastPlayerV2ad7tracker0F4View14viewController8videoPos0K8Duration12isAdComplete0nO11Initialized5clickAC0A3SDK0dO0V_AM0D7TrackerCSo6UIViewCSgSo0uJ0CSg7Combine19CurrentValueSubjectCySds5NeverOGA1_AZySbA0_GA2_yyctcfc",
+            "mangledName": "$s17BidmadCoviAdapter0aB10VastPlayerV2ad7tracker0F4View14viewController8videoPos0K8Duration12isAdComplete0nO11Initialized5clickAC0A3SDK0dO0V_AM0D7TrackerCSo6UIViewCSgSo0uJ0CSg7Combine19CurrentValueSubjectCySds5NeverOGA1_AZySbA0_GA2_yyctcfc",
             "moduleName": "BidmadCoviAdapter",
             "declAttributes": [
               "Custom",
@@ -258,7 +352,7 @@
     {
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadBannerCoviAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 3638,
+      "offset": 7568,
       "length": 4,
       "value": "true"
     },
@@ -279,28 +373,14 @@
     {
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5213,
+      "offset": 5387,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5301,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5401,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5447,
+      "offset": 5433,
       "length": 5,
       "value": "false"
     }

@@ -19620,19 +19620,199 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "BidmadForcedVisibility",
+        "printedName": "BidmadForcedVisibility",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "defaultValue",
+            "printedName": "defaultValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9BidmadSDK0A16ForcedVisibilityV12defaultValueSdSgvpZ",
+            "mangledName": "$s9BidmadSDK0A16ForcedVisibilityV12defaultValueSdSgvpZ",
+            "moduleName": "BidmadSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9BidmadSDK0A16ForcedVisibilityV12defaultValueSdSgvgZ",
+                "mangledName": "$s9BidmadSDK0A16ForcedVisibilityV12defaultValueSdSgvgZ",
+                "moduleName": "BidmadSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9BidmadSDK0A16ForcedVisibilityV12defaultValueSdSgvsZ",
+                "mangledName": "$s9BidmadSDK0A16ForcedVisibilityV12defaultValueSdSgvsZ",
+                "moduleName": "BidmadSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9BidmadSDK0A16ForcedVisibilityV12defaultValueSdSgvMZ",
+                "mangledName": "$s9BidmadSDK0A16ForcedVisibilityV12defaultValueSdSgvMZ",
+                "moduleName": "BidmadSDK",
+                "static": true,
+                "implicit": true,
+                "intro_iOS": "13.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9BidmadSDK0A16ForcedVisibilityV",
+        "mangledName": "$s9BidmadSDK0A16ForcedVisibilityV",
+        "moduleName": "BidmadSDK",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "EnvironmentKey",
+            "printedName": "EnvironmentKey",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI14EnvironmentKeyP",
+            "mangledName": "$s7SwiftUI14EnvironmentKeyP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "BidmadTracker",
         "printedName": "BidmadTracker",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(viewController:visibilityRate:change:)",
+            "printedName": "init(adView:viewController:visibilityRate:change:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "BidmadTracker",
                 "printedName": "BidmadSDK.BidmadTracker",
                 "usr": "s:9BidmadSDK0A7TrackerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -19693,8 +19873,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9BidmadSDK0A7TrackerV14viewController14visibilityRate6changeACSo06UIViewE0CSg_SdySb_S2btctcfc",
-            "mangledName": "$s9BidmadSDK0A7TrackerV14viewController14visibilityRate6changeACSo06UIViewE0CSg_SdySb_S2btctcfc",
+            "usr": "s:9BidmadSDK0A7TrackerV6adView14viewController14visibilityRate6changeACSo6UIViewCSg_So0kG0CSgSdySb_S2btctcfc",
+            "mangledName": "$s9BidmadSDK0A7TrackerV6adView14viewController14visibilityRate6changeACSo6UIViewCSg_So0kG0CSgSdySb_S2btctcfc",
             "moduleName": "BidmadSDK",
             "declAttributes": [
               "Custom",
@@ -31601,6 +31781,160 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "EnvironmentValues",
+        "printedName": "EnvironmentValues",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bidmadForcedVisibility",
+            "printedName": "bidmadForcedVisibility",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI17EnvironmentValuesV9BidmadSDKE22bidmadForcedVisibilitySdSgvp",
+            "mangledName": "$s7SwiftUI17EnvironmentValuesV9BidmadSDKE22bidmadForcedVisibilitySdSgvp",
+            "moduleName": "BidmadSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV9BidmadSDKE22bidmadForcedVisibilitySdSgvg",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV9BidmadSDKE22bidmadForcedVisibilitySdSgvg",
+                "moduleName": "BidmadSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV9BidmadSDKE22bidmadForcedVisibilitySdSgvs",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV9BidmadSDKE22bidmadForcedVisibilitySdSgvs",
+                "moduleName": "BidmadSDK",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV9BidmadSDKE22bidmadForcedVisibilitySdSgvM",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV9BidmadSDKE22bidmadForcedVisibilitySdSgvM",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI17EnvironmentValuesV",
+        "mangledName": "$s7SwiftUI17EnvironmentValuesV",
+        "moduleName": "SwiftUI",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "BidmadAdUnit",
         "printedName": "BidmadAdUnit",
         "children": [
@@ -33550,7 +33884,7 @@
     {
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadSDK\/BidmadUIComponents\/BidmadTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 659,
+      "offset": 1184,
       "length": 5,
       "value": "false"
     },

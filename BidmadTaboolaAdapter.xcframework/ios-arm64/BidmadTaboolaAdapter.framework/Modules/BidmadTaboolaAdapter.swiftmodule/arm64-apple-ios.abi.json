@@ -1,0 +1,67 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadTaboolaAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadTaboolaAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "TaboolaSDK",
+        "printedName": "TaboolaSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadTaboolaAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadTaboolaAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TaboolaSDK",
+        "printedName": "TaboolaSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadTaboolaAdapter"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadBannerTaboolaAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 26,
+      "value": "\"BidmadTaboolaAdapter.BidmadBannerTaboolaAdapter\""
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadBannerTaboolaAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1343,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

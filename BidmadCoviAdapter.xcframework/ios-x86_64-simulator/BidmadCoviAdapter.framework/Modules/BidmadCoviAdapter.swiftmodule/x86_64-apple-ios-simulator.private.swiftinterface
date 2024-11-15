@@ -13,7 +13,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @available(iOS 13.0, *)
 @_Concurrency.MainActor(unsafe) public struct BidmadCoviVastPlayer : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(ad: BidmadSDK.VastAd, tracker: BidmadSDK.VastTracker, viewController: UIKit.UIViewController?, click: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public init(ad: BidmadSDK.VastAd, tracker: BidmadSDK.VastTracker, adView: UIKit.UIView?, viewController: UIKit.UIViewController?, videoPos: Combine.CurrentValueSubject<Swift.Double, Swift.Never>, videoDuration: Combine.CurrentValueSubject<Swift.Double, Swift.Never>, isAdComplete: Combine.CurrentValueSubject<Swift.Bool, Swift.Never>, isAdInitialized: Combine.CurrentValueSubject<Swift.Bool, Swift.Never>, click: @escaping () -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }

@@ -562,8 +562,20 @@ extension BidmadSDK.VastExtension : Swift.Equatable {
   public static func == (lhs: BidmadSDK.VastExtension, rhs: BidmadSDK.VastExtension) -> Swift.Bool
 }
 @available(iOS 13.0, *)
+public struct BidmadForcedVisibility : SwiftUI.EnvironmentKey {
+  public static var defaultValue: Swift.Double?
+  public typealias Value = Swift.Double?
+}
+@available(iOS 13.0, *)
+extension SwiftUI.EnvironmentValues {
+  public var bidmadForcedVisibility: Swift.Double? {
+    get
+    set
+  }
+}
+@available(iOS 13.0, *)
 @_Concurrency.MainActor(unsafe) public struct BidmadTracker : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(viewController: UIKit.UIViewController?, visibilityRate: Swift.Double, change: @escaping (_ isVisible: Swift.Bool, _ isCompletelyInvisible: Swift.Bool, _ isAppActive: Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public init(adView: UIKit.UIView?, viewController: UIKit.UIViewController?, visibilityRate: Swift.Double, change: @escaping (_ isVisible: Swift.Bool, _ isCompletelyInvisible: Swift.Bool, _ isAppActive: Swift.Bool) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }

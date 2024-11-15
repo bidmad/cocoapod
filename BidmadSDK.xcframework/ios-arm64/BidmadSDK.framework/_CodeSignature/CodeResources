@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/BidmadBannerAdapter.h</key>
 		<data>
-		+GrytZzkm/Po888hzfP7Q09sIGs=
+		dGpDLub0MMGksBqnUv99CbYCsSE=
 		</data>
 		<key>Headers/BidmadBannerSizeStrategy.h</key>
 		<data>
@@ -174,15 +174,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2AAZ7mZx8FFPUcXptxlUDcWWxag=
+		XAdBXkx3XOLB6F+Xqg+xBcE8JOY=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		yaFmFPb1CUrrXrOvMuG1a2QT0l0=
+		IHnMfyGwA39AL9yBxrPjgQtE5YQ=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		xsY/oR9cHbJD2jPGMStd5lU7HGs=
+		e2ZGSPOb7wIb/hIJKaJcH7ohE1w=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -190,11 +190,11 @@
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		xsY/oR9cHbJD2jPGMStd5lU7HGs=
+		e2ZGSPOb7wIb/hIJKaJcH7ohE1w=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PzC1N6RVi6OsWpkpck4zSUCZ9pQ=
+		mSK0JW44RpF2ytHXp++yAIlJEYU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -326,7 +326,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k34qWj+6D1dCERk8CprCwB2s7L/+JRmQ3BXqZL45vq0=
+			xuE9PHo2PRazwc/WEqzGKb0m8aE58hLBQRJ0dL8giqc=
 			</data>
 		</dict>
 		<key>Headers/BidmadBannerSizeStrategy.h</key>
@@ -501,14 +501,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			36dogeZF32Xe6DFf9RbgyNHLTQ4VISWzGLBNICFoREk=
+			zK3VPaBSFFdJmSi8TZ3hI2L97dNowIkSiBENp44Zwso=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bjxBwDgfLTqPwY20jwk4vUc1oYCiuatIMEo2WyT6otk=
+			fKicRFgStqwqYDeInWsUWkZtXtT0/qiSgZ55i2LZCRw=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -522,14 +522,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bjxBwDgfLTqPwY20jwk4vUc1oYCiuatIMEo2WyT6otk=
+			fKicRFgStqwqYDeInWsUWkZtXtT0/qiSgZ55i2LZCRw=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R2KQBNzukMCTCb7aRW+A2nrY1SJNJE8ZwfYdHdghk0M=
+			Wiboj1Ywvru+1N/jO7si27UfmwS781IrSTYqjI1C1Bw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

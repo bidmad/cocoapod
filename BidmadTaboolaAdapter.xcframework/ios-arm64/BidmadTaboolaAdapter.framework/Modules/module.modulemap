@@ -1,0 +1,6 @@
+framework module BidmadTaboolaAdapter {
+  umbrella header "BidmadTaboolaAdapter.h"
+  export *
+
+  module * { export * }
+}

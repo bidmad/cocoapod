@@ -54,6 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)showView;
 - (void)updateViewPosition;
 - (void)removeAds;
+- (void)forceViewVisibility:(NSNumber *)visibilityRatio;
 
 @end
 

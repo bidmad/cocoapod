@@ -30,6 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
                              NSError * _Nullable))completionHandler;
 - (void)destroyed;
 - (instancetype)initWithAdUnit:(BidmadAdUnit *)adUnit;
+- (void)forceViewVisibility:(NSNumber *)visibilityRatio;
 
 @end
 
