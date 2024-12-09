@@ -346,13 +346,6 @@
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadBannerCoviAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 284,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadBannerCoviAdapter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7568,
       "length": 4,
       "value": "true"
     },
@@ -383,6 +376,13 @@
       "offset": 5433,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5532,
+      "length": 4,
+      "value": "true"
     }
   ]
 }
