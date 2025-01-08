@@ -359,28 +359,28 @@
     {
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 2072,
+      "offset": 2433,
       "length": 32,
       "value": "\"BidmadCoviAdapter.BidmadCoviFullscreenPlayerUIView\""
     },
     {
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5387,
+      "offset": 5748,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5433,
+      "offset": 5794,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5532,
+      "offset": 5893,
       "length": 4,
       "value": "true"
     }
