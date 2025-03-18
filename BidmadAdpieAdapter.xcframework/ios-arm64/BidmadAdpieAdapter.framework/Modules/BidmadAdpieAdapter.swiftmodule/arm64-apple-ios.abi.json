@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "BidmadAdpieAdapter",
+    "printedName": "BidmadAdpieAdapter",
     "children": [
       {
         "kind": "Import",
@@ -79,13 +79,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadAdpieAdapter\/BidmadInterstitialAdpieAdapter.swift",
-      "kind": "StringLiteral",
-      "offset": 180,
-      "length": 30,
-      "value": "\"BidmadAdpieAdapter.BidmadInterstitialAdpieAdapter\""
-    }
-  ]
+  "ConstValues": []
 }

@@ -10,6 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol BidmadInterstitialSC <NSObject>
+
++ (BOOL)isSupported;
+
+@end
+
+@interface BidmadInterstitialAdapterSupportChecker : NSObject <BidmadInterstitialSC>
+@end
+
 @class BidmadInterstitialAdapter;
 
 @protocol BidmadInterstitialAdapterDelegate <NSObject>
@@ -21,6 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+NS_SWIFT_SENDABLE
 @interface BidmadInterstitialAdapter : NSObject
 
 @property (nonatomic, strong) BidmadAdUnit *adUnit;

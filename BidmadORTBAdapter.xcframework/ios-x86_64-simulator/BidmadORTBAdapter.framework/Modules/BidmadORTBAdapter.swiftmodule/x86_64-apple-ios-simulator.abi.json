@@ -1,0 +1,382 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "BidmadORTBAdapter",
+    "printedName": "BidmadORTBAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter",
+        "declAttributes": [
+          "Preconcurrency",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadORTBAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadORTBAdapterInfo",
+        "printedName": "BidmadORTBAdapterInfo",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadORTBAdapter@objc(cs)BidmadORTBAdapterInfo(cm)adapterVersion",
+            "mangledName": "$s17BidmadORTBAdapter0aB4InfoC14adapterVersionSSyFZ",
+            "moduleName": "BidmadORTBAdapter",
+            "static": true,
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adNetworkSdkVersion",
+            "printedName": "adNetworkSdkVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadORTBAdapter@objc(cs)BidmadORTBAdapterInfo(cm)adNetworkSdkVersion",
+            "mangledName": "$s17BidmadORTBAdapter0aB4InfoC19adNetworkSdkVersionSSyFZ",
+            "moduleName": "BidmadORTBAdapter",
+            "static": true,
+            "objc_name": "adNetworkSdkVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadORTBAdapterInfo",
+                "printedName": "BidmadORTBAdapter.BidmadORTBAdapterInfo",
+                "usr": "c:@M@BidmadORTBAdapter@objc(cs)BidmadORTBAdapterInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadORTBAdapter@objc(cs)BidmadORTBAdapterInfo(im)init",
+            "mangledName": "$s17BidmadORTBAdapter0aB4InfoCACycfc",
+            "moduleName": "BidmadORTBAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadORTBAdapter@objc(cs)BidmadORTBAdapterInfo",
+        "mangledName": "$s17BidmadORTBAdapter0aB4InfoC",
+        "moduleName": "BidmadORTBAdapter",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/Log\/BidmadORTBLogManager.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 22,
+      "value": "\"BidmadORTBLogManager\""
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/Log\/BidmadORTBLogType.swift",
+      "kind": "StringLiteral",
+      "offset": 150,
+      "length": 12,
+      "value": "\"impression\""
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/Log\/BidmadORTBLogType.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 7,
+      "value": "\"click\""
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/Util\/BidmadORTBRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 19,
+      "value": "\"BidmadORTBRequest\""
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/WebView\/BidmadORTBAdWebViewDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 29,
+      "value": "\"BidmadORTBAdWebViewDelegate\""
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/WebView\/BidmadORTBVastVideoInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 213,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/WebView\/BidmadORTBWebAppInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 27,
+      "value": "\"BidmadORTBWebAppInterface\""
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/BidmadBannerORTBAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 25,
+      "value": "\"BidmadBannerORTBAdapter\""
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/BidmadORTBAdType.swift",
+      "kind": "StringLiteral",
+      "offset": 142,
+      "length": 6,
+      "value": "\"VAST\""
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/BidmadORTBAdType.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 9,
+      "value": "\"NO_VAST\""
+    }
+  ]
+}

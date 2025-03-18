@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BidmadCoviAdapter
 import AVFoundation
 @_exported import BidmadCoviAdapter
@@ -12,10 +12,13 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @available(iOS 13.0, *)
-@_Concurrency.MainActor(unsafe) public struct BidmadCoviVastPlayer : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(ad: BidmadSDK.VastAd, tracker: BidmadSDK.VastTracker, adView: UIKit.UIView?, viewController: UIKit.UIViewController?, videoPos: Combine.CurrentValueSubject<Swift.Double, Swift.Never>, videoDuration: Combine.CurrentValueSubject<Swift.Double, Swift.Never>, isAdComplete: Combine.CurrentValueSubject<Swift.Bool, Swift.Never>, isAdInitialized: Combine.CurrentValueSubject<Swift.Bool, Swift.Never>, click: @escaping () -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct BidmadCoviVastPlayer : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(ad: BidmadSDK.VastAd, tracker: BidmadSDK.VastTracker, adView: UIKit.UIView?, viewController: UIKit.UIViewController?, videoPos: Combine.CurrentValueSubject<Swift.Double, Swift.Never>, videoDuration: Combine.CurrentValueSubject<Swift.Double, Swift.Never>, isAdComplete: Combine.CurrentValueSubject<Swift.Bool, Swift.Never>, isAdInitialized: Combine.CurrentValueSubject<Swift.Bool, Swift.Never>, click: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s17BidmadCoviAdapter0aB10VastPlayerV4bodyQrvp", 0) __
 }
+@available(iOS 13.0, *)
+extension BidmadCoviAdapter.BidmadCoviVastPlayer : Swift.Sendable {}

@@ -1,13 +1,13 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "BidmadMobwithAdapter",
+    "printedName": "BidmadMobwithAdapter",
     "children": [
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
         "declKind": "Import",
         "moduleName": "BidmadMobwithAdapter",
         "declAttributes": [
@@ -16,8 +16,8 @@
       },
       {
         "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "BidmadMobwithAdapter"
       },
@@ -30,249 +30,95 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "BidmadSDK",
         "printedName": "BidmadSDK",
         "declKind": "Import",
         "moduleName": "BidmadMobwithAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "TypeDecl",
-        "name": "CGSize",
-        "printedName": "CGSize",
+        "name": "BidmadInterstitialMobwithAdapterSupportChecker",
+        "printedName": "BidmadInterstitialMobwithAdapterSupportChecker",
         "children": [
           {
             "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
+            "name": "isSupported",
+            "printedName": "isSupported()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:So6CGSizeV20BidmadMobwithAdapterE4hash4intoys6HasherVz_tF",
-            "mangledName": "$sSo6CGSizeV20BidmadMobwithAdapterE4hash4intoys6HasherVz_tF",
+            "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapterSupportChecker(cm)isSupported",
+            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC14SupportCheckerC11isSupportedSbyFZ",
             "moduleName": "BidmadMobwithAdapter",
+            "static": true,
+            "objc_name": "isSupported",
             "declAttributes": [
+              "Final",
+              "ObjC",
               "AccessControl"
             ],
-            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "BidmadInterstitialMobwithAdapterSupportChecker",
+                "printedName": "BidmadMobwithAdapter.BidmadInterstitialMobwithAdapterSupportChecker",
+                "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapterSupportChecker"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:So6CGSizeV20BidmadMobwithAdapterE9hashValueSivp",
-            "mangledName": "$sSo6CGSizeV20BidmadMobwithAdapterE9hashValueSivp",
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapterSupportChecker(im)init",
+            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC14SupportCheckerCACycfc",
             "moduleName": "BidmadMobwithAdapter",
+            "overriding": true,
             "implicit": true,
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So6CGSizeV20BidmadMobwithAdapterE9hashValueSivg",
-                "mangledName": "$sSo6CGSizeV20BidmadMobwithAdapterE9hashValueSivg",
-                "moduleName": "BidmadMobwithAdapter",
-                "implicit": true,
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
-        "declKind": "Struct",
-        "usr": "c:@S@CGSize",
-        "moduleName": "CoreFoundation",
-        "isExternal": true,
+        "declKind": "Class",
+        "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapterSupportChecker",
+        "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC14SupportCheckerC",
+        "moduleName": "BidmadMobwithAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -283,39 +129,831 @@
           },
           {
             "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadBannerMobwithAdapterSupportChecker",
+        "printedName": "BidmadBannerMobwithAdapterSupportChecker",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSupported",
+            "printedName": "isSupported()",
             "children": [
               {
-                "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadBannerMobwithAdapterSupportChecker(cm)isSupported",
+            "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC14SupportCheckerC11isSupportedSbyFZ",
+            "moduleName": "BidmadMobwithAdapter",
+            "static": true,
+            "objc_name": "isSupported",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadBannerMobwithAdapterSupportChecker",
+                "printedName": "BidmadMobwithAdapter.BidmadBannerMobwithAdapterSupportChecker",
+                "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadBannerMobwithAdapterSupportChecker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadBannerMobwithAdapterSupportChecker(im)init",
+            "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC14SupportCheckerCACycfc",
+            "moduleName": "BidmadMobwithAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadBannerMobwithAdapterSupportChecker",
+        "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC14SupportCheckerC",
+        "moduleName": "BidmadMobwithAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadInterstitialMobwithAdapter",
+        "printedName": "BidmadInterstitialMobwithAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "className",
+            "printedName": "className",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BidmadMobwithAdapter0a12InterstitialbC0C9classNameSSvp",
+            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C9classNameSSvp",
+            "moduleName": "BidmadMobwithAdapter",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "NSValue",
-                    "printedName": "Foundation.NSValue",
-                    "usr": "c:objc(cs)NSValue"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
-                ]
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BidmadMobwithAdapter0a12InterstitialbC0C9classNameSSvg",
+                "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C9classNameSSvg",
+                "moduleName": "BidmadMobwithAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadAdWith",
+            "printedName": "loadAdWith()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInterstitialAdapter",
+                "printedName": "BidmadSDK.BidmadInterstitialAdapter",
+                "usr": "c:objc(cs)BidmadInterstitialAdapter"
               }
             ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapter(im)loadAdWith:",
+            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C10loadAdWithSo0adC0CyYaKF",
+            "moduleName": "BidmadMobwithAdapter",
+            "overriding": true,
+            "objc_name": "loadAdWith:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapter(im)showAdFrom:",
+            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C6showAd4fromySo16UIViewControllerC_tF",
+            "moduleName": "BidmadMobwithAdapter",
+            "overriding": true,
+            "objc_name": "showAdFrom:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adUnit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInterstitialMobwithAdapter",
+                "printedName": "BidmadMobwithAdapter.BidmadInterstitialMobwithAdapter",
+                "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAdUnit",
+                "printedName": "BidmadSDK.BidmadAdUnit",
+                "usr": "c:objc(cs)BidmadAdUnit"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapter(im)initWithAdUnit:",
+            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C6adUnitACSo0a2AdF0C_tcfc",
+            "moduleName": "BidmadMobwithAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdUnit:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInterstitialMobwithAdapter",
+                "printedName": "BidmadMobwithAdapter.BidmadInterstitialMobwithAdapter",
+                "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapter(im)init",
+            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0CACycfc",
+            "moduleName": "BidmadMobwithAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapter",
+        "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C",
+        "moduleName": "BidmadMobwithAdapter",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadInterstitialAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "BidmadSDK.BidmadInterstitialAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "BidmadLoggable",
+            "printedName": "BidmadLoggable",
+            "usr": "s:9BidmadSDK0A8LoggableP",
+            "mangledName": "$s9BidmadSDK0A8LoggableP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
-            "name": "_CustomPlaygroundQuickLookable",
-            "printedName": "_CustomPlaygroundQuickLookable",
-            "usr": "s:s30_CustomPlaygroundQuickLookableP",
-            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadBannerMobwithAdapter",
+        "printedName": "BidmadBannerMobwithAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "className",
+            "printedName": "className",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BidmadMobwithAdapter0a6BannerbC0C9classNameSSvp",
+            "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC0C9classNameSSvp",
+            "moduleName": "BidmadMobwithAdapter",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BidmadMobwithAdapter0a6BannerbC0C9classNameSSvg",
+                "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC0C9classNameSSvg",
+                "moduleName": "BidmadMobwithAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(BidmadSDK.BidmadBannerAdapter, UIKit.UIView, CoreFoundation.CGSize)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadBannerAdapter",
+                    "printedName": "BidmadSDK.BidmadBannerAdapter",
+                    "usr": "c:objc(cs)BidmadBannerAdapter"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadBannerMobwithAdapter(im)loadAdFrom:with:",
+            "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC0C6loadAd4fromSo0adC0C_So6UIViewCSo6CGSizeVtSo0H10ControllerC_tYaKF",
+            "moduleName": "BidmadMobwithAdapter",
+            "overriding": true,
+            "objc_name": "loadAdFrom:with:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adUnit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadBannerMobwithAdapter",
+                "printedName": "BidmadMobwithAdapter.BidmadBannerMobwithAdapter",
+                "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadBannerMobwithAdapter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAdUnit",
+                "printedName": "BidmadSDK.BidmadAdUnit",
+                "usr": "c:objc(cs)BidmadAdUnit"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadBannerMobwithAdapter(im)initWithAdUnit:",
+            "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC0C6adUnitACSo0a2AdF0C_tcfc",
+            "moduleName": "BidmadMobwithAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdUnit:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadBannerMobwithAdapter",
+                "printedName": "BidmadMobwithAdapter.BidmadBannerMobwithAdapter",
+                "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadBannerMobwithAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadBannerMobwithAdapter(im)init",
+            "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC0CACycfc",
+            "moduleName": "BidmadMobwithAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadBannerMobwithAdapter",
+        "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC0C",
+        "moduleName": "BidmadMobwithAdapter",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadBannerAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "BidmadSDK.BidmadBannerAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -326,53 +964,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Animatable",
-            "printedName": "Animatable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "AnimatableData",
-                "printedName": "AnimatableData",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnimatablePair",
-                    "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CGFloat",
-                        "printedName": "CoreGraphics.CGFloat",
-                        "usr": "s:14CoreFoundation7CGFloatV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CGFloat",
-                        "printedName": "CoreGraphics.CGFloat",
-                        "usr": "s:14CoreFoundation7CGFloatV"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI14AnimatablePairV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI10AnimatableP",
-            "mangledName": "$s7SwiftUI10AnimatableP"
+            "name": "BidmadLoggable",
+            "printedName": "BidmadLoggable",
+            "usr": "s:9BidmadSDK0A8LoggableP",
+            "mangledName": "$s9BidmadSDK0A8LoggableP"
           }
         ]
       }
@@ -381,1257 +976,207 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 229,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 253,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 229,
-      "length": 1,
-      "value": "0"
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/BidmadInterstitialMobwithAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 34,
+      "value": "\"BidmadInterstitialMobwithAdapter\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 253,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 229,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 253,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1538,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithURLControl.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithURLControl.swift",
       "kind": "BooleanLiteral",
       "offset": 186,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
-      "offset": 1318,
+      "offset": 595,
       "length": 7,
       "value": "\"pCode\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
-      "offset": 1353,
+      "offset": 630,
       "length": 5,
       "value": "\"pNm\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
-      "offset": 1387,
+      "offset": 664,
       "length": 6,
       "value": "\"pImg\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
-      "offset": 1424,
+      "offset": 701,
       "length": 6,
       "value": "\"pUrl\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
-      "offset": 1468,
-      "length": 14,
-      "value": "\"aLogoDefault\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1516,
-      "length": 10,
-      "value": "\"aLogoSub\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1564,
-      "length": 5,
-      "value": "\"aNm\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1608,
-      "length": 8,
-      "value": "\"aTitle\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1653,
-      "length": 6,
-      "value": "\"aUrl\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1687,
+      "offset": 735,
       "length": 6,
       "value": "\"desc\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
-      "offset": 1728,
-      "length": 9,
-      "value": "\"descWeb\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1787,
-      "length": 8,
-      "value": "\"aDesc1\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1846,
-      "length": 8,
-      "value": "\"aDesc2\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1903,
+      "offset": 790,
       "length": 8,
       "value": "\"aDesc3\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
-      "offset": 1955,
+      "offset": 842,
       "length": 9,
       "value": "\"pImgBkg\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
-      "offset": 2014,
-      "length": 8,
-      "value": "\"dcRate\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2061,
-      "length": 10,
-      "value": "\"pDcPrice\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2100,
+      "offset": 880,
       "length": 8,
       "value": "\"pPrice\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
-      "offset": 2132,
-      "length": 8,
-      "value": "\"mobile\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2180,
-      "length": 10,
-      "value": "\"custom01\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2223,
-      "length": 10,
-      "value": "\"custom02\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2271,
-      "length": 10,
-      "value": "\"custom03\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2317,
-      "length": 10,
-      "value": "\"custom04\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2363,
-      "length": 10,
-      "value": "\"custom05\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2408,
-      "length": 10,
-      "value": "\"custom06\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2453,
-      "length": 10,
-      "value": "\"custom07\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2498,
+      "offset": 923,
       "length": 10,
       "value": "\"custom08\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
-      "offset": 2538,
+      "offset": 963,
       "length": 10,
       "value": "\"custom09\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithZone.swift",
       "kind": "StringLiteral",
-      "offset": 1318,
-      "length": 7,
-      "value": "\"pCode\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1353,
-      "length": 5,
-      "value": "\"pNm\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1387,
-      "length": 6,
-      "value": "\"pImg\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1424,
-      "length": 6,
-      "value": "\"pUrl\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1468,
-      "length": 14,
-      "value": "\"aLogoDefault\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1516,
-      "length": 10,
-      "value": "\"aLogoSub\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1564,
-      "length": 5,
-      "value": "\"aNm\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1608,
-      "length": 8,
-      "value": "\"aTitle\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1653,
-      "length": 6,
-      "value": "\"aUrl\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1687,
-      "length": 6,
-      "value": "\"desc\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1728,
-      "length": 9,
-      "value": "\"descWeb\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1787,
-      "length": 8,
-      "value": "\"aDesc1\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1846,
-      "length": 8,
-      "value": "\"aDesc2\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1903,
-      "length": 8,
-      "value": "\"aDesc3\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1955,
-      "length": 9,
-      "value": "\"pImgBkg\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2014,
-      "length": 8,
-      "value": "\"dcRate\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2061,
-      "length": 10,
-      "value": "\"pDcPrice\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2100,
-      "length": 8,
-      "value": "\"pPrice\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2132,
-      "length": 8,
-      "value": "\"mobile\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2180,
-      "length": 10,
-      "value": "\"custom01\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2223,
-      "length": 10,
-      "value": "\"custom02\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2271,
-      "length": 10,
-      "value": "\"custom03\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2317,
-      "length": 10,
-      "value": "\"custom04\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2363,
-      "length": 10,
-      "value": "\"custom05\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2408,
-      "length": 10,
-      "value": "\"custom06\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2453,
-      "length": 10,
-      "value": "\"custom07\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2498,
-      "length": 10,
-      "value": "\"custom08\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
-      "kind": "StringLiteral",
-      "offset": 2538,
-      "length": 10,
-      "value": "\"custom09\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithPriceReplaceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 210,
-      "length": 4,
-      "value": "\"01\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithPriceReplaceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 258,
-      "length": 4,
-      "value": "\"02\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithPriceReplaceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 306,
-      "length": 4,
-      "value": "\"03\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithPriceReplaceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 210,
-      "length": 4,
-      "value": "\"01\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithPriceReplaceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 258,
-      "length": 4,
-      "value": "\"02\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithPriceReplaceCode.swift",
-      "kind": "StringLiteral",
-      "offset": 306,
-      "length": 4,
-      "value": "\"03\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithZone.swift",
-      "kind": "StringLiteral",
-      "offset": 486,
-      "length": 7,
-      "value": "\"adCnt\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithZone.swift",
-      "kind": "StringLiteral",
-      "offset": 611,
+      "offset": 381,
       "length": 8,
       "value": "\"impUrl\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithZone.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "StringLiteral",
-      "offset": 486,
-      "length": 7,
-      "value": "\"adCnt\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithZone.swift",
-      "kind": "StringLiteral",
-      "offset": 611,
-      "length": 8,
-      "value": "\"impUrl\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 454,
-      "length": 13,
-      "value": "\"mImg250_250\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 496,
-      "length": 13,
-      "value": "\"mImg120_600\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 537,
-      "length": 12,
-      "value": "\"mImg728_90\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 578,
-      "length": 13,
-      "value": "\"mImg320_100\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 620,
-      "length": 13,
-      "value": "\"mImg720_120\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 662,
-      "length": 13,
-      "value": "\"mImg160_600\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 704,
-      "length": 13,
-      "value": "\"mImg300_250\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 746,
-      "length": 13,
-      "value": "\"mImg320_480\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 454,
-      "length": 13,
-      "value": "\"mImg250_250\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 496,
-      "length": 13,
-      "value": "\"mImg120_600\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 537,
-      "length": 12,
-      "value": "\"mImg728_90\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 578,
-      "length": 13,
-      "value": "\"mImg320_100\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 620,
-      "length": 13,
-      "value": "\"mImg720_120\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 662,
-      "length": 13,
-      "value": "\"mImg160_600\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 704,
-      "length": 13,
-      "value": "\"mImg300_250\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAdImage.swift",
-      "kind": "StringLiteral",
-      "offset": 746,
-      "length": 13,
-      "value": "\"mImg320_480\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 692,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 723,
+      "offset": 259,
       "length": 19,
       "value": "\"MobwithBaseAdView\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7308,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7378,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7426,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7454,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6883,
+      "offset": 10040,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6940,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13788,
+      "length": 1,
+      "value": "7"
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/CompatAsyncImage.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13818,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13848,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 16619,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 16642,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/CompatAsyncImage.swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 1621,
       "length": 18,
       "value": "\"CompatAsyncImage\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/CompatAsyncImage.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/CompatAsyncImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 695,
+      "offset": 1817,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/CompatAsyncImage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3525,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 184,
-      "length": 4,
-      "value": "\"AL\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 207,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 237,
-      "length": 4,
-      "value": "\"CA\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 269,
-      "length": 4,
-      "value": "\"CC\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 306,
-      "length": 4,
-      "value": "\"CW\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 340,
-      "length": 4,
-      "value": "\"HU\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 380,
-      "length": 4,
-      "value": "\"KL\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 411,
-      "length": 4,
-      "value": "\"KP\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 440,
-      "length": 4,
-      "value": "\"PB\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 469,
-      "length": 4,
-      "value": "\"PE\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 514,
-      "length": 4,
-      "value": "\"RC\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 545,
-      "length": 4,
-      "value": "\"RM\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 571,
-      "length": 4,
-      "value": "\"RR\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 596,
-      "length": 4,
-      "value": "\"SA\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 638,
-      "length": 4,
-      "value": "\"SH\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 663,
-      "length": 4,
-      "value": "\"SJ\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 703,
-      "length": 4,
-      "value": "\"SP\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 739,
-      "length": 4,
-      "value": "\"SR\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 765,
-      "length": 4,
-      "value": "\"ST\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 797,
-      "length": 4,
-      "value": "\"UM\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 824,
-      "length": 4,
-      "value": "\"MM\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 854,
-      "length": 4,
-      "value": "\"KB\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 884,
-      "length": 4,
-      "value": "\"IB\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 924,
-      "length": 4,
-      "value": "\"KM\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 954,
-      "length": 4,
-      "value": "\"IK\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 988,
-      "length": 4,
-      "value": "\"PK\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1021,
-      "length": 4,
-      "value": "\"CM\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1053,
-      "length": 4,
-      "value": "\"MK\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1086,
-      "length": 4,
-      "value": "\"AU\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1120,
-      "length": 4,
-      "value": "\"MR\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1149,
-      "length": 4,
-      "value": "\"GG\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1184,
-      "length": 4,
-      "value": "\"AT\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1215,
-      "length": 4,
-      "value": "\"GS\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1243,
-      "length": 4,
-      "value": "\"HB\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1277,
-      "length": 4,
-      "value": "\"PR\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1313,
-      "length": 4,
-      "value": "\"RU\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1345,
-      "length": 4,
-      "value": "\"MT\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1379,
-      "length": 4,
-      "value": "\"TC\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1408,
-      "length": 4,
-      "value": "\"DP\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1439,
-      "length": 4,
-      "value": "\"SW\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1466,
-      "length": 4,
-      "value": "\"NL\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 184,
-      "length": 4,
-      "value": "\"AL\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 207,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 237,
-      "length": 4,
-      "value": "\"CA\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 269,
-      "length": 4,
-      "value": "\"CC\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 306,
-      "length": 4,
-      "value": "\"CW\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 340,
-      "length": 4,
-      "value": "\"HU\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 380,
-      "length": 4,
-      "value": "\"KL\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 411,
-      "length": 4,
-      "value": "\"KP\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 440,
-      "length": 4,
-      "value": "\"PB\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 469,
-      "length": 4,
-      "value": "\"PE\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 514,
-      "length": 4,
-      "value": "\"RC\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 545,
-      "length": 4,
-      "value": "\"RM\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 571,
-      "length": 4,
-      "value": "\"RR\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 596,
-      "length": 4,
-      "value": "\"SA\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 638,
-      "length": 4,
-      "value": "\"SH\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 663,
-      "length": 4,
-      "value": "\"SJ\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 703,
-      "length": 4,
-      "value": "\"SP\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 739,
-      "length": 4,
-      "value": "\"SR\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 765,
-      "length": 4,
-      "value": "\"ST\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 797,
-      "length": 4,
-      "value": "\"UM\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 824,
-      "length": 4,
-      "value": "\"MM\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 854,
-      "length": 4,
-      "value": "\"KB\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 884,
-      "length": 4,
-      "value": "\"IB\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 924,
-      "length": 4,
-      "value": "\"KM\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 954,
-      "length": 4,
-      "value": "\"IK\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 988,
-      "length": 4,
-      "value": "\"PK\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1021,
-      "length": 4,
-      "value": "\"CM\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1053,
-      "length": 4,
-      "value": "\"MK\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1086,
-      "length": 4,
-      "value": "\"AU\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1120,
-      "length": 4,
-      "value": "\"MR\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1149,
-      "length": 4,
-      "value": "\"GG\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1184,
-      "length": 4,
-      "value": "\"AT\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1215,
-      "length": 4,
-      "value": "\"GS\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1243,
-      "length": 4,
-      "value": "\"HB\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1277,
-      "length": 4,
-      "value": "\"PR\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1313,
-      "length": 4,
-      "value": "\"RU\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1345,
-      "length": 4,
-      "value": "\"MT\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1379,
-      "length": 4,
-      "value": "\"TC\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1408,
-      "length": 4,
-      "value": "\"DP\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1439,
-      "length": 4,
-      "value": "\"SW\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/Enum\/MobwithAdType.swift",
-      "kind": "StringLiteral",
-      "offset": 1466,
-      "length": 4,
-      "value": "\"NL\""
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/BidmadBannerMobwithAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 28,
+      "value": "\"BidmadBannerMobwithAdapter\""
     }
   ]
 }

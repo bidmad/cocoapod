@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BidmadMobwithAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 @_exported import BidmadMobwithAdapter
 import BidmadSDK
 import Combine
@@ -11,9 +12,32 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-extension CoreFoundation.CGSize : Swift.Hashable {
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+@_inheritsConvenienceInitializers @objc public class BidmadInterstitialMobwithAdapterSupportChecker : ObjectiveC.NSObject, BidmadSDK.BidmadInterstitialSC {
+  @objc public static func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
 }
+@_inheritsConvenienceInitializers @objc public class BidmadBannerMobwithAdapterSupportChecker : ObjectiveC.NSObject, BidmadSDK.BidmadBannerSC {
+  @objc public static func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
+public class BidmadInterstitialMobwithAdapter : BidmadSDK.BidmadInterstitialAdapter, BidmadSDK.BidmadLoggable, @unchecked Swift.Sendable {
+  final public let className: Swift.String
+  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadInterstitialAdapter
+  @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
+  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
+public class BidmadBannerMobwithAdapter : BidmadSDK.BidmadBannerAdapter, @unchecked Swift.Sendable {
+  final public let className: Swift.String
+  @objc override dynamic public func loadAd(from viewController: UIKit.UIViewController) async throws -> (BidmadSDK.BidmadBannerAdapter, UIKit.UIView, CoreFoundation.CGSize)
+  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 13.0, *)
+extension BidmadMobwithAdapter.BidmadBannerMobwithAdapter : BidmadSDK.BidmadLoggable {}

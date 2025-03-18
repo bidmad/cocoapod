@@ -14,7 +14,6 @@
 #import <Foundation/Foundation.h>
 #import <BidmadSDK/BIDMADSetting.h>
 #import "OpenBiddingBanner.h"
-#import <BidmadSDK/BIDMADBanner.h>
 
 static NSMutableDictionary* BidmadOpenBiddingBannerDic;
 

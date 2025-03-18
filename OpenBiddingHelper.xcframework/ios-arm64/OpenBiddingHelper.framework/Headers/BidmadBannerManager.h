@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import "OpenBiddingBanner.h"
-#import <BidmadSDK/BIDMADBanner.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -1,0 +1,19 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios12-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BidmadORTBAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+@_exported import BidmadORTBAdapter
+import BidmadSDK
+import Foundation
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @objcMembers open class BidmadORTBAdapterInfo : ObjectiveC.NSObject, BidmadSDK.BidmadAdapterInfo {
+  @objc public static func adapterVersion() -> Swift.String
+  @objc public static func adNetworkSdkVersion() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}

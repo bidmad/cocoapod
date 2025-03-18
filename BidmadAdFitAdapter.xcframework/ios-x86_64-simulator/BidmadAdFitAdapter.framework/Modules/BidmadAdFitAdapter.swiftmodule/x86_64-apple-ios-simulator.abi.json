@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "BidmadAdFitAdapter",
+    "printedName": "BidmadAdFitAdapter",
     "children": [
       {
         "kind": "Import",
@@ -66,6 +66,7 @@
             "moduleName": "BidmadAdFitAdapter",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -98,6 +99,7 @@
             "moduleName": "BidmadAdFitAdapter",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -130,6 +132,7 @@
             "moduleName": "BidmadAdFitAdapter",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -162,6 +165,7 @@
             "moduleName": "BidmadAdFitAdapter",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -194,6 +198,7 @@
             "moduleName": "BidmadAdFitAdapter",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -226,6 +231,7 @@
             "moduleName": "BidmadAdFitAdapter",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -239,6 +245,7 @@
         "isOpen": true,
         "objc_name": "BIDMADNativeAdView",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC",
           "Dynamic"
@@ -252,6 +259,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -322,14 +343,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadAdFitAdapter\/BidmadNativeAdFitAdapter.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadAdFitAdapter\/BidmadNativeAdFitAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 291,
       "length": 8,
       "value": "21674184"
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadAdFitAdapter\/BidmadNativeAdFitAdapter.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadAdFitAdapter\/BidmadNativeAdFitAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 946,
       "length": 1,

@@ -10,7 +10,6 @@
 
 #import <UIKit/UIKit.h>
 #import <BidmadSDK/BidmadLoadStatus.h>
-#import <BidmadSDK/BIDMADBanner.h>
 #import <BidmadSDK/BidmadSDK-Swift.h>
 
 NS_ASSUME_NONNULL_BEGIN

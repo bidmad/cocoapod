@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "BidmadFlutterBridge",
+    "printedName": "BidmadFlutterBridge",
     "children": [
       {
         "kind": "Import",
@@ -536,6 +536,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -683,6 +697,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -852,6 +880,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1225,6 +1267,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1279,200 +1335,109 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
+      "kind": "BooleanLiteral",
+      "offset": 698,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
+      "kind": "BooleanLiteral",
+      "offset": 740,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
       "offset": 905,
       "length": 28,
       "value": "\"setBannerContainerForGame:\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
-      "kind": "StringLiteral",
-      "offset": 203,
-      "length": 31,
-      "value": "\"BidmadFlutterBridge.OpenBiddingFlutterBannerRefined\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
       "offset": 6947,
       "length": 10,
       "value": "\"onLoadAd\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
       "offset": 6979,
       "length": 10,
       "value": "\"onFailAd\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
       "offset": 7012,
       "length": 11,
       "value": "\"onClickAd\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
-      "kind": "StringLiteral",
-      "offset": 6947,
-      "length": 10,
-      "value": "\"onLoadAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
-      "kind": "StringLiteral",
-      "offset": 6979,
-      "length": 10,
-      "value": "\"onFailAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
-      "kind": "StringLiteral",
-      "offset": 7012,
-      "length": 11,
-      "value": "\"onClickAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
-      "kind": "StringLiteral",
-      "offset": 8515,
-      "length": 43,
-      "value": "\"BidmadFlutterBridge.OpenBiddingFlutterBannerRefinedPlatformView\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 18,
       "value": "\"makeInterstitial\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 6,
       "value": "\"load\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 6,
       "value": "\"show\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 314,
       "length": 10,
       "value": "\"isLoaded\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 226,
-      "length": 18,
-      "value": "\"makeInterstitial\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 262,
-      "length": 6,
-      "value": "\"load\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 286,
-      "length": 6,
-      "value": "\"show\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 314,
-      "length": 10,
-      "value": "\"isLoaded\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 384,
       "length": 10,
       "value": "\"onLoadAd\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 416,
       "length": 10,
       "value": "\"onShowAd\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 449,
       "length": 11,
       "value": "\"onCloseAd\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 482,
       "length": 10,
       "value": "\"onFailAd\""
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 515,
       "length": 11,
       "value": "\"onClickAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 384,
-      "length": 10,
-      "value": "\"onLoadAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 416,
-      "length": 10,
-      "value": "\"onShowAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 449,
-      "length": 11,
-      "value": "\"onCloseAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 482,
-      "length": 10,
-      "value": "\"onFailAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 515,
-      "length": 11,
-      "value": "\"onClickAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 554,
-      "length": 30,
-      "value": "\"BidmadFlutterBridge.OpenBiddingFlutterInterstitial\""
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "BidmadCoviAdapter",
+    "printedName": "BidmadCoviAdapter",
     "children": [
       {
         "kind": "Import",
@@ -225,6 +225,7 @@
             "mangledName": "$s17BidmadCoviAdapter0aB10VastPlayerV2ad7tracker0F4View14viewController8videoPos0K8Duration12isAdComplete0nO11Initialized5clickAC0A3SDK0dO0V_AM0D7TrackerCSo6UIViewCSgSo0uJ0CSg7Combine19CurrentValueSubjectCySds5NeverOGA1_AZySbA0_GA2_yyctcfc",
             "moduleName": "BidmadCoviAdapter",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -254,6 +255,7 @@
             "mangledName": "$s17BidmadCoviAdapter0aB10VastPlayerV4bodyQrvp",
             "moduleName": "BidmadCoviAdapter",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -292,11 +294,26 @@
         "moduleName": "BidmadCoviAdapter",
         "intro_iOS": "13.0",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "Available"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -325,6 +342,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -343,42 +367,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadBannerCoviAdapter.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadBannerCoviAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 284,
+      "offset": 305,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 187,
-      "length": 27,
-      "value": "\"BidmadCoviAdapter.BidmadCoviVideoPlayerUIView\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 2433,
-      "length": 32,
-      "value": "\"BidmadCoviAdapter.BidmadCoviFullscreenPlayerUIView\""
-    },
-    {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 5748,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 5794,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsuboh\/Dev\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 5893,
       "length": 4,

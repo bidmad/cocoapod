@@ -11,8 +11,6 @@
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 #import <BidmadSDK/BIDMADSetting.h>
-#import <BidmadSDK/BIDMADBanner.h>
-#import <BidmadSDK/BIDMADInterstitial.h>
 #import <BidmadSDK/BIDMADRewardVideo.h>
 #import <SystemConfiguration/CaptiveNetwork.h>
 #import <CoreLocation/CoreLocation.h>

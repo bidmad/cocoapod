@@ -1,11 +1,13 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BidmadSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 @_exported import BidmadSDK
 import Combine
 import Foundation
 import Swift
 import SwiftUI
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -34,6 +36,17 @@ public struct VastAdCategory : Swift.Codable {
 }
 extension BidmadSDK.VastAdCategory : Swift.Equatable {
   public static func == (a: BidmadSDK.VastAdCategory, b: BidmadSDK.VastAdCategory) -> Swift.Bool
+}
+@objc public enum BIDMADBannerViewCase : Swift.Int {
+  case xYCoordinateGiven = 0
+  case containerViewGiven = 1
+  case onlyYCoordinateGiven = 2
+  case adPositionAnchorGiven = 3
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 public struct VastNonLinear : Swift.Codable {
   public var height: Swift.String
@@ -107,6 +120,23 @@ public struct VastIconClickTracking : Swift.Codable {
 }
 extension BidmadSDK.VastIconClickTracking : Swift.Equatable {
   public static func == (a: BidmadSDK.VastIconClickTracking, b: BidmadSDK.VastIconClickTracking) -> Swift.Bool
+}
+@objc public enum BIDMADAdPosition : Swift.Int {
+  case center = 0
+  case top = 1
+  case bottom = 2
+  case left = 3
+  case right = 4
+  case topLeft = 5
+  case topRight = 6
+  case bottomLeft = 7
+  case bottomRight = 8
+  case none = 9
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 public struct VastInteractiveCreativeFile : Swift.Codable {
   public let type: Swift.String?
@@ -318,6 +348,10 @@ extension BidmadSDK.VastError : Foundation.LocalizedError {
     get
   }
 }
+@objc public protocol OBHBannerExtraDelegate : ObjectiveC.NSObjectProtocol {
+  @objc var zoneID: Swift.String { get set }
+  @objc(addLoadedAdView:adWidth:adHeight:strategy:keyWindow:error:) func add(loadedAdView adView: UIKit.UIView, adWidth: CoreFoundation.CGFloat, adHeight: CoreFoundation.CGFloat, strategy: BidmadSDK.BidmadBannerSizeStrategy, keyWindow: UIKit.UIWindow?, error: Foundation.NSErrorPointer)
+}
 public struct VastAdSystem : Swift.Codable {
   public let version: Swift.String?
   public var system: Swift.String?
@@ -489,6 +523,18 @@ extension BidmadSDK.VastMediaFile {
 extension BidmadSDK.VastMediaFile : Swift.Equatable {
   public static func == (a: BidmadSDK.VastMediaFile, b: BidmadSDK.VastMediaFile) -> Swift.Bool
 }
+@objc @objcMembers public class BIDMADInterstitial : ObjectiveC.NSObject, BidmadSDK.BidmadInterstitialAdapterDelegate, BidmadSDK.BidmadLoggable {
+  @objc final public let className: Swift.String
+  @objc public var adapter: BidmadSDK.BidmadInterstitialAdapter?
+  @objc(initWithInstanceOBH:) public init(with instanceOBH: any BidmadSDK.OBHCommunicationDelegate)
+  @objc(selectAdUnit:) public func select(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc(showInterstitialViewOnViewController:) public func showInterstitialView(on viewController: UIKit.UIViewController)
+  @objc public func dismissed(with ad: BidmadSDK.BidmadInterstitialAdapter)
+  @objc public func presented(with ad: BidmadSDK.BidmadInterstitialAdapter)
+  @objc public func failedToPresent(with ad: BidmadSDK.BidmadInterstitialAdapter, error: any Swift.Error)
+  @objc public func clicked(with ad: BidmadSDK.BidmadInterstitialAdapter)
+  @objc deinit
+}
 public struct VastClientOptions {
   public let wrapperLimit: Swift.Int
   public let singleWrapperTimeLimit: Foundation.TimeInterval
@@ -516,6 +562,14 @@ extension BidmadSDK.VastModel {
 extension BidmadSDK.VastModel : Swift.Equatable {
   public static func == (a: BidmadSDK.VastModel, b: BidmadSDK.VastModel) -> Swift.Bool
 }
+@objc @objcMembers public class BIDMADBanner : ObjectiveC.NSObject, BidmadSDK.BidmadBannerAdapterDelegate, BidmadSDK.BidmadLoggable {
+  @objc final public let className: Swift.String
+  @objc public var adapter: BidmadSDK.BidmadBannerAdapter?
+  @objc(initWithInstanceOBH:) public init(with instanceOBH: any BidmadSDK.OBHBannerExtraDelegate & BidmadSDK.OBHCommunicationDelegate)
+  @objc(selectAdUnit:) public func select(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc public func clicked(with ad: BidmadSDK.BidmadBannerAdapter)
+  @objc deinit
+}
 public struct VastAdVerificationParameters : Swift.Codable {
   public var data: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
@@ -537,8 +591,8 @@ extension BidmadSDK.VastImpression : Swift.Equatable {
   public static func == (a: BidmadSDK.VastImpression, b: BidmadSDK.VastImpression) -> Swift.Bool
 }
 @available(iOS 13.0, *)
-extension SwiftUI.Color {
-  public static func bidmadUtilityGenerateColorFrom(hex: Swift.String?, alpha: CoreFoundation.CGFloat? = nil) -> SwiftUI.Color
+extension SwiftUICore.Color {
+  public static func bidmadUtilityGenerateColorFrom(hex: Swift.String?, alpha: CoreFoundation.CGFloat? = nil) -> SwiftUICore.Color
 }
 @available(iOS 13.0, *)
 extension UIKit.UIColor {
@@ -562,23 +616,25 @@ extension BidmadSDK.VastExtension : Swift.Equatable {
   public static func == (lhs: BidmadSDK.VastExtension, rhs: BidmadSDK.VastExtension) -> Swift.Bool
 }
 @available(iOS 13.0, *)
-public struct BidmadForcedVisibility : SwiftUI.EnvironmentKey {
+public struct BidmadForcedVisibility : SwiftUICore.EnvironmentKey {
   public static var defaultValue: Swift.Double?
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Value = Swift.Double?
 }
 @available(iOS 13.0, *)
-extension SwiftUI.EnvironmentValues {
+extension SwiftUICore.EnvironmentValues {
   public var bidmadForcedVisibility: Swift.Double? {
     get
     set
   }
 }
 @available(iOS 13.0, *)
-@_Concurrency.MainActor(unsafe) public struct BidmadTracker : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(adView: UIKit.UIView?, viewController: UIKit.UIViewController?, visibilityRate: Swift.Double, change: @escaping (_ isVisible: Swift.Bool, _ isCompletelyInvisible: Swift.Bool, _ isAppActive: Swift.Bool) -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct BidmadTracker : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(adView: UIKit.UIView?, viewController: UIKit.UIViewController?, visibilityRate: Swift.Double, change: @escaping (_ isVisible: Swift.Bool, _ isCompletelyInvisible: Swift.Bool, _ isAppActive: Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s9BidmadSDK0A7TrackerV4bodyQrvp", 0) __
 }
 public struct VastNonLinearAdsCreative : Swift.Codable {
@@ -863,12 +919,18 @@ extension BidmadSDK.VastAd {
 extension BidmadSDK.VastAd : Swift.Equatable {
   public static func == (a: BidmadSDK.VastAd, b: BidmadSDK.VastAd) -> Swift.Bool
 }
+extension BidmadSDK.BIDMADBannerViewCase : Swift.Equatable {}
+extension BidmadSDK.BIDMADBannerViewCase : Swift.Hashable {}
+extension BidmadSDK.BIDMADBannerViewCase : Swift.RawRepresentable {}
 extension BidmadSDK.VMAPErrorCodes : Swift.Equatable {}
 extension BidmadSDK.VMAPErrorCodes : Swift.Hashable {}
 extension BidmadSDK.VMAPErrorCodes : Swift.RawRepresentable {}
 extension BidmadSDK.VMAPTrackingEventType : Swift.Equatable {}
 extension BidmadSDK.VMAPTrackingEventType : Swift.Hashable {}
 extension BidmadSDK.VMAPTrackingEventType : Swift.RawRepresentable {}
+extension BidmadSDK.BIDMADAdPosition : Swift.Equatable {}
+extension BidmadSDK.BIDMADAdPosition : Swift.Hashable {}
+extension BidmadSDK.BIDMADAdPosition : Swift.RawRepresentable {}
 extension BidmadSDK.PricingModel : Swift.Equatable {}
 extension BidmadSDK.PricingModel : Swift.Hashable {}
 extension BidmadSDK.PricingModel : Swift.RawRepresentable {}
@@ -886,6 +948,8 @@ extension BidmadSDK.VastErrorCodes : Swift.RawRepresentable {}
 extension BidmadSDK.VMAPAdSourceTemplate : Swift.Equatable {}
 extension BidmadSDK.VMAPAdSourceTemplate : Swift.Hashable {}
 extension BidmadSDK.VMAPAdSourceTemplate : Swift.RawRepresentable {}
+@available(iOS 13.0, *)
+extension BidmadSDK.BidmadTracker : Swift.Sendable {}
 extension BidmadSDK.VMAPAdBreakType : Swift.Equatable {}
 extension BidmadSDK.VMAPAdBreakType : Swift.Hashable {}
 extension BidmadSDK.VMAPAdBreakType : Swift.RawRepresentable {}

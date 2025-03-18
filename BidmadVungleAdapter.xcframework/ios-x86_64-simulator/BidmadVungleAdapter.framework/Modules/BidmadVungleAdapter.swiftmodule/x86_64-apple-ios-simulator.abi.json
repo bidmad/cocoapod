@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "BidmadVungleAdapter",
+    "printedName": "BidmadVungleAdapter",
     "children": [
       {
         "kind": "Import",
@@ -291,6 +291,27 @@
             "printedName": "VungleBannerViewDelegate",
             "usr": "c:@M@VungleAdsSDK@objc(pl)VungleBannerViewDelegate",
             "mangledName": "$s12VungleAdsSDK0A18BannerViewDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
