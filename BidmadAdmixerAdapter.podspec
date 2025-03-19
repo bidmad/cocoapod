@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://bidmad.net"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Markus" => "markus@adop.cc" }
-  s.source           = { :git => 'https://github.com/adop-devel/BidmadSDK-CocoaPods.git', :tag => 'BidmadAdmixerAdapter.2.0.0.11.0' }
+  s.source           = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'BidmadAdmixerAdapter.2.0.0.11.0' }
   s.static_framework = true
   s.requires_arc     = true
   s.vendored_frameworks = "BidmadAdmixerAdapter.xcframework"
