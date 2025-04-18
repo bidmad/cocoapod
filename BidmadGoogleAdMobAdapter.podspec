@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "BidmadGoogleAdMobAdapter"
-  s.version          = "11.10.0.11.0"
+  s.version          = "11.10.0.11.1"
   s.platform         = :ios, "12.0"
   s.summary          = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
   s.description      = "BidmadSDK Mediation Adapter for Google AdMob"
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "BidmadGoogleAdMobAdapter.xcframework"
   s.swift_version = '5.0'
 
-  s.dependency 'BidmadSDK', '>=6.12.0', '<6.13.0'
+  s.dependency 'BidmadSDK', '>=6.12.1', '<6.13.0'
   s.dependency 'Google-Mobile-Ads-SDK', '11.10.0'
 
 end
