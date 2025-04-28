@@ -24,6 +24,7 @@ public struct BidmadAdmixerCoreResult : Swift.Sendable {
 @objc @_inheritsConvenienceInitializers @available(iOS 13.0.0, *)
 open class BidmadBannerAdmixerAdapter : BidmadSDK.BidmadBannerAdapter, Swift.Identifiable, @unchecked Swift.Sendable {
   final public let id: Foundation.UUID
+  weak public var adView: AdMixerMediation.AMMBannerView?
   @objc override dynamic open func loadAd(from viewController: UIKit.UIViewController) async throws -> (BidmadSDK.BidmadBannerAdapter, UIKit.UIView, CoreFoundation.CGSize)
   @objc override dynamic open func destroyed()
   @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)

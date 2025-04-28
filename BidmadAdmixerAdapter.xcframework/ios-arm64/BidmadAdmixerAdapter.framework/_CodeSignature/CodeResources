@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		5/Oc9PcID2NCvj4c7o7yq3ekmms=
+		lFundJs8Wr7OGx+p4B+XWoL/WeY=
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		MSIIfnFQT8PYfZ6Y6LXK5PNjfTs=
+		KwrpBVST/JgO6bsu7MJu6i/bQVM=
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		MSIIfnFQT8PYfZ6Y6LXK5PNjfTs=
+		KwrpBVST/JgO6bsu7MJu6i/bQVM=
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		hWu5bwAiBq3OT4jdW7Gooq64ZX4=
+		PHiSV0aADdCL+XL21otvFXyD2KI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,22 +54,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5/Oc9PcID2NCvj4c7o7yq3ekmms=
+			lFundJs8Wr7OGx+p4B+XWoL/WeY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xtuaq67RDPyoiIQSxf1tWHOeTGyuR/Kk7kC57XJSaoA=
+			tzEtBKaqmr1ghW8QlmGaCK7y92ZMN8bEX4w/BoQKKmg=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MSIIfnFQT8PYfZ6Y6LXK5PNjfTs=
+			KwrpBVST/JgO6bsu7MJu6i/bQVM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ubqHvr9WYAREFaIjkPGkr9yaWplAtVk/XUWId6a4JPs=
+			iWEhZn3DHsR9gHj8qArlm86E0dp0dPFB5Gj2EN/N2oM=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -87,22 +87,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MSIIfnFQT8PYfZ6Y6LXK5PNjfTs=
+			KwrpBVST/JgO6bsu7MJu6i/bQVM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ubqHvr9WYAREFaIjkPGkr9yaWplAtVk/XUWId6a4JPs=
+			iWEhZn3DHsR9gHj8qArlm86E0dp0dPFB5Gj2EN/N2oM=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hWu5bwAiBq3OT4jdW7Gooq64ZX4=
+			PHiSV0aADdCL+XL21otvFXyD2KI=
 			</data>
 			<key>hash2</key>
 			<data>
-			w0qEBXEkIOvkyN34ZNYws2P2K0XijUhkvWSAE2Yh6oU=
+			OjjfZz4oKw7UlPMpNz/6bPFujsxlRJAc/5PUI2J2XTU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

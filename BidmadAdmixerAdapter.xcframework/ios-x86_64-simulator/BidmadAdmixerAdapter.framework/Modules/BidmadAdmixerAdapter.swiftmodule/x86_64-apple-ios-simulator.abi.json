@@ -445,6 +445,113 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "adView",
+            "printedName": "adView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "AdMixerMediation.AMMBannerView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BidmadAdmixerAdapter0a6BannerbC0C6adView16AdMixerMediation09AMMBannerF0CSgvp",
+            "mangledName": "$s20BidmadAdmixerAdapter0a6BannerbC0C6adView16AdMixerMediation09AMMBannerF0CSgvp",
+            "moduleName": "BidmadAdmixerAdapter",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdMixerMediation.AMMBannerView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AMMBannerView",
+                        "printedName": "AdMixerMediation.AMMBannerView",
+                        "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BidmadAdmixerAdapter0a6BannerbC0C6adView16AdMixerMediation09AMMBannerF0CSgvg",
+                "mangledName": "$s20BidmadAdmixerAdapter0a6BannerbC0C6adView16AdMixerMediation09AMMBannerF0CSgvg",
+                "moduleName": "BidmadAdmixerAdapter",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdMixerMediation.AMMBannerView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AMMBannerView",
+                        "printedName": "AdMixerMediation.AMMBannerView",
+                        "usr": "c:@M@AdMixerMediation@objc(cs)AMMBannerView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BidmadAdmixerAdapter0a6BannerbC0C6adView16AdMixerMediation09AMMBannerF0CSgvs",
+                "mangledName": "$s20BidmadAdmixerAdapter0a6BannerbC0C6adView16AdMixerMediation09AMMBannerF0CSgvs",
+                "moduleName": "BidmadAdmixerAdapter",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BidmadAdmixerAdapter0a6BannerbC0C6adView16AdMixerMediation09AMMBannerF0CSgvM",
+                "mangledName": "$s20BidmadAdmixerAdapter0a6BannerbC0C6adView16AdMixerMediation09AMMBannerF0CSgvM",
+                "moduleName": "BidmadAdmixerAdapter",
+                "implicit": true,
+                "intro_iOS": "13.0.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "loadAd",
             "printedName": "loadAd(from:)",
@@ -942,7 +1049,7 @@
     {
       "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/BidmadBannerAdmixerAdapter.swift",
       "kind": "Dictionary",
-      "offset": 4434,
+      "offset": 4773,
       "length": 3,
       "value": "[]"
     }
