@@ -16,6 +16,13 @@
       },
       {
         "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "BidmadGoogleAdMobAdapter"
+      },
+      {
+        "kind": "Import",
         "name": "BidmadSDK",
         "printedName": "BidmadSDK",
         "declKind": "Import",
@@ -49,6 +56,13 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadGoogleAdMobAdapter\/BidmadAdMobManagerLegacySupport.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 32,
+      "value": "\"com.bidmad.admob.manager.state\""
+    },
     {
       "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadGoogleAdMobAdapter\/BidmadRewardGoogleAdMobAdapter.swift",
       "kind": "BooleanLiteral",

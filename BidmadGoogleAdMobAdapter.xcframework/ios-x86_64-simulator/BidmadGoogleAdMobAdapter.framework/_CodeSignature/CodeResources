@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		1ENP1W1kYL+ROEovvm290tAaNNY=
+		sY6VKcmLjsIf1gTS9TZ3WJa52h4=
 		</data>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mtFJl4AZbZc3AFcabypXVdMAjGU=
+		G34XeAk+pSI9AQ05+UpSmDamwow=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ENP1W1kYL+ROEovvm290tAaNNY=
+			sY6VKcmLjsIf1gTS9TZ3WJa52h4=
 			</data>
 			<key>hash2</key>
 			<data>
-			uFi79YfkscfZl1BcVT57k6rkpZX/+terRGf9SEHg1mg=
+			TlIrq0rJ9vo/myl5miVvpiYi5X1A1ItvmaY4wl0nCWo=
 			</data>
 		</dict>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -151,11 +151,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mtFJl4AZbZc3AFcabypXVdMAjGU=
+			G34XeAk+pSI9AQ05+UpSmDamwow=
 			</data>
 			<key>hash2</key>
 			<data>
-			eIkZruEfnoEZONASJSPro+3DXGJwDgSUwIDCPGJHZL8=
+			iTARMeJkoIdxlyYJywmC2/d7HjgymLM61LWinmNKlWA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

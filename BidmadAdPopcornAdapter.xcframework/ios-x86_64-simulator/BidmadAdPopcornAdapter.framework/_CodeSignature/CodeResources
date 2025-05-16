@@ -405,7 +405,7 @@
 		</data>
 		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		IaWVEGpMEsQ9KP5SAlfRe4jBI6g=
+		RenHn2DiagbXTNKbSBzXoPjm9Mg=
 		</data>
 		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -421,7 +421,7 @@
 		</data>
 		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XinaMk7AK9Nl0nYxKwnEa/hMr3o=
+		UyWOsniAYqsKZ79HHbLv5oZrhYo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1399,11 +1399,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IaWVEGpMEsQ9KP5SAlfRe4jBI6g=
+			RenHn2DiagbXTNKbSBzXoPjm9Mg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q8GvbHK72rz6QV/TMkOBagWFMVDQIWyRFR4A/3e5hsg=
+			wLV6bRYD9RgEduN6C14PdbNCsFxkbiglUQ8ZzLT1+uM=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdPopcornAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1443,11 +1443,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XinaMk7AK9Nl0nYxKwnEa/hMr3o=
+			UyWOsniAYqsKZ79HHbLv5oZrhYo=
 			</data>
 			<key>hash2</key>
 			<data>
-			pozOrNGz2WVMypdoOe7IyWo/UvgDN3/ruzBP8ED4Hx8=
+			fi8VLnCMiq2HbCWtd3hxspoRzTCGIGuyU7ScVZuhcm4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
