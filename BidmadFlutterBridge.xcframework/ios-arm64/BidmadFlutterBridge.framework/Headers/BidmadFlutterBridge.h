@@ -19,4 +19,3 @@ FOUNDATION_EXPORT const unsigned char BidmadFlutterBridgeVersionString[];
 #import <BidmadFlutterBridge/OpenBiddingFlutterCommon.h>
 #import <BidmadFlutterBridge/OpenBiddingFlutterGDPRforGoogle.h>
 #import <BidmadFlutterBridge/OpenBiddingFlutterNativeAdViewFactory.h>
-#import <BidmadFlutterBridge/OpenBiddingFlutterRewardVideo.h>

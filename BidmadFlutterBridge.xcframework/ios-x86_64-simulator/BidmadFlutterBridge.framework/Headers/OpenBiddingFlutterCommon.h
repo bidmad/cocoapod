@@ -17,12 +17,16 @@ NS_ASSUME_NONNULL_BEGIN
 @class OpenBiddingFlutterNativeAdViewFactory;
 @class OpenBiddingBanner;
 @class OpenBiddingFlutterBannerRefinedFactory;
+@class OpenBiddingFlutterInterstitial;
+@class OpenBiddingFlutterRewardVideo;
 
 @interface OpenBiddingFlutterCommonStorage : NSObject
 
 + (OpenBiddingFlutterCommonStorage *)shared;
 @property (nonatomic) OpenBiddingFlutterNativeAdViewFactory * _Nullable nativeAdViewFactory;
 @property (nonatomic, strong) OpenBiddingFlutterBannerRefinedFactory *bannerAdFactory;
+@property (nonatomic, strong) NSMutableArray<OpenBiddingFlutterInterstitial *> *interstitialInstances;
+@property (nonatomic, strong) NSMutableArray<OpenBiddingFlutterRewardVideo *> *rewardInstances;
 
 @end
 

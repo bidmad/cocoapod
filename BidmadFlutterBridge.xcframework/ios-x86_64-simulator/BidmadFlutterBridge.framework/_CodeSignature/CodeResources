@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BidmadFlutterBridge.h</key>
 		<data>
-		vbmOFPbms+JeZvCCvJ9cjR1RWFw=
+		uiX1tOkKFciPNhLLVqk7Lt5RWO0=
 		</data>
 		<key>Headers/OpenBiddingFlutterBanner.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/OpenBiddingFlutterCommon.h</key>
 		<data>
-		gFvn9/OVDhPvD1cuRIV06UEdIIk=
+		4Yk+fZJRHH4T5cwz5t0HHhwOD+o=
 		</data>
 		<key>Headers/OpenBiddingFlutterGDPRforGoogle.h</key>
 		<data>
@@ -28,21 +28,17 @@
 		<data>
 		ksZ1OeiZI7p0dmItjrxfd9Xils4=
 		</data>
-		<key>Headers/OpenBiddingFlutterRewardVideo.h</key>
-		<data>
-		Lxc/cdQDOykYVWVEWNfhRfIqO4M=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		lT9u0TKtxXXjfCsu/Uk6Ebm7sJs=
+		wW8jgolgCHcjYtX6b90JUKEsJlc=
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FJ9lg1ZGbh0MsKhdXt2f+n1iUps=
+		vvvzPhvq4/7M1X5NH7BjmY0fbaM=
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		tfxCCrmDdm2MA9gvl71rcw09fZg=
+		Anj7Nd4KwqUYA/xP/sg9a42/VUQ=
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +46,11 @@
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tfxCCrmDdm2MA9gvl71rcw09fZg=
+		Anj7Nd4KwqUYA/xP/sg9a42/VUQ=
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		V0YzeJm/FCj3PA4KhFD/d14Adzw=
+		hYgSp4AUUw+n3ur/1YYkWkpt5xA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +63,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vbmOFPbms+JeZvCCvJ9cjR1RWFw=
+			uiX1tOkKFciPNhLLVqk7Lt5RWO0=
 			</data>
 			<key>hash2</key>
 			<data>
-			xkwm4AiDz2T7Z9yu2cGp+mlEXs8cS/2B61SoKRAYTW0=
+			km6ETbGLUJJ5gqeAY60prsnyAWI9zLZEIPn2UDmFyD0=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingFlutterBanner.h</key>
@@ -100,11 +96,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gFvn9/OVDhPvD1cuRIV06UEdIIk=
+			4Yk+fZJRHH4T5cwz5t0HHhwOD+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			3SSmOnSLOEK7d7MHn2LS8H5YWTaogPr/CGBM+BapvPc=
+			iHLILIHM7dInUdVB0G3An5y8DQjLkTLe/ZdI7eGN14k=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingFlutterGDPRforGoogle.h</key>
@@ -129,37 +125,26 @@
 			ATAs4xzrFpV6gvBIhtOidOE4rzpRIfWCydZM3oUJh+o=
 			</data>
 		</dict>
-		<key>Headers/OpenBiddingFlutterRewardVideo.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Lxc/cdQDOykYVWVEWNfhRfIqO4M=
-			</data>
-			<key>hash2</key>
-			<data>
-			trpKG8MhxdnQxQWTaCa5uS/5i4p8u5X+djaFdsoBp2U=
-			</data>
-		</dict>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FJ9lg1ZGbh0MsKhdXt2f+n1iUps=
+			vvvzPhvq4/7M1X5NH7BjmY0fbaM=
 			</data>
 			<key>hash2</key>
 			<data>
-			72RcmKDydMsQItLwMJjpFS2NUodaDsLmzWpUo1pe/s4=
+			4REsn7XYIXiSFnPIR0poKd31976NGkNPxsTVhiLPgbQ=
 			</data>
 		</dict>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tfxCCrmDdm2MA9gvl71rcw09fZg=
+			Anj7Nd4KwqUYA/xP/sg9a42/VUQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			wKMrY7KCVlzCqvu4Wo/uzUyydhJdzfpRaKq5memdu+I=
+			EvudM2zoPT+sMFmepOuHmUm1EDKDhRvrs0pdEGsppjU=
 			</data>
 		</dict>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -177,22 +162,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tfxCCrmDdm2MA9gvl71rcw09fZg=
+			Anj7Nd4KwqUYA/xP/sg9a42/VUQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			wKMrY7KCVlzCqvu4Wo/uzUyydhJdzfpRaKq5memdu+I=
+			EvudM2zoPT+sMFmepOuHmUm1EDKDhRvrs0pdEGsppjU=
 			</data>
 		</dict>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V0YzeJm/FCj3PA4KhFD/d14Adzw=
+			hYgSp4AUUw+n3ur/1YYkWkpt5xA=
 			</data>
 			<key>hash2</key>
 			<data>
-			HePJDm43cqWfshDBh8G2SrIji8TiSoxwjLLIQhMIMrI=
+			qxCBrmh/H29jRQxDUi4SgdF7M37mmN1NKOJ6BeJrjEs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
