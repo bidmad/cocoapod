@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hYgSp4AUUw+n3ur/1YYkWkpt5xA=
+		VmaQw7hhHGuuj4ylH0kF1/3v9aw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -173,11 +173,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hYgSp4AUUw+n3ur/1YYkWkpt5xA=
+			VmaQw7hhHGuuj4ylH0kF1/3v9aw=
 			</data>
 			<key>hash2</key>
 			<data>
-			qxCBrmh/H29jRQxDUi4SgdF7M37mmN1NKOJ6BeJrjEs=
+			r+catHOIEqMTbgW2y+TOq0AojYymMNcE/+9xPcBb4pY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
