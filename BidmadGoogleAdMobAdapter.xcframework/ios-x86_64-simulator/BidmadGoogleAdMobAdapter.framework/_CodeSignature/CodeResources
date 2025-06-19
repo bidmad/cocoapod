@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		XJoEKKcFhMT2hqsAnTK23E1/1m8=
+		Fs1aDg2Gp3MOrauwiV/G4Pta3B4=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/BidmadGoogleAdMobAdapter-Swift.h</key>
 		<data>
-		5TFlcnNJ5006Ie3bNz3NV4CBOI4=
+		+UZVd+FbmgC1ezHFBy2JVRA0hcY=
 		</data>
 		<key>Headers/BidmadGoogleAdMobAdapter.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3XrwBWBqMiR9y00FrdIVUtfo/Zc=
+		d3LREmDcnzHBN7NjL5q0dlqwJ/0=
 		</data>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sY6VKcmLjsIf1gTS9TZ3WJa52h4=
+		QFGT7+K9XwcN+EuQPsbpZz8Px6U=
 		</data>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		G34XeAk+pSI9AQ05+UpSmDamwow=
+		eH4uQ92nXE3xHel6NdLldbFn/UY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		9JJxdwxVaT907zH2Gm+bU5Q342A=
+		L/us/3i9GG3dtzksHwvoB/ODz+c=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -63,11 +63,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XJoEKKcFhMT2hqsAnTK23E1/1m8=
+			Fs1aDg2Gp3MOrauwiV/G4Pta3B4=
 			</data>
 			<key>hash2</key>
 			<data>
-			iNJNqUM15qdcmsXB28tXQvZXw7TNvR8x6F61NTLPUHA=
+			3Qbi1auUDob7pN6Q6WS4p6sRwbAHxi9NXD6oS0yewQc=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -85,11 +85,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5TFlcnNJ5006Ie3bNz3NV4CBOI4=
+			+UZVd+FbmgC1ezHFBy2JVRA0hcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			YIVhlOXy5q+QpuNWju3HJVPIhTMi0fK4OGvj/nGqzBc=
+			iNluAcdjjbM6IpIPk1xdT1SqpsaWkRlIXX/KI3D/RI8=
 			</data>
 		</dict>
 		<key>Headers/BidmadGoogleAdMobAdapter.h</key>
@@ -107,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sY6VKcmLjsIf1gTS9TZ3WJa52h4=
+			QFGT7+K9XwcN+EuQPsbpZz8Px6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			TlIrq0rJ9vo/myl5miVvpiYi5X1A1ItvmaY4wl0nCWo=
+			6sUbnQ3tgXsh/4i4Wkxz5uLNPQM6h0K7ez1djHJ/Ajg=
 			</data>
 		</dict>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -151,11 +151,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G34XeAk+pSI9AQ05+UpSmDamwow=
+			eH4uQ92nXE3xHel6NdLldbFn/UY=
 			</data>
 			<key>hash2</key>
 			<data>
-			iTARMeJkoIdxlyYJywmC2/d7HjgymLM61LWinmNKlWA=
+			HrwPPtzuqPeXDV5ZgT+TF7LGnV8wir0f+dh4E/pj9ko=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -173,11 +173,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9JJxdwxVaT907zH2Gm+bU5Q342A=
+			L/us/3i9GG3dtzksHwvoB/ODz+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			bGk9rahAoEPEwSmu2jDzh2V2AfY8BWmqGRuC2O9Y+Tg=
+			dTDIaG80HPpzEhE5TK4mSeFI3Qh+zCZlxchGQA+323E=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>

@@ -57,16 +57,16 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadGoogleAdMobAdapter\/BidmadAdMobManagerLegacySupport.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadGoogleAdMobAdapter\/BidmadAdMobManagerLegacySupport.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 32,
       "value": "\"com.bidmad.admob.manager.state\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadGoogleAdMobAdapter\/BidmadRewardGoogleAdMobAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadGoogleAdMobAdapter\/BidmadRewardGoogleAdMobAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 356,
+      "offset": 350,
       "length": 5,
       "value": "false"
     }
