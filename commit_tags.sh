@@ -31,8 +31,12 @@ extract_tag_name() {
 # Function to check if tag already exists
 tag_exists() {
     local tag_name="$1"
-    git rev-parse "$tag_name" >/dev/null 2>&1
+    git tag -l "$tag_name" | grep -q "^$tag_name$"
 }
+
+# Arrays to track tag status
+declare -a newly_created_tags
+declare -a existing_tags
 
 # Process all .podspec files
 for podspec_file in *.podspec; do
@@ -48,11 +52,13 @@ for podspec_file in *.podspec; do
             # Check if tag already exists
             if tag_exists "$tag_name"; then
                 echo "  ⚠ Warning: Tag '$tag_name' already exists, skipping..."
+                existing_tags+=("$tag_name")
             else
                 # Create the tag
                 echo "  Creating git tag: $tag_name"
                 if git tag "$tag_name"; then
                     echo "  ✓ Successfully created tag: $tag_name"
+                    newly_created_tags+=("$tag_name")
                 else
                     echo "  ✗ Failed to create tag: $tag_name"
                 fi
@@ -68,14 +74,30 @@ echo "Tag creation completed!"
 echo ""
 echo "Summary of created tags:"
 echo "========================"
+
+# Function to check if tag is in array
+tag_in_array() {
+    local tag_name="$1"
+    shift
+    local array=("$@")
+    for tag in "${array[@]}"; do
+        if [[ "$tag" == "$tag_name" ]]; then
+            return 0
+        fi
+    done
+    return 1
+}
+
 for podspec_file in *.podspec; do
     if [ -f "$podspec_file" ]; then
         tag_name=$(extract_tag_name "$podspec_file")
         if [ -n "$tag_name" ]; then
-            if tag_exists "$tag_name"; then
+            if tag_in_array "$tag_name" "${existing_tags[@]}"; then
                 echo "✓ $tag_name (already existed)"
-            else
+            elif tag_in_array "$tag_name" "${newly_created_tags[@]}"; then
                 echo "✓ $tag_name (newly created)"
+            else
+                echo "? $tag_name (status unknown)"
             fi
         fi
     fi
