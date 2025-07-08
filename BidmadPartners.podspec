@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage      = "https://bidmad.net"
   s.license       = { :type => "MIT", :file => "LICENSE" }
   s.author        = { "Markus" => "markus@adop.cc" }
-  s.source        = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'PARTNER.1.0.6' }
+  s.source        = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'PARTNER.1.0.7' }
   s.swift_version = '5.0'
   s.static_framework = true
   s.requires_arc = true
