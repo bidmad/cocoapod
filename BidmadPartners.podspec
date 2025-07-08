@@ -15,14 +15,13 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "EmptyProject.xcframework"
 
   s.subspec 'AdMobBidding' do |admob_bidding|
-    admob_bidding.dependency 'GoogleMobileAdsMediationVungle', '7.4.1.0'
-    admob_bidding.dependency 'GoogleMobileAdsMediationPangle', '6.2.0.7.0'
-    admob_bidding.dependency 'GoogleMobileAdsMediationFyber', '8.3.2.0'
-    admob_bidding.dependency 'GoogleMobileAdsMediationUnity', '4.12.3.0'
-    admob_bidding.dependency 'GoogleMobileAdsMediationIronSource', '8.3.0.0.1'
-    admob_bidding.dependency 'GoogleMobileAdsMediationAppLovin', '13.0.0.1'
-    admob_bidding.dependency 'GoogleMobileAdsMediationFacebook', '6.15.2.0'
-    admob_bidding.dependency 'GoogleMobileAdsMediationMintegral', '7.7.3.0'
+    admob_bidding.dependency 'GoogleMobileAdsMediationVungle', '7.5.1.0'
+    admob_bidding.dependency 'GoogleMobileAdsMediationPangle', '7.2.0.5.0'
+    admob_bidding.dependency 'GoogleMobileAdsMediationFyber', '8.3.7.0'
+    admob_bidding.dependency 'GoogleMobileAdsMediationUnity', '4.15.0.0'
+    admob_bidding.dependency 'GoogleMobileAdsMediationAppLovin', '13.3.1.0'
+    admob_bidding.dependency 'GoogleMobileAdsMediationFacebook', '6.20.0.0'
+    admob_bidding.dependency 'GoogleMobileAdsMediationMintegral', '7.7.8.0'
   end
 
 end
