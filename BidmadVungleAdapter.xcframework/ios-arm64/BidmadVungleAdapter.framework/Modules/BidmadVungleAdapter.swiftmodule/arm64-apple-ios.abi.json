@@ -133,14 +133,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "VungleBanner",
-                "printedName": "VungleAdsSDK.VungleBanner",
-                "usr": "c:@M@VungleAdsSDK@objc(cs)VungleBanner"
+                "name": "VungleBannerView",
+                "printedName": "VungleAdsSDK.VungleBannerView",
+                "usr": "c:@M@VungleAdsSDK@objc(cs)VungleBannerView"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@BidmadVungleAdapter@objc(cs)BidmadBannerVungleAdapter(im)bannerAdDidLoad:",
-            "mangledName": "$s19BidmadVungleAdapter0a6BannerbC0C15bannerAdDidLoadyy0B6AdsSDK0bD0CF",
+            "mangledName": "$s19BidmadVungleAdapter0a6BannerbC0C15bannerAdDidLoadyy0B6AdsSDK0bD4ViewCF",
             "moduleName": "BidmadVungleAdapter",
             "objc_name": "bannerAdDidLoad:",
             "declAttributes": [
@@ -151,8 +151,8 @@
           },
           {
             "kind": "Function",
-            "name": "bannerAdDidFailToLoad",
-            "printedName": "bannerAdDidFailToLoad(_:withError:)",
+            "name": "bannerAdDidFail",
+            "printedName": "bannerAdDidFail(_:withError:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -161,9 +161,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "VungleBanner",
-                "printedName": "VungleAdsSDK.VungleBanner",
-                "usr": "c:@M@VungleAdsSDK@objc(cs)VungleBanner"
+                "name": "VungleBannerView",
+                "printedName": "VungleAdsSDK.VungleBannerView",
+                "usr": "c:@M@VungleAdsSDK@objc(cs)VungleBannerView"
               },
               {
                 "kind": "TypeNominal",
@@ -173,10 +173,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@BidmadVungleAdapter@objc(cs)BidmadBannerVungleAdapter(im)bannerAdDidFailToLoad:withError:",
-            "mangledName": "$s19BidmadVungleAdapter0a6BannerbC0C21bannerAdDidFailToLoad_9withErrory0B6AdsSDK0bD0C_So7NSErrorCtF",
+            "usr": "c:@M@BidmadVungleAdapter@objc(cs)BidmadBannerVungleAdapter(im)bannerAdDidFail:withError:",
+            "mangledName": "$s19BidmadVungleAdapter0a6BannerbC0C15bannerAdDidFail_9withErrory0B6AdsSDK0bD4ViewC_So7NSErrorCtF",
             "moduleName": "BidmadVungleAdapter",
-            "objc_name": "bannerAdDidFailToLoad:withError:",
+            "objc_name": "bannerAdDidFail:withError:",
             "declAttributes": [
               "ObjC",
               "AccessControl"
@@ -195,14 +195,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "VungleBanner",
-                "printedName": "VungleAdsSDK.VungleBanner",
-                "usr": "c:@M@VungleAdsSDK@objc(cs)VungleBanner"
+                "name": "VungleBannerView",
+                "printedName": "VungleAdsSDK.VungleBannerView",
+                "usr": "c:@M@VungleAdsSDK@objc(cs)VungleBannerView"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@BidmadVungleAdapter@objc(cs)BidmadBannerVungleAdapter(im)bannerAdDidClick:",
-            "mangledName": "$s19BidmadVungleAdapter0a6BannerbC0C16bannerAdDidClickyy0B6AdsSDK0bD0CF",
+            "mangledName": "$s19BidmadVungleAdapter0a6BannerbC0C16bannerAdDidClickyy0B6AdsSDK0bD4ViewCF",
             "moduleName": "BidmadVungleAdapter",
             "objc_name": "bannerAdDidClick:",
             "declAttributes": [
@@ -287,10 +287,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "VungleBannerDelegate",
-            "printedName": "VungleBannerDelegate",
-            "usr": "c:@M@VungleAdsSDK@objc(pl)VungleBannerDelegate",
-            "mangledName": "$s12VungleAdsSDK0A14BannerDelegateP"
+            "name": "VungleBannerViewDelegate",
+            "printedName": "VungleBannerViewDelegate",
+            "usr": "c:@M@VungleAdsSDK@objc(pl)VungleBannerViewDelegate",
+            "mangledName": "$s12VungleAdsSDK0A18BannerViewDelegateP"
           },
           {
             "kind": "Conformance",

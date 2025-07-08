@@ -9,11 +9,11 @@ import VungleAdsSDK
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_inheritsConvenienceInitializers public class BidmadBannerVungleAdapter : BidmadSDK.BidmadBannerAdapter, VungleAdsSDK.VungleBannerDelegate, @unchecked Swift.Sendable {
+@objc @_inheritsConvenienceInitializers public class BidmadBannerVungleAdapter : BidmadSDK.BidmadBannerAdapter, VungleAdsSDK.VungleBannerViewDelegate, @unchecked Swift.Sendable {
   @objc override dynamic public func loadAd(from viewController: UIKit.UIViewController, with completionHandler: @escaping (BidmadSDK.BidmadBannerAdapter?, UIKit.UIView?, CoreFoundation.CGSize, (any Swift.Error)?) -> Swift.Void)
-  @objc public func bannerAdDidLoad(_ banner: VungleAdsSDK.VungleBanner)
-  @objc public func bannerAdDidFailToLoad(_ banner: VungleAdsSDK.VungleBanner, withError: Foundation.NSError)
-  @objc public func bannerAdDidClick(_ banner: VungleAdsSDK.VungleBanner)
+  @objc public func bannerAdDidLoad(_ bannerView: VungleAdsSDK.VungleBannerView)
+  @objc public func bannerAdDidFail(_ bannerView: VungleAdsSDK.VungleBannerView, withError: Foundation.NSError)
+  @objc public func bannerAdDidClick(_ bannerView: VungleAdsSDK.VungleBannerView)
   @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
   @objc override dynamic public init()
   @objc deinit

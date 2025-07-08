@@ -4,3 +4,8 @@ framework module BidmadAppLovinAdapter {
 
   module * { export * }
 }
+
+module BidmadAppLovinAdapter.Swift {
+  header "BidmadAppLovinAdapter-Swift.h"
+  requires objc
+}

@@ -306,16 +306,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class UIViewController;
 @class UIView;
-@class VungleBanner;
+@class VungleBannerView;
 @class NSError;
 @class BidmadAdUnit;
 
 SWIFT_CLASS("_TtC19BidmadVungleAdapter25BidmadBannerVungleAdapter")
-@interface BidmadBannerVungleAdapter : BidmadBannerAdapter <VungleBannerDelegate>
+@interface BidmadBannerVungleAdapter : BidmadBannerAdapter <VungleBannerViewDelegate>
 - (void)loadAdFrom:(UIViewController * _Nonnull)viewController with:(void (^ _Nonnull)(BidmadBannerAdapter * _Nullable, UIView * _Nullable, CGSize, NSError * _Nullable))completionHandler;
-- (void)bannerAdDidLoad:(VungleBanner * _Nonnull)banner;
-- (void)bannerAdDidFailToLoad:(VungleBanner * _Nonnull)banner withError:(NSError * _Nonnull)withError;
-- (void)bannerAdDidClick:(VungleBanner * _Nonnull)banner;
+- (void)bannerAdDidLoad:(VungleBannerView * _Nonnull)bannerView;
+- (void)bannerAdDidFail:(VungleBannerView * _Nonnull)bannerView withError:(NSError * _Nonnull)withError;
+- (void)bannerAdDidClick:(VungleBannerView * _Nonnull)bannerView;
 - (nonnull instancetype)initWithAdUnit:(BidmadAdUnit * _Nonnull)adUnit OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
