@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name          = "BidmadPartners"
   s.version       = "1.0.7"
-  s.platform      = :ios, "12.0"
+  s.platform      = :ios, "13.0"
   s.summary       = "BidmadPartners library is a collection of partnered adnetworks with third-party mediation support."
   s.description   = "BidmadPartners library is a collection of partnered adnetworks with third-party mediation support. The mediation currently includes AdMob Bidding or AppLovin Max."
   s.homepage      = "https://bidmad.net"
