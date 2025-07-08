@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.vendored_frameworks = "OpenBiddingHelper.xcframework"
 
-  s.dependency 'BidmadSDK', '>=6.12.2', '<6.13.0'
+  s.dependency 'BidmadSDK', '>=6.12.4', '<6.13.0'
 
 end
