@@ -1,6 +1,0 @@
-framework module BidmadPubmaticAdapter {
-  umbrella header "BidmadPubmaticAdapter.h"
-  export *
-
-  module * { export * }
-}
