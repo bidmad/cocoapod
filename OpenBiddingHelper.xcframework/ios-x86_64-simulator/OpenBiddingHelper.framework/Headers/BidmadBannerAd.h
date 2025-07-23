@@ -25,18 +25,16 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic) BOOL adRefreshEnabled;
 
+@property (nonatomic, copy) void (^_Nullable onLoadAd)(OpenBiddingBanner *, BidmadInfo *);
+@property (nonatomic, copy) void (^_Nullable onClickAd)(OpenBiddingBanner *, BidmadInfo *);
+@property (nonatomic, copy) void (^_Nullable onLoadFailAd)(OpenBiddingBanner *, NSError *);
+
 - (nonnull instancetype)initWith:(UIViewController * _Nonnull)parentViewController containerView:(UIView * _Nonnull)containerView zoneID:(NSString * _Nonnull)zoneID;
 - (void)load;
 - (void)setRefreshInterval:(NSInteger)refreshIntervalTime;
 - (void)hide;
 - (void)show;
 - (void)remove;
-
-#pragma mark BIDMADOpenBiddingBannerDelegate Methods
-
-- (void)onLoadAd:(OpenBiddingBanner * _Nonnull)bidmadAd;
-- (void)onClickAd:(OpenBiddingBanner * _Nonnull)bidmadAd;
-- (void)onLoadFailAd:(OpenBiddingBanner * _Nonnull)bidmadAd error:(NSError * _Nonnull)error;
 
 @end
 

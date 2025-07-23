@@ -17,7 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
          subviewWidth:(CGFloat)width
         subviewHeight:(CGFloat)height
              strategy:(BidmadBannerSizeStrategy)strategy;
-+ (BidmadErasableView * _Nullable)findErasableViewFrom:(UIView *)superview;
 
 @end
 

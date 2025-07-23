@@ -324,8 +324,8 @@ SWIFT_CLASS("_TtC20BidmadMobwithAdapter40BidmadBannerMobwithAdapterSupportChecke
 
 
 SWIFT_CLASS("_TtC20BidmadMobwithAdapter32BidmadInterstitialMobwithAdapter") SWIFT_AVAILABILITY(ios,introduced=13.0)
-@interface BidmadInterstitialMobwithAdapter : BidmadInterstitialAdapter
-- (void)loadAdWith:(void (^ _Nonnull)(BidmadInterstitialAdapter * _Nullable, NSError * _Nullable))completionHandler;
+@interface BidmadInterstitialMobwithAdapter : BidmadFullscreenAdapter
+- (void)loadAdWith:(void (^ _Nonnull)(BidmadFullscreenAdapter * _Nullable, NSError * _Nullable))completionHandler;
 - (void)showAdFrom:(UIViewController * _Nonnull)viewController;
 - (nonnull instancetype)initWithAdUnit:(BidmadAdUnit * _Nonnull)adUnit OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

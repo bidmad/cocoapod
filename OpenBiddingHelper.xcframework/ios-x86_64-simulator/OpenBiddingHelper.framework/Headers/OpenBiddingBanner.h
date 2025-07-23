@@ -10,7 +10,7 @@
 
 #import <UIKit/UIKit.h>
 #import <BidmadSDK/BidmadLoadStatus.h>
-#import <BidmadSDK/BidmadSDK-Swift.h>
+#import <BidmadSDK/BidmadSDK.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) NSUInteger position;
 @property (readonly) BOOL isLoaded;
 @property (nonatomic, strong) NSString * _Nullable flutterKey;
-@property (nonatomic, strong) BIDMADBanner *bidmadBanner;
+@property (nonatomic, strong) BIDMADBanner * _Nullable bidmadBanner;
 
 /**
  * A Boolean value that determines whether ad refresh feature is enabled.

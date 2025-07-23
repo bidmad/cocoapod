@@ -226,12 +226,12 @@
                 "kind": "TypeNominal",
                 "name": "BidmadAdUnit",
                 "printedName": "BidmadSDK.BidmadAdUnit",
-                "usr": "c:objc(cs)BidmadAdUnit"
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
               }
             ],
             "declKind": "Constructor",
             "usr": "c:@M@BidmadVungleAdapter@objc(cs)BidmadBannerVungleAdapter(im)initWithAdUnit:",
-            "mangledName": "$s19BidmadVungleAdapter0a6BannerbC0C6adUnitACSo0a2AdF0C_tcfc",
+            "mangledName": "$s19BidmadVungleAdapter0a6BannerbC0C6adUnitAC0A3SDK0a2AdF0C_tcfc",
             "moduleName": "BidmadVungleAdapter",
             "overriding": true,
             "implicit": true,

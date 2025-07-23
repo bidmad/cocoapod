@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Eust/nYSUAlOEM7QEDVFAkQIyzM=
+		8LQf/tE0PlUeXrCdb88TwrA/udk=
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		lFundJs8Wr7OGx+p4B+XWoL/WeY=
+		45VPFY33SOJx81c7+usjKE5vU0I=
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PHiSV0aADdCL+XL21otvFXyD2KI=
+		aezbEgFl+kpUxo+9nXcfRNS7OhE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lFundJs8Wr7OGx+p4B+XWoL/WeY=
+			45VPFY33SOJx81c7+usjKE5vU0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			tzEtBKaqmr1ghW8QlmGaCK7y92ZMN8bEX4w/BoQKKmg=
+			AkImRplAmdYBfMHSshMGh+/0hb/SSHhiP0Pyl2IdQRY=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -98,11 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PHiSV0aADdCL+XL21otvFXyD2KI=
+			aezbEgFl+kpUxo+9nXcfRNS7OhE=
 			</data>
 			<key>hash2</key>
 			<data>
-			OjjfZz4oKw7UlPMpNz/6bPFujsxlRJAc/5PUI2J2XTU=
+			wH+f3jhyQj6n5KK9YpLcmadRrzvq9JppGGCipIEcT0U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

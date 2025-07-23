@@ -22,11 +22,11 @@
 		</data>
 		<key>Headers/BidmadAppOpenAd.h</key>
 		<data>
-		Ye5CMxrc9qMa3RYUyt1w7Lea7M8=
+		gV366IqVnKTt61wXX2vfSvPUzug=
 		</data>
 		<key>Headers/BidmadBannerAd.h</key>
 		<data>
-		c2p6sNOnOm1vknlYrIRyetpZaJE=
+		uTNXl2c9LQhaw/AHraYmCAqSH4k=
 		</data>
 		<key>Headers/BidmadBannerAdForGame.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/BidmadInterstitialAd.h</key>
 		<data>
-		yrgCvoaXo4W09c1q40Pn1nalG68=
+		S07lcfIYMyhjH6bKo8sPVWDXzmc=
 		</data>
 		<key>Headers/BidmadInterstitialAdForGame.h</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Headers/BidmadNativeAd.h</key>
 		<data>
-		wX6mfKky8G45gIuTO2c7CqRQ/NQ=
+		Z8V+YICBVvcTKPCKuxXF18nx1c8=
 		</data>
 		<key>Headers/BidmadRewardAd.h</key>
 		<data>
-		HvfHiV6Wfpcsd84uO1CH60VwhzI=
+		mZ4WojOuWfh59zzuZ0ZAXtNILl4=
 		</data>
 		<key>Headers/BidmadRewardAdForGame.h</key>
 		<data>
@@ -74,11 +74,15 @@
 		</data>
 		<key>Headers/OpenBiddingAppOpenAd.h</key>
 		<data>
-		Vh1cRd8MA90i60unYkkEbQaIoVs=
+		4eO7hAMOAOHOx+FCITSYXywuJoY=
 		</data>
 		<key>Headers/OpenBiddingBanner.h</key>
 		<data>
-		zoyNoBEhZ8GFdVLCmW11xgpC+Fc=
+		kYeDnL8dHAjcwYtKqzNUxG0xD8w=
+		</data>
+		<key>Headers/OpenBiddingHelper-Swift.h</key>
+		<data>
+		9m2cNYsFO0h5F0FQ1SfqSFuA95M=
 		</data>
 		<key>Headers/OpenBiddingHelper.h</key>
 		<data>
@@ -86,11 +90,11 @@
 		</data>
 		<key>Headers/OpenBiddingInterstitial.h</key>
 		<data>
-		3XwlLGL28v1V0MsOITZwCGdBcUw=
+		WBH8gl6yHUy6eHpkck2UHHGcKmI=
 		</data>
 		<key>Headers/OpenBiddingRewardVideo.h</key>
 		<data>
-		2vKAdNugFeoiatD4e2P/s5thRkE=
+		dwCv/HAswMdkuwNg99MEXzY9C5Y=
 		</data>
 		<key>Headers/OpenBiddingUnrealInterstitial.h</key>
 		<data>
@@ -106,11 +110,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZXgjl1AXZB5MR2rW7QZon0xkvh0=
+		k2YsMnidFP6a9LkxUIfOrWbJ4uI=
+		</data>
+		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		9PWxHCqZgdJnU0SH6xpED42cfOM=
+		</data>
+		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		PJKx011xf3w36ePGeVQ4X7cr2mk=
+		</data>
+		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		iZgWrlJR93aY2KZg4OFmJqx7O+8=
+		</data>
+		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		PJKx011xf3w36ePGeVQ4X7cr2mk=
+		</data>
+		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		iD0i9jQlGwJGiU0uk5VIsQ3YtrM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		XtnKFiiI0y926iaynB5YCvz3EE8=
+		m7NrlRATI4+p53KWs7YDGcrFkgk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -147,14 +171,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			diyq0oeN1aZn7CHqGT4xFPjKFq1K5SXX2uI30LydXbY=
+			VyGWenW7dUDr/A8L7Bh2em+e+KwTYHKN7sn3LSvIEyE=
 			</data>
 		</dict>
 		<key>Headers/BidmadBannerAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a93DPjlhzYjVq4riD3p8jOj/aSPgJ7XvLm5RnMD7gA8=
+			R3jKkNjRBzWeLAP8R2CqLVu+ZJmcUnIHPS5+74lrD8A=
 			</data>
 		</dict>
 		<key>Headers/BidmadBannerAdForGame.h</key>
@@ -182,7 +206,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bl4EanBrsJueHWQqupfFUYaNQPTg6/PGysCgXRqdz+Q=
+			2cQey6PbGnfF7UOsk+dt6AalykVud2JOLaK1gVA+R3k=
 			</data>
 		</dict>
 		<key>Headers/BidmadInterstitialAdForGame.h</key>
@@ -203,14 +227,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5X2ntPAui6ve+VmMHkrti3oCalW2TGSbVS59myDJVts=
+			NveKx1wN/EMoeuKwPNdbFJsDBhyXMLKRMiVTloW8Mww=
 			</data>
 		</dict>
 		<key>Headers/BidmadRewardAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NH06UrQDpnhLDuHWuW7SzKWr2ONB4zHjAgwtJB8YLmo=
+			rRzF1+aI03rB9WrCDlx8Y9KCu/b0D2Bpge0M3tHuqlE=
 			</data>
 		</dict>
 		<key>Headers/BidmadRewardAdForGame.h</key>
@@ -238,14 +262,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2fn1yY2UzRxSdwsa5ls0h/MqmkK+BEOpUiRrkVaSYxw=
+			6DKU72AQk7hTti78b/LNYGZGO+xh7VNNMqfMit06sH8=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingBanner.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ntjuv/L61bVM7Ujkur0cOZCPwfoCZZpbDcUIYh3M5Zs=
+			vtuPEWn8/pQpBdcQhXoyWrOB1co+QmS8BZw0Xeh/094=
+			</data>
+		</dict>
+		<key>Headers/OpenBiddingHelper-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			d/xG0NZfpwnJ5oPfN2Jp3SGkQSBdak4YKl/sAP4fN4g=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingHelper.h</key>
@@ -259,14 +290,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ih+VBY0VqKnzGuaVugGDU5t+616TsFeTMnHZmPLsm/A=
+			hvx/IB8VQF/4NHIG4rzmKAVF5MBrTvQd7bBxQ/NSItY=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingRewardVideo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8UnTb64uqwEy9FBl87FqLGwK645LHMHJyP0jWY/uL3o=
+			YGQql4XNAc0unvL/YGkfYl0JvV3QrlJmSITBrez7dtA=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingUnrealInterstitial.h</key>
@@ -290,11 +321,46 @@
 			INcXTPCYiPzm5LQW0ceUActX8hxRrajwdJ+qcsSLAUk=
 			</data>
 		</dict>
+		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jAPmRFH4VNGpuDpcQkgsr7g48Oa+FL6KFy9IiywF0dE=
+			</data>
+		</dict>
+		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7TAhAUkx3gDEY0+ubGgur2+t/2kIe4RbUx27cQA1PfQ=
+			</data>
+		</dict>
+		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Qx7wtG7056glXgNNbRAQlxwM+46V+N560oVTJx4eYEg=
+			</data>
+		</dict>
+		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7TAhAUkx3gDEY0+ubGgur2+t/2kIe4RbUx27cQA1PfQ=
+			</data>
+		</dict>
+		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			73/bJPYzfKoGAmLP8MrK34FpaPCeIh8fdJZmZzdzgEY=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fuXaXNR/wUQoxU/JFogXQj+dqiGdJH5y4bvgXx+DycI=
+			UOjsFgbYX84rLkoaq6eTpaWUa3sRLZrc1wOYE1S0W9o=
 			</data>
 		</dict>
 	</dict>

@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/BidmadGoogleAdMobAdapter-Swift.h</key>
 		<data>
-		+UZVd+FbmgC1ezHFBy2JVRA0hcY=
+		EXwBrf7/z4Zr5LqjQgnGBCa5624=
 		</data>
 		<key>Headers/BidmadGoogleAdMobAdapter.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		QFGT7+K9XwcN+EuQPsbpZz8Px6U=
+		C8zZD/Mx5/782ytnUE/A9Khkx7I=
 		</data>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IPfm7cMwffjP0Kri5TCbeGCipLg=
+		1CWUjwO5NXROyrTsfFc0Q0fI9WA=
 		</data>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IPfm7cMwffjP0Kri5TCbeGCipLg=
+		1CWUjwO5NXROyrTsfFc0Q0fI9WA=
 		</data>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eH4uQ92nXE3xHel6NdLldbFn/UY=
+		IyJqJj8p98d+BpkTdh8rbIzPc6E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,11 +85,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+UZVd+FbmgC1ezHFBy2JVRA0hcY=
+			EXwBrf7/z4Zr5LqjQgnGBCa5624=
 			</data>
 			<key>hash2</key>
 			<data>
-			iNluAcdjjbM6IpIPk1xdT1SqpsaWkRlIXX/KI3D/RI8=
+			5mZFPDXMioCsLfXtRZLr6ASpZyoRtr4GtSzDmTX3mY8=
 			</data>
 		</dict>
 		<key>Headers/BidmadGoogleAdMobAdapter.h</key>
@@ -107,22 +107,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QFGT7+K9XwcN+EuQPsbpZz8Px6U=
+			C8zZD/Mx5/782ytnUE/A9Khkx7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			6sUbnQ3tgXsh/4i4Wkxz5uLNPQM6h0K7ez1djHJ/Ajg=
+			HiaT1IqQnAjY1eKfMtj7rlSBkRqprSheY+TEHX6pw+U=
 			</data>
 		</dict>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IPfm7cMwffjP0Kri5TCbeGCipLg=
+			1CWUjwO5NXROyrTsfFc0Q0fI9WA=
 			</data>
 			<key>hash2</key>
 			<data>
-			AOF3Slxz76uciEEvvRppg+TGsVOmjjyKgT14sHz+RVw=
+			AyU92n6jUNrZmJlJbfD0AE79gDj8Hs+Y+RcmvWUtxhE=
 			</data>
 		</dict>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -140,22 +140,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IPfm7cMwffjP0Kri5TCbeGCipLg=
+			1CWUjwO5NXROyrTsfFc0Q0fI9WA=
 			</data>
 			<key>hash2</key>
 			<data>
-			AOF3Slxz76uciEEvvRppg+TGsVOmjjyKgT14sHz+RVw=
+			AyU92n6jUNrZmJlJbfD0AE79gDj8Hs+Y+RcmvWUtxhE=
 			</data>
 		</dict>
 		<key>Modules/BidmadGoogleAdMobAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eH4uQ92nXE3xHel6NdLldbFn/UY=
+			IyJqJj8p98d+BpkTdh8rbIzPc6E=
 			</data>
 			<key>hash2</key>
 			<data>
-			HrwPPtzuqPeXDV5ZgT+TF7LGnV8wir0f+dh4E/pj9ko=
+			xzvK/9QMpjpJ6bOQNQgWqtIhO9YAhaCLSHaIzc2f7x4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

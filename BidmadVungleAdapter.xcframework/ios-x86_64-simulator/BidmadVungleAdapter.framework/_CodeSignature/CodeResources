@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/BidmadVungleAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		74wnaqUnRzWHRQXLnAGBt1BGHD8=
+		iKsQDDu0RMlHIAD43IHGM5Cldec=
 		</data>
 		<key>Modules/BidmadVungleAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/BidmadVungleAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0Oq8BEa1d0cjSgnnakF+lD1I5GE=
+		zTmcUfWcFcc1XrASD0ErYaT+zcw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -130,11 +130,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			74wnaqUnRzWHRQXLnAGBt1BGHD8=
+			iKsQDDu0RMlHIAD43IHGM5Cldec=
 			</data>
 			<key>hash2</key>
 			<data>
-			qHMdOmQZb9XQ5lEntO+XyOs2OcLmYYchrP+uy58NY80=
+			lou76A6kGzQQbPeqaK2bdDv5o0Qoug38ZNgCUb0kYk8=
 			</data>
 		</dict>
 		<key>Modules/BidmadVungleAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -174,11 +174,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0Oq8BEa1d0cjSgnnakF+lD1I5GE=
+			zTmcUfWcFcc1XrASD0ErYaT+zcw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8fEdONCRfAXzlrLz3t+CSabXrssFy8NDvELJunbgw/M=
+			pvAMpYX1INoayGgoE3zFjOUcT6g+dkdVDFb6h6I7R3w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

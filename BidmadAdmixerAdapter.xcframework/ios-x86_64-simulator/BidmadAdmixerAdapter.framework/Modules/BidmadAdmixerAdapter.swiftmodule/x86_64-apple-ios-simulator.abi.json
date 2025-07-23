@@ -645,12 +645,12 @@
                 "kind": "TypeNominal",
                 "name": "BidmadAdUnit",
                 "printedName": "BidmadSDK.BidmadAdUnit",
-                "usr": "c:objc(cs)BidmadAdUnit"
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
               }
             ],
             "declKind": "Constructor",
             "usr": "c:@M@BidmadAdmixerAdapter@objc(cs)BidmadBannerAdmixerAdapter(im)initWithAdUnit:",
-            "mangledName": "$s20BidmadAdmixerAdapter0a6BannerbC0C6adUnitACSo0a2AdF0C_tcfc",
+            "mangledName": "$s20BidmadAdmixerAdapter0a6BannerbC0C6adUnitAC0A3SDK0a2AdF0C_tcfc",
             "moduleName": "BidmadAdmixerAdapter",
             "overriding": true,
             "implicit": true,
@@ -1033,21 +1033,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/BidmadAdmixerManager.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/BidmadAdmixerManager.swift",
       "kind": "Dictionary",
       "offset": 120,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/BidmadAdmixerCore.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/BidmadAdmixerCore.swift",
       "kind": "StringLiteral",
-      "offset": 215,
+      "offset": 222,
       "length": 19,
       "value": "\"BidmadAdmixerCore\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/BidmadBannerAdmixerAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/BidmadBannerAdmixerAdapter.swift",
       "kind": "Dictionary",
       "offset": 4773,
       "length": 3,

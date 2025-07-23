@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		iy/vdXdwqiJEaSjB/B5oF4WCfyY=
+		MCykTyNw3wt/hwYh3nZ+NUvcby4=
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iy/vdXdwqiJEaSjB/B5oF4WCfyY=
+		MCykTyNw3wt/hwYh3nZ+NUvcby4=
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wUQop7HC2TYl91HKax3Tm3TR1AY=
+		P+B/GoBfZUDVNA42QqIY2OZ8EVc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -140,11 +140,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iy/vdXdwqiJEaSjB/B5oF4WCfyY=
+			MCykTyNw3wt/hwYh3nZ+NUvcby4=
 			</data>
 			<key>hash2</key>
 			<data>
-			/+iM5CfMb6ntW3kxYhh0qLENB2IuWriMIDsNIsQniTg=
+			bmhhkTrETyL206J5P4l/iCRrP6zyUfBQFVBAWcfgds8=
 			</data>
 		</dict>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -162,22 +162,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iy/vdXdwqiJEaSjB/B5oF4WCfyY=
+			MCykTyNw3wt/hwYh3nZ+NUvcby4=
 			</data>
 			<key>hash2</key>
 			<data>
-			/+iM5CfMb6ntW3kxYhh0qLENB2IuWriMIDsNIsQniTg=
+			bmhhkTrETyL206J5P4l/iCRrP6zyUfBQFVBAWcfgds8=
 			</data>
 		</dict>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wUQop7HC2TYl91HKax3Tm3TR1AY=
+			P+B/GoBfZUDVNA42QqIY2OZ8EVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			pGDrhXOF3AbaiiwcvyZ76EQwA65NOJVdROUoyqwhEfw=
+			bEioPRJ97R1GGvkIGF88E6opvpinHZK1bE32NeHJ65A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -193,9 +193,10 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@BidmadTeadsAdapter@objc(cs)BidmadInterstitialTeadsAdapter(py)className",
-            "mangledName": "$s18BidmadTeadsAdapter0a12InterstitialbC0C9classNameSSvp",
+            "usr": "c:@M@BidmadTeadsAdapter@objc(cs)BidmadInterstitialTeadsAdapter(cpy)className",
+            "mangledName": "$s18BidmadTeadsAdapter0a12InterstitialbC0C9classNameSSvpZ",
             "moduleName": "BidmadTeadsAdapter",
+            "static": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
@@ -219,9 +220,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@BidmadTeadsAdapter@objc(cs)BidmadInterstitialTeadsAdapter(im)className",
-                "mangledName": "$s18BidmadTeadsAdapter0a12InterstitialbC0C9classNameSSvg",
+                "usr": "c:@M@BidmadTeadsAdapter@objc(cs)BidmadInterstitialTeadsAdapter(cm)className",
+                "mangledName": "$s18BidmadTeadsAdapter0a12InterstitialbC0C9classNameSSvgZ",
                 "moduleName": "BidmadTeadsAdapter",
+                "static": true,
                 "implicit": true,
                 "declAttributes": [
                   "Final",
@@ -238,14 +240,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "BidmadInterstitialAdapter",
-                "printedName": "BidmadSDK.BidmadInterstitialAdapter",
-                "usr": "c:objc(cs)BidmadInterstitialAdapter"
+                "name": "BidmadFullscreenAdapter",
+                "printedName": "BidmadSDK.BidmadFullscreenAdapter",
+                "usr": "c:objc(cs)BidmadFullscreenAdapter"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@BidmadTeadsAdapter@objc(cs)BidmadInterstitialTeadsAdapter(im)loadAdWith:",
-            "mangledName": "$s18BidmadTeadsAdapter0a12InterstitialbC0C10loadAdWithSo0adC0CyYaKF",
+            "mangledName": "$s18BidmadTeadsAdapter0a12InterstitialbC0C10loadAdWithSo0a10FullscreenC0CyYaKF",
             "moduleName": "BidmadTeadsAdapter",
             "overriding": true,
             "objc_name": "loadAdWith:",
@@ -493,12 +495,12 @@
                 "kind": "TypeNominal",
                 "name": "BidmadAdUnit",
                 "printedName": "BidmadSDK.BidmadAdUnit",
-                "usr": "c:objc(cs)BidmadAdUnit"
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
               }
             ],
             "declKind": "Constructor",
             "usr": "c:@M@BidmadTeadsAdapter@objc(cs)BidmadInterstitialTeadsAdapter(im)initWithAdUnit:",
-            "mangledName": "$s18BidmadTeadsAdapter0a12InterstitialbC0C6adUnitACSo0a2AdF0C_tcfc",
+            "mangledName": "$s18BidmadTeadsAdapter0a12InterstitialbC0C6adUnitAC0A3SDK0a2AdF0C_tcfc",
             "moduleName": "BidmadTeadsAdapter",
             "overriding": true,
             "implicit": true,
@@ -548,10 +550,10 @@
           "Available",
           "ObjC"
         ],
-        "superclassUsr": "c:objc(cs)BidmadInterstitialAdapter",
+        "superclassUsr": "c:objc(cs)BidmadFullscreenAdapter",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "BidmadSDK.BidmadInterstitialAdapter",
+          "BidmadSDK.BidmadFullscreenAdapter",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -1109,12 +1111,12 @@
                 "kind": "TypeNominal",
                 "name": "BidmadAdUnit",
                 "printedName": "BidmadSDK.BidmadAdUnit",
-                "usr": "c:objc(cs)BidmadAdUnit"
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
               }
             ],
             "declKind": "Constructor",
             "usr": "c:@M@BidmadTeadsAdapter@objc(cs)BidmadNativeTeadsAdapter(im)initWithAdUnit:",
-            "mangledName": "$s18BidmadTeadsAdapter0a6NativebC0C6adUnitACSo0a2AdF0C_tcfc",
+            "mangledName": "$s18BidmadTeadsAdapter0a6NativebC0C6adUnitAC0A3SDK0a2AdF0C_tcfc",
             "moduleName": "BidmadTeadsAdapter",
             "overriding": true,
             "implicit": true,
@@ -1569,12 +1571,12 @@
                 "kind": "TypeNominal",
                 "name": "BidmadAdUnit",
                 "printedName": "BidmadSDK.BidmadAdUnit",
-                "usr": "c:objc(cs)BidmadAdUnit"
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
               }
             ],
             "declKind": "Constructor",
             "usr": "c:@M@BidmadTeadsAdapter@objc(cs)BidmadBannerTeadsAdapter(im)initWithAdUnit:",
-            "mangledName": "$s18BidmadTeadsAdapter0a6BannerbC0C6adUnitACSo0a2AdF0C_tcfc",
+            "mangledName": "$s18BidmadTeadsAdapter0a6BannerbC0C6adUnitAC0A3SDK0a2AdF0C_tcfc",
             "moduleName": "BidmadTeadsAdapter",
             "overriding": true,
             "implicit": true,
@@ -1934,23 +1936,23 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadTeadsAdapter\/BidmadInterstitialTeadsAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTeadsAdapter\/BidmadInterstitialTeadsAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 314,
+      "offset": 319,
       "length": 32,
       "value": "\"BidmadInterstitialTeadsAdapter\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadTeadsAdapter\/BidmadInterstitialTeadsAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTeadsAdapter\/BidmadInterstitialTeadsAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4674,
+      "offset": 4673,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadTeadsAdapter\/BidmadInterstitialTeadsAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTeadsAdapter\/BidmadInterstitialTeadsAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4713,
+      "offset": 4712,
       "length": 5,
       "value": "false"
     }

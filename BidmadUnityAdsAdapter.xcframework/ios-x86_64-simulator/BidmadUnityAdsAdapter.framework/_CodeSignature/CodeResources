@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/BidmadUnityAdsAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hQDkgIFzi9wFrXfrUj6m/HvDAQU=
+		XCXMj3lYCKJRG9u913aIztM4DAw=
 		</data>
 		<key>Modules/BidmadUnityAdsAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/BidmadUnityAdsAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hx6Q94Y5T3pV7+PKXBynHGP1tO8=
+		LOcnRig0yl/ythv7Xf5xSeYqBMs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -138,11 +138,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hQDkgIFzi9wFrXfrUj6m/HvDAQU=
+			XCXMj3lYCKJRG9u913aIztM4DAw=
 			</data>
 			<key>hash2</key>
 			<data>
-			bNqyru9wA3jPQIYa4aqyfcC/NJYdgH/gaW/1WDny9oU=
+			43BtgZtrXLq4TeeyqqsoCzVk7vqztSYScwajP0i8TgM=
 			</data>
 		</dict>
 		<key>Modules/BidmadUnityAdsAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -182,11 +182,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hx6Q94Y5T3pV7+PKXBynHGP1tO8=
+			LOcnRig0yl/ythv7Xf5xSeYqBMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			vq3lLlCC1/BOi7l/BhyZ+Edir09SWPDAN0h7HjHpHlI=
+			JpnaxNQD3oXGoepzeqY2oc0CLEelnHkHFtFkoQ88zLQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

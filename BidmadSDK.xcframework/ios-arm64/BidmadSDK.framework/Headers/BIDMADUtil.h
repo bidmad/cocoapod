@@ -14,7 +14,6 @@
 #import <BidmadSDK/BIDMADRewardVideo.h>
 #import <SystemConfiguration/CaptiveNetwork.h>
 #import <CoreLocation/CoreLocation.h>
-#import <BidmadSDK/BidmadAdUnit.h>
 
 @class BidmadAdUnit;
 

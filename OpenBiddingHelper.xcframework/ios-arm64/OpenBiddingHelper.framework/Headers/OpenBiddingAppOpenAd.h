@@ -12,7 +12,7 @@
 #import <BidmadSDK/BIDMADUtil.h>
 #import <BidmadSDK/BIDMADSetting.h>
 #import <BidmadSDK/BIDMADAppOpenAd.h>
-#import <BidmadSDK/BidmadSDK-Swift.h>
+#import <BidmadSDK/BidmadSDK.h>
 #import <BidmadSDK/BIDMADAppOpenAd.h>
 
 NS_ASSUME_NONNULL_BEGIN

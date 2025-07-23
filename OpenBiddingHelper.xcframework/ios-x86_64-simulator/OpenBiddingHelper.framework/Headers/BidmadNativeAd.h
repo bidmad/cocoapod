@@ -7,9 +7,11 @@
 
 #import <UIKit/UIKit.h>
 #import "BidmadAdStandardNativeAd.h"
-#import <BidmadSDK/BidmadSDK-Swift.h>
+#import <BidmadSDK/BidmadSDK.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
+@class BidmadNativeAd;
 
 @protocol BidmadNativeAdDelegate;
 
@@ -18,6 +20,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) id<BidmadNativeAdDelegate> delegate;
 @property (readonly) BOOL isLoaded;
 @property (nonatomic, strong) NSString *zoneID;
+
+@property(nonatomic, copy) void (^_Nullable onLoadAd)
+    (BidmadNativeAd *, BidmadInfo *);
+@property(nonatomic, copy) void (^_Nullable onLoadFailAd)
+    (BidmadNativeAd *, NSError *);
+@property(nonatomic, copy) void (^_Nullable onClickAd)
+    (BidmadNativeAd *, BidmadInfo *);
 
 + (BIDMADNativeAdView * _Nullable)findAdViewFromSuperview:(UIView *)superview;
 

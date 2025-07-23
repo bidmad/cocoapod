@@ -281,6 +281,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -326,7 +327,8 @@ typedef SWIFT_ENUM(NSInteger, BIDMADAdPosition, open) {
 
 SWIFT_CLASS("_TtC9BidmadSDK12BIDMADBanner")
 @interface BIDMADBanner : NSObject <BidmadBannerAdapterDelegate>
-@property (nonatomic, readonly, copy) NSString * _Nonnull className;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
++ (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, strong) BidmadBannerAdapter * _Nullable adapter;
 - (nonnull instancetype)initWithInstanceOBH:(id <OBHBannerExtraDelegate, OBHCommunicationDelegate> _Nonnull)instanceOBH OBJC_DESIGNATED_INITIALIZER;
 - (void)selectAdUnit:(BidmadAdUnit * _Nonnull)adUnit;
@@ -342,20 +344,53 @@ typedef SWIFT_ENUM(NSInteger, BIDMADBannerViewCase, open) {
   BIDMADBannerViewCaseAdPositionAnchorGiven = 3,
 };
 
-@class BidmadInterstitialAdapter;
+@class BidmadFullscreenAdapter;
 @class UIViewController;
 
 SWIFT_CLASS("_TtC9BidmadSDK18BIDMADInterstitial")
-@interface BIDMADInterstitial : NSObject <BidmadInterstitialAdapterDelegate>
-@property (nonatomic, readonly, copy) NSString * _Nonnull className;
-@property (nonatomic, strong) BidmadInterstitialAdapter * _Nullable adapter;
+@interface BIDMADInterstitial : NSObject <BidmadFullscreenAdapterDelegate>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
++ (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, strong) BidmadFullscreenAdapter * _Nullable adapter;
 - (nonnull instancetype)initWithInstanceOBH:(id <OBHCommunicationDelegate> _Nonnull)instanceOBH OBJC_DESIGNATED_INITIALIZER;
 - (void)selectAdUnit:(BidmadAdUnit * _Nonnull)adUnit;
 - (void)showInterstitialViewOnViewController:(UIViewController * _Nonnull)viewController;
-- (void)dismissedWith:(BidmadInterstitialAdapter * _Nonnull)ad;
-- (void)presentedWith:(BidmadInterstitialAdapter * _Nonnull)ad;
-- (void)failedToPresentWith:(BidmadInterstitialAdapter * _Nonnull)ad error:(NSError * _Nonnull)error;
-- (void)clickedWith:(BidmadInterstitialAdapter * _Nonnull)ad;
+- (void)dismissedWith:(BidmadFullscreenAdapter * _Nonnull)ad;
+- (void)presentedWith:(BidmadFullscreenAdapter * _Nonnull)ad;
+- (void)failedToPresentWith:(BidmadFullscreenAdapter * _Nonnull)ad error:(NSError * _Nonnull)error;
+- (void)clickedWith:(BidmadFullscreenAdapter * _Nonnull)ad;
+- (void)rewardedWith:(BidmadFullscreenAdapter * _Nonnull)ad;
+- (void)skippedWith:(BidmadFullscreenAdapter * _Nonnull)ad;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC9BidmadSDK12BidmadAdUnit")
+@interface BidmadAdUnit : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSDictionary<NSString *, NSString *> * _Nonnull supportedAdNetworks;)
++ (NSDictionary<NSString *, NSString *> * _Nonnull)supportedAdNetworks SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly, copy) NSString * _Nullable adNetworkName;
+@property (nonatomic, readonly, copy) NSString * _Nonnull appId;
+@property (nonatomic, readonly, copy) NSString * _Nonnull placementId;
+@property (nonatomic, readonly) NSInteger width;
+@property (nonatomic, readonly) NSInteger height;
+@property (nonatomic, readonly) double floorPrice;
+@property (nonatomic, readonly, copy) NSString * _Nonnull adNetworkId;
+@property (nonatomic, readonly, copy) NSString * _Nonnull areaIndex;
+@property (nonatomic, readonly, copy) NSString * _Nonnull key;
+@property (nonatomic) NSInteger order;
+@property (nonatomic) double maxWidth;
+@property (nonatomic) double weight;
+@property (nonatomic, copy) NSString * _Nonnull sessionId;
+@property (nonatomic) BidmadAdType adType;
+@property (nonatomic, copy) NSString * _Nonnull realZoneId;
+@property (nonatomic, copy) NSString * _Nonnull requestedZoneId;
+@property (nonatomic, strong) BidmadAdUnit * _Nullable next;
+@property (nonatomic) CGSize requestedBannerAdSize;
+@property (nonatomic) CGSize loadedBannerAdSize;
+- (BidmadBannerSizeStrategy)bannerSizeStrategy SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -376,7 +411,42 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSDictionary;
+
+SWIFT_CLASS("_TtC9BidmadSDK24BidmadDataParsingUtility")
+@interface BidmadDataParsingUtility : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
++ (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
++ (void)fetchAdUnitWithZoneId:(NSString * _Nonnull)zoneId completion:(void (^ _Nonnull)(BidmadAdUnit * _Nullable, NSError * _Nullable))completionHandler;
++ (void)fetchAdUnitWithZoneId:(NSString * _Nonnull)zoneId adType:(BidmadAdType)adType completion:(void (^ _Nonnull)(BidmadAdUnit * _Nullable, NSError * _Nullable))completionHandler;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9BidmadSDK20BidmadFullscreenCore")
+@interface BidmadFullscreenCore : NSObject <BidmadFullscreenAdapterDelegate>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
++ (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly, copy) NSString * _Nonnull zoneId;
+@property (nonatomic, readonly, strong) BidmadFullscreenAdapter * _Nullable loadedAdapter;
+@property (nonatomic, copy) void (^ _Nullable onClick)(BidmadInfo * _Nonnull);
+@property (nonatomic, copy) void (^ _Nullable onClose)(BidmadInfo * _Nonnull);
+@property (nonatomic, copy) void (^ _Nullable onComplete)(BidmadInfo * _Nonnull);
+@property (nonatomic, copy) void (^ _Nullable onSkip)(BidmadInfo * _Nonnull);
+@property (nonatomic, copy) NSString * _Nullable testHost;
+@property (nonatomic, copy) NSString * _Nullable testPath;
+- (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId OBJC_DESIGNATED_INITIALIZER;
+- (void)requestWithLoadCompletionHandler:(void (^ _Nonnull)(BidmadInfo * _Nullable, NSError * _Nullable))loadCompletionHandler adUnit:(BidmadAdUnit * _Nullable)adUnit;
+- (void)showWithViewController:(UIViewController * _Nonnull)viewController showCompletionHandler:(void (^ _Nonnull)(BidmadInfo * _Nullable, NSError * _Nullable))showCompletionHandler;
+- (void)dismissedWith:(BidmadFullscreenAdapter * _Nonnull)ad;
+- (void)presentedWith:(BidmadFullscreenAdapter * _Nonnull)ad;
+- (void)failedToPresentWith:(BidmadFullscreenAdapter * _Nonnull)ad error:(NSError * _Nonnull)error;
+- (void)clickedWith:(BidmadFullscreenAdapter * _Nonnull)ad;
+- (void)rewardedWith:(BidmadFullscreenAdapter * _Nonnull)ad;
+- (void)skippedWith:(BidmadFullscreenAdapter * _Nonnull)ad;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 SWIFT_CLASS("_TtC9BidmadSDK10BidmadInfo")
 @interface BidmadInfo : NSObject

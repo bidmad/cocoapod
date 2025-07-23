@@ -46,9 +46,10 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:20BidmadTaboolaAdapter0a6BannerbC0C9classNameSSvp",
-            "mangledName": "$s20BidmadTaboolaAdapter0a6BannerbC0C9classNameSSvp",
+            "usr": "s:20BidmadTaboolaAdapter0a6BannerbC0C9classNameSSvpZ",
+            "mangledName": "$s20BidmadTaboolaAdapter0a6BannerbC0C9classNameSSvpZ",
             "moduleName": "BidmadTaboolaAdapter",
+            "static": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
@@ -71,9 +72,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20BidmadTaboolaAdapter0a6BannerbC0C9classNameSSvg",
-                "mangledName": "$s20BidmadTaboolaAdapter0a6BannerbC0C9classNameSSvg",
+                "usr": "s:20BidmadTaboolaAdapter0a6BannerbC0C9classNameSSvgZ",
+                "mangledName": "$s20BidmadTaboolaAdapter0a6BannerbC0C9classNameSSvgZ",
                 "moduleName": "BidmadTaboolaAdapter",
+                "static": true,
                 "implicit": true,
                 "declAttributes": [
                   "Final"
@@ -412,12 +414,12 @@
                 "kind": "TypeNominal",
                 "name": "BidmadAdUnit",
                 "printedName": "BidmadSDK.BidmadAdUnit",
-                "usr": "c:objc(cs)BidmadAdUnit"
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
               }
             ],
             "declKind": "Constructor",
             "usr": "c:@M@BidmadTaboolaAdapter@objc(cs)BidmadBannerTaboolaAdapter(im)initWithAdUnit:",
-            "mangledName": "$s20BidmadTaboolaAdapter0a6BannerbC0C6adUnitACSo0a2AdF0C_tcfc",
+            "mangledName": "$s20BidmadTaboolaAdapter0a6BannerbC0C6adUnitAC0A3SDK0a2AdF0C_tcfc",
             "moduleName": "BidmadTaboolaAdapter",
             "overriding": true,
             "implicit": true,
@@ -922,9 +924,10 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:20BidmadTaboolaAdapter0a12InterstitialbC0C9classNameSSvp",
-            "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC0C9classNameSSvp",
+            "usr": "s:20BidmadTaboolaAdapter0a12InterstitialbC0C9classNameSSvpZ",
+            "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC0C9classNameSSvpZ",
             "moduleName": "BidmadTaboolaAdapter",
+            "static": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
@@ -947,9 +950,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20BidmadTaboolaAdapter0a12InterstitialbC0C9classNameSSvg",
-                "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC0C9classNameSSvg",
+                "usr": "s:20BidmadTaboolaAdapter0a12InterstitialbC0C9classNameSSvgZ",
+                "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC0C9classNameSSvgZ",
                 "moduleName": "BidmadTaboolaAdapter",
+                "static": true,
                 "implicit": true,
                 "declAttributes": [
                   "Final"
@@ -965,14 +969,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "BidmadInterstitialAdapter",
-                "printedName": "BidmadSDK.BidmadInterstitialAdapter",
-                "usr": "c:objc(cs)BidmadInterstitialAdapter"
+                "name": "BidmadFullscreenAdapter",
+                "printedName": "BidmadSDK.BidmadFullscreenAdapter",
+                "usr": "c:objc(cs)BidmadFullscreenAdapter"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@BidmadTaboolaAdapter@objc(cs)BidmadInterstitialTaboolaAdapter(im)loadAdWith:",
-            "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC0C10loadAdWithSo0adC0CyYaKF",
+            "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC0C10loadAdWithSo0a10FullscreenC0CyYaKF",
             "moduleName": "BidmadTaboolaAdapter",
             "overriding": true,
             "objc_name": "loadAdWith:",
@@ -1269,12 +1273,12 @@
                 "kind": "TypeNominal",
                 "name": "BidmadAdUnit",
                 "printedName": "BidmadSDK.BidmadAdUnit",
-                "usr": "c:objc(cs)BidmadAdUnit"
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
               }
             ],
             "declKind": "Constructor",
             "usr": "c:@M@BidmadTaboolaAdapter@objc(cs)BidmadInterstitialTaboolaAdapter(im)initWithAdUnit:",
-            "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC0C6adUnitACSo0a2AdF0C_tcfc",
+            "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC0C6adUnitAC0A3SDK0a2AdF0C_tcfc",
             "moduleName": "BidmadTaboolaAdapter",
             "overriding": true,
             "implicit": true,
@@ -1323,10 +1327,10 @@
           "Available",
           "ObjC"
         ],
-        "superclassUsr": "c:objc(cs)BidmadInterstitialAdapter",
+        "superclassUsr": "c:objc(cs)BidmadFullscreenAdapter",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "BidmadSDK.BidmadInterstitialAdapter",
+          "BidmadSDK.BidmadFullscreenAdapter",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -1435,37 +1439,37 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadTaboolaResponseManager.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadTaboolaResponseManager.swift",
       "kind": "BooleanLiteral",
       "offset": 93,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadBannerTaboolaAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadBannerTaboolaAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 397,
+      "offset": 404,
       "length": 28,
       "value": "\"BidmadBannerTaboolaAdapter\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadInterstitialTaboolaAdContainer.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadInterstitialTaboolaAdContainer.swift",
       "kind": "BooleanLiteral",
       "offset": 1349,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadTaboolaManager.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadTaboolaManager.swift",
       "kind": "StringLiteral",
-      "offset": 265,
+      "offset": 272,
       "length": 22,
       "value": "\"BidmadTaboolaManager\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadInterstitialTaboolaAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadInterstitialTaboolaAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 293,
+      "offset": 298,
       "length": 34,
       "value": "\"BidmadInterstitialTaboolaAdapter\""
     }

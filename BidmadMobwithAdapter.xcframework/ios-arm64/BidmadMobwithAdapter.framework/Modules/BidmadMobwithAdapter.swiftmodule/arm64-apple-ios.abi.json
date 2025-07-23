@@ -359,9 +359,10 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:20BidmadMobwithAdapter0a12InterstitialbC0C9classNameSSvp",
-            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C9classNameSSvp",
+            "usr": "s:20BidmadMobwithAdapter0a12InterstitialbC0C9classNameSSvpZ",
+            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C9classNameSSvpZ",
             "moduleName": "BidmadMobwithAdapter",
+            "static": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
@@ -384,9 +385,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20BidmadMobwithAdapter0a12InterstitialbC0C9classNameSSvg",
-                "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C9classNameSSvg",
+                "usr": "s:20BidmadMobwithAdapter0a12InterstitialbC0C9classNameSSvgZ",
+                "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C9classNameSSvgZ",
                 "moduleName": "BidmadMobwithAdapter",
+                "static": true,
                 "implicit": true,
                 "declAttributes": [
                   "Final"
@@ -402,14 +404,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "BidmadInterstitialAdapter",
-                "printedName": "BidmadSDK.BidmadInterstitialAdapter",
-                "usr": "c:objc(cs)BidmadInterstitialAdapter"
+                "name": "BidmadFullscreenAdapter",
+                "printedName": "BidmadSDK.BidmadFullscreenAdapter",
+                "usr": "c:objc(cs)BidmadFullscreenAdapter"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapter(im)loadAdWith:",
-            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C10loadAdWithSo0adC0CyYaKF",
+            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C10loadAdWithSo0a10FullscreenC0CyYaKF",
             "moduleName": "BidmadMobwithAdapter",
             "overriding": true,
             "objc_name": "loadAdWith:",
@@ -468,12 +470,12 @@
                 "kind": "TypeNominal",
                 "name": "BidmadAdUnit",
                 "printedName": "BidmadSDK.BidmadAdUnit",
-                "usr": "c:objc(cs)BidmadAdUnit"
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
               }
             ],
             "declKind": "Constructor",
             "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadInterstitialMobwithAdapter(im)initWithAdUnit:",
-            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C6adUnitACSo0a2AdF0C_tcfc",
+            "mangledName": "$s20BidmadMobwithAdapter0a12InterstitialbC0C6adUnitAC0A3SDK0a2AdF0C_tcfc",
             "moduleName": "BidmadMobwithAdapter",
             "overriding": true,
             "implicit": true,
@@ -522,10 +524,10 @@
           "Available",
           "ObjC"
         ],
-        "superclassUsr": "c:objc(cs)BidmadInterstitialAdapter",
+        "superclassUsr": "c:objc(cs)BidmadFullscreenAdapter",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "BidmadSDK.BidmadInterstitialAdapter",
+          "BidmadSDK.BidmadFullscreenAdapter",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -728,9 +730,10 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:20BidmadMobwithAdapter0a6BannerbC0C9classNameSSvp",
-            "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC0C9classNameSSvp",
+            "usr": "s:20BidmadMobwithAdapter0a6BannerbC0C9classNameSSvpZ",
+            "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC0C9classNameSSvpZ",
             "moduleName": "BidmadMobwithAdapter",
+            "static": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
@@ -753,9 +756,10 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20BidmadMobwithAdapter0a6BannerbC0C9classNameSSvg",
-                "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC0C9classNameSSvg",
+                "usr": "s:20BidmadMobwithAdapter0a6BannerbC0C9classNameSSvgZ",
+                "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC0C9classNameSSvgZ",
                 "moduleName": "BidmadMobwithAdapter",
+                "static": true,
                 "implicit": true,
                 "declAttributes": [
                   "Final"
@@ -831,12 +835,12 @@
                 "kind": "TypeNominal",
                 "name": "BidmadAdUnit",
                 "printedName": "BidmadSDK.BidmadAdUnit",
-                "usr": "c:objc(cs)BidmadAdUnit"
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
               }
             ],
             "declKind": "Constructor",
             "usr": "c:@M@BidmadMobwithAdapter@objc(cs)BidmadBannerMobwithAdapter(im)initWithAdUnit:",
-            "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC0C6adUnitACSo0a2AdF0C_tcfc",
+            "mangledName": "$s20BidmadMobwithAdapter0a6BannerbC0C6adUnitAC0A3SDK0a2AdF0C_tcfc",
             "moduleName": "BidmadMobwithAdapter",
             "overriding": true,
             "implicit": true,
@@ -976,205 +980,205 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 229,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 253,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/BidmadInterstitialMobwithAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/BidmadInterstitialMobwithAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 358,
+      "offset": 363,
       "length": 34,
       "value": "\"BidmadInterstitialMobwithAdapter\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithURLControl.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithURLControl.swift",
       "kind": "BooleanLiteral",
       "offset": 186,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
       "offset": 595,
       "length": 7,
       "value": "\"pCode\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 5,
       "value": "\"pNm\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
       "offset": 664,
       "length": 6,
       "value": "\"pImg\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
       "offset": 701,
       "length": 6,
       "value": "\"pUrl\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
       "offset": 735,
       "length": 6,
       "value": "\"desc\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
       "offset": 790,
       "length": 8,
       "value": "\"aDesc3\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
       "offset": 842,
       "length": 9,
       "value": "\"pImgBkg\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
       "offset": 880,
       "length": 8,
       "value": "\"pPrice\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
       "offset": 923,
       "length": 10,
       "value": "\"custom08\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithAd.swift",
       "kind": "StringLiteral",
       "offset": 963,
       "length": 10,
       "value": "\"custom09\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithZone.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Model\/MobwithZone.swift",
       "kind": "StringLiteral",
       "offset": 381,
       "length": 8,
       "value": "\"impUrl\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "StringLiteral",
-      "offset": 259,
+      "offset": 266,
       "length": 19,
       "value": "\"MobwithBaseAdView\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7308,
+      "offset": 7315,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7378,
+      "offset": 7385,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7426,
+      "offset": 7433,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7454,
+      "offset": 7461,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10365,
+      "offset": 10372,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14113,
+      "offset": 14120,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14143,
+      "offset": 14150,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14173,
+      "offset": 14180,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "FloatLiteral",
-      "offset": 16944,
+      "offset": 16951,
       "length": 4,
       "value": "24.0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/MobwithBaseAdView.swift",
       "kind": "FloatLiteral",
-      "offset": 16967,
+      "offset": 16974,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/CompatAsyncImage.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/CompatAsyncImage.swift",
       "kind": "StringLiteral",
-      "offset": 1621,
+      "offset": 1628,
       "length": 18,
       "value": "\"CompatAsyncImage\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/CompatAsyncImage.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/CompatAsyncImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 1817,
+      "offset": 1824,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/BidmadBannerMobwithAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/BidmadBannerMobwithAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 312,
+      "offset": 319,
       "length": 28,
       "value": "\"BidmadBannerMobwithAdapter\""
     }

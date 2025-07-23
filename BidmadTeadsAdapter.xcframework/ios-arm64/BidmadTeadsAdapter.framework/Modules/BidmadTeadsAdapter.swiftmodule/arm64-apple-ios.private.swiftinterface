@@ -31,9 +31,9 @@ extension TeadsSDK.TeadsAdRatio : @unchecked Swift.Sendable {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @available(iOS 13.0.0, *)
-@objcMembers public class BidmadInterstitialTeadsAdapter : BidmadSDK.BidmadInterstitialAdapter, TeadsSDK.TeadsInReadAdPlacementDelegate, TeadsSDK.TeadsAdDelegate, @unchecked Swift.Sendable, BidmadSDK.BidmadLoggable {
-  @objc final public let className: Swift.String
-  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadInterstitialAdapter
+@objcMembers public class BidmadInterstitialTeadsAdapter : BidmadSDK.BidmadFullscreenAdapter, TeadsSDK.TeadsInReadAdPlacementDelegate, TeadsSDK.TeadsAdDelegate, @unchecked Swift.Sendable, BidmadSDK.BidmadLoggable {
+  @objc public static let className: Swift.String
+  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadFullscreenAdapter
   @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
   @objc public func willPresentModalView(ad: TeadsSDK.TeadsAd) -> UIKit.UIViewController?
   @objc public func didReceiveAd(ad: TeadsSDK.TeadsInReadAd, adRatio: TeadsSDK.TeadsAdRatio)

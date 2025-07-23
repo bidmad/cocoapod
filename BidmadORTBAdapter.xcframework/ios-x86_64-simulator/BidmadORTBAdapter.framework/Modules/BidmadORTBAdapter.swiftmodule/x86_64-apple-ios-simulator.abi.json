@@ -309,70 +309,70 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/Log\/BidmadORTBLogManager.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/Log\/BidmadORTBLogManager.swift",
       "kind": "StringLiteral",
-      "offset": 211,
+      "offset": 218,
       "length": 22,
       "value": "\"BidmadORTBLogManager\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/Log\/BidmadORTBLogType.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/Log\/BidmadORTBLogType.swift",
       "kind": "StringLiteral",
       "offset": 150,
       "length": 12,
       "value": "\"impression\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/Log\/BidmadORTBLogType.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/Log\/BidmadORTBLogType.swift",
       "kind": "StringLiteral",
       "offset": 185,
       "length": 7,
       "value": "\"click\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/Util\/BidmadORTBRequest.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/Util\/BidmadORTBRequest.swift",
       "kind": "StringLiteral",
-      "offset": 195,
+      "offset": 202,
       "length": 19,
       "value": "\"BidmadORTBRequest\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/WebView\/BidmadORTBAdWebViewDelegate.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/WebView\/BidmadORTBAdWebViewDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 274,
+      "offset": 281,
       "length": 29,
       "value": "\"BidmadORTBAdWebViewDelegate\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/WebView\/BidmadORTBVastVideoInterface.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/WebView\/BidmadORTBVastVideoInterface.swift",
       "kind": "BooleanLiteral",
       "offset": 213,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/WebView\/BidmadORTBWebAppInterface.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/WebView\/BidmadORTBWebAppInterface.swift",
       "kind": "StringLiteral",
-      "offset": 279,
+      "offset": 286,
       "length": 27,
       "value": "\"BidmadORTBWebAppInterface\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/BidmadBannerORTBAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/BidmadBannerORTBAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 258,
+      "offset": 265,
       "length": 25,
       "value": "\"BidmadBannerORTBAdapter\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/BidmadORTBAdType.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/BidmadORTBAdType.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 6,
       "value": "\"VAST\""
     },
     {
-      "filePath": "\/Users\/oseungseob\/Documents\/GitHub\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/BidmadORTBAdType.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadORTBAdapter\/BidmadORTBAdType.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 9,

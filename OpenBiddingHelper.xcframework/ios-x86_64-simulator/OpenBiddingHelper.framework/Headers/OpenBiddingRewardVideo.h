@@ -16,7 +16,7 @@
 #import "OpenBiddingInterstitial.h"
 #import <BidmadSDK/BIDMADRewardVideo.h>
 #import <BidmadSDK/BidmadLoadStatus.h>
-#import <BidmadSDK/BidmadSDK-Swift.h>
+#import <BidmadSDK/BidmadSDK.h>
 
 @protocol BIDMADOpenBiddingRewardVideoDelegate;
 

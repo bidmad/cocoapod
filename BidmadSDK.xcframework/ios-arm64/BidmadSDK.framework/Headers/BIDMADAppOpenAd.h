@@ -11,8 +11,9 @@
 #import <Foundation/Foundation.h>
 #import <BidmadSDK/BIDMADUtil.h>
 #import <BidmadSDK/BIDMADSetting.h>
-#import <BidmadSDK/BidmadAdUnit.h>
 #import <BidmadSDK/BidmadAppOpenAdapter.h>
+
+@class BidmadAdUnit;
 
 NS_ASSUME_NONNULL_BEGIN
 

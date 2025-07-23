@@ -1,6 +1,0 @@
-framework module BidmadAtomAdapter {
-  umbrella header "BidmadAtomAdapter.h"
-  export *
-
-  module * { export * }
-}

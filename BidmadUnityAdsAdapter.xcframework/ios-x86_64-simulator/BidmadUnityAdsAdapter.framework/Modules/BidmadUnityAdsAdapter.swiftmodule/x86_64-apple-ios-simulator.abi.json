@@ -35,21 +35,21 @@
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadUnityAdsAdapter\/BidmadRewardUnityAdsAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 305,
+      "offset": 309,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadUnityAdsAdapter\/BidmadRewardUnityAdsAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 545,
+      "offset": 553,
       "length": 28,
       "value": "\"Bidmad-UnityAds-RewardedAd\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadUnityAdsAdapter\/BidmadRewardUnityAdsAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 594,
+      "offset": 602,
       "length": 5,
       "value": "false"
     }

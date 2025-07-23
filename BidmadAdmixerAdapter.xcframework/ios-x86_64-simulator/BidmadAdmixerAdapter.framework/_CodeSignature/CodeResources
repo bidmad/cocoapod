@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3sNMJoyFTEzYqx17Zoxv56KCtEg=
+		V1PSE1xDCsfqIGrXCww7nQmFl7w=
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lFundJs8Wr7OGx+p4B+XWoL/WeY=
+		45VPFY33SOJx81c7+usjKE5vU0I=
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wKizn9zfureE6ZmfELIUcc0kOoY=
+		JpImtEYSzLEMIYUml8WUMDmlL8Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lFundJs8Wr7OGx+p4B+XWoL/WeY=
+			45VPFY33SOJx81c7+usjKE5vU0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			tzEtBKaqmr1ghW8QlmGaCK7y92ZMN8bEX4w/BoQKKmg=
+			AkImRplAmdYBfMHSshMGh+/0hb/SSHhiP0Pyl2IdQRY=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,11 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wKizn9zfureE6ZmfELIUcc0kOoY=
+			JpImtEYSzLEMIYUml8WUMDmlL8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			stTKXPZecS2lpjma/REATk5sDpm1UuQ/0WpHjb0HnpM=
+			Xc9Sef6NtePpbmGo884PJgSBfjSWJCFNXTfk75oWgpY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

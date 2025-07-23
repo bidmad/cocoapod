@@ -280,6 +280,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import BidmadSDK;
+@import CoreFoundation;
+@import GoogleMobileAds;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -301,6 +305,68 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+SWIFT_CLASS("_TtC24BidmadGoogleAdMobAdapter18BidmadAdMobManager")
+@interface BidmadAdMobManager : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BidmadAdMobManager * _Nonnull shared;)
++ (BidmadAdMobManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)initializeSDKWithCompletion:(void (^ _Nonnull)(void))completion;
+@end
+
+@class UIViewController;
+@class UIView;
+@class GADBannerView;
+@class BidmadAdUnit;
+
+SWIFT_CLASS("_TtC24BidmadGoogleAdMobAdapter30BidmadBannerGoogleAdMobAdapter")
+@interface BidmadBannerGoogleAdMobAdapter : BidmadBannerAdapter <GADBannerViewDelegate>
+- (void)loadAdFrom:(UIViewController * _Nonnull)viewController with:(void (^ _Nonnull)(BidmadBannerAdapter * _Nullable, UIView * _Nullable, CGSize, NSError * _Nullable))completionHandler;
+- (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
+- (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
+- (void)bannerViewDidRecordClick:(GADBannerView * _Nonnull)bannerView;
+- (nonnull instancetype)initWithAdUnit:(BidmadAdUnit * _Nonnull)adUnit OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSString;
+
+SWIFT_CLASS("_TtC24BidmadGoogleAdMobAdapter28BidmadGoogleAdMobAdapterInfo")
+@interface BidmadGoogleAdMobAdapterInfo : NSObject <BidmadAdapterInfo>
++ (NSString * _Nonnull)adapterVersion SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)adNetworkSdkVersion SWIFT_WARN_UNUSED_RESULT;
++ (void)initializeAdNetworkSDK;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@protocol GADFullScreenPresentingAd;
+
+SWIFT_CLASS("_TtC24BidmadGoogleAdMobAdapter36BidmadInterstitialGoogleAdMobAdapter")
+@interface BidmadInterstitialGoogleAdMobAdapter : BidmadFullscreenAdapter <GADFullScreenContentDelegate>
+- (void)loadAdWith:(void (^ _Nonnull)(BidmadFullscreenAdapter * _Nullable, NSError * _Nullable))completionHandler;
+- (void)showAdFrom:(UIViewController * _Nonnull)viewController;
+- (void)adWillPresentFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+- (void)adWillDismissFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+- (void)adDidRecordClick:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+- (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
+- (nonnull instancetype)initWithAdUnit:(BidmadAdUnit * _Nonnull)adUnit OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC24BidmadGoogleAdMobAdapter30BidmadRewardGoogleAdMobAdapter") SWIFT_AVAILABILITY(ios,introduced=13.0)
+@interface BidmadRewardGoogleAdMobAdapter : BidmadFullscreenAdapter <GADFullScreenContentDelegate>
+- (void)loadAdWith:(void (^ _Nonnull)(BidmadFullscreenAdapter * _Nullable, NSError * _Nullable))completionHandler;
+- (void)showAdFrom:(UIViewController * _Nonnull)viewController;
+- (void)adWillPresentFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+- (void)adDidRecordClick:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+- (void)adDidDismissFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
+- (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
+- (nonnull instancetype)initWithAdUnit:(BidmadAdUnit * _Nonnull)adUnit OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

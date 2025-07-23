@@ -20,10 +20,9 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import <BidmadSDK/BIDMADRewardVideo.h>
 #import <BidmadSDK/BIDMADNativeAd.h>
 #import <BidmadSDK/BidmadBannerAdapter.h>
-#import <BidmadSDK/BidmadRewardAdapter.h>
+#import <BidmadSDK/BidmadFullscreenAdapter.h>
 #import <BidmadSDK/BidmadNativeAdapter.h>
 #import <BidmadSDK/BidmadAdapter.h>
-#import <BidmadSDK/BidmadInterstitialAdapter.h>
 #import <BidmadSDK/BidmadNativeAdOriginalUIState.h>
 #import <BidmadSDK/UnrealCommon.h>
 #import <BidmadSDK/BIDMADGDPRforGoogle.h>
@@ -35,13 +34,10 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import <BidmadSDK/BIDMADAppOpenAd.h>
 #import <BidmadSDK/BIDMADNativeAdView.h>
 #import <BidmadSDK/BidmadUtility.h>
-#import <BidmadSDK/BidmadDataParsingUtility.h>
-#import <BidmadSDK/BidmadAdUnit.h>
 #import <BidmadSDK/BidmadAdType.h>
 #import <BidmadSDK/BidmadKeychainItemWrapper.h>
 #import <BidmadSDK/BidmadInitialize.h>
 #import <BidmadSDK/BidmadParentUIView.h>
-#import <BidmadSDK/BidmadPublisherZoneIDPriorityList.h>
 #import <BidmadSDK/BidmadAppOpenAdapter.h>
 #import <BidmadSDK/BidmadAdapterInfo.h>
 #import <BidmadSDK/OBHCommunicationDelegate.h>

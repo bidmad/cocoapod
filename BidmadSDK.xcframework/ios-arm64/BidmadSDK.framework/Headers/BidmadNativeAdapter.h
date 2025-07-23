@@ -7,10 +7,10 @@
 
 #import <UIKit/UIKit.h>
 #import <BidmadSDK/BIDMADNativeAdView.h>
-#import <BidmadSDK/BidmadAdUnit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class BidmadAdUnit;
 @class BidmadNativeAdapter;
 
 @protocol BidmadNativeAdapterDelegate <NSObject>

@@ -23,9 +23,9 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
-public class BidmadInterstitialMobwithAdapter : BidmadSDK.BidmadInterstitialAdapter, BidmadSDK.BidmadLoggable, @unchecked Swift.Sendable {
-  final public let className: Swift.String
-  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadInterstitialAdapter
+public class BidmadInterstitialMobwithAdapter : BidmadSDK.BidmadFullscreenAdapter, BidmadSDK.BidmadLoggable, @unchecked Swift.Sendable {
+  public static let className: Swift.String
+  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadFullscreenAdapter
   @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
   @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
   @objc override dynamic public init()
@@ -33,7 +33,7 @@ public class BidmadInterstitialMobwithAdapter : BidmadSDK.BidmadInterstitialAdap
 }
 @objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 public class BidmadBannerMobwithAdapter : BidmadSDK.BidmadBannerAdapter, @unchecked Swift.Sendable {
-  final public let className: Swift.String
+  public static let className: Swift.String
   @objc override dynamic public func loadAd(from viewController: UIKit.UIViewController) async throws -> (BidmadSDK.BidmadBannerAdapter, UIKit.UIView, CoreFoundation.CGSize)
   @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
   @objc override dynamic public init()

@@ -338,9 +338,10 @@ SWIFT_CLASS("_TtC18BidmadTeadsAdapter38BidmadBannerTeadsAdapterSupportChecker")
 @class NSString;
 
 SWIFT_CLASS("_TtC18BidmadTeadsAdapter30BidmadInterstitialTeadsAdapter") SWIFT_AVAILABILITY(ios,introduced=13.0.0)
-@interface BidmadInterstitialTeadsAdapter : BidmadInterstitialAdapter <TeadsAdDelegate, TeadsInReadAdPlacementDelegate>
-@property (nonatomic, readonly, copy) NSString * _Nonnull className;
-- (void)loadAdWith:(void (^ _Nonnull)(BidmadInterstitialAdapter * _Nullable, NSError * _Nullable))completionHandler;
+@interface BidmadInterstitialTeadsAdapter : BidmadFullscreenAdapter <TeadsAdDelegate, TeadsInReadAdPlacementDelegate>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
++ (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
+- (void)loadAdWith:(void (^ _Nonnull)(BidmadFullscreenAdapter * _Nullable, NSError * _Nullable))completionHandler;
 - (void)showAdFrom:(UIViewController * _Nonnull)viewController;
 - (UIViewController * _Nullable)willPresentModalViewWithAd:(TeadsAd * _Nonnull)ad SWIFT_WARN_UNUSED_RESULT;
 - (void)didReceiveAdWithAd:(TeadsInReadAd * _Nonnull)ad adRatio:(TeadsAdRatio * _Nonnull)adRatio;

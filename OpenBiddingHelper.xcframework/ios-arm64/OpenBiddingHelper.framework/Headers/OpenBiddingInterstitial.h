@@ -14,7 +14,7 @@
 #import <BidmadSDK/BIDMADUtil.h>
 #import <BidmadSDK/BIDMADSetting.h>
 #import <BidmadSDK/BidmadLoadStatus.h>
-#import <BidmadSDK/BidmadSDK-Swift.h>
+#import <BidmadSDK/BidmadSDK.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
