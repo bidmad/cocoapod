@@ -418,6 +418,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
 + (void)fetchAdUnitWithZoneId:(NSString * _Nonnull)zoneId completion:(void (^ _Nonnull)(BidmadAdUnit * _Nullable, NSError * _Nullable))completionHandler;
 + (void)fetchAdUnitWithZoneId:(NSString * _Nonnull)zoneId adType:(BidmadAdType)adType completion:(void (^ _Nonnull)(BidmadAdUnit * _Nullable, NSError * _Nullable))completionHandler;
++ (void)fetchAdUnitObjCWithZoneId:(NSString * _Nonnull)zoneId adType:(BidmadAdType)adType testHost:(NSString * _Nonnull)testHost testPath:(NSString * _Nonnull)testPath completionHandler:(void (^ _Nonnull)(BidmadAdUnit * _Nullable, NSError * _Nullable))completionHandler;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

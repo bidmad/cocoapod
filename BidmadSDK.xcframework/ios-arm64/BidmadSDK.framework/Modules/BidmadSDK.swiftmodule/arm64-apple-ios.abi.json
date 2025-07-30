@@ -13958,6 +13958,100 @@
           },
           {
             "kind": "Function",
+            "name": "fetchAdUnitObjC",
+            "printedName": "fetchAdUnitObjC(zoneId:adType:testHost:testPath:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAdType",
+                "printedName": "BidmadSDK.BidmadAdType",
+                "usr": "c:@E@BidmadAdType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(BidmadSDK.BidmadAdUnit?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "BidmadSDK.BidmadAdUnit?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "BidmadAdUnit",
+                            "printedName": "BidmadSDK.BidmadAdUnit",
+                            "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadDataParsingUtility(cm)fetchAdUnitObjCWithZoneId:adType:testHost:testPath:completionHandler:",
+            "mangledName": "$s9BidmadSDK0A18DataParsingUtilityC15fetchAdUnitObjC6zoneId6adType8testHost0N4Path17completionHandlerySS_So0agM0VS2SyAA0agH0CSg_s5Error_pSgtctFZ",
+            "moduleName": "BidmadSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "fetchAdUnit",
             "printedName": "fetchAdUnit(zoneId:adType:testHost:testPath:completionHandler:)",
             "children": [
@@ -23235,6 +23329,7 @@
             "moduleName": "BidmadSDK",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl",
               "ObjC"
@@ -23267,6 +23362,7 @@
                 "moduleName": "BidmadSDK",
                 "implicit": true,
                 "declAttributes": [
+                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
@@ -23302,6 +23398,7 @@
                 "moduleName": "BidmadSDK",
                 "implicit": true,
                 "declAttributes": [
+                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "set"
@@ -23322,6 +23419,9 @@
                 "mangledName": "$s9BidmadSDK12BIDMADBannerC7adapterSo0A13BannerAdapterCSgvM",
                 "moduleName": "BidmadSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -23377,6 +23477,7 @@
             "moduleName": "BidmadSDK",
             "objc_name": "selectAdUnit:",
             "declAttributes": [
+              "Final",
               "AccessControl",
               "ObjC"
             ],
@@ -23405,6 +23506,7 @@
             "moduleName": "BidmadSDK",
             "objc_name": "clickedWith:",
             "declAttributes": [
+              "Final",
               "ObjC",
               "AccessControl"
             ],
@@ -23443,6 +23545,7 @@
         "moduleName": "BidmadSDK",
         "declAttributes": [
           "AccessControl",
+          "Final",
           "ObjCMembers",
           "ObjC"
         ],
@@ -40172,7 +40275,7 @@
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
       "offset": 5600,
-      "length": 11377,
+      "length": 11815,
       "value": "\"\""
     },
     {
@@ -40717,9 +40820,37 @@
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBanner.swift",
       "kind": "StringLiteral",
-      "offset": 166,
+      "offset": 185,
+      "length": 5,
+      "value": "\"req\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBanner.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 6,
+      "value": "\"fail\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBanner.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 8,
+      "value": "\"nofill\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBanner.swift",
+      "kind": "StringLiteral",
+      "offset": 585,
       "length": 14,
       "value": "\"BIDMADBanner\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/BIDMADBanner.swift",
+      "kind": "StringLiteral",
+      "offset": 830,
+      "length": 37,
+      "value": "\"com.techlabs.BidmadSDK.BIDMADBanner\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/VastClient\/models\/XML schema\/VastImpression.swift",

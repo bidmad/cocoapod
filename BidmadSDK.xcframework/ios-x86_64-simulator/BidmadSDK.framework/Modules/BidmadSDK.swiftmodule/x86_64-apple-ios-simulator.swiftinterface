@@ -362,6 +362,7 @@ extension BidmadSDK.VastSurvey : Swift.Equatable {
   @objc public static let className: Swift.String
   @objc(fetchAdUnitWithZoneId:completion:) public static func fetchAdUnit(with zoneId: Swift.String, completionHandler: @escaping ((BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void))
   @objc(fetchAdUnitWithZoneId:adType:completion:) public static func fetchAdUnit(with zoneId: Swift.String, adType: BidmadSDK.BidmadAdType, completionHandler: @escaping ((BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void))
+  @objc public static func fetchAdUnitObjC(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType, testHost: Swift.String, testPath: Swift.String, completionHandler: @escaping ((BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void))
   public static func fetchAdUnit(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType? = nil, testHost: Swift.String? = nil, testPath: Swift.String? = nil, completionHandler: @escaping ((BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void))
   @objc override dynamic public init()
   @objc deinit
@@ -609,12 +610,12 @@ extension BidmadSDK.VastModel {
 extension BidmadSDK.VastModel : Swift.Equatable {
   public static func == (a: BidmadSDK.VastModel, b: BidmadSDK.VastModel) -> Swift.Bool
 }
-@objc @objcMembers public class BIDMADBanner : ObjectiveC.NSObject, BidmadSDK.BidmadBannerAdapterDelegate, BidmadSDK.BidmadLoggable {
+@objc @objcMembers final public class BIDMADBanner : ObjectiveC.NSObject, BidmadSDK.BidmadBannerAdapterDelegate, BidmadSDK.BidmadLoggable {
   @objc public static let className: Swift.String
-  @objc public var adapter: BidmadSDK.BidmadBannerAdapter?
+  @objc final public var adapter: BidmadSDK.BidmadBannerAdapter?
   @objc(initWithInstanceOBH:) public init(with instanceOBH: any BidmadSDK.OBHBannerExtraDelegate & BidmadSDK.OBHCommunicationDelegate)
-  @objc(selectAdUnit:) public func select(adUnit: BidmadSDK.BidmadAdUnit)
-  @objc public func clicked(with ad: BidmadSDK.BidmadBannerAdapter)
+  @objc(selectAdUnit:) final public func select(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc final public func clicked(with ad: BidmadSDK.BidmadBannerAdapter)
   @objc deinit
 }
 public struct VastAdVerificationParameters : Swift.Codable {

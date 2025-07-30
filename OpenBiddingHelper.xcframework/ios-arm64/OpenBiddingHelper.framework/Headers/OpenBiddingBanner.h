@@ -31,6 +31,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (readonly) BOOL isLoaded;
 @property (nonatomic, strong) NSString * _Nullable flutterKey;
 @property (nonatomic, strong) BIDMADBanner * _Nullable bidmadBanner;
+@property (nonatomic, strong) NSString * _Nullable testHost;
+@property (nonatomic, strong) NSString * _Nullable testPath;
 
 /**
  * A Boolean value that determines whether ad refresh feature is enabled.
