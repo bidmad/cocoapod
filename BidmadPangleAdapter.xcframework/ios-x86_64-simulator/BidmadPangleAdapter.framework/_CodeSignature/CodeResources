@@ -6,7 +6,7 @@
 	<dict>
 		<key>AdsGlobalSDK.bundle/Info.plist</key>
 		<data>
-		EqAIwpb6S/7i3ho1aHQBG1cYqlg=
+		wnUDOEALY2U9e1JEkGUIyReHe00=
 		</data>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		EFaKA+HqJrVq0jCDIdwcPnLX9SQ=
+		Fs1aDg2Gp3MOrauwiV/G4Pta3B4=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<data>
-		j0c3NRrSYY2J4bZwxyyJbNza0nM=
+		RsimeB8PKePuMK0EX/iKxM7JdAo=
 		</data>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -214,7 +214,7 @@
 		</dict>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		6wiEWGeNpKr0I+dQSAf9VI5jAfo=
+		AwZqpF5bmpgG25r1UTysLNB0O5U=
 		</data>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>
 		<dict>
@@ -258,11 +258,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EqAIwpb6S/7i3ho1aHQBG1cYqlg=
+			wnUDOEALY2U9e1JEkGUIyReHe00=
 			</data>
 			<key>hash2</key>
 			<data>
-			2hUZSp86TLDYuYwA7WfvSFWAuRcmCnKkBMxxwAfPv8g=
+			SZm2J/xKV5cHkN7xrym32jk8COwETioX45EVuOu/1XI=
 			</data>
 		</dict>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -280,11 +280,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EFaKA+HqJrVq0jCDIdwcPnLX9SQ=
+			Fs1aDg2Gp3MOrauwiV/G4Pta3B4=
 			</data>
 			<key>hash2</key>
 			<data>
-			cp7lLnCjaIZdEBhKuhK/ZxmY4TfRlXzETqb9PVHa9P0=
+			3Qbi1auUDob7pN6Q6WS4p6sRwbAHxi9NXD6oS0yewQc=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -335,11 +335,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j0c3NRrSYY2J4bZwxyyJbNza0nM=
+			RsimeB8PKePuMK0EX/iKxM7JdAo=
 			</data>
 			<key>hash2</key>
 			<data>
-			YDT6K1+XLdxcKRj1iINWkCYztwP8CILpua1slbKMxtA=
+			/uZs9G9B6bRAT5SbPwLZpkVNC+MvOZ3zsdiYbrNpCgs=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -631,11 +631,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6wiEWGeNpKr0I+dQSAf9VI5jAfo=
+			AwZqpF5bmpgG25r1UTysLNB0O5U=
 			</data>
 			<key>hash2</key>
 			<data>
-			UFDDlJAMFc+vWSEUQBnJIt27LtK3lmq5tIuFeC0jn0w=
+			T9mS1ch2QshDjpXkIUbkToBFwoX168xx06Z5Ud5cebI=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>
