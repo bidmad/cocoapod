@@ -24,13 +24,7 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import <BidmadSDK/BidmadNativeAdapter.h>
 #import <BidmadSDK/BidmadAdapter.h>
 #import <BidmadSDK/BidmadNativeAdOriginalUIState.h>
-#import <BidmadSDK/UnrealCommon.h>
-#import <BidmadSDK/BIDMADGDPRforGoogle.h>
-#import <BidmadSDK/Cocos2dxCommon.h>
-#import <BidmadSDK/UnrealGDPRforGoogle.h>
-#import <BidmadSDK/Cocos2dxGDPRforGoogle.h>
 #import <BidmadSDK/BIDMADGDPR.h>
-#import <BidmadSDK/UnityGDPRforGoogle.h>
 #import <BidmadSDK/BIDMADAppOpenAd.h>
 #import <BidmadSDK/BIDMADNativeAdView.h>
 #import <BidmadSDK/BidmadUtility.h>

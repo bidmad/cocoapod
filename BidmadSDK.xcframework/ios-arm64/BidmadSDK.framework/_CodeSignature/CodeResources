@@ -16,10 +16,6 @@
 		<data>
 		jHOOhlOu1dAuU8Sh12H+4nl8EfM=
 		</data>
-		<key>Headers/BIDMADGDPRforGoogle.h</key>
-		<data>
-		Fh0JNFOSDPUhtsEhb2JRJ67EAO4=
-		</data>
 		<key>Headers/BIDMADNativeAd.h</key>
 		<data>
 		Yn+V7BD0ntQO1zpLKks3N4DI+hM=
@@ -118,7 +114,7 @@
 		</data>
 		<key>Headers/BidmadSDK.h</key>
 		<data>
-		hjNqA+SbRbEwecBPEYwZB+ANvhM=
+		my+K1A2gAscjebbGf/WjyA02QBU=
 		</data>
 		<key>Headers/BidmadSendLogDelegate.h</key>
 		<data>
@@ -128,14 +124,6 @@
 		<data>
 		5b306XS/dAri03Knu1oxWiDaf1g=
 		</data>
-		<key>Headers/Cocos2dxCommon.h</key>
-		<data>
-		mgYrpHHFyhTITR8dGuXoP33sYKg=
-		</data>
-		<key>Headers/Cocos2dxGDPRforGoogle.h</key>
-		<data>
-		/LSILgXK878eewS/OPcDKfLM1Vk=
-		</data>
 		<key>Headers/NSArray+HigherOrderFunctionsForADOP.h</key>
 		<data>
 		iJ5zQcjjV0pX08B5t/l8t0lJWL0=
@@ -144,21 +132,9 @@
 		<data>
 		TFjDh6DYjZrbtDtMKTC5KtL+2vM=
 		</data>
-		<key>Headers/UnityGDPRforGoogle.h</key>
-		<data>
-		3xe/6shoTYEUDPxf3NHBbWgdWiY=
-		</data>
-		<key>Headers/UnrealCommon.h</key>
-		<data>
-		YHd0yksa3paLF/dc93mriLSCRlo=
-		</data>
-		<key>Headers/UnrealGDPRforGoogle.h</key>
-		<data>
-		+Ifra+15O4c6LqmXbwIjWBB682c=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		7fyNnXIErTyHOaiPYIAe+bodwg8=
+		5IgSJHrx7Zc4TF4H6//ijl+4OWg=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -206,13 +182,6 @@
 			<key>hash2</key>
 			<data>
 			nSVgnikifxlWGX/4hYgWnz+hs+zZrs21CziX5b6WXqc=
-			</data>
-		</dict>
-		<key>Headers/BIDMADGDPRforGoogle.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QU+c4fgWZumQL0Hys03NH21AgYtpHgt1tN6jjIQJH8M=
 			</data>
 		</dict>
 		<key>Headers/BIDMADNativeAd.h</key>
@@ -387,7 +356,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RDsZd/XJSRDNcIiQajmys8uQZ4UOmuIiOIGIcvGssnQ=
+			dEvMIQvN/+/l4ueoNjIYMwODJOdqTrXwIUau7QZOnDY=
 			</data>
 		</dict>
 		<key>Headers/BidmadSendLogDelegate.h</key>
@@ -404,20 +373,6 @@
 			bAOeaf2p7o3DEmwQ5wPG8Ks6QXzsRJHuaWXVmZBPNe0=
 			</data>
 		</dict>
-		<key>Headers/Cocos2dxCommon.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dV2/fNuoWGq09IkgUEOdiUqCJXeKNxCv66GVP+nkiJI=
-			</data>
-		</dict>
-		<key>Headers/Cocos2dxGDPRforGoogle.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zLgpfY9WAB9n6F8z5FdVj6h0zdd7BkEpkkqyUowaXHs=
-			</data>
-		</dict>
 		<key>Headers/NSArray+HigherOrderFunctionsForADOP.h</key>
 		<dict>
 			<key>hash2</key>
@@ -430,27 +385,6 @@
 			<key>hash2</key>
 			<data>
 			BxTypD8iDbAUCyd6TbVx3mjkCKLBtUkg3rDQwmOIKXM=
-			</data>
-		</dict>
-		<key>Headers/UnityGDPRforGoogle.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G9X1IsZwfcCeFq1R86/LtZaIpCaaVFf59p1binLvlTQ=
-			</data>
-		</dict>
-		<key>Headers/UnrealCommon.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ji0nrtLoLKi7OIzQVbzDp7pJwB0sAPgIyvuXGKCXRA4=
-			</data>
-		</dict>
-		<key>Headers/UnrealGDPRforGoogle.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VxtgLPXHouadxZMHZVrC+sEWffmNDbxkhX93IuDR9xA=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.abi.json</key>
