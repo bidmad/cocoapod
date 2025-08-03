@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "OpenBiddingHelper-ForHana"
+  s.name         = "OpenBiddingHelper-ForLuckieverse"
   s.version      = "6.13.2"
   s.platform     = :ios, "12.0"
   s.summary      = "OpenBiddingHelper is for Open Bidding Ads."
@@ -8,13 +8,13 @@ Pod::Spec.new do |s|
   s.homepage     = "https://bidmad.net"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Markus" => "markus@adop.cc" }
-  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'OpenBiddingHelper-ForHana.6.13.2' }
+  s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'OpenBiddingHelper-ForLuckieverse.6.13.2' }
   
   s.swift_version = '5.0'
   s.static_framework = true
   s.requires_arc     = true
   s.vendored_frameworks = "OpenBiddingHelper.xcframework"
 
-  s.dependency 'BidmadSDK-ForHana', '>=6.13.2', '<6.14.0'
+  s.dependency 'BidmadSDK-ForLuckieverse', '>=6.13.2', '<6.14.0'
 
 end

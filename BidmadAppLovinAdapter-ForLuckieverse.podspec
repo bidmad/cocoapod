@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name             = "BidmadAppLovinAdapter-ForHana"
+  s.name             = "BidmadAppLovinAdapter-ForLuckieverse"
   s.version          = "13.3.0.12.0"
   s.platform         = :ios, "12.0"
   s.summary          = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
@@ -8,13 +8,13 @@ Pod::Spec.new do |s|
   s.homepage         = "https://bidmad.net"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Markus" => "markus@adop.cc" }
-  s.source           = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'BidmadAppLovinAdapter-ForHana.13.3.0.12.0' }
+  s.source           = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'BidmadAppLovinAdapter-ForLuckieverse.13.3.0.12.0' }
   s.static_framework = true
   s.requires_arc     = true
   s.vendored_frameworks = "BidmadAppLovinAdapter.xcframework"
   s.swift_version = '5.0'
 
-  s.dependency 'BidmadSDK-ForHana', '>=6.13.2', '<6.14.0'
+  s.dependency 'BidmadSDK-ForLuckieverse', '>=6.13.2', '<6.14.0'
   s.dependency 'AppLovinSDK', '13.3.0'
 
 end
