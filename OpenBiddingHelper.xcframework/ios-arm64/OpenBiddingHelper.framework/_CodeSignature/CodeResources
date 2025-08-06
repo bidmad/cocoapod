@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lNAXtEwKCKMe87gpHn0CAx4XQ78=
+		vRCfepUf41ZIX00BeLNj6RTZcAs=
 		</data>
 		<key>Modules/OpenBiddingHelper.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Modules/OpenBiddingHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/71vo83eQOfa4WyY4+CFkmU3o/Y=
+		XJ3zJ5Tg/XjLJ+ooxMJ6dBFNhmQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -353,7 +353,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ThCQ49u51buaMIFDdCVbe86nc5qiIuQGXgQTVYO8bSc=
+			Bdde0avShlUxpVJRNmnY5Nmn3/GqW8zt/p1LXBM8U0o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

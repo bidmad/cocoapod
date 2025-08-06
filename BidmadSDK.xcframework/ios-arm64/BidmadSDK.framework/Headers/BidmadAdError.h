@@ -29,7 +29,7 @@ typedef NS_ENUM(NSUInteger, BidmadError) {
     BidmadErrorNetworkAdRequestTimeout = 16,
     BidmadErrorNetworkLoadabilityCheckFail = 17,
     BidmadErrorEmptyZoneIdFail = 18,
-    BidmadErrorAdDataUnavailable = 19,
+    BidmadErrorNoAds = 19,
     BidmadErrorNetworkLoadError = 20,
     BidmadErrorNetworkInsufficientParameter = 21,
     BidmadErrorNetworkInitError = 22,

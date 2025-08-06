@@ -4,8 +4,25 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import BidmadSDK
 @_exported import BidmadUnityAdsAdapter
+import Foundation
 import Swift
 import UnityAds
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class BidmadUnityAdsCore : ObjectiveC.NSObject, UnityAds.UnityAdsInitializationDelegate {
+  public enum E : Swift.Error {
+    case timeout
+    case internalError(Swift.String)
+  }
+  @objc public static let shared: BidmadUnityAdsAdapter.BidmadUnityAdsCore
+  @objc public func initializeSDK(appId: Swift.String, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc public func initializationComplete()
+  @objc public func initializationFailed(_ error: UnityAds.UnityAdsInitializationError, withMessage message: Swift.String)
+  @objc deinit
+}
+extension BidmadUnityAdsAdapter.BidmadUnityAdsCore.E : Foundation.CustomNSError {
+  public var errorCode: Swift.Int {
+    get
+  }
+}

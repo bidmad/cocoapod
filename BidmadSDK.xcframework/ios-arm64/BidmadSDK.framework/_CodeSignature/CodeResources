@@ -26,11 +26,11 @@
 		</data>
 		<key>Headers/BIDMADRewardVideo.h</key>
 		<data>
-		xDSB3mTTNK9+rtg4Wu70BKcPzt8=
+		OSSYDSs1oMsKOm1uEOpD6Gm+7h4=
 		</data>
 		<key>Headers/BIDMADSetting.h</key>
 		<data>
-		E3RXG+zrlBJJnXyqcn0+AoSPawc=
+		T1iP73sogEWeXXspCa5NLRGEBQQ=
 		</data>
 		<key>Headers/BIDMADUtil.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/BidmadAdError.h</key>
 		<data>
-		vG1S/zlAqTyEXWgpA/6xSjBB8ac=
+		IHLCsnMg702p6hztvCkW0yEbUpA=
 		</data>
 		<key>Headers/BidmadAdType.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/BidmadSDK-Swift.h</key>
 		<data>
-		tO4skHPLDIy8XA+AhZ+GpjQaWBw=
+		fkWYfp+gHgYmmfS69O000qqNPaE=
 		</data>
 		<key>Headers/BidmadSDK.h</key>
 		<data>
@@ -134,27 +134,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5IgSJHrx7Zc4TF4H6//ijl+4OWg=
+		YUnKmIJqCVLMAbzRoihHrC8y6wI=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		s0IQRb/bpbvX1bKGaUUGo8F5t30=
+		6UnqL5asOiZNvsLiFIPKsbJuAgI=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		6ICMODLaiZMWG2fKO18QDPuZYkM=
+		bDVR0mG5+A8uYPTDfP0FqcPZunM=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		yO8lPf5fkQD3ItRCXryuNitoSIQ=
+		aCteuzVFMbml/eOL+G9jtx0u2jA=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		6ICMODLaiZMWG2fKO18QDPuZYkM=
+		bDVR0mG5+A8uYPTDfP0FqcPZunM=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		fju13IPuJ5U4rP8HkVax8d9jyxk=
+		L7N9CS7WGlYBvMY4C2siw6pVrJo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -202,14 +202,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YZ5tH6Z+2wUR3q3AkMASKYY08FgU1hmxiyKh43qMZrQ=
+			61rBopGO31moGP2mjxVvgKU8gXVQONxzO5V5kcvLVS0=
 			</data>
 		</dict>
 		<key>Headers/BIDMADSetting.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dsEVp073N2pgwusta9EGhw3zDL+AsdVqJ7MAb+4EMok=
+			7AvrpywawE1KWth9gRdmK82iU3zZq0V1LOiC5CPNFak=
 			</data>
 		</dict>
 		<key>Headers/BIDMADUtil.h</key>
@@ -223,7 +223,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2yg0Ez/WQpWv977s2k0VKEvZ52nhkrELrGOK9ooPwK4=
+			baf9KXmrBqIx/XLPiZwN27AN2EDG7DTS9AwiO+Vqlhg=
 			</data>
 		</dict>
 		<key>Headers/BidmadAdType.h</key>
@@ -349,7 +349,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z5wG1BhkTpB4eYSGsnC9KjyLia/pUcFSg+BJ6BN+x/E=
+			fvrLBNdL/loYuc811be4JdJ4Ubk2q9rJB/+jC+QigsI=
 			</data>
 		</dict>
 		<key>Headers/BidmadSDK.h</key>
@@ -391,35 +391,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gM2bNhEere8DK9S2xBC0mOEAPjdB85ishASQo0JkTlM=
+			t5u5IoLruMn2qEst7NPKy3ZK5QpBUaQRrTYHNTs0z08=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EnXHNVUdzIRXfs/opUtLyBPimj+IjAVy1Z5HOH03CuI=
+			obfLzvEq3dQJheJwZnbr6Vf0O+ivLcCPnbzjJsYGNmQ=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nXPh9K79aEh0Sqxc2apaWah+QdQwO5f/YcfiZkGxjYE=
+			/rElRpTp6vO+uVD/2DUaPPwFJ8V1ZA6+zePfFqQ8Ju8=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EnXHNVUdzIRXfs/opUtLyBPimj+IjAVy1Z5HOH03CuI=
+			obfLzvEq3dQJheJwZnbr6Vf0O+ivLcCPnbzjJsYGNmQ=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hwxx+9ohZAs+gF4ln1I+QwhQC/Q6icgLEaqBp4AbgvQ=
+			pczcVoqaDImH7D9ya1VKsTSlMfbU+DO3Q7MLHel0Q8k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

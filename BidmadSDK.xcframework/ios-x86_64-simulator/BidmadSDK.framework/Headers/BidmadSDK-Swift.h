@@ -330,6 +330,7 @@ SWIFT_CLASS("_TtC9BidmadSDK12BIDMADBanner")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
 + (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, strong) BidmadBannerAdapter * _Nullable adapter;
+@property (nonatomic) BOOL adBlockEstimation;
 - (nonnull instancetype)initWithInstanceOBH:(id <OBHBannerExtraDelegate, OBHCommunicationDelegate> _Nonnull)instanceOBH OBJC_DESIGNATED_INITIALIZER;
 - (void)selectAdUnit:(BidmadAdUnit * _Nonnull)adUnit;
 - (void)clickedWith:(BidmadBannerAdapter * _Nonnull)ad;
@@ -352,6 +353,7 @@ SWIFT_CLASS("_TtC9BidmadSDK18BIDMADInterstitial")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
 + (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, strong) BidmadFullscreenAdapter * _Nullable adapter;
+@property (nonatomic) BOOL adBlockEstimation;
 - (nonnull instancetype)initWithInstanceOBH:(id <OBHCommunicationDelegate> _Nonnull)instanceOBH OBJC_DESIGNATED_INITIALIZER;
 - (void)selectAdUnit:(BidmadAdUnit * _Nonnull)adUnit;
 - (void)showInterstitialViewOnViewController:(UIViewController * _Nonnull)viewController;
@@ -462,6 +464,33 @@ SWIFT_CLASS("_TtC9BidmadSDK10BidmadInfo")
 @property (nonatomic, readonly, strong) NSDictionary * _Nonnull flutterArgs;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSNotificationCenter;
+
+SWIFT_CLASS("_TtC9BidmadSDK21BidmadSDKReachability")
+@interface BidmadSDKReachability : NSObject
+@property (nonatomic, copy) void (^ _Nullable whenReachable)(BidmadSDKReachability * _Nonnull);
+@property (nonatomic, copy) void (^ _Nullable whenUnreachable)(BidmadSDKReachability * _Nonnull);
+@property (nonatomic, readonly) BOOL reachableOnWWAN SWIFT_DEPRECATED_MSG("", "allowsCellularConnection");
+/// Set to <code>false</code> to force Reachability.connection to .none when on cellular connection (default value <code>true</code>)
+@property (nonatomic) BOOL allowsCellularConnection;
+@property (nonatomic, strong) NSNotificationCenter * _Nonnull notificationCenter;
+@property (nonatomic, readonly, copy) NSString * _Nonnull currentReachabilityString SWIFT_DEPRECATED_MSG("", "description");
++ (BidmadSDKReachability * _Nullable)getInstance SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+@interface BidmadSDKReachability (SWIFT_EXTENSION(BidmadSDK))
+- (BOOL)startNotifierAndReturnError:(NSError * _Nullable * _Nullable)error;
+- (void)stopNotifier;
+@property (nonatomic, readonly) BOOL isReachable;
+@property (nonatomic, readonly) BOOL isReachableViaWWAN SWIFT_DEPRECATED_MSG("Please use `connection == .cellular`");
+@property (nonatomic, readonly) BOOL isReachableViaWiFi SWIFT_DEPRECATED_MSG("Please use `connection == .wifi`");
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
 
 

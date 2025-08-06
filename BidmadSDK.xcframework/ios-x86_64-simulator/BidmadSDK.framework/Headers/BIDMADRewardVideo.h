@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface BIDMADRewardVideo : NSObject
 
 @property (nonatomic, strong) BidmadFullscreenAdapter *adapter;
+@property (nonatomic) BOOL adBlockEstimation;
 
 - (instancetype)initWithInstanceOBH:(id<OBHCommunicationDelegate>)instanceOBH;
 - (void)selectAdUnit:(BidmadAdUnit *)adUnit;

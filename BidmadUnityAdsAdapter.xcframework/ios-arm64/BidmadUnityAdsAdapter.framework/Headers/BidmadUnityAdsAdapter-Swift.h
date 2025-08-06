@@ -280,6 +280,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ObjectiveC;
+@import UnityAds;
 #endif
 
 #endif
@@ -301,6 +303,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSString;
+
+SWIFT_CLASS("_TtC21BidmadUnityAdsAdapter18BidmadUnityAdsCore")
+@interface BidmadUnityAdsCore : NSObject <UnityAdsInitializationDelegate>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BidmadUnityAdsCore * _Nonnull shared;)
++ (BidmadUnityAdsCore * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)initializeSDKWithAppId:(NSString * _Nonnull)appId completion:(void (^ _Nonnull)(NSError * _Nullable))completion;
+- (void)initializationComplete;
+- (void)initializationFailed:(UnityAdsInitializationError)error withMessage:(NSString * _Nonnull)message;
+@end
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
