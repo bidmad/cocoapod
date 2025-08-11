@@ -1,0 +1,6 @@
+framework module EmptyProject2 {
+  umbrella header "EmptyProject2.h"
+  export *
+
+  module * { export * }
+}

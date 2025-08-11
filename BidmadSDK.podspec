@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.subspec 'excludesGoogleGDPR' do |ss|
     ss.vendored_frameworks = "BidmadSDK.xcframework"
     ss.resource_bundles = {'BidmadSDK_Privacy' => ['Resources/PrivacyInfo.xcprivacy']}
+    ss.dependency 'BidmadEmpty', '1.0.0'
   end
-
 
 end
