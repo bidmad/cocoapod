@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "BidmadGoogleGDPRAdapter.xcframework"
   s.swift_version = '5.0'
 
-  s.dependency 'BidmadSDK', '>=6.13.2', '<6.14.0'
+  s.dependency 'BidmadSDK', '>=6.13.0', '<6.14.0'
 
 end
