@@ -451,6 +451,19 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 
+SWIFT_PROTOCOL("_TtP9BidmadSDK17BidmadGDPRAdapter_")
+@protocol BidmadGDPRAdapter <NSObject>
+- (nonnull instancetype)init;
+@property (nonatomic, readonly) BOOL isConsentFormAvailable;
+- (void)setDebugWithTestDeviceId:(NSString * _Nonnull)testDeviceId isTestEurope:(BOOL)isTestEurope;
+- (void)requestConsentInfoUpdateWithCompletionHandler:(void (^ _Nonnull)(NSError * _Nullable))completionHandler;
+- (void)loadFormWithCompletionHandler:(void (^ _Nonnull)(NSError * _Nullable))completionHandler;
+- (void)showFormTo:(UIViewController * _Nullable)viewController completionHandler:(void (^ _Nonnull)(NSError * _Nullable))completionHandler;
+@property (nonatomic, readonly) BIDMAD_UMPConsentStatus consentStatus;
+- (void)reset;
+@end
+
+
 SWIFT_CLASS("_TtC9BidmadSDK10BidmadInfo")
 @interface BidmadInfo : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull networkName;
@@ -493,6 +506,15 @@ SWIFT_CLASS("_TtC9BidmadSDK21BidmadSDKReachability")
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
 
+@class NSBundle;
+
+SWIFT_CLASS("_TtC9BidmadSDK18BidmadSDKResources")
+@interface BidmadSDKResources : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NSBundle * _Nonnull bundle;)
++ (NSBundle * _Nonnull)bundle SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC9BidmadSDK18BidmadStateManager")
 @interface BidmadStateManager : NSObject
@@ -500,6 +522,7 @@ SWIFT_CLASS("_TtC9BidmadSDK18BidmadStateManager")
 + (void)setWithCollapsibleRequested:(BOOL)collapsibleRequested to:(NSString * _Nonnull)zoneId;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 @class UIView;
 @class UIWindow;

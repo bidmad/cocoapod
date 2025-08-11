@@ -4,3 +4,8 @@ framework module BidmadTaboolaAdapter {
 
   module * { export * }
 }
+
+module BidmadTaboolaAdapter.Swift {
+  header "BidmadTaboolaAdapter-Swift.h"
+  requires objc
+}

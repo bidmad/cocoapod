@@ -16,6 +16,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadCoviAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "BidmadSDK",
         "printedName": "BidmadSDK",
         "declKind": "Import",
@@ -39,6 +49,13 @@
         "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BidmadCoviAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
         "declKind": "Import",
         "moduleName": "BidmadCoviAdapter"
       },
@@ -357,45 +374,193 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "BidmadCoviAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "BidmadCoviAdapter"
       },
       {
-        "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
-        "declKind": "Import",
-        "moduleName": "BidmadCoviAdapter"
+        "kind": "TypeDecl",
+        "name": "BidmadCoviAdapterResources",
+        "printedName": "BidmadCoviAdapterResources",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadCoviAdapter@objc(cs)BidmadCoviAdapterResources(cpy)bundle",
+            "mangledName": "$s17BidmadCoviAdapter0abC9ResourcesC6bundleSo8NSBundleCvpZ",
+            "moduleName": "BidmadCoviAdapter",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadCoviAdapter@objc(cs)BidmadCoviAdapterResources(cm)bundle",
+                "mangledName": "$s17BidmadCoviAdapter0abC9ResourcesC6bundleSo8NSBundleCvgZ",
+                "moduleName": "BidmadCoviAdapter",
+                "static": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadCoviAdapterResources",
+                "printedName": "BidmadCoviAdapter.BidmadCoviAdapterResources",
+                "usr": "c:@M@BidmadCoviAdapter@objc(cs)BidmadCoviAdapterResources"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadCoviAdapter@objc(cs)BidmadCoviAdapterResources(im)init",
+            "mangledName": "$s17BidmadCoviAdapter0abC9ResourcesCACycfc",
+            "moduleName": "BidmadCoviAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadCoviAdapter@objc(cs)BidmadCoviAdapterResources",
+        "mangledName": "$s17BidmadCoviAdapter0abC9ResourcesC",
+        "moduleName": "BidmadCoviAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadBannerCoviAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/Sources\/BidmadBannerCoviAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 305,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/Sources\/BidmadCoviVastPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 5748,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/Sources\/BidmadCoviVastPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 5794,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/BidmadCoviVastPlayer.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadCoviAdapter\/Sources\/BidmadCoviVastPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 5893,
       "length": 4,

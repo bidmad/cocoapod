@@ -12,208 +12,6 @@
         "moduleName": "BidmadAdmixerAdapter"
       },
       {
-        "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
-        "declKind": "Import",
-        "moduleName": "BidmadAdmixerAdapter"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BidmadBannerAdmixerAdapterSupportChecker",
-        "printedName": "BidmadBannerAdmixerAdapterSupportChecker",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "isSupported",
-            "printedName": "isSupported()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@BidmadAdmixerAdapter@objc(cs)BidmadBannerAdmixerAdapterSupportChecker(cm)isSupported",
-            "mangledName": "$s20BidmadAdmixerAdapter0a6BannerbC14SupportCheckerC11isSupportedSbyFZ",
-            "moduleName": "BidmadAdmixerAdapter",
-            "static": true,
-            "overriding": true,
-            "objc_name": "isSupported",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BidmadBannerAdmixerAdapterSupportChecker",
-                "printedName": "BidmadAdmixerAdapter.BidmadBannerAdmixerAdapterSupportChecker",
-                "usr": "c:@M@BidmadAdmixerAdapter@objc(cs)BidmadBannerAdmixerAdapterSupportChecker"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@BidmadAdmixerAdapter@objc(cs)BidmadBannerAdmixerAdapterSupportChecker(im)init",
-            "mangledName": "$s20BidmadAdmixerAdapter0a6BannerbC14SupportCheckerCACycfc",
-            "moduleName": "BidmadAdmixerAdapter",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@BidmadAdmixerAdapter@objc(cs)BidmadBannerAdmixerAdapterSupportChecker",
-        "mangledName": "$s20BidmadAdmixerAdapter0a6BannerbC14SupportCheckerC",
-        "moduleName": "BidmadAdmixerAdapter",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)BidmadBannerAdapterSupportChecker",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "BidmadSDK.BidmadBannerAdapterSupportChecker",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdMixerMediation",
-        "printedName": "AdMixerMediation",
-        "declKind": "Import",
-        "moduleName": "BidmadAdmixerAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
-        "declKind": "Import",
-        "moduleName": "BidmadAdmixerAdapter"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BidmadAdmixerCoreResult",
-        "printedName": "BidmadAdmixerCoreResult",
-        "declKind": "Struct",
-        "usr": "s:20BidmadAdmixerAdapter0aB10CoreResultV",
-        "mangledName": "$s20BidmadAdmixerAdapter0aB10CoreResultV",
-        "moduleName": "BidmadAdmixerAdapter",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
-        "declKind": "Import",
-        "moduleName": "BidmadAdmixerAdapter"
-      },
-      {
         "kind": "TypeDecl",
         "name": "BidmadAdmixerAdapterInfo",
         "printedName": "BidmadAdmixerAdapterInfo",
@@ -375,6 +173,62 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdMixerMediation",
+        "printedName": "AdMixerMediation",
+        "declKind": "Import",
+        "moduleName": "BidmadAdmixerAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAdmixerAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadAdmixerCoreResult",
+        "printedName": "BidmadAdmixerCoreResult",
+        "declKind": "Struct",
+        "usr": "s:20BidmadAdmixerAdapter0aB10CoreResultV",
+        "mangledName": "$s20BidmadAdmixerAdapter0aB10CoreResultV",
+        "moduleName": "BidmadAdmixerAdapter",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAdmixerAdapter"
       },
       {
         "kind": "Import",
@@ -802,6 +656,152 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAdmixerAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadBannerAdmixerAdapterSupportChecker",
+        "printedName": "BidmadBannerAdmixerAdapterSupportChecker",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSupported",
+            "printedName": "isSupported()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAdmixerAdapter@objc(cs)BidmadBannerAdmixerAdapterSupportChecker(cm)isSupported",
+            "mangledName": "$s20BidmadAdmixerAdapter0a6BannerbC14SupportCheckerC11isSupportedSbyFZ",
+            "moduleName": "BidmadAdmixerAdapter",
+            "static": true,
+            "overriding": true,
+            "objc_name": "isSupported",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadBannerAdmixerAdapterSupportChecker",
+                "printedName": "BidmadAdmixerAdapter.BidmadBannerAdmixerAdapterSupportChecker",
+                "usr": "c:@M@BidmadAdmixerAdapter@objc(cs)BidmadBannerAdmixerAdapterSupportChecker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAdmixerAdapter@objc(cs)BidmadBannerAdmixerAdapterSupportChecker(im)init",
+            "mangledName": "$s20BidmadAdmixerAdapter0a6BannerbC14SupportCheckerCACycfc",
+            "moduleName": "BidmadAdmixerAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadAdmixerAdapter@objc(cs)BidmadBannerAdmixerAdapterSupportChecker",
+        "mangledName": "$s20BidmadAdmixerAdapter0a6BannerbC14SupportCheckerC",
+        "moduleName": "BidmadAdmixerAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadBannerAdapterSupportChecker",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "BidmadSDK.BidmadBannerAdapterSupportChecker",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "AMMBannerView",
         "printedName": "AMMBannerView",
@@ -1033,21 +1033,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/BidmadAdmixerManager.swift",
-      "kind": "Dictionary",
-      "offset": 120,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/BidmadAdmixerCore.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/Sources\/BidmadAdmixerCore.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 19,
       "value": "\"BidmadAdmixerCore\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/BidmadBannerAdmixerAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/Sources\/BidmadAdmixerManager.swift",
+      "kind": "Dictionary",
+      "offset": 120,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/Sources\/BidmadBannerAdmixerAdapter.swift",
       "kind": "Dictionary",
       "offset": 4773,
       "length": 3,

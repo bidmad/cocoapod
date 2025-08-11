@@ -6,13 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
-        "declKind": "Import",
-        "moduleName": "BidmadAdPopcornAdapter"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -32,6 +25,13 @@
         "kind": "Import",
         "name": "AdPopcornSSP",
         "printedName": "AdPopcornSSP",
+        "declKind": "Import",
+        "moduleName": "BidmadAdPopcornAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
         "declKind": "Import",
         "moduleName": "BidmadAdPopcornAdapter"
       }

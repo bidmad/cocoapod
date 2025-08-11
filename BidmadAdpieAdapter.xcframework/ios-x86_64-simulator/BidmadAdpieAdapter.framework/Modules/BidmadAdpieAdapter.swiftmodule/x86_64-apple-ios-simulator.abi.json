@@ -6,27 +6,13 @@
     "children": [
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "AdPieSDK",
+        "printedName": "AdPieSDK",
         "declKind": "Import",
         "moduleName": "BidmadAdpieAdapter",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
-        "declKind": "Import",
-        "moduleName": "BidmadAdpieAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "AdPieSDK",
-        "printedName": "AdPieSDK",
-        "declKind": "Import",
-        "moduleName": "BidmadAdpieAdapter"
       },
       {
         "kind": "Import",
@@ -75,20 +61,34 @@
       },
       {
         "kind": "Import",
-        "name": "AdPieSDK",
-        "printedName": "AdPieSDK",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "BidmadAdpieAdapter",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAdpieAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdPieSDK",
+        "printedName": "AdPieSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAdpieAdapter"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdpieAdapter\/BMAdPieManagerLegacySupport.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdpieAdapter\/Sources\/BMAdPieManagerLegacySupport.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 32,

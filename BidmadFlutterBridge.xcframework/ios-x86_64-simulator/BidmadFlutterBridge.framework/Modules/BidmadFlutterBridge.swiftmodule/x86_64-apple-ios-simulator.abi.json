@@ -302,7 +302,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[Swift.String : OpenBiddingHelper.OpenBiddingBanner?]",
+                "printedName": "[Swift.String : BidmadFlutterBridge.OpenBiddingBanner?]",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -313,12 +313,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "OpenBiddingHelper.OpenBiddingBanner?",
+                    "printedName": "BidmadFlutterBridge.OpenBiddingBanner?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "OpenBiddingBanner",
-                        "printedName": "OpenBiddingHelper.OpenBiddingBanner",
+                        "printedName": "BidmadFlutterBridge.OpenBiddingBanner",
                         "usr": "c:objc(cs)OpenBiddingBanner"
                       }
                     ],
@@ -348,7 +348,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : OpenBiddingHelper.OpenBiddingBanner?]",
+                    "printedName": "[Swift.String : BidmadFlutterBridge.OpenBiddingBanner?]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -359,12 +359,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "OpenBiddingHelper.OpenBiddingBanner?",
+                        "printedName": "BidmadFlutterBridge.OpenBiddingBanner?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "OpenBiddingBanner",
-                            "printedName": "OpenBiddingHelper.OpenBiddingBanner",
+                            "printedName": "BidmadFlutterBridge.OpenBiddingBanner",
                             "usr": "c:objc(cs)OpenBiddingBanner"
                           }
                         ],
@@ -422,7 +422,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "OpenBiddingBanner",
-                "printedName": "OpenBiddingHelper.OpenBiddingBanner",
+                "printedName": "BidmadFlutterBridge.OpenBiddingBanner",
                 "usr": "c:objc(cs)OpenBiddingBanner"
               },
               {
@@ -458,7 +458,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "OpenBiddingBanner",
-                "printedName": "OpenBiddingHelper.OpenBiddingBanner",
+                "printedName": "BidmadFlutterBridge.OpenBiddingBanner",
                 "usr": "c:objc(cs)OpenBiddingBanner"
               },
               {
@@ -494,7 +494,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "OpenBiddingBanner",
-                "printedName": "OpenBiddingHelper.OpenBiddingBanner",
+                "printedName": "BidmadFlutterBridge.OpenBiddingBanner",
                 "usr": "c:objc(cs)OpenBiddingBanner"
               },
               {
@@ -950,460 +950,6 @@
         "name": "BidmadSDK",
         "printedName": "BidmadSDK",
         "declKind": "Import",
-        "moduleName": "BidmadFlutterBridge"
-      },
-      {
-        "kind": "Import",
-        "name": "Flutter",
-        "printedName": "Flutter",
-        "declKind": "Import",
-        "moduleName": "BidmadFlutterBridge"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "OpenBiddingFlutterRewardVideo",
-        "printedName": "OpenBiddingFlutterRewardVideo",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(registrar:channelName:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpenBiddingFlutterRewardVideo",
-                "printedName": "BidmadFlutterBridge.OpenBiddingFlutterRewardVideo",
-                "usr": "c:@M@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "FlutterPluginRegistrar",
-                "printedName": "any Flutter.FlutterPluginRegistrar",
-                "usr": "c:objc(pl)FlutterPluginRegistrar"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)initWithRegistrar:channelName:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC9registrar11channelNameACSo0B15PluginRegistrar_p_SStcfc",
-            "moduleName": "BidmadFlutterBridge",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpenBiddingFlutterRewardVideo",
-                "printedName": "BidmadFlutterBridge.OpenBiddingFlutterRewardVideo",
-                "usr": "c:@M@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)init",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoCACycfc",
-            "moduleName": "BidmadFlutterBridge",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "onLoadAd",
-            "printedName": "onLoadAd(_:info:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BidmadInfo",
-                "printedName": "BidmadSDK.BidmadInfo",
-                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onLoadAd:info:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC8onLoadAd_4infoySo0defG0C_0A3SDK0A4InfoCtF",
-            "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onLoadAd:info:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onLoadFailAd",
-            "printedName": "onLoadFailAd(_:error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onLoadFailAd:error:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC12onLoadFailAd_5errorySo0defG0C_s5Error_ptF",
-            "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onLoadFailAd:error:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onShowAd",
-            "printedName": "onShowAd(_:info:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BidmadInfo",
-                "printedName": "BidmadSDK.BidmadInfo",
-                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onShowAd:info:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC8onShowAd_4infoySo0defG0C_0A3SDK0A4InfoCtF",
-            "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onShowAd:info:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onShowFailAd",
-            "printedName": "onShowFailAd(_:info:error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BidmadInfo",
-                "printedName": "BidmadSDK.BidmadInfo",
-                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onShowFailAd:info:error:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC12onShowFailAd_4info5errorySo0defG0C_0A3SDK0A4InfoCs5Error_ptF",
-            "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onShowFailAd:info:error:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onClickAd",
-            "printedName": "onClickAd(_:info:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BidmadInfo",
-                "printedName": "BidmadSDK.BidmadInfo",
-                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onClickAd:info:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC9onClickAd_4infoySo0defG0C_0A3SDK0A4InfoCtF",
-            "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onClickAd:info:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onSkipAd",
-            "printedName": "onSkipAd(_:info:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BidmadInfo",
-                "printedName": "BidmadSDK.BidmadInfo",
-                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onSkipAd:info:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC8onSkipAd_4infoySo0defG0C_0A3SDK0A4InfoCtF",
-            "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onSkipAd:info:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onCompleteAd",
-            "printedName": "onCompleteAd(_:info:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BidmadInfo",
-                "printedName": "BidmadSDK.BidmadInfo",
-                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onCompleteAd:info:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC12onCompleteAd_4infoySo0defG0C_0A3SDK0A4InfoCtF",
-            "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onCompleteAd:info:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onCloseAd",
-            "printedName": "onCloseAd(_:info:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OpenBiddingRewardVideo",
-                "printedName": "OpenBiddingHelper.OpenBiddingRewardVideo",
-                "usr": "c:objc(cs)OpenBiddingRewardVideo"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BidmadInfo",
-                "printedName": "BidmadSDK.BidmadInfo",
-                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onCloseAd:info:",
-            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC9onCloseAd_4infoySo0defG0C_0A3SDK0A4InfoCtF",
-            "moduleName": "BidmadFlutterBridge",
-            "objc_name": "onCloseAd:info:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo",
-        "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC",
-        "moduleName": "BidmadFlutterBridge",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl",
-          "ObjCMembers",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
-        "declKind": "Import",
         "moduleName": "BidmadFlutterBridge",
         "declAttributes": [
           "RawDocComment"
@@ -1494,7 +1040,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "OpenBiddingInterstitial",
-                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
+                "printedName": "BidmadFlutterBridge.OpenBiddingInterstitial",
                 "usr": "c:objc(cs)OpenBiddingInterstitial"
               },
               {
@@ -1530,7 +1076,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "OpenBiddingInterstitial",
-                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
+                "printedName": "BidmadFlutterBridge.OpenBiddingInterstitial",
                 "usr": "c:objc(cs)OpenBiddingInterstitial"
               },
               {
@@ -1566,7 +1112,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "OpenBiddingInterstitial",
-                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
+                "printedName": "BidmadFlutterBridge.OpenBiddingInterstitial",
                 "usr": "c:objc(cs)OpenBiddingInterstitial"
               },
               {
@@ -1608,7 +1154,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "OpenBiddingInterstitial",
-                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
+                "printedName": "BidmadFlutterBridge.OpenBiddingInterstitial",
                 "usr": "c:objc(cs)OpenBiddingInterstitial"
               },
               {
@@ -1644,7 +1190,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "OpenBiddingInterstitial",
-                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
+                "printedName": "BidmadFlutterBridge.OpenBiddingInterstitial",
                 "usr": "c:objc(cs)OpenBiddingInterstitial"
               },
               {
@@ -1680,7 +1226,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "OpenBiddingInterstitial",
-                "printedName": "OpenBiddingHelper.OpenBiddingInterstitial",
+                "printedName": "BidmadFlutterBridge.OpenBiddingInterstitial",
                 "usr": "c:objc(cs)OpenBiddingInterstitial"
               },
               {
@@ -1783,206 +1329,660 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadFlutterBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "BidmadFlutterBridge"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OpenBiddingFlutterRewardVideo",
+        "printedName": "OpenBiddingFlutterRewardVideo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(registrar:channelName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingFlutterRewardVideo",
+                "printedName": "BidmadFlutterBridge.OpenBiddingFlutterRewardVideo",
+                "usr": "c:@M@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)initWithRegistrar:channelName:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC9registrar11channelNameACSo0B15PluginRegistrar_p_SStcfc",
+            "moduleName": "BidmadFlutterBridge",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingFlutterRewardVideo",
+                "printedName": "BidmadFlutterBridge.OpenBiddingFlutterRewardVideo",
+                "usr": "c:@M@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)init",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoCACycfc",
+            "moduleName": "BidmadFlutterBridge",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onLoadAd",
+            "printedName": "onLoadAd(_:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "BidmadFlutterBridge.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onLoadAd:info:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC8onLoadAd_4infoySo0defG0C_0A3SDK0A4InfoCtF",
+            "moduleName": "BidmadFlutterBridge",
+            "objc_name": "onLoadAd:info:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onLoadFailAd",
+            "printedName": "onLoadFailAd(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "BidmadFlutterBridge.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onLoadFailAd:error:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC12onLoadFailAd_5errorySo0defG0C_s5Error_ptF",
+            "moduleName": "BidmadFlutterBridge",
+            "objc_name": "onLoadFailAd:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onShowAd",
+            "printedName": "onShowAd(_:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "BidmadFlutterBridge.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onShowAd:info:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC8onShowAd_4infoySo0defG0C_0A3SDK0A4InfoCtF",
+            "moduleName": "BidmadFlutterBridge",
+            "objc_name": "onShowAd:info:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onShowFailAd",
+            "printedName": "onShowFailAd(_:info:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "BidmadFlutterBridge.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onShowFailAd:info:error:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC12onShowFailAd_4info5errorySo0defG0C_0A3SDK0A4InfoCs5Error_ptF",
+            "moduleName": "BidmadFlutterBridge",
+            "objc_name": "onShowFailAd:info:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClickAd",
+            "printedName": "onClickAd(_:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "BidmadFlutterBridge.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onClickAd:info:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC9onClickAd_4infoySo0defG0C_0A3SDK0A4InfoCtF",
+            "moduleName": "BidmadFlutterBridge",
+            "objc_name": "onClickAd:info:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSkipAd",
+            "printedName": "onSkipAd(_:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "BidmadFlutterBridge.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onSkipAd:info:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC8onSkipAd_4infoySo0defG0C_0A3SDK0A4InfoCtF",
+            "moduleName": "BidmadFlutterBridge",
+            "objc_name": "onSkipAd:info:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCompleteAd",
+            "printedName": "onCompleteAd(_:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "BidmadFlutterBridge.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onCompleteAd:info:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC12onCompleteAd_4infoySo0defG0C_0A3SDK0A4InfoCtF",
+            "moduleName": "BidmadFlutterBridge",
+            "objc_name": "onCompleteAd:info:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCloseAd",
+            "printedName": "onCloseAd(_:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenBiddingRewardVideo",
+                "printedName": "BidmadFlutterBridge.OpenBiddingRewardVideo",
+                "usr": "c:objc(cs)OpenBiddingRewardVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInfo",
+                "printedName": "BidmadSDK.BidmadInfo",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo(im)onCloseAd:info:",
+            "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC9onCloseAd_4infoySo0defG0C_0A3SDK0A4InfoCtF",
+            "moduleName": "BidmadFlutterBridge",
+            "objc_name": "onCloseAd:info:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadFlutterBridge@objc(cs)OpenBiddingFlutterRewardVideo",
+        "mangledName": "$s19BidmadFlutterBridge011OpenBiddingB11RewardVideoC",
+        "moduleName": "BidmadFlutterBridge",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "BooleanLiteral",
       "offset": 698,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "BooleanLiteral",
       "offset": 740,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
       "offset": 905,
       "length": 28,
       "value": "\"setBannerContainerForGame:\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
       "offset": 6947,
       "length": 10,
       "value": "\"onLoadAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
       "offset": 6979,
       "length": 10,
       "value": "\"onFailAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
       "offset": 7012,
       "length": 11,
       "value": "\"onClickAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterRewardVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 93,
-      "length": 12,
-      "value": "\"makeReward\""
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterRewardVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 122,
-      "length": 6,
-      "value": "\"load\""
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterRewardVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 145,
-      "length": 6,
-      "value": "\"show\""
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterRewardVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 172,
-      "length": 10,
-      "value": "\"isLoaded\""
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterRewardVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 202,
-      "length": 9,
-      "value": "\"release\""
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterRewardVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 271,
-      "length": 10,
-      "value": "\"onLoadAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterRewardVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
-      "length": 10,
-      "value": "\"onShowAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterRewardVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 334,
-      "length": 11,
-      "value": "\"onCloseAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterRewardVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 366,
-      "length": 10,
-      "value": "\"onFailAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterRewardVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 398,
-      "length": 11,
-      "value": "\"onClickAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterRewardVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 430,
-      "length": 10,
-      "value": "\"onSkipAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterRewardVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 465,
-      "length": 14,
-      "value": "\"onCompleteAd\""
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 18,
       "value": "\"makeInterstitial\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 261,
       "length": 6,
       "value": "\"load\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 284,
       "length": 6,
       "value": "\"show\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 10,
       "value": "\"isLoaded\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 341,
       "length": 9,
       "value": "\"release\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 410,
       "length": 10,
       "value": "\"onLoadAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 441,
       "length": 10,
       "value": "\"onShowAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 473,
       "length": 11,
       "value": "\"onCloseAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 505,
       "length": 10,
       "value": "\"onFailAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 11,
       "value": "\"onClickAd\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 93,
+      "length": 12,
+      "value": "\"makeReward\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 122,
+      "length": 6,
+      "value": "\"load\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 6,
+      "value": "\"show\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 10,
+      "value": "\"isLoaded\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 9,
+      "value": "\"release\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 10,
+      "value": "\"onLoadAd\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 10,
+      "value": "\"onShowAd\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 11,
+      "value": "\"onCloseAd\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 10,
+      "value": "\"onFailAd\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 11,
+      "value": "\"onClickAd\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 10,
+      "value": "\"onSkipAd\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 465,
+      "length": 14,
+      "value": "\"onCompleteAd\""
     }
   ]
 }

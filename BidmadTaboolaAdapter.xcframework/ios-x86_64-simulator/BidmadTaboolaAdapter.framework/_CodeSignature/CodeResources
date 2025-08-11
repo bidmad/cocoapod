@@ -4,41 +4,56 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/BidmadTaboolaAdapter-Swift.h</key>
+		<data>
+		ajWQkP34td+y6uRxPnvKWxQEVz8=
+		</data>
 		<key>Headers/BidmadTaboolaAdapter.h</key>
 		<data>
 		FofNUqqkuJNHNDQG/uINYU0QQmI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		H2BlsP8JZigqx/0QSFgf79J9A6Y=
+		URxM5+FVcrE9y3eMaV6VwXB/P6g=
 		</data>
 		<key>Modules/BidmadTaboolaAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yeyy34huNCF6jeI0cL2Wmf6O964=
+		IJx/jNgTYpt5CLyeQR58v/GIntg=
 		</data>
 		<key>Modules/BidmadTaboolaAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9FbKCX4QasUn7QkpR+xZ6h67cAY=
+		mkBvhUqy+P9vDTcWnpmNpJdsUss=
 		</data>
 		<key>Modules/BidmadTaboolaAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+7WDkb5yuhYY5juFlcT/BrbDmz0=
+		rlfDO79METuXms6H2IE9Ic1hW+c=
 		</data>
 		<key>Modules/BidmadTaboolaAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9FbKCX4QasUn7QkpR+xZ6h67cAY=
+		mkBvhUqy+P9vDTcWnpmNpJdsUss=
 		</data>
 		<key>Modules/BidmadTaboolaAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rMRfJvnYQhS0rcJFkKH9gYAO118=
+		PayP8D19LMhmLKmNNG1TXr5Rgnk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		R5B0Xm6WvYQvo5+dUUtR2VWMTcM=
+		H3nc1/VIg+6xC6rmjp6KXzEK6zw=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/BidmadTaboolaAdapter-Swift.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ajWQkP34td+y6uRxPnvKWxQEVz8=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ul2CzO+S5ePFTzCbkr2kz2LjYhSxJlvbD2qO+gUV+Yg=
+			</data>
+		</dict>
 		<key>Headers/BidmadTaboolaAdapter.h</key>
 		<dict>
 			<key>hash</key>
@@ -54,66 +69,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yeyy34huNCF6jeI0cL2Wmf6O964=
+			IJx/jNgTYpt5CLyeQR58v/GIntg=
 			</data>
 			<key>hash2</key>
 			<data>
-			DoqzzvL6D3Bze7mHn35hGdDymFhpFP/Cb+ZsPLtaSLM=
+			299nBKVa2pbYBMoqo7P7l6vhNhCGK0VMIGSOnlRw1jc=
 			</data>
 		</dict>
 		<key>Modules/BidmadTaboolaAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9FbKCX4QasUn7QkpR+xZ6h67cAY=
+			mkBvhUqy+P9vDTcWnpmNpJdsUss=
 			</data>
 			<key>hash2</key>
 			<data>
-			ON+75HEx02N6hlbLp4pfH1DQAyyvRhuFbh7isu6QnbM=
+			2Iss8YHLQJP0oCpxUK3Lo4nTavpYH63Ot+sghsKqNgE=
 			</data>
 		</dict>
 		<key>Modules/BidmadTaboolaAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+7WDkb5yuhYY5juFlcT/BrbDmz0=
+			rlfDO79METuXms6H2IE9Ic1hW+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			0J9VOmta0aPRP4Ab4q33vLJOIzT4UOr6RDjx/vDvms4=
+			zI8SUP9Gjx94yFQlF1xmqyVzpr7sZjb75HkU1LxgAkg=
 			</data>
 		</dict>
 		<key>Modules/BidmadTaboolaAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9FbKCX4QasUn7QkpR+xZ6h67cAY=
+			mkBvhUqy+P9vDTcWnpmNpJdsUss=
 			</data>
 			<key>hash2</key>
 			<data>
-			ON+75HEx02N6hlbLp4pfH1DQAyyvRhuFbh7isu6QnbM=
+			2Iss8YHLQJP0oCpxUK3Lo4nTavpYH63Ot+sghsKqNgE=
 			</data>
 		</dict>
 		<key>Modules/BidmadTaboolaAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rMRfJvnYQhS0rcJFkKH9gYAO118=
+			PayP8D19LMhmLKmNNG1TXr5Rgnk=
 			</data>
 			<key>hash2</key>
 			<data>
-			AAOgsBO3Us+kmXZ7VYi8E+F76gGWCd6ToJuxVKd1QOo=
+			7y7U+2I0N6pTqKJNT5trgTWfclEOavcUhK4sJg+LVis=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R5B0Xm6WvYQvo5+dUUtR2VWMTcM=
+			H3nc1/VIg+6xC6rmjp6KXzEK6zw=
 			</data>
 			<key>hash2</key>
 			<data>
-			bn5bcIDNYje+NYCB6brUZJ1LeWgMiJ1i5OOzteby8k8=
+			gsdaHYyMxkVZ9pPV6+VTlbdpP3Xf/BCKmsUhyVxb3us=
 			</data>
 		</dict>
 	</dict>

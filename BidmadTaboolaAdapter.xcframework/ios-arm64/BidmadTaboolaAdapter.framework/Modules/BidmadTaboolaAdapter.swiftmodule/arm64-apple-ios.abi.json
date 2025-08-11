@@ -563,149 +563,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "BidmadInterstitialTaboolaAdapterSupportChecker",
-        "printedName": "BidmadInterstitialTaboolaAdapterSupportChecker",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "isSupported",
-            "printedName": "isSupported()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@BidmadTaboolaAdapter@objc(cs)BidmadInterstitialTaboolaAdapterSupportChecker(cm)isSupported",
-            "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC14SupportCheckerC11isSupportedSbyFZ",
-            "moduleName": "BidmadTaboolaAdapter",
-            "static": true,
-            "objc_name": "isSupported",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BidmadInterstitialTaboolaAdapterSupportChecker",
-                "printedName": "BidmadTaboolaAdapter.BidmadInterstitialTaboolaAdapterSupportChecker",
-                "usr": "c:@M@BidmadTaboolaAdapter@objc(cs)BidmadInterstitialTaboolaAdapterSupportChecker"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@BidmadTaboolaAdapter@objc(cs)BidmadInterstitialTaboolaAdapterSupportChecker(im)init",
-            "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC14SupportCheckerCACycfc",
-            "moduleName": "BidmadTaboolaAdapter",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@BidmadTaboolaAdapter@objc(cs)BidmadInterstitialTaboolaAdapterSupportChecker",
-        "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC14SupportCheckerC",
-        "moduleName": "BidmadTaboolaAdapter",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
-        "declKind": "Import",
-        "moduleName": "BidmadTaboolaAdapter"
-      },
-      {
-        "kind": "TypeDecl",
         "name": "BidmadBannerTaboolaAdapterSupportChecker",
         "printedName": "BidmadBannerTaboolaAdapterSupportChecker",
         "children": [
@@ -851,30 +708,6 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "BidmadTaboolaAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
-        "declKind": "Import",
-        "moduleName": "BidmadTaboolaAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BidmadTaboolaAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "TaboolaSDK",
-        "printedName": "TaboolaSDK",
         "declKind": "Import",
         "moduleName": "BidmadTaboolaAdapter"
       },
@@ -1415,6 +1248,156 @@
       },
       {
         "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadTaboolaAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadInterstitialTaboolaAdapterSupportChecker",
+        "printedName": "BidmadInterstitialTaboolaAdapterSupportChecker",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSupported",
+            "printedName": "isSupported()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadTaboolaAdapter@objc(cs)BidmadInterstitialTaboolaAdapterSupportChecker(cm)isSupported",
+            "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC14SupportCheckerC11isSupportedSbyFZ",
+            "moduleName": "BidmadTaboolaAdapter",
+            "static": true,
+            "objc_name": "isSupported",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInterstitialTaboolaAdapterSupportChecker",
+                "printedName": "BidmadTaboolaAdapter.BidmadInterstitialTaboolaAdapterSupportChecker",
+                "usr": "c:@M@BidmadTaboolaAdapter@objc(cs)BidmadInterstitialTaboolaAdapterSupportChecker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadTaboolaAdapter@objc(cs)BidmadInterstitialTaboolaAdapterSupportChecker(im)init",
+            "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC14SupportCheckerCACycfc",
+            "moduleName": "BidmadTaboolaAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadTaboolaAdapter@objc(cs)BidmadInterstitialTaboolaAdapterSupportChecker",
+        "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC14SupportCheckerC",
+        "moduleName": "BidmadTaboolaAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadTaboolaAdapter"
+      },
+      {
+        "kind": "Import",
         "name": "TaboolaSDK",
         "printedName": "TaboolaSDK",
         "declKind": "Import",
@@ -1424,6 +1407,23 @@
         "kind": "Import",
         "name": "BidmadSDK",
         "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadTaboolaAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadTaboolaAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "TaboolaSDK",
+        "printedName": "TaboolaSDK",
         "declKind": "Import",
         "moduleName": "BidmadTaboolaAdapter"
       },
@@ -1439,39 +1439,39 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadTaboolaResponseManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 93,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadBannerTaboolaAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/Sources\/BidmadBannerTaboolaAdapter.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 28,
       "value": "\"BidmadBannerTaboolaAdapter\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadInterstitialTaboolaAdContainer.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/Sources\/BidmadInterstitialTaboolaAdContainer.swift",
       "kind": "BooleanLiteral",
       "offset": 1349,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadTaboolaManager.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/Sources\/BidmadInterstitialTaboolaAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 34,
+      "value": "\"BidmadInterstitialTaboolaAdapter\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/Sources\/BidmadTaboolaManager.swift",
       "kind": "StringLiteral",
       "offset": 272,
       "length": 22,
       "value": "\"BidmadTaboolaManager\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/BidmadInterstitialTaboolaAdapter.swift",
-      "kind": "StringLiteral",
-      "offset": 298,
-      "length": 34,
-      "value": "\"BidmadInterstitialTaboolaAdapter\""
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/Sources\/BidmadTaboolaResponseManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 93,
+      "length": 5,
+      "value": "false"
     }
   ]
 }

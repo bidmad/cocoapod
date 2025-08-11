@@ -343,14 +343,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdFitAdapter\/BidmadNativeAdFitAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdFitAdapter\/Sources\/BidmadNativeAdFitAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 291,
       "length": 8,
       "value": "21674184"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdFitAdapter\/BidmadNativeAdFitAdapter.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdFitAdapter\/Sources\/BidmadNativeAdFitAdapter.swift",
       "kind": "IntegerLiteral",
       "offset": 946,
       "length": 1,

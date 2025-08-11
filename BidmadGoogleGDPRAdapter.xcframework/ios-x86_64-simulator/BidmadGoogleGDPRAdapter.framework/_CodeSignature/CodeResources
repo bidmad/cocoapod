@@ -4,116 +4,146 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/BidmadAdmixerAdapter-Swift.h</key>
+		<key>Headers/BidmadGoogleGDPRAdapter-Swift.h</key>
 		<data>
-		fBSj272eXms2D3NdJc4sia5ia9o=
+		M2LGCfvRT8cwLUxJnnbj4YXlrjg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8LQf/tE0PlUeXrCdb88TwrA/udk=
+		JBq+pvMqWnNcFyQXMhhU5rz936o=
 		</data>
-		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		45VPFY33SOJx81c7+usjKE5vU0I=
+		Ll+iIhos67Km2i7nl0VYY2n37mw=
 		</data>
-		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KwrpBVST/JgO6bsu7MJu6i/bQVM=
+		CPIueJWGfc2GP9xj1S4Up3810Dw=
 		</data>
-		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		V2y7bYEfCh7I9RonF1+uqwUHkTE=
+		IpmTZvdoDAaLChCCqrfbMbXNL9A=
 		</data>
-		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KwrpBVST/JgO6bsu7MJu6i/bQVM=
+		CPIueJWGfc2GP9xj1S4Up3810Dw=
 		</data>
-		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aezbEgFl+kpUxo+9nXcfRNS7OhE=
+		l6NDsTXX7YQJo+vC6CeMiNnYmJM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		AZMNuBHWFd/7ygfyDuTYq3J3pt8=
+		jF9wqLrYlV2sgnpR7SpPfPZ5MY4=
+		</data>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<data>
+		SAONaZrmfw6DmYIo+PePapPL4nI=
+		</data>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		k9OFlDPBRWfteJ+bfG12WAoBuls=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/BidmadAdmixerAdapter-Swift.h</key>
+		<key>Headers/BidmadGoogleGDPRAdapter-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fBSj272eXms2D3NdJc4sia5ia9o=
+			M2LGCfvRT8cwLUxJnnbj4YXlrjg=
 			</data>
 			<key>hash2</key>
 			<data>
-			KTBL1SQShioj/KKVjptO9hMMmus8jFNRAXP+O6edGRs=
+			l4l5+m1mRvLJ5XXo5Ya11zMSicQacMExTVLYdT7hQ6c=
 			</data>
 		</dict>
-		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			45VPFY33SOJx81c7+usjKE5vU0I=
+			Ll+iIhos67Km2i7nl0VYY2n37mw=
 			</data>
 			<key>hash2</key>
 			<data>
-			AkImRplAmdYBfMHSshMGh+/0hb/SSHhiP0Pyl2IdQRY=
+			dbPYH+AMFOdn+z8b7Y7dR9XZgXhCynKRoQh1aUddN+0=
 			</data>
 		</dict>
-		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KwrpBVST/JgO6bsu7MJu6i/bQVM=
+			CPIueJWGfc2GP9xj1S4Up3810Dw=
 			</data>
 			<key>hash2</key>
 			<data>
-			iWEhZn3DHsR9gHj8qArlm86E0dp0dPFB5Gj2EN/N2oM=
+			ebBWDW8OlaV0DJ8zOaqzDwbD600W7/D6HisfNcDrqYI=
 			</data>
 		</dict>
-		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V2y7bYEfCh7I9RonF1+uqwUHkTE=
+			IpmTZvdoDAaLChCCqrfbMbXNL9A=
 			</data>
 			<key>hash2</key>
 			<data>
-			qtyVNpYQYWZU6rmH3sZ0jw8ZLudEhQQIrwo2ohc8uZk=
+			He28zwzy7itZQiQuUc3GEXnIvUbA6hG2WIQcHI9sCVw=
 			</data>
 		</dict>
-		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KwrpBVST/JgO6bsu7MJu6i/bQVM=
+			CPIueJWGfc2GP9xj1S4Up3810Dw=
 			</data>
 			<key>hash2</key>
 			<data>
-			iWEhZn3DHsR9gHj8qArlm86E0dp0dPFB5Gj2EN/N2oM=
+			ebBWDW8OlaV0DJ8zOaqzDwbD600W7/D6HisfNcDrqYI=
 			</data>
 		</dict>
-		<key>Modules/BidmadAdmixerAdapter.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aezbEgFl+kpUxo+9nXcfRNS7OhE=
+			l6NDsTXX7YQJo+vC6CeMiNnYmJM=
 			</data>
 			<key>hash2</key>
 			<data>
-			wH+f3jhyQj6n5KK9YpLcmadRrzvq9JppGGCipIEcT0U=
+			omL42nxffLxHCB8fzNLHABhG6XEPT+V2VNJBamXV60g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AZMNuBHWFd/7ygfyDuTYq3J3pt8=
+			jF9wqLrYlV2sgnpR7SpPfPZ5MY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			p6OrzqUTd7dKq1MkDzk/7m0hKJh/azRe0vNpwNxbfKM=
+			f0KKnz+WKaL8AD5PgdbBXeY047jDqDw042u3P/vMoNg=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SAONaZrmfw6DmYIo+PePapPL4nI=
+			</data>
+			<key>hash2</key>
+			<data>
+			djRHrLQqZJwdaHkRIJqJdJ6YLnwyBVaxpYnYbUNoKUU=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k9OFlDPBRWfteJ+bfG12WAoBuls=
+			</data>
+			<key>hash2</key>
+			<data>
+			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=
 			</data>
 		</dict>
 	</dict>

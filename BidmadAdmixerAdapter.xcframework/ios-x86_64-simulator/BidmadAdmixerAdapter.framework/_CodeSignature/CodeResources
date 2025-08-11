@@ -10,27 +10,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		V1PSE1xDCsfqIGrXCww7nQmFl7w=
+		vMcpMkW5lqCdKVjmu3RbHv7Nkxk=
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		45VPFY33SOJx81c7+usjKE5vU0I=
+		z/A2VWwrC42SQLdhC/OcF9l6FRc=
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kduP8w3Uhbn/McZrU+NGP2aoauU=
+		Em5oWNZB5To+UT28P9pLjjU7sUc=
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1aZeTySg979peab/rKofgYrLMZo=
+		uvM2xtjRa+tzSZ3EFRB7W5ZW39s=
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kduP8w3Uhbn/McZrU+NGP2aoauU=
+		Em5oWNZB5To+UT28P9pLjjU7sUc=
 		</data>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JpImtEYSzLEMIYUml8WUMDmlL8Q=
+		gq2gc+CG/8omUQV1RK07sz8b06I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,55 +54,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			45VPFY33SOJx81c7+usjKE5vU0I=
+			z/A2VWwrC42SQLdhC/OcF9l6FRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			AkImRplAmdYBfMHSshMGh+/0hb/SSHhiP0Pyl2IdQRY=
+			XSMuwxkV57RGbKaQz/60tdhS45oFvG36y+NBV8M+8U4=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kduP8w3Uhbn/McZrU+NGP2aoauU=
+			Em5oWNZB5To+UT28P9pLjjU7sUc=
 			</data>
 			<key>hash2</key>
 			<data>
-			RtTkMoqROuGhUQoML2sHDmXlQBu3Y95flsk/+AOitIw=
+			i9tWYuhg4U59QRuH+637lEWfXB2Ybc/Q46Z90CDnCqc=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1aZeTySg979peab/rKofgYrLMZo=
+			uvM2xtjRa+tzSZ3EFRB7W5ZW39s=
 			</data>
 			<key>hash2</key>
 			<data>
-			POs43ZoQyStkbyELZLD1/2VN57fRLRV8fyjqL9wKXd0=
+			CMv9DHWVz7bPzs7FF369ieeiP9tf00Po02pUmzdY1YQ=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kduP8w3Uhbn/McZrU+NGP2aoauU=
+			Em5oWNZB5To+UT28P9pLjjU7sUc=
 			</data>
 			<key>hash2</key>
 			<data>
-			RtTkMoqROuGhUQoML2sHDmXlQBu3Y95flsk/+AOitIw=
+			i9tWYuhg4U59QRuH+637lEWfXB2Ybc/Q46Z90CDnCqc=
 			</data>
 		</dict>
 		<key>Modules/BidmadAdmixerAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JpImtEYSzLEMIYUml8WUMDmlL8Q=
+			gq2gc+CG/8omUQV1RK07sz8b06I=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xc9Sef6NtePpbmGo884PJgSBfjSWJCFNXTfk75oWgpY=
+			HzomNbCo1uf14NrZwdhtLZp214PJ3DW+dksLHq1TUsI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

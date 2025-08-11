@@ -911,77 +911,77 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/BidmadFullscreenAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
       "offset": 970,
       "length": 20,
       "value": "\"BidmadFullscreenAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/BidmadFullscreenAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
       "offset": 1045,
       "length": 47,
       "value": "\"Techlabs.OpenBiddingHelper.BidmadFullscreenAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/BidmadFullscreenAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "BooleanLiteral",
       "offset": 1308,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/BidmadFullscreenAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
       "offset": 5708,
       "length": 6,
       "value": "\"IDLE\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/BidmadFullscreenAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
       "offset": 5758,
       "length": 8,
       "value": "\"LOADED\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/BidmadFullscreenAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
       "offset": 5811,
       "length": 9,
       "value": "\"LOADING\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/BidmadFullscreenAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
       "offset": 5868,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/BidmadFullscreenAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
       "offset": 5904,
       "length": 61,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/BidmadFullscreenAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
       "offset": 5922,
       "length": 1,
       "value": "\": [Status: \""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/BidmadFullscreenAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
       "offset": 5942,
       "length": 1,
       "value": "\"] [ID: \""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/BidmadFullscreenAd.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
       "offset": 5963,
       "length": 1,

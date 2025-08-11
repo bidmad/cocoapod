@@ -4,3 +4,8 @@ framework module BidmadCoviAdapter {
 
   module * { export * }
 }
+
+module BidmadCoviAdapter.Swift {
+  header "BidmadCoviAdapter-Swift.h"
+  requires objc
+}

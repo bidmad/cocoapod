@@ -32,9 +32,8 @@ typedef NS_ENUM(NSUInteger, BIDMAD_UMPConsentStatus) {
 
 @interface BIDMADGDPRforGoogle : NSObject
 
-@property (nonatomic) BOOL underAgeOfConsent;
 @property (nonatomic, strong) UIViewController *parentViewController;
-@property (nonatomic, strong) id<BIDMADGDPRforGoogleProtocol> consentStatusDelegate;
+@property (nonatomic, weak) id<BIDMADGDPRforGoogleProtocol> consentStatusDelegate;
 
 - (instancetype)init NS_UNAVAILABLE;
 -(id)initWith:(UIViewController* _Nullable)controller;

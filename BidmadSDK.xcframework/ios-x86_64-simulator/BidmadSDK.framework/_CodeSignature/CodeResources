@@ -16,6 +16,10 @@
 		<data>
 		jHOOhlOu1dAuU8Sh12H+4nl8EfM=
 		</data>
+		<key>Headers/BIDMADGDPRforGoogle.h</key>
+		<data>
+		eWO4Eii+bgoCwr/qoo+6lx5UrIk=
+		</data>
 		<key>Headers/BIDMADNativeAd.h</key>
 		<data>
 		Yn+V7BD0ntQO1zpLKks3N4DI+hM=
@@ -110,11 +114,11 @@
 		</data>
 		<key>Headers/BidmadSDK-Swift.h</key>
 		<data>
-		zFLe5639vILZF+usIE25jo4VyXo=
+		GSsCb2ZC7UTHUCkgzV9TDwr+2MA=
 		</data>
 		<key>Headers/BidmadSDK.h</key>
 		<data>
-		my+K1A2gAscjebbGf/WjyA02QBU=
+		BL3J8ejL8c2yYBh1Eyle8jR9S2M=
 		</data>
 		<key>Headers/BidmadSendLogDelegate.h</key>
 		<data>
@@ -124,6 +128,14 @@
 		<data>
 		5b306XS/dAri03Knu1oxWiDaf1g=
 		</data>
+		<key>Headers/Cocos2dxCommon.h</key>
+		<data>
+		mgYrpHHFyhTITR8dGuXoP33sYKg=
+		</data>
+		<key>Headers/Cocos2dxGDPRforGoogle.h</key>
+		<data>
+		/LSILgXK878eewS/OPcDKfLM1Vk=
+		</data>
 		<key>Headers/NSArray+HigherOrderFunctionsForADOP.h</key>
 		<data>
 		iJ5zQcjjV0pX08B5t/l8t0lJWL0=
@@ -132,33 +144,49 @@
 		<data>
 		TFjDh6DYjZrbtDtMKTC5KtL+2vM=
 		</data>
+		<key>Headers/UnityGDPRforGoogle.h</key>
+		<data>
+		3xe/6shoTYEUDPxf3NHBbWgdWiY=
+		</data>
+		<key>Headers/UnrealCommon.h</key>
+		<data>
+		YHd0yksa3paLF/dc93mriLSCRlo=
+		</data>
+		<key>Headers/UnrealGDPRforGoogle.h</key>
+		<data>
+		+Ifra+15O4c6LqmXbwIjWBB682c=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		7ZQgOEbtOSsbPeoEYuscvvIpTG4=
+		6YxcBDfIyazBOsoG2ZKPHTFFxIU=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		qXFqAlx9mpg097REqwZh0U61Nq8=
+		ty9h+iM2Kxys4EJ8M9YNcRsu6EQ=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XWXh7PgFCbJo1LARD+ZiFH341kI=
+		v74UxUad7gWqIMwJSxmXp24/ZLA=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zaO0hSrchZyn+YRSRhviV4doKgw=
+		uP5RWq51rJU+s+FMIav/0BICCt4=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XWXh7PgFCbJo1LARD+ZiFH341kI=
+		v74UxUad7gWqIMwJSxmXp24/ZLA=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mpgUzdiNwquBnWPh0sRAukW4zmI=
+		z+TTNvUdpP4W0f4pmFGP1iDEGfs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		hHTtDwVlpKotGtGkT690kN+6vB8=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		c6Nc6qxeFpQxKx6AuxXtfKyqkmA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -182,6 +210,13 @@
 			<key>hash2</key>
 			<data>
 			nSVgnikifxlWGX/4hYgWnz+hs+zZrs21CziX5b6WXqc=
+			</data>
+		</dict>
+		<key>Headers/BIDMADGDPRforGoogle.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PYvHNHVcvW4+nZCY2R76A03NCxoo/CDR6y5sDeyKXH8=
 			</data>
 		</dict>
 		<key>Headers/BIDMADNativeAd.h</key>
@@ -349,14 +384,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ufHRfgu6S01t7Czzvzim7OvOb4JL1Hj9x5AudmvZ8c8=
+			7e2SkW5dfGOwjuZueQkNwvJ8dCnF3K3W7+WBcai7F0I=
 			</data>
 		</dict>
 		<key>Headers/BidmadSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dEvMIQvN/+/l4ueoNjIYMwODJOdqTrXwIUau7QZOnDY=
+			qGEYlyA0O4ZJn8jNy4EJHcLzpAAVc1pe2VlkBpX3DIA=
 			</data>
 		</dict>
 		<key>Headers/BidmadSendLogDelegate.h</key>
@@ -373,6 +408,20 @@
 			bAOeaf2p7o3DEmwQ5wPG8Ks6QXzsRJHuaWXVmZBPNe0=
 			</data>
 		</dict>
+		<key>Headers/Cocos2dxCommon.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dV2/fNuoWGq09IkgUEOdiUqCJXeKNxCv66GVP+nkiJI=
+			</data>
+		</dict>
+		<key>Headers/Cocos2dxGDPRforGoogle.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zLgpfY9WAB9n6F8z5FdVj6h0zdd7BkEpkkqyUowaXHs=
+			</data>
+		</dict>
 		<key>Headers/NSArray+HigherOrderFunctionsForADOP.h</key>
 		<dict>
 			<key>hash2</key>
@@ -387,39 +436,60 @@
 			BxTypD8iDbAUCyd6TbVx3mjkCKLBtUkg3rDQwmOIKXM=
 			</data>
 		</dict>
+		<key>Headers/UnityGDPRforGoogle.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G9X1IsZwfcCeFq1R86/LtZaIpCaaVFf59p1binLvlTQ=
+			</data>
+		</dict>
+		<key>Headers/UnrealCommon.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ji0nrtLoLKi7OIzQVbzDp7pJwB0sAPgIyvuXGKCXRA4=
+			</data>
+		</dict>
+		<key>Headers/UnrealGDPRforGoogle.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VxtgLPXHouadxZMHZVrC+sEWffmNDbxkhX93IuDR9xA=
+			</data>
+		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/wNdxR4uA/QDUOZ2f387Ozt2iPcyxHitZ5Ci2TXS8Ik=
+			THeXTN9F2npCqnzy9QZQbY9DFLdINZbRdTyQmiyObdU=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Pwv75NlrmATKZIouXrR9CGLSHp5BNEAxC0bAE8GSbc=
+			hoFTyoblo38HLf3M0JUDvXyeAemkOD0nTFgt8uOyfF4=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5DCgkD2/c6Dl4FXy7nr8PZlv9x7yR53Znax7HoI5XKo=
+			0OrT5MExMXEKtfRzbYoQ54jQsxJFpf2jfX6XE7jOW9o=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Pwv75NlrmATKZIouXrR9CGLSHp5BNEAxC0bAE8GSbc=
+			hoFTyoblo38HLf3M0JUDvXyeAemkOD0nTFgt8uOyfF4=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L9108H1zFHS0uIsHKJrNr81/ldddSGvPPNdSIOJXYK4=
+			lXHae5OSW+vv32VQrHn5eCvLErBom3voxipxpbDs5m8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -427,6 +497,13 @@
 			<key>hash2</key>
 			<data>
 			jEfjxolqkVpklE3jCFyqjVinbSSqiBTjfKSu6OHmkGI=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			n+cD3K33J8W0/iIijaivadQ8qeAm1gxw5F8/Aw8MJwI=
 			</data>
 		</dict>
 	</dict>

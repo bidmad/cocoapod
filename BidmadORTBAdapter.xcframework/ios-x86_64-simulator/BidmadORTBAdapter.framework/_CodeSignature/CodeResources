@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BidmadORTBAdapter-Swift.h</key>
 		<data>
-		+IepxGtXgHVYYJOqf+MmESeAVsY=
+		ZrlEhzutHv1Xie5fG4rcrtyauJU=
 		</data>
 		<key>Headers/BidmadORTBAdapter.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2OB84MfiKuWaWPnpnZt0r6FNft8=
+		/yEdT74jt/7hoB//h4WJWHeFJqo=
 		</data>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		62Pl5C3PAoqZ4G9bPITGhxCHe/k=
+		U4tEqXV3aVJjTJcdEU1QwWgL66o=
 		</data>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rGYc7rRVwb8WLVyIGWQqFw1ut8I=
+		0qz4k5VQGfs5hMq1DP0sORIHsgs=
 		</data>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mTXwkJBHjxlL7Ie0WIsJlUaHXY8=
+		8NUCpLCpasUGnBC5fclX8VoiiZ4=
 		</data>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rGYc7rRVwb8WLVyIGWQqFw1ut8I=
+		0qz4k5VQGfs5hMq1DP0sORIHsgs=
 		</data>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		W8I89/EhCSvIOwo6OE6ZufQnjOA=
+		NzSdftkARxo+iRU2xiIFxJiibt8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			le30sjIKn2bFGebNE+GI3SR92O0X41Ce935e9uVM5WA=
+			8HMLl8qSU2o4efEaGFzkriIJQABXp4agFaDUqnCr8eU=
 			</data>
 		</dict>
 		<key>Headers/BidmadORTBAdapter.h</key>
@@ -73,35 +73,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W3qPiCZU85O9MjY6c+VcGX+gJfnGAVsXoF0ydfIbDH4=
+			oILeIHBaqBCDD/v0zovqiKdmZ9/KJEbZ1urhvz0cpJw=
 			</data>
 		</dict>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9mG+7RRzbkMIjcQdfduLMKGh33DSpRB6g2NqKzqB+1Y=
+			vyE6l5G0USXa3TLjBaS7H2LcmugUfpiGJM2ii6uj+5M=
 			</data>
 		</dict>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y08AB/QEF7lrEdwHHvb+pCRjsxjJTZFcoYcfHGeudvE=
+			4s1fNlE0hgISc/lwq7iK2Nx47qVjuSbdT1gKWcaQL5I=
 			</data>
 		</dict>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9mG+7RRzbkMIjcQdfduLMKGh33DSpRB6g2NqKzqB+1Y=
+			vyE6l5G0USXa3TLjBaS7H2LcmugUfpiGJM2ii6uj+5M=
 			</data>
 		</dict>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Eh8wdSOKdCRpYwSMNAvTDIN5nXdm6IMgjTBq4CHPtQo=
+			yHAYCYRPo8UfM735FCKsxjx+P/+2QSS3ksxWeJZre74=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

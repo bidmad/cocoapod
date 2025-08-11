@@ -4,3 +4,8 @@ framework module BidmadFlutterBridge {
 
   module * { export * }
 }
+
+module BidmadFlutterBridge.Swift {
+  header "BidmadFlutterBridge-Swift.h"
+  requires objc
+}

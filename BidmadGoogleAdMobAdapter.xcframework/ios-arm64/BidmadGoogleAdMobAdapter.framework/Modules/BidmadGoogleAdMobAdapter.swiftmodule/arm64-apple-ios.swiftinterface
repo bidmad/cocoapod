@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BidmadGoogleAdMobAdapter
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BidmadGoogleAdMobAdapter
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 @_exported import BidmadGoogleAdMobAdapter
 import BidmadSDK
@@ -9,28 +9,9 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @objc public class BidmadGoogleAdMobAdapterInfo : ObjectiveC.NSObject, BidmadSDK.BidmadAdapterInfo {
-  @objc public static func adapterVersion() -> Swift.String
-  @objc public static func adNetworkSdkVersion() -> Swift.String
-  @objc public static func initializeAdNetworkSDK()
-  @objc override dynamic public init()
-  @objc deinit
-}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class BidmadAdMobManager : ObjectiveC.NSObject {
   @objc public static let shared: BidmadGoogleAdMobAdapter.BidmadAdMobManager
   @objc public func initializeSDK(completion: @escaping () -> Swift.Void)
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
-public class BidmadRewardGoogleAdMobAdapter : BidmadSDK.BidmadFullscreenAdapter, @unchecked Swift.Sendable, GoogleMobileAds.FullScreenContentDelegate {
-  @objc override dynamic public func loadAd(_ completionHandler: @escaping (BidmadSDK.BidmadFullscreenAdapter?, (any Swift.Error)?) -> Swift.Void)
-  @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
-  @_Concurrency.MainActor @preconcurrency @objc public func adWillPresentFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
-  @_Concurrency.MainActor @preconcurrency @objc public func adDidRecordClick(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
-  @_Concurrency.MainActor @preconcurrency @objc public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
-  @_Concurrency.MainActor @preconcurrency @objc public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
-  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class BidmadBannerGoogleAdMobAdapter : BidmadSDK.BidmadBannerAdapter, GoogleMobileAds.BannerViewDelegate, @unchecked Swift.Sendable {
@@ -42,12 +23,31 @@ public class BidmadRewardGoogleAdMobAdapter : BidmadSDK.BidmadFullscreenAdapter,
   @objc override dynamic public init()
   @objc deinit
 }
+@_inheritsConvenienceInitializers @objc public class BidmadGoogleAdMobAdapterInfo : ObjectiveC.NSObject, BidmadSDK.BidmadAdapterInfo {
+  @objc public static func adapterVersion() -> Swift.String
+  @objc public static func adNetworkSdkVersion() -> Swift.String
+  @objc public static func initializeAdNetworkSDK()
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class BidmadInterstitialGoogleAdMobAdapter : BidmadSDK.BidmadFullscreenAdapter, @unchecked Swift.Sendable, GoogleMobileAds.FullScreenContentDelegate {
   @objc override dynamic public func loadAd(_ completionHandler: @escaping (BidmadSDK.BidmadFullscreenAdapter?, (any Swift.Error)?) -> Swift.Void)
   @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
   @_Concurrency.MainActor @preconcurrency @objc public func adWillPresentFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
   @_Concurrency.MainActor @preconcurrency @objc public func adWillDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
   @_Concurrency.MainActor @preconcurrency @objc public func adDidRecordClick(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
+public class BidmadRewardGoogleAdMobAdapter : BidmadSDK.BidmadFullscreenAdapter, @unchecked Swift.Sendable, GoogleMobileAds.FullScreenContentDelegate {
+  @objc override dynamic public func loadAd(_ completionHandler: @escaping (BidmadSDK.BidmadFullscreenAdapter?, (any Swift.Error)?) -> Swift.Void)
+  @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
+  @_Concurrency.MainActor @preconcurrency @objc public func adWillPresentFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc public func adDidRecordClick(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
+  @_Concurrency.MainActor @preconcurrency @objc public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
   @_Concurrency.MainActor @preconcurrency @objc public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
   @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
   @objc override dynamic public init()
