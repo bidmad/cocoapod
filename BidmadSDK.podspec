@@ -11,19 +11,18 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'BidmadSDK.6.13.2' }
   s.swift_version = '5.0'
   s.static_framework = false
-  s.requires_arc     = true
-  s.vendored_frameworks = "BidmadSDK.xcframework"
-  s.resource_bundles = {'BidmadSDK_Privacy' => ['Resources/PrivacyInfo.xcprivacy']}
-  
-  s.dependency 'GoogleUserMessagingPlatform', '2.1.0'
+  s.default_subspec = 'includesGoogleGDPR'
 
   s.subspec 'includesGoogleGDPR' do |ss|
+    ss.vendored_frameworks = "BidmadSDK.xcframework"
+    ss.resource_bundles = {'BidmadSDK_Privacy' => ['Resources/PrivacyInfo.xcprivacy']}
     ss.dependency 'BidmadGoogleGDPRAdapter', '6.13.0'
   end
 
   s.subspec 'excludesGoogleGDPR' do |ss|
+    ss.vendored_frameworks = "BidmadSDK.xcframework"
+    ss.resource_bundles = {'BidmadSDK_Privacy' => ['Resources/PrivacyInfo.xcprivacy']}
   end
 
-  s.default_subspec = 'includesGoogleGDPR'
 
 end
