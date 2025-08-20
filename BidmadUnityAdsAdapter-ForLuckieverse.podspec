@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name             = "BidmadUnityAdsAdapter-ForLuckieverse"
   s.version          = "4.16.0.12.1"
-  s.platform         = :ios, "12.0"
+  s.platform         = :ios, "13.0"
   s.summary          = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
   s.description      = "BidmadSDK Mediation Adapter for UnityAds"
   s.homepage         = "https://bidmad.net"
