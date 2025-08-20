@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "BidmadPangleAdapter-ForLuckieverse"
-  s.version          = "7.4.1.0.12.0"
+  s.version          = "7.4.1.0.12.1"
   s.platform         = :ios, "12.0"
   s.summary          = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
   s.description      = "BidmadSDK Mediation Adapter for Pangle"
