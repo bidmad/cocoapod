@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
   s.name             = "BidmadUnityAdsAdapter-ForLuckieverse"
-  s.version          = "4.16.0.12.1"
+  s.version          = "4.16.0.12.2"
   s.platform         = :ios, "13.0"
   s.summary          = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
   s.description      = "BidmadSDK Mediation Adapter for UnityAds"
   s.homepage         = "https://bidmad.net"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Markus" => "markus@adop.cc" }
-  s.source           = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'BidmadUnityAdsAdapter-ForLuckieverse.4.9.2.12.1' }
+  s.source           = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'BidmadUnityAdsAdapter-ForLuckieverse.4.16.0.12.2' }
   s.static_framework = true
   s.requires_arc     = true
   s.vendored_frameworks = "BidmadUnityAdsAdapter.xcframework"
