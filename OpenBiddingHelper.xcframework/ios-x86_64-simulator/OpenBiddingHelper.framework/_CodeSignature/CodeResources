@@ -82,7 +82,7 @@
 		</data>
 		<key>Headers/OpenBiddingHelper-Swift.h</key>
 		<data>
-		9m2cNYsFO0h5F0FQ1SfqSFuA95M=
+		W5FxcXJCnc/eIPzId3BDq+R1C6Y=
 		</data>
 		<key>Headers/OpenBiddingHelper.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Oxz2/lGN2IZD6jy2A24SB5c2tRc=
+		VGQ25yX+qpSIZqs2ALHhr9NX1GY=
 		</data>
 		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -118,19 +118,19 @@
 		</data>
 		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		os1ge4dYxjgTzdRFKrcxKHFa0g8=
+		HtGcN2zenbuAZ+D/wc8WUsj/q+I=
 		</data>
 		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5YNT9+rJLbeiT98NDTa+2laPzxo=
+		a1I4sfwJuYOZ/sFH8SIP3afcFV4=
 		</data>
 		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		os1ge4dYxjgTzdRFKrcxKHFa0g8=
+		HtGcN2zenbuAZ+D/wc8WUsj/q+I=
 		</data>
 		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Egpp5xhXYFbDgVHJhQPT5tK2otc=
+		R/7ywvWdAVTGdB8CquENYnQXstA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -276,7 +276,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d/xG0NZfpwnJ5oPfN2Jp3SGkQSBdak4YKl/sAP4fN4g=
+			mgf2T16vGnR9XFo4uiGrO9o9d9b7VIbsbeBEa8IHcac=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingHelper.h</key>
@@ -332,28 +332,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N37cgpuPCb7OEClQ8tCDUzsHOPqfEyVGzpVcGczmn+w=
+			tZGL7whlgVyrP/yYOiHqVouEvbxSD+SUVu1JJN+QGQ8=
 			</data>
 		</dict>
 		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RHyA6mWLkqWBVS3Gr5imu/tLXzcuk7qrTr2NioFEqPo=
+			FOqKmLiv13EkE7Py8KUGV1QNGj7Cwwv9z/bbdbj+CD0=
 			</data>
 		</dict>
 		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N37cgpuPCb7OEClQ8tCDUzsHOPqfEyVGzpVcGczmn+w=
+			tZGL7whlgVyrP/yYOiHqVouEvbxSD+SUVu1JJN+QGQ8=
 			</data>
 		</dict>
 		<key>Modules/OpenBiddingHelper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1QLy5MQfXTulirqOZkEaLvgs+sK05DzFeXN8GUZi5BM=
+			ZKqCJpxTf5ktjRIegFpnsApUiZ9FWL8ljTlDjJm1EYg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

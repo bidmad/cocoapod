@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BidmadSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BidmadSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 @_exported import BidmadSDK
 import Combine
 import Foundation
@@ -191,7 +191,7 @@ extension BidmadSDK.BidmadSDKReachability {
 @available(iOS 13.0, *)
 public struct BidmadForcedVisibility : SwiftUICore.EnvironmentKey {
   public static var defaultValue: Swift.Double?
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @available(iOS 13.0, *)
   public typealias Value = Swift.Double?
 }
 @available(iOS 13.0, *)
@@ -207,7 +207,7 @@ extension SwiftUICore.EnvironmentValues {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @available(iOS 13.0, *)
   public typealias Body = @_opaqueReturnTypeOf("$s9BidmadSDK0A7TrackerV4bodyQrvp", 0) __
 }
 @objc public protocol OBHBannerExtraDelegate : ObjectiveC.NSObjectProtocol {
@@ -269,10 +269,10 @@ extension BidmadSDK.BidmadAdUnit {
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class BidmadDataParsingUtility : ObjectiveC.NSObject, BidmadSDK.BidmadLoggable {
   @objc public static let className: Swift.String
-  @objc(fetchAdUnitWithZoneId:completion:) public static func fetchAdUnit(with zoneId: Swift.String, completionHandler: @escaping ((BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void))
-  @objc(fetchAdUnitWithZoneId:adType:completion:) public static func fetchAdUnit(with zoneId: Swift.String, adType: BidmadSDK.BidmadAdType, completionHandler: @escaping ((BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void))
-  @objc public static func fetchAdUnitObjC(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType, testHost: Swift.String, testPath: Swift.String, completionHandler: @escaping ((BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void))
-  public static func fetchAdUnit(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType? = nil, testHost: Swift.String? = nil, testPath: Swift.String? = nil, completionHandler: @escaping ((BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void))
+  @objc(fetchAdUnitWithZoneId:completion:) public static func fetchAdUnit(with zoneId: Swift.String, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
+  @objc(fetchAdUnitWithZoneId:adType:completion:) public static func fetchAdUnit(with zoneId: Swift.String, adType: BidmadSDK.BidmadAdType, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
+  @objc public static func fetchAdUnitObjC(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType, testHost: Swift.String, testPath: Swift.String, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
+  public static func fetchAdUnit(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType? = nil, testHost: Swift.String? = nil, testPath: Swift.String? = nil, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
