@@ -261,6 +261,7 @@ extension BidmadSDK.BidmadAdUnit {
   @objc public var next: BidmadSDK.BidmadAdUnit?
   @objc public var requestedBannerAdSize: CoreFoundation.CGSize
   @objc public var loadedBannerAdSize: CoreFoundation.CGSize
+  @objc public var detectedBannerAdSize: CoreFoundation.CGSize
   @objc public func bannerSizeStrategy() -> BidmadSDK.BidmadBannerSizeStrategy
   @objc override dynamic public var description: Swift.String {
     @objc get
@@ -284,6 +285,7 @@ extension BidmadSDK.BidmadAdUnit {
   @objc final public let zoneId: Swift.String
   final public let vpc: Swift.Double?
   final public let vpi: Swift.Double?
+  @objc final public let realBannerAdSize: CoreFoundation.CGSize
   @objc public var descriptiveType: Swift.String {
     @objc get
   }

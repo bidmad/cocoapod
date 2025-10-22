@@ -390,6 +390,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSDictionary<N
 @property (nonatomic, strong) BidmadAdUnit * _Nullable next;
 @property (nonatomic) CGSize requestedBannerAdSize;
 @property (nonatomic) CGSize loadedBannerAdSize;
+@property (nonatomic) CGSize detectedBannerAdSize;
 - (BidmadBannerSizeStrategy)bannerSizeStrategy SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -464,6 +465,7 @@ SWIFT_CLASS("_TtC9BidmadSDK10BidmadInfo")
 @property (nonatomic, readonly) CGSize requestedBannerSize;
 @property (nonatomic, readonly) CGSize loadedBannerSize;
 @property (nonatomic, readonly, copy) NSString * _Nonnull zoneId;
+@property (nonatomic, readonly) CGSize realBannerAdSize;
 @property (nonatomic, readonly, copy) NSString * _Nonnull descriptiveType;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @property (nonatomic, readonly, copy) NSString * _Nonnull debugDescription;

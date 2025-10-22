@@ -8812,6 +8812,98 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "detectedBannerAdSize",
+            "printedName": "detectedBannerAdSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit(py)detectedBannerAdSize",
+            "mangledName": "$s9BidmadSDK0A6AdUnitC014detectedBannerC4SizeSo6CGSizeVvp",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit(im)detectedBannerAdSize",
+                "mangledName": "$s9BidmadSDK0A6AdUnitC014detectedBannerC4SizeSo6CGSizeVvg",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit(im)setDetectedBannerAdSize:",
+                "mangledName": "$s9BidmadSDK0A6AdUnitC014detectedBannerC4SizeSo6CGSizeVvs",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9BidmadSDK0A6AdUnitC014detectedBannerC4SizeSo6CGSizeVvM",
+                "mangledName": "$s9BidmadSDK0A6AdUnitC014detectedBannerC4SizeSo6CGSizeVvM",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "bannerSizeStrategy",
             "printedName": "bannerSizeStrategy()",
@@ -9948,6 +10040,56 @@
                 "implicit": true,
                 "declAttributes": [
                   "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "realBannerAdSize",
+            "printedName": "realBannerAdSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(py)realBannerAdSize",
+            "mangledName": "$s9BidmadSDK0A4InfoC16realBannerAdSizeSo6CGSizeVvp",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadInfo(im)realBannerAdSize",
+                "mangledName": "$s9BidmadSDK0A4InfoC16realBannerAdSizeSo6CGSizeVvg",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
                 ],
                 "accessorKind": "get"
               }
@@ -42065,266 +42207,266 @@
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 5192,
+      "offset": 5278,
       "length": 5,
       "value": "\"END\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "IntegerLiteral",
-      "offset": 5324,
+      "offset": 5410,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 5413,
+      "offset": 5499,
       "length": 203,
       "value": "\"BidmadAdUnit \""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 5450,
+      "offset": 5536,
       "length": 1,
       "value": "\"\n[NET: \""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 5488,
+      "offset": 5574,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 5498,
+      "offset": 5584,
       "length": 1,
       "value": "\"] [FP: \""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 5514,
+      "offset": 5600,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 5517,
+      "offset": 5603,
       "length": 1,
       "value": "\"]\n[AID: \""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 5545,
+      "offset": 5631,
       "length": 1,
       "value": "\"] [PID: \""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 5567,
+      "offset": 5653,
       "length": 1,
       "value": "\"]\n\n\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 5600,
+      "offset": 5686,
       "length": 12303,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 5747,
+      "offset": 5833,
       "length": 26,
       "value": "\"BidmadDataParsingUtility\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1018,
+      "offset": 1141,
       "length": 8,
       "value": "\"banner\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1208,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1152,
+      "offset": 1275,
       "length": 8,
       "value": "\"reward\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1336,
       "length": 8,
       "value": "\"native\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1275,
+      "offset": 1398,
       "length": 9,
       "value": "\"appopen\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1409,
+      "offset": 1532,
       "length": 92,
       "value": "\"Network: \""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1448,
+      "offset": 1571,
       "length": 4,
       "value": "\"\nType: \""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1485,
+      "offset": 1608,
       "length": 108,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1556,
+      "offset": 1679,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1603,
+      "offset": 1726,
       "length": 127,
       "value": "\"Requested Size: \""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1661,
+      "offset": 1784,
       "length": 6,
       "value": "\"\nLoaded Size: \""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1710,
+      "offset": 1833,
       "length": 1214,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "Dictionary",
-      "offset": 1921,
+      "offset": 2044,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1961,
+      "offset": 2084,
       "length": 15,
       "value": "\"adNetworkName\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2023,
+      "offset": 2146,
       "length": 8,
       "value": "\"adType\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2082,
+      "offset": 2205,
       "length": 8,
       "value": "\"zoneId\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2166,
+      "offset": 2289,
       "length": 24,
       "value": "\"requestedBannerAdWidth\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2271,
+      "offset": 2394,
       "length": 25,
       "value": "\"requestedBannerAdHeight\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2378,
+      "offset": 2501,
       "length": 21,
       "value": "\"loadedBannerAdWidth\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2477,
+      "offset": 2600,
       "length": 22,
       "value": "\"loadedBannerAdHeight\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2615,
+      "offset": 2738,
       "length": 5,
       "value": "\"vpc\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2679,
+      "offset": 2802,
       "length": 5,
       "value": "\"vpc\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "FloatLiteral",
-      "offset": 2704,
+      "offset": 2827,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2764,
+      "offset": 2887,
       "length": 5,
       "value": "\"vpi\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "StringLiteral",
-      "offset": 2828,
+      "offset": 2951,
       "length": 5,
       "value": "\"vpi\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadSDK\/Sources\/Utility\/BidmadInfo.swift",
       "kind": "FloatLiteral",
-      "offset": 2853,
+      "offset": 2976,
       "length": 3,
       "value": "0.0"
     },
