@@ -886,13 +886,27 @@
       },
       {
         "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
         "declKind": "Import",
         "moduleName": "BidmadMobwithAdapter",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
       },
       {
         "kind": "Import",
@@ -910,25 +924,22 @@
       },
       {
         "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
         "declKind": "Import",
         "moduleName": "BidmadMobwithAdapter"
       },
       {
         "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "BidmadMobwithAdapter"
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "BidmadMobwithAdapter"
       },
@@ -951,13 +962,10 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "BidmadMobwithAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "BidmadMobwithAdapter"
       },
       {
         "kind": "Import",
@@ -988,6 +996,44 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BidmadMobwithAdapter"
       }
     ],
     "json_format_version": 8
@@ -1024,93 +1070,86 @@
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 246,
+      "offset": 275,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 270,
+      "offset": 297,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAdView.swift",
       "kind": "StringLiteral",
-      "offset": 264,
+      "offset": 523,
       "length": 19,
       "value": "\"MobwithBaseAdView\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5965,
-      "length": 2,
-      "value": "16"
+      "kind": "StringLiteral",
+      "offset": 3379,
+      "length": 19,
+      "value": "\"MobwithRectAdView\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6031,
-      "length": 2,
-      "value": "15"
+      "kind": "StringLiteral",
+      "offset": 6990,
+      "length": 28,
+      "value": "\"MobwithBannerProductAdView\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6075,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6099,
-      "length": 1,
-      "value": "1"
+      "kind": "StringLiteral",
+      "offset": 10114,
+      "length": 37,
+      "value": "\"MobwithInterstitialNonProductAdView\""
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8432,
+      "offset": 10495,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11246,
-      "length": 1,
-      "value": "7"
+      "kind": "Array",
+      "offset": 16196,
+      "length": 2,
+      "value": "[]"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithUIImageColors.swift",
       "kind": "IntegerLiteral",
-      "offset": 11272,
-      "length": 1,
-      "value": "5"
+      "offset": 489,
+      "length": 2,
+      "value": "50"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAdView.swift",
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithUIImageColors.swift",
       "kind": "IntegerLiteral",
-      "offset": 11298,
+      "offset": 514,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithUIImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithUIImageColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 573,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAdView.swift",
-      "kind": "FloatLiteral",
-      "offset": 13509,
-      "length": 4,
-      "value": "24.0"
-    },
-    {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithBaseAdView.swift",
-      "kind": "FloatLiteral",
-      "offset": 13530,
-      "length": 4,
-      "value": "10.0"
     },
     {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/MobwithURLControl.swift",
@@ -1197,11 +1236,263 @@
       "value": "\"aLogoDefault\""
     },
     {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 7,
+      "value": "\"adCnt\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 12,
+      "value": "\"advertInfo\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 743,
+      "length": 16,
+      "value": "\"logoMainImgUrl\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 13,
+      "value": "\"impTrackers\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2565,
+      "length": 10,
+      "value": "\"adPrdtYn\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2626,
+      "length": 10,
+      "value": "\"adImgUrl\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2667,
+      "length": 14,
+      "value": "\"adImgUrlInfo\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2744,
+      "length": 15,
+      "value": "\"adImpTrackers\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2791,
+      "length": 17,
+      "value": "\"adClickTrackers\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 2838,
+      "length": 8,
+      "value": "\"adDesc\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 5064,
+      "length": 11,
+      "value": "\"aSiteName\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 5099,
+      "length": 10,
+      "value": "\"aSiteUrl\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 5135,
+      "length": 12,
+      "value": "\"aSiteTitle\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 5180,
+      "length": 17,
+      "value": "\"aLogoMainImgUrl\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 5229,
+      "length": 16,
+      "value": "\"aLogoSubImgUrl\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 6530,
+      "length": 14,
+      "value": "\"adImg120_600\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 6573,
+      "length": 14,
+      "value": "\"adImg160_600\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 6616,
+      "length": 14,
+      "value": "\"adImg250_250\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 6659,
+      "length": 14,
+      "value": "\"adImg300_250\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 6701,
+      "length": 13,
+      "value": "\"adImg320_50\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 6743,
+      "length": 14,
+      "value": "\"adImg320_100\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 6786,
+      "length": 14,
+      "value": "\"adImg320_480\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 6829,
+      "length": 14,
+      "value": "\"adImg720_120\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 6873,
+      "length": 15,
+      "value": "\"adImg720_1230\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 6916,
+      "length": 13,
+      "value": "\"adImg728_90\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 6959,
+      "length": 15,
+      "value": "\"adImg800_1500\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 9541,
+      "length": 7,
+      "value": "\"pCode\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 9569,
+      "length": 7,
+      "value": "\"pName\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 9598,
+      "length": 8,
+      "value": "\"pPrice\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 9635,
+      "length": 9,
+      "value": "\"pDcRate\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 9674,
+      "length": 10,
+      "value": "\"pDcPrice\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithV2Response.swift",
+      "kind": "StringLiteral",
+      "offset": 9713,
+      "length": 13,
+      "value": "\"pDeliveryYn\""
+    },
+    {
       "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/Model\/MobwithZone.swift",
       "kind": "StringLiteral",
       "offset": 381,
       "length": 8,
       "value": "\"impUrl\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/View\/MobwithImage.swift",
+      "kind": "StringLiteral",
+      "offset": 110,
+      "length": 14,
+      "value": "\"MobwithImage\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/View\/MobwithImage.swift",
+      "kind": "Array",
+      "offset": 366,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/View\/MobwithImage.swift",
+      "kind": "StringLiteral",
+      "offset": 694,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadMobwithAdapter\/Sources\/View\/MobwithInformationMark.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 2,
+      "value": "\"\""
     }
   ]
 }
