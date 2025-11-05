@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "BidmadPartners"
-  s.version       = "1.0.7"
+  s.version       = "1.0.8"
   s.platform      = :ios, "13.0"
   s.summary       = "BidmadPartners library is a collection of partnered adnetworks with third-party mediation support."
   s.description   = "BidmadPartners library is a collection of partnered adnetworks with third-party mediation support. The mediation currently includes AdMob Bidding or AppLovin Max."
@@ -22,6 +22,8 @@ Pod::Spec.new do |s|
     admob_bidding.dependency 'GoogleMobileAdsMediationAppLovin', '13.3.1.0'
     admob_bidding.dependency 'GoogleMobileAdsMediationFacebook', '6.20.0.0'
     admob_bidding.dependency 'GoogleMobileAdsMediationMintegral', '7.7.8.0'
+    admob_bidding.dependency 'GoogleMobileAdsMediationInMobi', '10.8.8.0'
+    admob_bidding.dependency 'GoogleMobileAdsMediationMoloco', '3.13.0.0'
   end
 
 end
