@@ -1789,196 +1789,196 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "BooleanLiteral",
       "offset": 698,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "BooleanLiteral",
       "offset": 740,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
       "offset": 905,
       "length": 28,
       "value": "\"setBannerContainerForGame:\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
       "offset": 6947,
       "length": 10,
       "value": "\"onLoadAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
       "offset": 6979,
       "length": 10,
       "value": "\"onFailAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterBannerRefined.swift",
       "kind": "StringLiteral",
       "offset": 7012,
       "length": 11,
       "value": "\"onClickAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 18,
       "value": "\"makeInterstitial\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 261,
       "length": 6,
       "value": "\"load\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 284,
       "length": 6,
       "value": "\"show\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 10,
       "value": "\"isLoaded\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 341,
       "length": 9,
       "value": "\"release\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 410,
       "length": 10,
       "value": "\"onLoadAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 441,
       "length": 10,
       "value": "\"onShowAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 473,
       "length": 11,
       "value": "\"onCloseAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 505,
       "length": 10,
       "value": "\"onFailAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterInterstitial.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 11,
       "value": "\"onClickAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 12,
       "value": "\"makeReward\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
       "kind": "StringLiteral",
       "offset": 122,
       "length": 6,
       "value": "\"load\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
       "kind": "StringLiteral",
       "offset": 145,
       "length": 6,
       "value": "\"show\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
       "kind": "StringLiteral",
       "offset": 172,
       "length": 10,
       "value": "\"isLoaded\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
       "kind": "StringLiteral",
       "offset": 202,
       "length": 9,
       "value": "\"release\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 10,
       "value": "\"onLoadAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 10,
       "value": "\"onShowAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
       "kind": "StringLiteral",
       "offset": 334,
       "length": 11,
       "value": "\"onCloseAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
       "kind": "StringLiteral",
       "offset": 366,
       "length": 10,
       "value": "\"onFailAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 11,
       "value": "\"onClickAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
       "kind": "StringLiteral",
       "offset": 430,
       "length": 10,
       "value": "\"onSkipAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadFlutterBridge\/Sources\/OpenBiddingFlutterRewardVideo.swift",
       "kind": "StringLiteral",
       "offset": 465,
       "length": 14,
