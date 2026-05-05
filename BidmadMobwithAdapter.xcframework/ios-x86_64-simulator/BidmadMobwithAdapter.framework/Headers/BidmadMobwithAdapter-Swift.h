@@ -283,7 +283,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import BidmadSDK;
 @import CoreFoundation;
-@import ObjectiveC;
 #endif
 
 #endif
@@ -317,7 +316,7 @@ SWIFT_CLASS("_TtC20BidmadMobwithAdapter26BidmadBannerMobwithAdapter") SWIFT_AVAI
 @end
 
 SWIFT_CLASS("_TtC20BidmadMobwithAdapter40BidmadBannerMobwithAdapterSupportChecker")
-@interface BidmadBannerMobwithAdapterSupportChecker : NSObject <BidmadBannerSC>
+@interface BidmadBannerMobwithAdapterSupportChecker : BidmadSupportChecker
 + (BOOL)isSupported SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -331,7 +330,7 @@ SWIFT_CLASS("_TtC20BidmadMobwithAdapter32BidmadInterstitialMobwithAdapter") SWIF
 @end
 
 SWIFT_CLASS("_TtC20BidmadMobwithAdapter46BidmadInterstitialMobwithAdapterSupportChecker")
-@interface BidmadInterstitialMobwithAdapterSupportChecker : NSObject <BidmadInterstitialSC>
+@interface BidmadInterstitialMobwithAdapterSupportChecker : BidmadSupportChecker
 + (BOOL)isSupported SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

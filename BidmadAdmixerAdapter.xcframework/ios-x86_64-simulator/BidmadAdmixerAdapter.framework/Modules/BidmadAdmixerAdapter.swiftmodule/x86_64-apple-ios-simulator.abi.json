@@ -512,7 +512,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override"
+              "Required"
             ],
             "init_kind": "Designated"
           },
@@ -729,10 +729,10 @@
           "AccessControl",
           "ObjC"
         ],
-        "superclassUsr": "c:objc(cs)BidmadBannerAdapterSupportChecker",
+        "superclassUsr": "c:objc(cs)BidmadSupportChecker",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "BidmadSDK.BidmadBannerAdapterSupportChecker",
+          "BidmadSDK.BidmadSupportChecker",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -1033,23 +1033,23 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/Sources\/BidmadAdmixerCore.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAdmixerAdapter\/Sources\/BidmadAdmixerCore.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 19,
       "value": "\"BidmadAdmixerCore\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/Sources\/BidmadAdmixerManager.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAdmixerAdapter\/Sources\/BidmadAdmixerManager.swift",
       "kind": "Dictionary",
       "offset": 120,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAdmixerAdapter\/Sources\/BidmadBannerAdmixerAdapter.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAdmixerAdapter\/Sources\/BidmadBannerAdmixerAdapter.swift",
       "kind": "Dictionary",
-      "offset": 4773,
+      "offset": 4787,
       "length": 3,
       "value": "[]"
     }

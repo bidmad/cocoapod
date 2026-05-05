@@ -14,7 +14,7 @@ import _SwiftConcurrencyShims
   @objc public func bannerAdDidLoad(_ bannerView: VungleAdsSDK.VungleBannerView)
   @objc public func bannerAdDidFail(_ bannerView: VungleAdsSDK.VungleBannerView, withError: Foundation.NSError)
   @objc public func bannerAdDidClick(_ bannerView: VungleAdsSDK.VungleBannerView)
-  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc required dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
   @objc override dynamic public init()
   @objc deinit
 }

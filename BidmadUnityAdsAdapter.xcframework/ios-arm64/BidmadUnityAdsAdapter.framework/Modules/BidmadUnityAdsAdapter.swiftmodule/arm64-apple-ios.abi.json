@@ -483,28 +483,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadUnityAdsAdapter\/Sources\/BidmadRewardUnityAdsAdapter.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadUnityAdsAdapter\/Sources\/BidmadRewardUnityAdsAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 330,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadUnityAdsAdapter\/Sources\/BidmadRewardUnityAdsAdapter.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadUnityAdsAdapter\/Sources\/BidmadRewardUnityAdsAdapter.swift",
       "kind": "StringLiteral",
       "offset": 574,
       "length": 28,
       "value": "\"Bidmad-UnityAds-RewardedAd\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadUnityAdsAdapter\/Sources\/BidmadRewardUnityAdsAdapter.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadUnityAdsAdapter\/Sources\/BidmadRewardUnityAdsAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 623,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadUnityAdsAdapter\/Sources\/BidmadUnityAdsCore.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadUnityAdsAdapter\/Sources\/BidmadUnityAdsCore.swift",
       "kind": "StringLiteral",
       "offset": 452,
       "length": 32,

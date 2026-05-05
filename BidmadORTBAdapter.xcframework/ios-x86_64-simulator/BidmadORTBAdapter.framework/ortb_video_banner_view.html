@@ -32,8 +32,11 @@
   let adDuration;
   var prevSoundVolume;
 
-  function initialize(adResponse, width, height) {
+  function initialize(adResponseBase64, width, height) {
     try {
+      //Base64 디코딩
+      let adResponse = atob(adResponseBase64);
+
       //광고 정보 수신
       adWidth = width;
       adHeight = height;

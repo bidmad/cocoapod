@@ -28,7 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BidmadUtility : NSObject
 
-+ (CGFloat)bannerAdWidthLimit;
 + (NSNumber * _Nullable)gdprSettingToOptionalBool;
 + (NSArray<BidmadAdInfo *> *)arraySortedWithOrder:(NSArray<BidmadAdInfo *> *)adInfoArray;
 + (NSArray<BidmadAdInfo *> *)bidmadSwiftSort:(NSArray<BidmadAdInfo *> *)adInfoArray;

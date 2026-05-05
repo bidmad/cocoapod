@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		Q/ade1IUsrSQ5aOv/qPu9qxd2b4=
+		5aPBKUvnvaXLnN9LRk+w8zMtC84=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Jd60FBBqtzaZSP3vsAwowM4SX1c=
+		Kjf5n6nxQoE/vRiODqS7OxAd4hU=
 		</data>
 		<key>Modules/BidmadUnityAdsAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PT7S6M0SzV4z9sNYEP05TsVvRC8=
+		NlclP7DKZ7FB5tPaDCWWDbiAZDA=
 		</data>
 		<key>Modules/BidmadUnityAdsAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/BidmadUnityAdsAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		x9yem2weZpZLZXELHgY/BE36iVc=
+		NcRukISbA51kg449VYyut+fXG4g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>UnityAdsResources.bundle/Info.plist</key>
 		<data>
-		pG7ix7+LcsCUsn0cUsaG8b5IVdc=
+		rR/VH8yydaSwZ9ZkHHbwxeJYXuA=
 		</data>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		IOENWgDf4nt7ER5pZk8C5FlNckg=
+		TD2rMbBU0wLesIC72JQvchqwyjQ=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oFw0dHJ9yyinEElvX5bgAnTYik71h8y02Iq1oe6WLfY=
+			c1p/IOoUJ4S0M8Vt31T6u8cfkxoDSJBWg/dlsAz99r4=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jZyfR1EP31J2uqiXQxEwL14snOmG/Ikam563RGmpl5g=
+			PGKARST4akB7PAl2XeCU/Qc/X4q53B3EK19KxecpAi0=
 			</data>
 		</dict>
 		<key>Modules/BidmadUnityAdsAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -146,7 +146,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7pD/VVG3Tkr5WK2rCoJOjY8RWb/LWAZ53pOJbJXmruQ=
+			hXPBIbnsCOYel3/9DL7fVCmz1Ls/49+zddtAYA32Oq0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -160,7 +160,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			97WD1Y14Zd1jS629B/ZBhiWhvBj9fghoIb8XeH+ladk=
+			fMncSx9AFUtAhTC+dk6RtauDqO85PGGG9SH8sOn9uCc=
 			</data>
 		</dict>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -188,7 +188,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3TQJlv8fcRKywGIUFFElO9/EQGRDuHGIAQz2/kkB4es=
+			oYexksY6U6aMJBAW/gyy4pnNHiG9gFoZ/UafavhPetQ=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>

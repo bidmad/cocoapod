@@ -19,7 +19,7 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor @preconcurrency @objc public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.BannerView)
   @_Concurrency.MainActor @preconcurrency @objc public func bannerView(_ bannerView: GoogleMobileAds.BannerView, didFailToReceiveAdWithError error: any Swift.Error)
   @_Concurrency.MainActor @preconcurrency @objc public func bannerViewDidRecordClick(_ bannerView: GoogleMobileAds.BannerView)
-  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc required dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
   @objc override dynamic public init()
   @objc deinit
 }

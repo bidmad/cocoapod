@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		Q/ade1IUsrSQ5aOv/qPu9qxd2b4=
+		5aPBKUvnvaXLnN9LRk+w8zMtC84=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -26,15 +26,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZhjjQHQONMTVhNvCofFj16dpO2s=
+		+VyICxxehGMC5u5U/vTiiI6x0s0=
 		</data>
 		<key>Modules/BidmadVungleAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iKsQDDu0RMlHIAD43IHGM5Cldec=
+		uqnwyUMl0Kx0CU8eEeNLRMWn11s=
 		</data>
 		<key>Modules/BidmadVungleAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UOlH54bfKFhpTjIeINAQ55Eb/NU=
+		I7tUK9e0s3HyJd0NJfGK3u+T61Q=
 		</data>
 		<key>Modules/BidmadVungleAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/BidmadVungleAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UOlH54bfKFhpTjIeINAQ55Eb/NU=
+		I7tUK9e0s3HyJd0NJfGK3u+T61Q=
 		</data>
 		<key>Modules/BidmadVungleAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DoliSfKA4msONPbGEllA4tv9zCE=
+		KTHlt0usmJAeuDLdnKt8JiBS8qI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		IOENWgDf4nt7ER5pZk8C5FlNckg=
+		TD2rMbBU0wLesIC72JQvchqwyjQ=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>VungleAds.bundle/Info.plist</key>
 		<data>
-		D5dsawsr90iKb9xSH2hmWyKSAhc=
+		JTjBQViLYLSQl507ixJKCwohYSw=
 		</data>
 		<key>VungleAds.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oFw0dHJ9yyinEElvX5bgAnTYik71h8y02Iq1oe6WLfY=
+			c1p/IOoUJ4S0M8Vt31T6u8cfkxoDSJBWg/dlsAz99r4=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -110,14 +110,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lou76A6kGzQQbPeqaK2bdDv5o0Qoug38ZNgCUb0kYk8=
+			MQfc09Q+NSjGZUmCC4Bq9auiQXb/Qbw1hYYWTMUcV08=
 			</data>
 		</dict>
 		<key>Modules/BidmadVungleAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4GuyS91kaBvUkZQ3zHtOIL9qRgaTkzLVXyUkgELLUqs=
+			LdlNGF6WDY607HDvrd82Mjfika+gNBaW1ahvHZD3Sj4=
 			</data>
 		</dict>
 		<key>Modules/BidmadVungleAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -131,14 +131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4GuyS91kaBvUkZQ3zHtOIL9qRgaTkzLVXyUkgELLUqs=
+			LdlNGF6WDY607HDvrd82Mjfika+gNBaW1ahvHZD3Sj4=
 			</data>
 		</dict>
 		<key>Modules/BidmadVungleAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ab1YFnPQiiIO/YMhamGeEdikUabOiTuYMKSKmnC47+0=
+			vxlYpgGy3Beb9wdXEDOXvI1QTpNNZkQ1HOKD+zmhjDw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3TQJlv8fcRKywGIUFFElO9/EQGRDuHGIAQz2/kkB4es=
+			oYexksY6U6aMJBAW/gyy4pnNHiG9gFoZ/UafavhPetQ=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TuRU4zE2ZHRPash6QK3T1E2FpMv6vdV9guBiz6hiFJ0=
+			zuXLWFSvWulwxythNYN4HaPsz1mQoIOIbqxRQoZ5uOI=
 			</data>
 		</dict>
 		<key>VungleAds.bundle/PrivacyInfo.xcprivacy</key>

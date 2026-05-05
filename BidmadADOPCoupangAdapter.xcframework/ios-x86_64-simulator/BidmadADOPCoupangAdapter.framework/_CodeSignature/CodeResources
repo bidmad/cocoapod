@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8Cd2SA6ZwRAIuQlc0hf5YmdD79A=
+		BwM3zIigPmeBS0ECQHPWzfb+dOY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -21,10 +21,6 @@
 	<dict>
 		<key>Headers/BidmadADOPCoupangAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xMrVssoa850aDlVEFwGQ/cIMHgs=
-			</data>
 			<key>hash2</key>
 			<data>
 			6Y3HrFGQSxbFKml53kitSqsExfEOYQMnEWWcqHPdxxE=
@@ -32,10 +28,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6ypy0yJvAR5J1xSki0qGtA0CBm8=
-			</data>
 			<key>hash2</key>
 			<data>
 			76oMy0HrqoxcrBrJR6mVzv1wsOz9z2LmKsKil99pPso=

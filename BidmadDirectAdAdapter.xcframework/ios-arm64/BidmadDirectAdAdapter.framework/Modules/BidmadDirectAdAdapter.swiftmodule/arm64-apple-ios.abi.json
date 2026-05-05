@@ -1,0 +1,173 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "BidmadDirectAdAdapter",
+    "printedName": "BidmadDirectAdAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BidmadDirectAdAdapter"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadDirectAdAdapter\/Sources\/DirectAdImpressionTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 27,
+      "value": "\"DirectAdImpressionTracker\""
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadDirectAdAdapter\/Sources\/DirectAdImpressionTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 398,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadDirectAdAdapter\/Sources\/DirectAdJSBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 17,
+      "value": "\"onDirectAdReady\""
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadDirectAdAdapter\/Sources\/DirectAdJSBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 16,
+      "value": "\"onDirectAdFail\""
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadDirectAdAdapter\/Sources\/DirectAdJSBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 18,
+      "value": "\"DirectAdJSBridge\""
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadDirectAdAdapter\/Sources\/DirectAdJSBridge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 338,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadDirectAdAdapter\/Sources\/DirectAdJSBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 468,
+      "length": 50,
+      "value": "\"com.bidmad.DirectAdJSBridge.\""
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadDirectAdAdapter\/Sources\/DirectAdJSBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 517,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 @_exported import BidmadSDK
 import Combine
+import CommonCrypto
 import Foundation
 import Swift
 import SwiftUI
@@ -12,7 +13,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc public enum BIDMADAdPosition : Swift.Int {
+@objc public enum BIDMADAdPosition : Swift.UInt {
   case center = 0
   case top = 1
   case bottom = 2
@@ -23,20 +24,11 @@ import _SwiftConcurrencyShims
   case bottomLeft = 7
   case bottomRight = 8
   case none = 9
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
+  public init?(rawValue: Swift.UInt)
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
     get
   }
-}
-@objc @objcMembers final public class BIDMADBanner : ObjectiveC.NSObject, BidmadSDK.BidmadBannerAdapterDelegate, BidmadSDK.BidmadLoggable {
-  @objc public static let className: Swift.String
-  @objc final public var adapter: BidmadSDK.BidmadBannerAdapter?
-  @objc final public var adBlockEstimation: Swift.Bool
-  @objc(initWithInstanceOBH:) public init(with instanceOBH: any BidmadSDK.OBHBannerExtraDelegate & BidmadSDK.OBHCommunicationDelegate)
-  @objc(selectAdUnit:) final public func select(adUnit: BidmadSDK.BidmadAdUnit)
-  @objc final public func clicked(with ad: BidmadSDK.BidmadBannerAdapter)
-  @objc deinit
 }
 @objc public enum BIDMADBannerViewCase : Swift.Int {
   case xYCoordinateGiven = 0
@@ -62,6 +54,259 @@ import _SwiftConcurrencyShims
   @objc public func clicked(with ad: BidmadSDK.BidmadFullscreenAdapter)
   @objc public func rewarded(with ad: BidmadSDK.BidmadFullscreenAdapter)
   @objc public func skipped(with ad: BidmadSDK.BidmadFullscreenAdapter)
+  @objc deinit
+}
+@objc public protocol BMAppOpenAdDelegate {
+  @objc optional func onLoadAd(_ bidmadAd: BidmadSDK.BMAppOpenAd, info: BidmadSDK.BidmadInfo)
+  @objc optional func onLoadFailAd(_ bidmadAd: BidmadSDK.BMAppOpenAd, error: any Swift.Error)
+  @objc optional func onShowAd(_ bidmadAd: BidmadSDK.BMAppOpenAd, info: BidmadSDK.BidmadInfo)
+  @objc optional func onShowFailAd(_ bidmadAd: BidmadSDK.BMAppOpenAd, info: BidmadSDK.BidmadInfo, error: any Swift.Error)
+  @objc optional func onClickAd(_ bidmadAd: BidmadSDK.BMAppOpenAd, info: BidmadSDK.BidmadInfo)
+  @objc optional func onCloseAd(_ bidmadAd: BidmadSDK.BMAppOpenAd, info: BidmadSDK.BidmadInfo)
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class BMAppOpenAd : BidmadSDK.BMBaseAd, BidmadSDK.BidmadAppOpenAdapterDelegate {
+  @objc override final public class var className: Swift.String {
+    @objc get
+  }
+  @objc override final public var adType: BidmadSDK.BidmadAdType {
+    @objc get
+  }
+  @objc final public var appOpenAdapter: BidmadSDK.BidmadAppOpenAdapter? {
+    @objc get
+    @objc set
+  }
+  @objc weak final public var delegate: (any BidmadSDK.BMAppOpenAdDelegate)?
+  @objc final public var isAutoReload: Swift.Bool
+  @objc(initWithZoneID:) convenience public init(zoneID: Swift.String)
+  @objc final public func load()
+  @objc(showOnViewController:) final public func show(on viewController: UIKit.UIViewController)
+  @objc final public func isLoaded() -> Swift.Bool
+  @objc override final public func validateRequestContext(adRefresh: Swift.Bool) -> (any Swift.Error)?
+  override final public func attempt(loadable: BidmadSDK.BMBaseAdLoadable, attemptState: BidmadSDK.BMBaseAdAttemptState, completion: @escaping (BidmadSDK.BMBaseAdAttemptOutcome) -> Swift.Void)
+  @objc override final public func onAdLoadComplete(adUnit: BidmadSDK.BidmadAdUnit?, error: (any Swift.Error)?)
+  @objc final public func presented(with ad: BidmadSDK.BidmadAppOpenAdapter)
+  @objc final public func failedToPresent(with ad: BidmadSDK.BidmadAppOpenAdapter, error: any Swift.Error)
+  @objc final public func clicked(with ad: BidmadSDK.BidmadAppOpenAdapter)
+  @objc final public func dismissed(with ad: BidmadSDK.BidmadAppOpenAdapter)
+  @objc override public init(zoneId: Swift.String)
+  @objc deinit
+}
+@objc public protocol BMBannerDelegate {
+  @objc optional func onLoadAd(_ bidmadAd: BidmadSDK.BMBanner, info: BidmadSDK.BidmadInfo)
+  @objc optional func onLoadFailAd(_ bidmadAd: BidmadSDK.BMBanner, error: any Swift.Error)
+  @objc optional func onClickAd(_ bidmadAd: BidmadSDK.BMBanner, info: BidmadSDK.BidmadInfo)
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class BMBanner : BidmadSDK.BMBaseAd {
+  @objc override final public class var className: Swift.String {
+    @objc get
+  }
+  @objc override final public var adType: BidmadSDK.BidmadAdType {
+    @objc get
+  }
+  @objc final public var bannerAdapter: BidmadSDK.BidmadBannerAdapter? {
+    @objc get
+    @objc set
+  }
+  @objc weak final public var delegate: (any BidmadSDK.BMBannerDelegate)?
+  @objc final public var bannerViewCase: BidmadSDK.BIDMADBannerViewCase
+  @objc final public var point: CoreFoundation.CGPoint
+  @objc final public var anchorPosition: BidmadSDK.BIDMADAdPosition
+  @objc weak final public var viewController: UIKit.UIViewController?
+  @objc weak final public var view: UIKit.UIView?
+  @objc final public var viewForGame: UIKit.UIView
+  @objc final public var isHidden: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var managedErasableView: BidmadSDK.BidmadErasableView?
+  @objc final public var adRefreshEnabled: Swift.Bool
+  @objc final public var isOnceLoadMode: Swift.Bool {
+    @objc get
+  }
+  @objc final public func resetRefreshInterval()
+  @objc final public func setRefreshInterval(_ value: Swift.UInt)
+  @objc final public func load()
+  @objc override final public func validateRequestContext(adRefresh: Swift.Bool) -> (any Swift.Error)?
+  override final public func attempt(loadable: BidmadSDK.BMBaseAdLoadable, attemptState: BidmadSDK.BMBaseAdAttemptState, completion: @escaping (BidmadSDK.BMBaseAdAttemptOutcome) -> Swift.Void)
+  @objc override final public func onAdLoadComplete(adUnit: BidmadSDK.BidmadAdUnit?, error: (any Swift.Error)?)
+  @objc public static func isViewVisible(target targetView: UIKit.UIView) -> Swift.Bool
+  @objc final public func initiateVisibilityTimer(checkableView: UIKit.UIView)
+  public enum UITaskError : Swift.Error {
+    case noView
+    case noViewController
+    public static func == (a: BidmadSDK.BMBanner.UITaskError, b: BidmadSDK.BMBanner.UITaskError) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @objc final public func updateViewPosition()
+  @objc final public func setAnchorPosition(for view: UIKit.UIView, viewController: UIKit.UIViewController, size: CoreFoundation.CGSize)
+  @objc final public func position(view: UIKit.UIView, insideSafeAreaOf viewController: UIKit.UIViewController)
+  @objc public static func inspect(inside view: UIKit.UIView, completionHandler: @escaping (CoreFoundation.CGSize) -> Swift.Void)
+  @objc final public func force(viewVisibility: Swift.Double)
+  @objc final public func hide()
+  @objc final public func show()
+  @objc override public init(zoneId: Swift.String)
+  @objc deinit
+}
+extension BidmadSDK.BMBanner : BidmadSDK.BidmadBannerAdapterDelegate {
+  @objc final public func clicked(with ad: BidmadSDK.BidmadBannerAdapter)
+}
+extension BidmadSDK.BMBanner.UITaskError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public enum BMBaseAdLogTypes : Swift.String {
+  case req, nofill, fail, noshow, load, click, show, showfail
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public typealias BMBaseAdLoadable = (adapterClass: any BidmadSDK.BidmadAdapterInterfaceAccess.Type, adUnit: BidmadSDK.BidmadAdUnit)
+public enum BMBaseAdAttemptOutcome {
+  case success(adUnit: BidmadSDK.BidmadAdUnit)
+  case failure(failedAdUnit: BidmadSDK.BidmadAdUnit, error: (any Swift.Error)?, adNetworkName: Swift.String?)
+}
+final public class BMBaseAdAttemptState {
+  final public var handled: Swift.Bool
+  public init()
+  @objc deinit
+}
+@objc @objcMembers public class BMBaseAd : ObjectiveC.NSObject, BidmadSDK.BidmadLoggable {
+  @objc public class var className: Swift.String {
+    @objc get
+  }
+  @objc public static func safeErrorMessage(from error: (any Swift.Error)?) -> Swift.String
+  @objc public var adType: BidmadSDK.BidmadAdType {
+    @objc get
+  }
+  public var behaviour: any BidmadSDK.BMMediationBehaviour
+  @objc public var loadStatus: BidmadSDK.BidmadLoadStatus
+  @objc public var loadedAdapter: (any BidmadSDK.BidmadAdapterInterfaceAccess)?
+  @objc public var testHost: Swift.String?
+  @objc public var testPath: Swift.String?
+  @objc public var timer: Foundation.Timer?
+  @objc public var zoneId: Swift.String
+  @objc public init(zoneId: Swift.String)
+  @objc deinit
+  @objc public func validateRequestContext(adRefresh: Swift.Bool) -> (any Swift.Error)?
+  public func attempt(loadable: BidmadSDK.BMBaseAdLoadable, attemptState: BidmadSDK.BMBaseAdAttemptState, completion: @escaping (BidmadSDK.BMBaseAdAttemptOutcome) -> Swift.Void)
+  @objc public func onAdLoadComplete(adUnit: BidmadSDK.BidmadAdUnit?, error: (any Swift.Error)?)
+  @objc public func remove()
+  @objc public func remove(completion: (() -> Swift.Void)?)
+  public func tryCreatingLoadable(startingFrom adUnit: BidmadSDK.BidmadAdUnit) -> BidmadSDK.BMBaseAdLoadable?
+  @objc public func createAdapterClass(from adUnit: BidmadSDK.BidmadAdUnit) throws -> any BidmadSDK.BidmadAdapterInterfaceAccess.Type
+  @objc public func process(error: (any Swift.Error)?, adNetworkName: Swift.String?) -> any Swift.Error
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class BMBaseAdState : ObjectiveC.NSObject {
+  @objc public static let shared: BidmadSDK.BMBaseAdState
+  @objc final public let logQueue: Dispatch.DispatchQueue
+  @objc final public let bannerQueue: Dispatch.DispatchQueue
+  @objc final public let interstitialQueue: Dispatch.DispatchQueue
+  @objc final public let rewardQueue: Dispatch.DispatchQueue
+  @objc final public let nativeQueue: Dispatch.DispatchQueue
+  @objc final public let appOpenQueue: Dispatch.DispatchQueue
+  @objc final public let splashQueue: Dispatch.DispatchQueue
+  @objc final public let customRenderedQueue: Dispatch.DispatchQueue
+  @objc final public func queue(for adType: BidmadSDK.BidmadAdType) -> Dispatch.DispatchQueue
+  @objc deinit
+}
+@objc public protocol BMCustomRenderedAdDelegate {
+  @objc optional func onLoadAd(_ ad: BidmadSDK.BMCustomRenderedAd, content: BidmadSDK.BidmadCustomRenderedAdContent, info: BidmadSDK.BidmadInfo)
+  @objc optional func onLoadFailAd(_ ad: BidmadSDK.BMCustomRenderedAd, error: any Swift.Error)
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class BMCustomRenderedAd : BidmadSDK.BMBaseAd {
+  @objc override final public class var className: Swift.String {
+    @objc get
+  }
+  @objc override final public var adType: BidmadSDK.BidmadAdType {
+    @objc get
+  }
+  @objc final public var customRenderedAdapter: BidmadSDK.BidmadCustomRenderedAdapter? {
+    @objc get
+    @objc set
+  }
+  @objc weak final public var delegate: (any BidmadSDK.BMCustomRenderedAdDelegate)?
+  @objc final public var adContent: BidmadSDK.BidmadCustomRenderedAdContent?
+  @objc final public func load()
+  @objc override final public func validateRequestContext(adRefresh: Swift.Bool) -> (any Swift.Error)?
+  override final public func attempt(loadable: BidmadSDK.BMBaseAdLoadable, attemptState: BidmadSDK.BMBaseAdAttemptState, completion: @escaping (BidmadSDK.BMBaseAdAttemptOutcome) -> Swift.Void)
+  @objc override final public func onAdLoadComplete(adUnit: BidmadSDK.BidmadAdUnit?, error: (any Swift.Error)?)
+  @objc override public init(zoneId: Swift.String)
+  @objc deinit
+}
+public enum MediationEvent {
+  case requested(BidmadSDK.BidmadAdUnit)
+  case skipped(BidmadSDK.BidmadAdUnit)
+  case noShow(BidmadSDK.BidmadAdUnit)
+}
+public typealias BMMediationSelectionResult = (adUnit: BidmadSDK.BidmadAdUnit?, events: [BidmadSDK.MediationEvent])
+public protocol BMMediationBehaviour : Swift.CustomStringConvertible {
+  mutating func select(toLoad adUnit: BidmadSDK.BidmadAdUnit?) -> BidmadSDK.BMMediationSelectionResult
+  mutating func select(afterFailure adUnit: BidmadSDK.BidmadAdUnit?) -> BidmadSDK.BMMediationSelectionResult
+  var reloadInterval: Foundation.TimeInterval { get }
+}
+@objc public protocol BMNativeAdDelegate {
+  @objc optional func onLoadAd(_ bidmadAd: BidmadSDK.BMNativeAd, info: BidmadSDK.BidmadInfo)
+  @objc optional func onLoadFailAd(_ bidmadAd: BidmadSDK.BMNativeAd, error: any Swift.Error)
+  @objc optional func onClickAd(_ bidmadAd: BidmadSDK.BMNativeAd, info: BidmadSDK.BidmadInfo)
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class BMNativeAd : BidmadSDK.BMBaseAd {
+  @objc override public class var className: Swift.String {
+    @objc get
+  }
+  @objc override public var adType: BidmadSDK.BidmadAdType {
+    @objc get
+  }
+  @objc public var nativeAdapter: BidmadSDK.BidmadNativeAdapter? {
+    @objc get
+    @objc set
+  }
+  @objc weak public var delegate: (any BidmadSDK.BMNativeAdDelegate)?
+  @objc weak public var adBindView: BidmadSDK.BIDMADNativeAdView?
+  @objc public func load()
+  @objc override public func validateRequestContext(adRefresh: Swift.Bool) -> (any Swift.Error)?
+  override public func attempt(loadable: BidmadSDK.BMBaseAdLoadable, attemptState: BidmadSDK.BMBaseAdAttemptState, completion: @escaping (BidmadSDK.BMBaseAdAttemptOutcome) -> Swift.Void)
+  @objc override public func onAdLoadComplete(adUnit: BidmadSDK.BidmadAdUnit?, error: (any Swift.Error)?)
+  @objc(setAdViewController:adView:defaultSize:) public func set(adViewController: UIKit.UIViewController, adView: BidmadSDK.BIDMADNativeAdView, defaultSize: CoreFoundation.CGSize) -> CoreFoundation.CGSize
+  @objc(setAdViewController:adView:) public func set(adViewController: UIKit.UIViewController, adView: BidmadSDK.BIDMADNativeAdView)
+  @objc(removeAdView:) public func remove(adView: BidmadSDK.BIDMADNativeAdView)
+  @objc public var isLoaded: Swift.Bool {
+    @objc get
+  }
+  @objc override public init(zoneId: Swift.String)
+  @objc deinit
+}
+extension BidmadSDK.BMNativeAd : BidmadSDK.BidmadNativeAdapterDelegate {
+  @objc dynamic public func clicked(with ad: BidmadSDK.BidmadNativeAdapter)
+  @objc dynamic public func videoEnded(with ad: BidmadSDK.BidmadNativeAdapter)
+}
+@objc public protocol BMSplashAdDelegate {
+  @objc optional func onLoadAd(_ ad: BidmadSDK.BMSplashAd, content: BidmadSDK.BidmadSplashAdContent, info: BidmadSDK.BidmadInfo)
+  @objc optional func onLoadFailAd(_ ad: BidmadSDK.BMSplashAd, error: any Swift.Error)
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class BMSplashAd : BidmadSDK.BMBaseAd {
+  @objc override final public class var className: Swift.String {
+    @objc get
+  }
+  @objc override final public var adType: BidmadSDK.BidmadAdType {
+    @objc get
+  }
+  @objc final public var splashAdapter: BidmadSDK.BidmadSplashAdapter? {
+    @objc get
+    @objc set
+  }
+  @objc weak final public var delegate: (any BidmadSDK.BMSplashAdDelegate)?
+  @objc final public var adContent: BidmadSDK.BidmadSplashAdContent?
+  @objc final public func load()
+  @objc override final public func validateRequestContext(adRefresh: Swift.Bool) -> (any Swift.Error)?
+  override final public func attempt(loadable: BidmadSDK.BMBaseAdLoadable, attemptState: BidmadSDK.BMBaseAdAttemptState, completion: @escaping (BidmadSDK.BMBaseAdAttemptOutcome) -> Swift.Void)
+  @objc override final public func onAdLoadComplete(adUnit: BidmadSDK.BidmadAdUnit?, error: (any Swift.Error)?)
+  @objc override public init(zoneId: Swift.String)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class BidmadConstants : ObjectiveC.NSObject {
@@ -103,6 +348,26 @@ import _SwiftConcurrencyShims
   @objc var consentStatus: BidmadSDK.BIDMAD_UMPConsentStatus { get }
   @objc func reset()
 }
+public enum BidmadLogLevel : Swift.String {
+  case dev, info, test
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol BidmadLoggable {
+  static var className: Swift.String { get }
+}
+extension BidmadSDK.BidmadLoggable {
+  public func dev(_ log: Swift.String)
+  public func info(_ log: Swift.String)
+  public func test(_ log: Swift.String)
+  public static func dev(_ log: Swift.String)
+  public static func info(_ log: Swift.String)
+  public static func test(_ log: Swift.String)
+}
+public func bidmadLog(_ className: Swift.String, _ level: BidmadSDK.BidmadLogLevel, _ log: Swift.String)
 public enum BidmadSDKReachabilityError : Swift.Error {
   case failedToCreateWithAddress(Darwin.sockaddr, Swift.Int32)
   case failedToCreateWithHostname(Swift.String, Swift.Int32)
@@ -210,28 +475,10 @@ extension SwiftUICore.EnvironmentValues {
   @available(iOS 13.0, *)
   public typealias Body = @_opaqueReturnTypeOf("$s9BidmadSDK0A7TrackerV4bodyQrvp", 0) __
 }
-@objc public protocol OBHBannerExtraDelegate : ObjectiveC.NSObjectProtocol {
-  @objc var zoneID: Swift.String { get set }
-  @objc(addLoadedAdView:adWidth:adHeight:strategy:keyWindow:error:) func add(loadedAdView adView: UIKit.UIView, adWidth: CoreFoundation.CGFloat, adHeight: CoreFoundation.CGFloat, strategy: BidmadSDK.BidmadBannerSizeStrategy, keyWindow: UIKit.UIWindow?, error: Foundation.NSErrorPointer)
-}
-public enum BidmadLogLevel : Swift.String {
-  case dev, info, test
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public protocol BidmadLoggable {
-  static var className: Swift.String { get }
-}
-extension BidmadSDK.BidmadLoggable {
-  public func dev(_ log: Swift.String)
-  public func info(_ log: Swift.String)
-  public func test(_ log: Swift.String)
-  public static func dev(_ log: Swift.String)
-  public static func info(_ log: Swift.String)
-  public static func test(_ log: Swift.String)
+@objc @_inheritsConvenienceInitializers @objcMembers public class BidmadAES256Util : ObjectiveC.NSObject {
+  @objc public static func encrypt(_ plainText: Swift.String) -> [Swift.String]?
+  @objc override dynamic public init()
+  @objc deinit
 }
 extension BidmadSDK.BidmadAdUnit {
   @objc dynamic public func stripToInfo() -> BidmadSDK.BidmadInfo
@@ -262,7 +509,6 @@ extension BidmadSDK.BidmadAdUnit {
   @objc public var requestedBannerAdSize: CoreFoundation.CGSize
   @objc public var loadedBannerAdSize: CoreFoundation.CGSize
   @objc public var detectedBannerAdSize: CoreFoundation.CGSize
-  @objc public func bannerSizeStrategy() -> BidmadSDK.BidmadBannerSizeStrategy
   @objc override dynamic public var description: Swift.String {
     @objc get
   }
@@ -273,7 +519,7 @@ extension BidmadSDK.BidmadAdUnit {
   @objc(fetchAdUnitWithZoneId:completion:) public static func fetchAdUnit(with zoneId: Swift.String, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
   @objc(fetchAdUnitWithZoneId:adType:completion:) public static func fetchAdUnit(with zoneId: Swift.String, adType: BidmadSDK.BidmadAdType, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
   @objc public static func fetchAdUnitObjC(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType, testHost: Swift.String, testPath: Swift.String, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
-  public static func fetchAdUnit(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType? = nil, testHost: Swift.String? = nil, testPath: Swift.String? = nil, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
+  public static func fetchAdUnit(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType? = nil, testHost: Swift.String? = nil, testPath: Swift.String? = nil, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any BidmadSDK.BMMediationBehaviour)?, (any Swift.Error)?) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -299,6 +545,12 @@ extension BidmadSDK.BidmadAdUnit {
     @objc get
   }
   @objc deinit
+}
+extension BidmadSDK.BidmadUtility {
+  @objc(resolveRuntimeClassWithModuleName:className:) public static func resolveRuntimeClass(moduleName: Swift.String, className: Swift.String) -> Swift.AnyClass?
+}
+extension BidmadSDK.BidmadUtility {
+  @objc public static func isViewVisible(target targetView: UIKit.UIView) -> Swift.Bool
 }
 @available(iOS 13.0, *)
 extension SwiftUICore.Color {
@@ -1097,6 +1349,14 @@ extension BidmadSDK.BIDMADAdPosition : Swift.RawRepresentable {}
 extension BidmadSDK.BIDMADBannerViewCase : Swift.Equatable {}
 extension BidmadSDK.BIDMADBannerViewCase : Swift.Hashable {}
 extension BidmadSDK.BIDMADBannerViewCase : Swift.RawRepresentable {}
+extension BidmadSDK.BMBanner.UITaskError : Swift.Equatable {}
+extension BidmadSDK.BMBanner.UITaskError : Swift.Hashable {}
+extension BidmadSDK.BMBaseAdLogTypes : Swift.Equatable {}
+extension BidmadSDK.BMBaseAdLogTypes : Swift.Hashable {}
+extension BidmadSDK.BMBaseAdLogTypes : Swift.RawRepresentable {}
+extension BidmadSDK.BidmadLogLevel : Swift.Equatable {}
+extension BidmadSDK.BidmadLogLevel : Swift.Hashable {}
+extension BidmadSDK.BidmadLogLevel : Swift.RawRepresentable {}
 @available(*, unavailable, renamed: "Connection")
 extension BidmadSDK.BidmadSDKReachability.NetworkStatus : Swift.Equatable {}
 @available(*, unavailable, renamed: "Connection")
@@ -1105,9 +1365,6 @@ extension BidmadSDK.BidmadSDKReachability.Connection : Swift.Equatable {}
 extension BidmadSDK.BidmadSDKReachability.Connection : Swift.Hashable {}
 @available(iOS 13.0, *)
 extension BidmadSDK.BidmadTracker : Swift.Sendable {}
-extension BidmadSDK.BidmadLogLevel : Swift.Equatable {}
-extension BidmadSDK.BidmadLogLevel : Swift.Hashable {}
-extension BidmadSDK.BidmadLogLevel : Swift.RawRepresentable {}
 extension BidmadSDK.VMAPError : Swift.Equatable {}
 extension BidmadSDK.VMAPError : Swift.Hashable {}
 extension BidmadSDK.VMAPErrorCodes : Swift.Equatable {}

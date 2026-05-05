@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BidmadTeadsAdapter-Swift.h</key>
 		<data>
-		F7itaQ7XgVljfv4UsMXkSlabkGo=
+		xAZgqy8uvwNa5IxwdtWmv+2S+z8=
 		</data>
 		<key>Headers/BidmadTeadsAdapter.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qhTZnLJ4hFyHIaWqwlbOA/0Z28k=
+		DQDYoWSSNdLkblr2Dn00IN4EhfM=
 		</data>
 		<key>Modules/BidmadTeadsAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		zeYsx87SrNPAdEfMxYSTABwvXFk=
+		QFVwtPNd4mjCy71Jco82QKrEztw=
 		</data>
 		<key>Modules/BidmadTeadsAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RZqyFrFNbtuBPbi6MBm9K1ZsNbk=
+		/CQ+RVxGJRTJ0/1zgeFDgyfiHM4=
 		</data>
 		<key>Modules/BidmadTeadsAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Lw9OJXEc5VbHkHHFWvN25WqsI8U=
+		1VizltncieUxu/7NcnQCWfB9MnE=
 		</data>
 		<key>Modules/BidmadTeadsAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RZqyFrFNbtuBPbi6MBm9K1ZsNbk=
+		/CQ+RVxGJRTJ0/1zgeFDgyfiHM4=
 		</data>
 		<key>Modules/BidmadTeadsAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Tfsa9Jcv4VxlHhXin8IOEgn8p2c=
+		gCcI99l7GA21A3kCgfhKrpcmeKI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -45,21 +45,13 @@
 	<dict>
 		<key>Headers/BidmadTeadsAdapter-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			F7itaQ7XgVljfv4UsMXkSlabkGo=
-			</data>
 			<key>hash2</key>
 			<data>
-			shph0efKwM8wzpBqT/ppiyZ5S/kb+h1lxOqBhnVUVKE=
+			O/mY+d0dwGklln/RXB/uivbG+enHI4kk0c07tTI1zj8=
 			</data>
 		</dict>
 		<key>Headers/BidmadTeadsAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mFe02xyeIRlfF7PiV1wlNycIjg4=
-			</data>
 			<key>hash2</key>
 			<data>
 			DVI1mepLm/VFBSN5p/Y9zjQ/VpLobiyaBqexaMt+6pk=
@@ -67,65 +59,41 @@
 		</dict>
 		<key>Modules/BidmadTeadsAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zeYsx87SrNPAdEfMxYSTABwvXFk=
-			</data>
 			<key>hash2</key>
 			<data>
-			xQTvWvBeUas9BhGiAw6DSYgpgre8l+rPH0kCzlCEYhw=
+			DMcWtTT2AYRd5dYZXpqSGIOI05FOnGRELq9LMzuF2tc=
 			</data>
 		</dict>
 		<key>Modules/BidmadTeadsAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RZqyFrFNbtuBPbi6MBm9K1ZsNbk=
-			</data>
 			<key>hash2</key>
 			<data>
-			NQRBthPtyHcOIDUYZ/sQj+aKz4yb7W0cVg749lDfuro=
+			lefndAZ/gvbsfGzVPm3isxcH/pkvh0ubxSgU7pEj5rg=
 			</data>
 		</dict>
 		<key>Modules/BidmadTeadsAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Lw9OJXEc5VbHkHHFWvN25WqsI8U=
-			</data>
 			<key>hash2</key>
 			<data>
-			zEOMrEqTiq/lSZVeXd2q5s6TM42MC879UFO/aBWpTPo=
+			5+2LtL005VW0zE1vAJE+bbz1GNY3pZr2WojLiyuUu+Y=
 			</data>
 		</dict>
 		<key>Modules/BidmadTeadsAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RZqyFrFNbtuBPbi6MBm9K1ZsNbk=
-			</data>
 			<key>hash2</key>
 			<data>
-			NQRBthPtyHcOIDUYZ/sQj+aKz4yb7W0cVg749lDfuro=
+			lefndAZ/gvbsfGzVPm3isxcH/pkvh0ubxSgU7pEj5rg=
 			</data>
 		</dict>
 		<key>Modules/BidmadTeadsAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Tfsa9Jcv4VxlHhXin8IOEgn8p2c=
-			</data>
 			<key>hash2</key>
 			<data>
-			5xZCiypo/JdTRLFmjpUrVYYZqjghVUzwm1Y9G00OKcE=
+			ps6Mu2a3eAI+cZHyvOThEXzmzCyBtwwWBR6dsRYsQRc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vHa1YmiwnH8s7Y+RfpnM9g1UYvQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			4zDd+QG/z2kOge0WHUHKDB1qSDF5oky8HnpZoaTR8l8=

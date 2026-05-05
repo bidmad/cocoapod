@@ -427,7 +427,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override"
+              "Required"
             ],
             "init_kind": "Designated"
           },
@@ -583,10 +583,12 @@
             "mangledName": "$s20BidmadTaboolaAdapter0a6BannerbC14SupportCheckerC11isSupportedSbyFZ",
             "moduleName": "BidmadTaboolaAdapter",
             "static": true,
+            "overriding": true,
             "objc_name": "isSupported",
             "declAttributes": [
               "Final",
               "ObjC",
+              "Override",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -626,9 +628,10 @@
           "AccessControl",
           "ObjC"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassUsr": "c:objc(cs)BidmadSupportChecker",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
+          "BidmadSDK.BidmadSupportChecker",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -1275,10 +1278,12 @@
             "mangledName": "$s20BidmadTaboolaAdapter0a12InterstitialbC14SupportCheckerC11isSupportedSbyFZ",
             "moduleName": "BidmadTaboolaAdapter",
             "static": true,
+            "overriding": true,
             "objc_name": "isSupported",
             "declAttributes": [
-              "Final",
+              "Dynamic",
               "ObjC",
+              "Override",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -1318,9 +1323,10 @@
           "AccessControl",
           "ObjC"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassUsr": "c:objc(cs)BidmadSupportChecker",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
+          "BidmadSDK.BidmadSupportChecker",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -1439,35 +1445,35 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/Sources\/BidmadBannerTaboolaAdapter.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadTaboolaAdapter\/Sources\/BidmadBannerTaboolaAdapter.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 28,
       "value": "\"BidmadBannerTaboolaAdapter\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/Sources\/BidmadInterstitialTaboolaAdContainer.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadTaboolaAdapter\/Sources\/BidmadInterstitialTaboolaAdContainer.swift",
       "kind": "BooleanLiteral",
       "offset": 1349,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/Sources\/BidmadInterstitialTaboolaAdapter.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadTaboolaAdapter\/Sources\/BidmadInterstitialTaboolaAdapter.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 34,
       "value": "\"BidmadInterstitialTaboolaAdapter\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/Sources\/BidmadTaboolaManager.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadTaboolaAdapter\/Sources\/BidmadTaboolaManager.swift",
       "kind": "StringLiteral",
       "offset": 272,
       "length": 22,
       "value": "\"BidmadTaboolaManager\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTaboolaAdapter\/Sources\/BidmadTaboolaResponseManager.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadTaboolaAdapter\/Sources\/BidmadTaboolaResponseManager.swift",
       "kind": "BooleanLiteral",
       "offset": 93,
       "length": 5,

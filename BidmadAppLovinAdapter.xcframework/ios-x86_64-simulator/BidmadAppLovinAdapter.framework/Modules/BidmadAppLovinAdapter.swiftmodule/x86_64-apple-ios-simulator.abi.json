@@ -208,14 +208,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAppLovinAdapter\/Sources\/BidmadAppLovinSwiftCore.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAppLovinAdapter\/Sources\/BidmadAppLovinSwiftCore.swift",
       "kind": "IntegerLiteral",
       "offset": 139,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadAppLovinAdapter\/Sources\/BidmadAppLovinSwiftCore.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAppLovinAdapter\/Sources\/BidmadAppLovinSwiftCore.swift",
       "kind": "StringLiteral",
       "offset": 330,
       "length": 32,

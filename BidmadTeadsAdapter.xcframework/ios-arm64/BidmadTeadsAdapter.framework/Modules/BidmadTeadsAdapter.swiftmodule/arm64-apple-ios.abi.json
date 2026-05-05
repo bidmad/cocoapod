@@ -324,7 +324,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override"
+              "Required"
             ],
             "init_kind": "Designated"
           },
@@ -501,10 +501,12 @@
             "mangledName": "$s18BidmadTeadsAdapter0a6BannerbC14SupportCheckerC11isSupportedSbyFZ",
             "moduleName": "BidmadTeadsAdapter",
             "static": true,
+            "overriding": true,
             "objc_name": "isSupported",
             "declAttributes": [
               "Final",
               "ObjC",
+              "Override",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -544,9 +546,10 @@
           "AccessControl",
           "ObjC"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassUsr": "c:objc(cs)BidmadSupportChecker",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
+          "BidmadSDK.BidmadSupportChecker",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -1154,10 +1157,12 @@
             "mangledName": "$s18BidmadTeadsAdapter0a12InterstitialbC14SupportCheckerC11isSupportedSbyFZ",
             "moduleName": "BidmadTeadsAdapter",
             "static": true,
+            "overriding": true,
             "objc_name": "isSupported",
             "declAttributes": [
-              "Final",
+              "Dynamic",
               "ObjC",
+              "Override",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -1195,12 +1200,12 @@
         "moduleName": "BidmadTeadsAdapter",
         "declAttributes": [
           "AccessControl",
-          "ObjCMembers",
           "ObjC"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassUsr": "c:objc(cs)BidmadSupportChecker",
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
+          "BidmadSDK.BidmadSupportChecker",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
@@ -1585,7 +1590,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override"
+              "Required"
             ],
             "init_kind": "Designated"
           },
@@ -1936,21 +1941,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTeadsAdapter\/Sources\/BidmadInterstitialTeadsAdapter.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadTeadsAdapter\/Sources\/BidmadInterstitialTeadsAdapter.swift",
       "kind": "StringLiteral",
       "offset": 319,
       "length": 32,
       "value": "\"BidmadInterstitialTeadsAdapter\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTeadsAdapter\/Sources\/BidmadInterstitialTeadsAdapter.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadTeadsAdapter\/Sources\/BidmadInterstitialTeadsAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 4673,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadTeadsAdapter\/Sources\/BidmadInterstitialTeadsAdapter.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadTeadsAdapter\/Sources\/BidmadInterstitialTeadsAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 4712,
       "length": 5,

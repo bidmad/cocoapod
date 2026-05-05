@@ -239,7 +239,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override"
+              "Required"
             ],
             "init_kind": "Designated"
           },

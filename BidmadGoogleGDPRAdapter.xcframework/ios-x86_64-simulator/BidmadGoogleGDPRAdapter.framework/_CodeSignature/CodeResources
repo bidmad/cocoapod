@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/BidmadGoogleGDPRAdapter-Swift.h</key>
 		<data>
-		M2LGCfvRT8cwLUxJnnbj4YXlrjg=
+		/F4YunmwvQ2DDyyp+CpU8ocjFyM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JBq+pvMqWnNcFyQXMhhU5rz936o=
+		Wmx3AjSfF7Z8U+7zzyn15VPIB7U=
 		</data>
 		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CPIueJWGfc2GP9xj1S4Up3810Dw=
+		Ql0SBLB7g/9mm+SLt4Uz3t25zYM=
 		</data>
 		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IpmTZvdoDAaLChCCqrfbMbXNL9A=
+		ZyTwGrwhRAM28p5ui4DSWPutOkk=
 		</data>
 		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CPIueJWGfc2GP9xj1S4Up3810Dw=
+		Ql0SBLB7g/9mm+SLt4Uz3t25zYM=
 		</data>
 		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l6NDsTXX7YQJo+vC6CeMiNnYmJM=
+		bWf+JrISmLVijTHefOufTk/a9Go=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		SAONaZrmfw6DmYIo+PePapPL4nI=
+		TD2rMbBU0wLesIC72JQvchqwyjQ=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -49,21 +49,13 @@
 	<dict>
 		<key>Headers/BidmadGoogleGDPRAdapter-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M2LGCfvRT8cwLUxJnnbj4YXlrjg=
-			</data>
 			<key>hash2</key>
 			<data>
-			l4l5+m1mRvLJ5XXo5Ya11zMSicQacMExTVLYdT7hQ6c=
+			KS9LijgGRl16fV2CoBDCr18qi1T12CjzI8BPb4Qth0M=
 			</data>
 		</dict>
 		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ll+iIhos67Km2i7nl0VYY2n37mw=
-			</data>
 			<key>hash2</key>
 			<data>
 			dbPYH+AMFOdn+z8b7Y7dR9XZgXhCynKRoQh1aUddN+0=
@@ -71,54 +63,34 @@
 		</dict>
 		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CPIueJWGfc2GP9xj1S4Up3810Dw=
-			</data>
 			<key>hash2</key>
 			<data>
-			ebBWDW8OlaV0DJ8zOaqzDwbD600W7/D6HisfNcDrqYI=
+			n0gpptFix/pi/0Ymd6Z7dKbqpBmbt/bAA2IpTjjJXFU=
 			</data>
 		</dict>
 		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IpmTZvdoDAaLChCCqrfbMbXNL9A=
-			</data>
 			<key>hash2</key>
 			<data>
-			He28zwzy7itZQiQuUc3GEXnIvUbA6hG2WIQcHI9sCVw=
+			GbaWPLf2/YD8UPpZ6KWr7oYR7JP4cku9RMutLc1j52M=
 			</data>
 		</dict>
 		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CPIueJWGfc2GP9xj1S4Up3810Dw=
-			</data>
 			<key>hash2</key>
 			<data>
-			ebBWDW8OlaV0DJ8zOaqzDwbD600W7/D6HisfNcDrqYI=
+			n0gpptFix/pi/0Ymd6Z7dKbqpBmbt/bAA2IpTjjJXFU=
 			</data>
 		</dict>
 		<key>Modules/BidmadGoogleGDPRAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l6NDsTXX7YQJo+vC6CeMiNnYmJM=
-			</data>
 			<key>hash2</key>
 			<data>
-			omL42nxffLxHCB8fzNLHABhG6XEPT+V2VNJBamXV60g=
+			0hWhm262a8R8mzC/2qI+9+SbLG1qRwkunNxa+VxRBqM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jF9wqLrYlV2sgnpR7SpPfPZ5MY4=
-			</data>
 			<key>hash2</key>
 			<data>
 			f0KKnz+WKaL8AD5PgdbBXeY047jDqDw042u3P/vMoNg=
@@ -126,21 +98,13 @@
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SAONaZrmfw6DmYIo+PePapPL4nI=
-			</data>
 			<key>hash2</key>
 			<data>
-			djRHrLQqZJwdaHkRIJqJdJ6YLnwyBVaxpYnYbUNoKUU=
+			oYexksY6U6aMJBAW/gyy4pnNHiG9gFoZ/UafavhPetQ=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			k9OFlDPBRWfteJ+bfG12WAoBuls=
-			</data>
 			<key>hash2</key>
 			<data>
 			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=

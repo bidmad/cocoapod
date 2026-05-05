@@ -18,14 +18,12 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import <BidmadSDK/BIDMADUtil.h>
 #import <BidmadSDK/BIDMADSetting.h>
 #import <BidmadSDK/BIDMADRewardVideo.h>
-#import <BidmadSDK/BIDMADNativeAd.h>
 #import <BidmadSDK/BidmadBannerAdapter.h>
 #import <BidmadSDK/BidmadFullscreenAdapter.h>
 #import <BidmadSDK/BidmadNativeAdapter.h>
 #import <BidmadSDK/BidmadAdapter.h>
 #import <BidmadSDK/BidmadNativeAdOriginalUIState.h>
 #import <BidmadSDK/BIDMADGDPR.h>
-#import <BidmadSDK/BIDMADAppOpenAd.h>
 #import <BidmadSDK/BIDMADNativeAdView.h>
 #import <BidmadSDK/BidmadUtility.h>
 #import <BidmadSDK/BidmadAdType.h>
@@ -41,8 +39,16 @@ FOUNDATION_EXPORT const unsigned char BidmadSDKVersionString[];
 #import <BidmadSDK/NSArray+HigherOrderFunctionsForADOP.h>
 #import <BidmadSDK/ADOPLog.h>
 #import <BidmadSDK/BidmadLoadStatus.h>
-#import <BidmadSDK/BidmadBannerSizeStrategy.h>
 #import <BidmadSDK/BidmadErasableView.h>
 #import <BidmadSDK/BidmadAdValue.h>
 #import <BidmadSDK/BidmadAdValueManager.h>
 #import <BidmadSDK/BIDMADGDPRforGoogle.h>
+#import <BidmadSDK/BidmadSupportChecker.h>
+#import <BidmadSDK/BidmadSplashAdapter.h>
+#import <BidmadSDK/BidmadCustomRenderedAdapter.h>
+#import <BidmadSDK/Cocos2dxCommon.h>
+#import <BidmadSDK/Cocos2dxGDPRforGoogle.h>
+#import <BidmadSDK/UnityGDPRforGoogle.h>
+#import <BidmadSDK/UnrealCommon.h>
+#import <BidmadSDK/UnrealGDPRforGoogle.h>
+

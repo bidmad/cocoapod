@@ -191,15 +191,15 @@
       },
       {
         "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
         "declKind": "Import",
         "moduleName": "BidmadGoogleAdMobAdapter"
       },
       {
         "kind": "Import",
-        "name": "BidmadSDK",
-        "printedName": "BidmadSDK",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
         "declKind": "Import",
         "moduleName": "BidmadGoogleAdMobAdapter"
       },
@@ -430,7 +430,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override"
+              "Required"
             ],
             "init_kind": "Designated"
           },
@@ -1541,14 +1541,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadGoogleAdMobAdapter\/Sources\/BidmadAdMobManager.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadGoogleAdMobAdapter\/Sources\/BidmadAdMobManager.swift",
       "kind": "StringLiteral",
       "offset": 296,
       "length": 32,
       "value": "\"com.bidmad.admob.manager.state\""
     },
     {
-      "filePath": "\/Users\/seungsub\/Development\/BidmadSDK-DevSuite\/BidmadGoogleAdMobAdapter\/Sources\/BidmadRewardGoogleAdMobAdapter.swift",
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadGoogleAdMobAdapter\/Sources\/BidmadRewardGoogleAdMobAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 361,
       "length": 5,

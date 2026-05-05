@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BidmadFlutterBridge-Swift.h</key>
 		<data>
-		IE5tg3SJLecJXAsEi80yzYWFTWI=
+		tjuFbbUcuQOxaOOzs7AMMGRxU4M=
 		</data>
 		<key>Headers/BidmadFlutterBridge.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/OpenBiddingFlutterBanner.h</key>
 		<data>
-		StQb/h/A3q7IaskezICR5dqBQkA=
+		g9UA4XukHSyf2Z0vEGLzbCoU6S8=
 		</data>
 		<key>Headers/OpenBiddingFlutterBannerFactory.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/OpenBiddingFlutterCommon.h</key>
 		<data>
-		4Yk+fZJRHH4T5cwz5t0HHhwOD+o=
+		CGyJAWMl/zJjmxmscaSsRl9quSE=
 		</data>
 		<key>Headers/OpenBiddingFlutterGDPRforGoogle.h</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Headers/OpenBiddingFlutterNativeAdViewFactory.h</key>
 		<data>
-		ksZ1OeiZI7p0dmItjrxfd9Xils4=
+		BZ69yS9Wf9pxwYqwCnzjQyAi2FI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		00sPcPupxkEsXjA22a++WHfEngk=
+		UUXV84fZyQQEwMlb9VK5OgjGzkU=
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		AwYpfcIGHbDkwKn4I7IYZZMTWtc=
+		z8TQNwSpI6LOTTQHCSGLZ/cu6kU=
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hov7WukNMlq0ZyLZRb05p50ZJA0=
+		MpGyu4VfRxaQAYxoIgix6XavxSE=
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hov7WukNMlq0ZyLZRb05p50ZJA0=
+		MpGyu4VfRxaQAYxoIgix6XavxSE=
 		</data>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oFxpl1mBHvNbrOx0QF9lVDdL+ms=
+		CaE4jaXIQfFya/atcrDbXdwB3zU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1iSq/0rhVTKiKbPJXMJDKYsn48StzcBGYL5rv/MLpD8=
+			6npGW7FT0p4s8kjpx/fusCMNBAmjrhu6T/CH2S8J6fI=
 			</data>
 		</dict>
 		<key>Headers/BidmadFlutterBridge.h</key>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M2nlviY3gqqugyQKf/3wJi3iS5f3zCsY0r3+QrKgj0M=
+			FZtAiDO5rhIRRlKrTdXId2IDUYsOf9OWd9SAeg4pkAI=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingFlutterBannerFactory.h</key>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iHLILIHM7dInUdVB0G3An5y8DQjLkTLe/ZdI7eGN14k=
+			H4T6UaiAOOj1/M2q4V0hlMcSstGZbjG13RZrfkPQEp4=
 			</data>
 		</dict>
 		<key>Headers/OpenBiddingFlutterGDPRforGoogle.h</key>
@@ -109,21 +109,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ATAs4xzrFpV6gvBIhtOidOE4rzpRIfWCydZM3oUJh+o=
+			nxqSMRPwxYGT3lYtVaNNpN4K5aubtnkG2aCPIqbWsu8=
 			</data>
 		</dict>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i/Z69KucqALxR12HjPh3f1B8lZVz9fNo7Q8lHzfZ1cw=
+			OQlA9JlRfVYGoyIkRSOVIh05xjRVbMO+4jpJ6Xv9RcA=
 			</data>
 		</dict>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7uK8mSZ1FukPuJ0Vx4RRYeEscjEn10JcDmvg+zLz1ts=
+			pD9sZc8rLMtCuAPSXAWv5uMiV7RqgrM9AXUQ9ze2LtY=
 			</data>
 		</dict>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7uK8mSZ1FukPuJ0Vx4RRYeEscjEn10JcDmvg+zLz1ts=
+			pD9sZc8rLMtCuAPSXAWv5uMiV7RqgrM9AXUQ9ze2LtY=
 			</data>
 		</dict>
 		<key>Modules/BidmadFlutterBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YSpMJMGi6q0OskkF0wSswlrZQmQThgFhwHSgAuRgtTA=
+			hVzoItgsRw9vVBEhFM1FwwxlMGlVs1Cqsd14k4zyB3g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

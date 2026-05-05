@@ -13,11 +13,11 @@
 
 #import <Foundation/Foundation.h>
 #import <BidmadSDK/BIDMADSetting.h>
-#import "OpenBiddingBanner.h"
+#import "BidmadBannerAd.h"
 
 static NSMutableDictionary* BidmadOpenBiddingBannerDic;
 
-@interface BidmadBannerAdForGame : NSObject
+@interface BidmadBannerAdForGame : NSObject <BMBannerDelegate>
 
 + (void)initialSetupForZoneID:(NSString *)zoneID
                viewController:(UIViewController *)viewController

@@ -7,11 +7,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import <Flutter/Flutter.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface OpenBiddingFlutterNativeAdViewFactory : NSObject
 
-- (instancetype)initWithRegistrar:(NSObject *)registrar layoutName:(NSString *)layoutName;
+- (instancetype)initWithRegistrar:(id<FlutterPluginRegistrar>)registrar layoutName:(NSString *)layoutName;
 
 @property (nonatomic, strong) NSString *layoutName;
 

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BidmadORTBAdapter-Swift.h</key>
 		<data>
-		ZrlEhzutHv1Xie5fG4rcrtyauJU=
+		ljUU6S3ZD57BkPqv3/dNvh4ddoE=
 		</data>
 		<key>Headers/BidmadORTBAdapter.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/yEdT74jt/7hoB//h4WJWHeFJqo=
+		dk0PbHoP2lBmfQRHLdsHTl2Yrsg=
 		</data>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		U4tEqXV3aVJjTJcdEU1QwWgL66o=
+		nLw66xCL6Zae/0wJxNaYI5lD7mw=
 		</data>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0qz4k5VQGfs5hMq1DP0sORIHsgs=
+		IjFAogohNaUVf2ItSpvpuncwk0s=
 		</data>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8NUCpLCpasUGnBC5fclX8VoiiZ4=
+		KWy7MJoCTl891sTVkd8uj7kINVs=
 		</data>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0qz4k5VQGfs5hMq1DP0sORIHsgs=
+		IjFAogohNaUVf2ItSpvpuncwk0s=
 		</data>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NzSdftkARxo+iRU2xiIFxJiibt8=
+		mFm1eB0YIqVhV19/0Wy5HpFnuqo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>ortb_script_banner_view.html</key>
 		<data>
-		4pgxvL6o6LrWEU91Xq+sND2LqwU=
+		Xqo2ZTB80ugfOkV0HBOdSjxvyGQ=
 		</data>
 		<key>ortb_video_banner_view.html</key>
 		<data>
-		R6J09MWjyMTLnWkM4WqJkGhpQ3g=
+		vUlheNp+PgMxDomHnTErzGIz7eU=
 		</data>
 		<key>style.css</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8HMLl8qSU2o4efEaGFzkriIJQABXp4agFaDUqnCr8eU=
+			gG9SUz1jGv3rfqrf7qAEU8K67hq/rzCp3amuMNfVI6k=
 			</data>
 		</dict>
 		<key>Headers/BidmadORTBAdapter.h</key>
@@ -73,35 +73,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oILeIHBaqBCDD/v0zovqiKdmZ9/KJEbZ1urhvz0cpJw=
+			XAI14rnlWg1iTgjjuQmloRT5a5e9m3GhD547RyWhMVU=
 			</data>
 		</dict>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vyE6l5G0USXa3TLjBaS7H2LcmugUfpiGJM2ii6uj+5M=
+			PkjgQFBOKCYmwWrMD1R28ADjpzthtQz3ZLloE7eoYvE=
 			</data>
 		</dict>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4s1fNlE0hgISc/lwq7iK2Nx47qVjuSbdT1gKWcaQL5I=
+			OCMqI7X34yLahq7UnDNqg0EJl6nrZ/g4qfhGFGSUyRs=
 			</data>
 		</dict>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vyE6l5G0USXa3TLjBaS7H2LcmugUfpiGJM2ii6uj+5M=
+			PkjgQFBOKCYmwWrMD1R28ADjpzthtQz3ZLloE7eoYvE=
 			</data>
 		</dict>
 		<key>Modules/BidmadORTBAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yHAYCYRPo8UfM735FCKsxjx+P/+2QSS3ksxWeJZre74=
+			Goi2OMrudoFl6dnl69Wi+eugPdCwi8L99wRL4HZEPXw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -115,14 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u+d7yK3cDXFweT/zBVP5u35ZyNNVv8XULoynuI/KLGk=
+			rSLd0UNlmhcMtpJIGL8IjEXNx04APsZdg2QACiulXGQ=
 			</data>
 		</dict>
 		<key>ortb_video_banner_view.html</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r/JjX8zo82DOvNUiya5RxkGIKxmu26pEkGu+MM/Cj6w=
+			7ULJypJdGG5LvUI0oSGynOw0/L6kJBdX72g5CM7egyk=
 			</data>
 		</dict>
 		<key>style.css</key>

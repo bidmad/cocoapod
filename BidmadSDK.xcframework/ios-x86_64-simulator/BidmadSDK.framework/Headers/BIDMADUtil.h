@@ -40,4 +40,8 @@
 + (void)sendLogForAdUnit:(BidmadAdUnit * _Nonnull)adUnit
                  logType:(NSString * _Nonnull)logType;
 
++ (void)sendLogForAdUnit:(BidmadAdUnit * _Nonnull)adUnit
+                 logType:(NSString * _Nonnull)logType
+       completionHandler:(void (^ _Nullable)(NSError * _Nullable error))completionHandler;
+
 @end

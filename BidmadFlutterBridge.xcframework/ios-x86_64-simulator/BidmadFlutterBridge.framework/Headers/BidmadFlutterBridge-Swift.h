@@ -281,12 +281,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import BidmadSDK;
 @import CoreFoundation;
 @import Flutter;
 @import ObjectiveC;
+@import OpenBiddingHelper;
 #endif
-
-#import <BidmadFlutterBridge/BidmadFlutterBridge.h>
 
 #endif
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -311,6 +311,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSString;
 SWIFT_CLASS("_TtC19BidmadFlutterBridge31OpenBiddingFlutterBannerRefined")
 @interface OpenBiddingFlutterBannerRefined : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
++ (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) OpenBiddingFlutterBannerRefined * _Nullable shared;)
 + (OpenBiddingFlutterBannerRefined * _Nullable)shared SWIFT_WARN_UNUSED_RESULT;
 + (void)setShared:(OpenBiddingFlutterBannerRefined * _Nullable)value;
@@ -322,12 +324,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isInitialized;)
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class OpenBiddingBanner;
+@class BMBanner;
 @class BidmadInfo;
-@interface OpenBiddingFlutterBannerRefined (SWIFT_EXTENSION(BidmadFlutterBridge)) <BIDMADOpenBiddingBannerDelegate>
-- (void)onLoadAd:(OpenBiddingBanner * _Nonnull)bidmadAd info:(BidmadInfo * _Nonnull)info;
-- (void)onLoadFailAd:(OpenBiddingBanner * _Nonnull)bidmadAd error:(NSError * _Nonnull)error;
-- (void)onClickAd:(OpenBiddingBanner * _Nonnull)bidmadAd info:(BidmadInfo * _Nonnull)info;
+@interface OpenBiddingFlutterBannerRefined (SWIFT_EXTENSION(BidmadFlutterBridge)) <BMBannerDelegate>
+- (void)onLoadAd:(BMBanner * _Nonnull)bidmadAd info:(BidmadInfo * _Nonnull)info;
+- (void)onLoadFailAd:(BMBanner * _Nonnull)bidmadAd error:(NSError * _Nonnull)error;
+- (void)onClickAd:(BMBanner * _Nonnull)bidmadAd info:(BidmadInfo * _Nonnull)info;
 @end
 
 @protocol FlutterPlatformView;
@@ -350,8 +352,26 @@ SWIFT_CLASS("_TtC19BidmadFlutterBridge43OpenBiddingFlutterBannerRefinedPlatformV
 @end
 
 @protocol FlutterPluginRegistrar;
+SWIFT_CLASS("_TtC19BidmadFlutterBridge32OpenBiddingFlutterCustomRendered")
+@interface OpenBiddingFlutterCustomRendered : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
++ (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar channelName:(NSString * _Nonnull)channelName OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class BidmadCustomRenderedAd;
+@class BidmadCustomRenderedAdContent;
+@interface OpenBiddingFlutterCustomRendered (SWIFT_EXTENSION(BidmadFlutterBridge)) <BidmadCustomRenderedAdDelegate>
+- (void)onLoadCustomRenderedAd:(BidmadCustomRenderedAd * _Nonnull)ad content:(BidmadCustomRenderedAdContent * _Nonnull)content info:(BidmadInfo * _Nonnull)info;
+- (void)onLoadFailCustomRenderedAd:(BidmadCustomRenderedAd * _Nonnull)ad error:(NSError * _Nonnull)error;
+@end
+
 SWIFT_CLASS("_TtC19BidmadFlutterBridge30OpenBiddingFlutterInterstitial")
 @interface OpenBiddingFlutterInterstitial : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
++ (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar channelName:(NSString * _Nonnull)channelName OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -369,6 +389,8 @@ SWIFT_CLASS("_TtC19BidmadFlutterBridge30OpenBiddingFlutterInterstitial")
 
 SWIFT_CLASS("_TtC19BidmadFlutterBridge29OpenBiddingFlutterRewardVideo")
 @interface OpenBiddingFlutterRewardVideo : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
++ (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar channelName:(NSString * _Nonnull)channelName OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -384,6 +406,22 @@ SWIFT_CLASS("_TtC19BidmadFlutterBridge29OpenBiddingFlutterRewardVideo")
 - (void)onSkipAd:(OpenBiddingRewardVideo * _Nonnull)bidmadAd info:(BidmadInfo * _Nonnull)info;
 - (void)onCompleteAd:(OpenBiddingRewardVideo * _Nonnull)bidmadAd info:(BidmadInfo * _Nonnull)info;
 - (void)onCloseAd:(OpenBiddingRewardVideo * _Nonnull)bidmadAd info:(BidmadInfo * _Nonnull)info;
+@end
+
+SWIFT_CLASS("_TtC19BidmadFlutterBridge24OpenBiddingFlutterSplash")
+@interface OpenBiddingFlutterSplash : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
++ (NSString * _Nonnull)className SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithRegistrar:(id <FlutterPluginRegistrar> _Nonnull)registrar channelName:(NSString * _Nonnull)channelName OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class BidmadSplashAd;
+@class BidmadSplashAdContent;
+@interface OpenBiddingFlutterSplash (SWIFT_EXTENSION(BidmadFlutterBridge)) <BidmadSplashAdDelegate>
+- (void)onLoadSplashAd:(BidmadSplashAd * _Nonnull)ad content:(BidmadSplashAdContent * _Nonnull)content info:(BidmadInfo * _Nonnull)info;
+- (void)onLoadFailSplashAd:(BidmadSplashAd * _Nonnull)ad error:(NSError * _Nonnull)error;
 @end
 
 #endif

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BidmadAdmixerAdapter
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BidmadAdmixerAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AdMixerMediation
 import BidmadSDK
 import Swift
@@ -22,9 +22,9 @@ open class BidmadBannerAdmixerAdapter : BidmadSDK.BidmadBannerAdapter, Swift.Ide
   weak public var adView: AdMixerMediation.AMMBannerView?
   @objc override dynamic open func loadAd(from viewController: UIKit.UIViewController) async throws -> (BidmadSDK.BidmadBannerAdapter, UIKit.UIView, CoreFoundation.CGSize)
   @objc override dynamic open func destroyed()
-  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc required dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
   @objc override dynamic public init()
-  @available(iOS 13.0.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @available(iOS 13.0.0, *)
   public typealias ID = Foundation.UUID
   @objc deinit
 }
@@ -35,7 +35,7 @@ extension AdMixerMediation.AMMBannerView : AdMixerMediation.AMMBannerViewDelegat
   @objc nonisolated dynamic public func onFailBanner()
   @_Concurrency.MainActor @preconcurrency public func cleanUp()
 }
-@objc @_inheritsConvenienceInitializers public class BidmadBannerAdmixerAdapterSupportChecker : BidmadSDK.BidmadBannerAdapterSupportChecker {
+@objc @_inheritsConvenienceInitializers public class BidmadBannerAdmixerAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
   @objc override dynamic public class func isSupported() -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit

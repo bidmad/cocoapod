@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BidmadTaboolaAdapter
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BidmadTaboolaAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import BidmadSDK
 @_exported import BidmadTaboolaAdapter
 import Combine
@@ -20,12 +20,12 @@ public class BidmadBannerTaboolaAdapter : BidmadSDK.BidmadBannerAdapter, Taboola
   @objc public func classicUnit(_ classicUnit: UIKit.UIView!, didClickPlacementName placementName: Swift.String!, itemId: Swift.String!, clickUrl: Swift.String!, isOrganic organic: Swift.Bool, customData: [Swift.AnyHashable : Any]!) -> Swift.Bool
   @objc public func classicUnit(_ classicUnit: UIKit.UIView!, didFailToLoadPlacementName placementName: Swift.String!, errorMessage error: Swift.String!)
   @objc override dynamic public func destroyed()
-  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc required dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class BidmadBannerTaboolaAdapterSupportChecker : ObjectiveC.NSObject, BidmadSDK.BidmadBannerSC {
-  @objc public static func isSupported() -> Swift.Bool
+@_inheritsConvenienceInitializers @objc public class BidmadBannerTaboolaAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
+  @objc override public static func isSupported() -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
 }
@@ -41,8 +41,8 @@ public class BidmadInterstitialTaboolaAdapter : BidmadSDK.BidmadFullscreenAdapte
   @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
   @objc override dynamic public init()
 }
-@objc @_inheritsConvenienceInitializers public class BidmadInterstitialTaboolaAdapterSupportChecker : ObjectiveC.NSObject, BidmadSDK.BidmadInterstitialSC {
-  @objc public static func isSupported() -> Swift.Bool
+@objc @_inheritsConvenienceInitializers public class BidmadInterstitialTaboolaAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
+  @objc override dynamic public class func isSupported() -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
 }

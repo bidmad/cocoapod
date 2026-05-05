@@ -6,7 +6,7 @@
 //
 #import <UIKit/UIKit.h>
 #import <BidmadSDK/BIDMADSetting.h>
-#import <OpenBiddingHelper/OpenBiddingHelper.h>
+#import <BidmadSDK/BidmadSDK-Swift.h>
 
 #if __has_include(<Flutter/Flutter.h>) || __has_include("Flutter.h")
 @import Flutter;
