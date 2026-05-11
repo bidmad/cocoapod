@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BidmadSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 @_exported import BidmadSDK
 import Combine
 import Foundation
@@ -23,9 +23,7 @@ import _SwiftConcurrencyShims
   case bottomLeft = 7
   case bottomRight = 8
   case none = 9
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -45,9 +43,7 @@ import _SwiftConcurrencyShims
   case containerViewGiven = 1
   case onlyYCoordinateGiven = 2
   case adPositionAnchorGiven = 3
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -77,11 +73,9 @@ import _SwiftConcurrencyShims
 @objc @objcMembers public class BidmadFullscreenCore : ObjectiveC.NSObject, BidmadSDK.BidmadLoggable, BidmadSDK.BidmadFullscreenAdapterDelegate {
   @objc public static let className: Swift.String
   @objc final public let zoneId: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var loadedAdapter: BidmadSDK.BidmadFullscreenAdapter? {
     @objc get
   }
-  #endif
   @objc public var onClick: ((BidmadSDK.BidmadInfo) -> Swift.Void)?
   @objc public var onClose: ((BidmadSDK.BidmadInfo) -> Swift.Void)?
   @objc public var onComplete: ((BidmadSDK.BidmadInfo) -> Swift.Void)?
@@ -89,12 +83,8 @@ import _SwiftConcurrencyShims
   @objc public var testHost: Swift.String?
   @objc public var testPath: Swift.String?
   @objc public init(zoneId: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func request(loadCompletionHandler: @escaping (BidmadSDK.BidmadInfo?, (any Swift.Error)?) -> Swift.Void, adUnit: BidmadSDK.BidmadAdUnit? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func show(viewController: UIKit.UIViewController, showCompletionHandler: @escaping (BidmadSDK.BidmadInfo?, (any Swift.Error)?) -> Swift.Void)
-  #endif
   @objc public func dismissed(with ad: BidmadSDK.BidmadFullscreenAdapter)
   @objc public func presented(with ad: BidmadSDK.BidmadFullscreenAdapter)
   @objc public func failedToPresent(with ad: BidmadSDK.BidmadFullscreenAdapter, error: any Swift.Error)
@@ -107,15 +97,9 @@ import _SwiftConcurrencyShims
   @objc init()
   @objc var isConsentFormAvailable: Swift.Bool { get }
   @objc func setDebug(testDeviceId: Swift.String, isTestEurope: Swift.Bool)
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc func requestConsentInfoUpdate(completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc func loadForm(completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc func showForm(to viewController: UIKit.UIViewController?, completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
-  #endif
   @objc var consentStatus: BidmadSDK.BIDMAD_UMPConsentStatus { get }
   @objc func reset()
 }
@@ -174,18 +158,10 @@ extension Foundation.NSNotification.Name {
   public var connection: BidmadSDK.BidmadSDKReachability.Connection {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func getInstance() -> BidmadSDK.BidmadSDKReachability?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
-  #endif
   @objc deinit
 }
 extension BidmadSDK.BidmadSDKReachability {
@@ -220,18 +196,14 @@ public struct BidmadForcedVisibility : SwiftUICore.EnvironmentKey {
 }
 @available(iOS 13.0, *)
 extension SwiftUICore.EnvironmentValues {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var bidmadForcedVisibility: Swift.Double? {
     get
     set
   }
-  #endif
 }
 @available(iOS 13.0, *)
 @_Concurrency.MainActor @preconcurrency public struct BidmadTracker : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(adView: UIKit.UIView?, viewController: UIKit.UIViewController?, visibilityRate: Swift.Double, change: @escaping (_ isVisible: Swift.Bool, _ isCompletelyInvisible: Swift.Bool, _ isAppActive: Swift.Bool) -> Swift.Void)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -240,15 +212,11 @@ extension SwiftUICore.EnvironmentValues {
 }
 @objc public protocol OBHBannerExtraDelegate : ObjectiveC.NSObjectProtocol {
   @objc var zoneID: Swift.String { get set }
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc(addLoadedAdView:adWidth:adHeight:strategy:keyWindow:error:) func add(loadedAdView adView: UIKit.UIView, adWidth: CoreFoundation.CGFloat, adHeight: CoreFoundation.CGFloat, strategy: BidmadSDK.BidmadBannerSizeStrategy, keyWindow: UIKit.UIWindow?, error: Foundation.NSErrorPointer)
-  #endif
 }
 public enum BidmadLogLevel : Swift.String {
   case dev, info, test
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -272,11 +240,9 @@ extension BidmadSDK.BidmadAdUnit {
   @objc public static var supportedAdNetworks: [Swift.String : Swift.String] {
     @objc get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var adNetworkName: Swift.String? {
     @objc get
   }
-  #endif
   @objc final public let appId: Swift.String
   @objc final public let placementId: Swift.String
   @objc final public let width: Swift.Int
@@ -304,18 +270,10 @@ extension BidmadSDK.BidmadAdUnit {
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class BidmadDataParsingUtility : ObjectiveC.NSObject, BidmadSDK.BidmadLoggable {
   @objc public static let className: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc(fetchAdUnitWithZoneId:completion:) public static func fetchAdUnit(with zoneId: Swift.String, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc(fetchAdUnitWithZoneId:adType:completion:) public static func fetchAdUnit(with zoneId: Swift.String, adType: BidmadSDK.BidmadAdType, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func fetchAdUnitObjC(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType, testHost: Swift.String, testPath: Swift.String, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func fetchAdUnit(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType? = nil, testHost: Swift.String? = nil, testPath: Swift.String? = nil, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
-  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -344,15 +302,11 @@ extension BidmadSDK.BidmadAdUnit {
 }
 @available(iOS 13.0, *)
 extension SwiftUICore.Color {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func bidmadUtilityGenerateColorFrom(hex: Swift.String?, alpha: CoreFoundation.CGFloat? = nil) -> SwiftUICore.Color
-  #endif
 }
 @available(iOS 13.0, *)
 extension UIKit.UIColor {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func bidmadUtilityUiColor(from hex: Swift.String?, alpha: CoreFoundation.CGFloat? = nil) -> UIKit.UIColor
-  #endif
   public var bidmadUtilityIsLightColor: Swift.Bool {
     get
   }
@@ -362,16 +316,12 @@ public struct VastClientOptions {
   public let singleWrapperTimeLimit: Foundation.TimeInterval
   public let timeLimit: Foundation.TimeInterval
   public let cachedVMAPModel: BidmadSDK.VMAPModel?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(wrapperLimit: Swift.Int = 5, singleWrapperTimeLimit: Foundation.TimeInterval = 5, timeLimit: Foundation.TimeInterval = 10, cachedVMAPModel: BidmadSDK.VMAPModel? = nil)
-  #endif
 }
 public class VastClient {
   public static var trackingLogOutput: ((Swift.String, [Foundation.URL]) -> ())?
   public init(options: BidmadSDK.VastClientOptions = VastClientOptions())
-  #if compiler(>=5.3) && $NonescapableTypes
   public func parseVast(withContentsOf url: Foundation.URL, completion: @escaping (BidmadSDK.VastModel?, (any Swift.Error)?) -> ())
-  #endif
   public func parseVMAP(withContentsOf url: Foundation.URL) throws -> BidmadSDK.VMAPModel
   @objc deinit
 }
@@ -390,9 +340,7 @@ public class VastTracker {
   public var isInitialized: Swift.Bool {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(vastModel: BidmadSDK.VastModel, startTime: Swift.Double = 0.0, supportAdBuffets: Swift.Bool = false, delegate: (any BidmadSDK.VastTrackerDelegate)? = nil, trackProgressCumulatively: Swift.Bool = true)
-  #endif
   @objc deinit
 }
 extension BidmadSDK.VastTracker {
@@ -410,13 +358,9 @@ extension BidmadSDK.VastTracker {
   public func muted(_ val: Swift.Bool) throws
   public func acceptedLinearInvitation() throws
   public func closed() throws
-  #if compiler(>=5.3) && $NonescapableTypes
   public func clicked() throws -> Foundation.URL?
-  #endif
   public func clickedWithCustomAction() throws -> [Foundation.URL]
-  #if compiler(>=5.3) && $NonescapableTypes
   public func error(withReason code: BidmadSDK.VastErrorCodes?) throws
-  #endif
   public func trackViewability(type: BidmadSDK.VastViewableImpressionType) throws
   public func resetState()
 }
@@ -432,13 +376,9 @@ public class VastTrackerNonLinear {
   final public let startTime: Swift.Double
   @available(*, message: "do not use VastTracker for storing this model, it is not being used")
   public var vmapModel: BidmadSDK.VMAPModel?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.String, vastModel: BidmadSDK.VastModel, startTime: Swift.Double = 0.0, supportAdBuffets: Swift.Bool = false, delegate: (any BidmadSDK.VastTrackerNonLinearDelegate)? = nil, trackProgressCumulatively: Swift.Bool = true)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, message: "Use init(id:,vastModel:) instead")
   convenience public init(id: Swift.String, vmapModel: BidmadSDK.VMAPModel, breakId: Swift.String, startTime: Swift.Double, supportAdBuffets: Swift.Bool = false, delegate: (any BidmadSDK.VastTrackerNonLinearDelegate)? = nil) throws
-  #endif
   public func updateProgress(time: Swift.Double) throws
   public func adBreakCompleted() throws
   @objc deinit
@@ -453,11 +393,9 @@ public enum TrackingError : Swift.Error {
   case noAdFound(withId: Swift.String)
 }
 extension BidmadSDK.TrackingError : Foundation.LocalizedError {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
 }
 public enum VMAPError : Swift.Error {
   case invalidXMLDocument
@@ -482,9 +420,7 @@ public enum VMAPErrorCodes : Swift.Int {
   case adResponseDocumentExtractionOrParsingError
   case adResponseDocumentRetrievalTimeout
   case adResponseDocumentRetrievalError
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -506,11 +442,9 @@ public enum VastError : Swift.Error {
   }
 }
 extension BidmadSDK.VastError : Foundation.LocalizedError {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
 }
 public enum VastErrorCodes : Swift.Int {
   case xmlParsingError
@@ -545,9 +479,7 @@ public enum VastErrorCodes : Swift.Int {
   case companionResourceNotSupported
   case undefinedError
   case generalVPAIDError
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -575,9 +507,7 @@ public enum VMAPAdBreakType : Swift.String, Swift.Codable {
   case nonlinear
   case display
   case unknown
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -605,9 +535,7 @@ public enum VMAPAdSourceTemplate : Swift.String, Swift.Codable {
   case vast3
   case vast4
   case unknown
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -643,9 +571,7 @@ public enum VMAPTrackingEventType : Swift.String, Swift.Codable {
   case breakEnd
   case error
   case unknown
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -673,9 +599,7 @@ public enum AdType : Swift.String, Swift.Codable {
   case inline
   case wrapper
   case unknown
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -748,9 +672,7 @@ public enum CompanionsRequirement : Swift.String, Swift.Codable {
   case all
   case any
   case none
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -825,9 +747,7 @@ public struct VastCreativeExtension : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension BidmadSDK.VastCreativeExtension {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(attrDict: [Swift.String : Swift.String])
-  #endif
 }
 extension BidmadSDK.VastCreativeExtension : Swift.Equatable {
   public static func == (a: BidmadSDK.VastCreativeExtension, b: BidmadSDK.VastCreativeExtension) -> Swift.Bool
@@ -990,9 +910,7 @@ public enum PricingModel : Swift.String, Swift.Codable {
   case cpm
   case cpe
   case cpv
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -1060,9 +978,7 @@ public enum TrackingEventType : Swift.String, Swift.Codable {
   case acceptInvitation
   case close
   case unknown
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -1090,9 +1006,7 @@ public struct VastUniversalAdId : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension BidmadSDK.VastUniversalAdId {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(attrDict: [Swift.String : Swift.String])
-  #endif
 }
 extension BidmadSDK.VastUniversalAdId : Swift.Equatable {
   public static func == (a: BidmadSDK.VastUniversalAdId, b: BidmadSDK.VastUniversalAdId) -> Swift.Bool
@@ -1113,9 +1027,7 @@ public enum ClickType : Swift.String, Swift.Codable {
   case clickThrough
   case clickTracking
   case customClick
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -1138,9 +1050,7 @@ public enum VastViewableImpressionType : Swift.String {
   case viewable
   case notViewable
   case viewUndetermined
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -1170,11 +1080,9 @@ extension BidmadSDK.VastWrapper : Swift.Equatable {
   public static func == (a: BidmadSDK.VastWrapper, b: BidmadSDK.VastWrapper) -> Swift.Bool
 }
 extension Swift.String {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var toSeconds: Swift.Double? {
     get
   }
-  #endif
 }
 @_inheritsConvenienceInitializers @objc public class BidmadSDKResources : ObjectiveC.NSObject {
   @objc public class var bundle: Foundation.Bundle {
