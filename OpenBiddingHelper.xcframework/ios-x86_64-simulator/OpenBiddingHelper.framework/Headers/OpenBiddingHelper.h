@@ -14,8 +14,10 @@ FOUNDATION_EXPORT double OpenBiddingHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char OpenBiddingHelperVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <OpenBiddingHelper/PublicHeader.h>
+#import "OpenBiddingBanner.h"
 #import "OpenBiddingInterstitial.h"
 #import "OpenBiddingRewardVideo.h"
+#import "OpenBiddingAppOpenAd.h"
 #import "OpenBiddingUtility.h"
 #import "BidmadBannerAdForGame.h"
 #import "BidmadInterstitialAdForGame.h"
@@ -36,5 +38,3 @@ FOUNDATION_EXPORT const unsigned char OpenBiddingHelperVersionString[];
 #import "BidmadNativeAd.h"
 #import "BidmadBannerManager.h"
 #import "BidmadAdFreeInformation.h"
-#import "BidmadSplashAd.h"
-#import "BidmadCustomRenderedAd.h"

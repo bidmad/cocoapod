@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BidmadAdapterInterfaceAccess.h"
 
 @class BidmadAdUnit;
 
@@ -23,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface BidmadAppOpenAdapter : NSObject <BidmadAdapterInterfaceAccess>
+@interface BidmadAppOpenAdapter : NSObject
 
 @property (nonatomic, strong) BidmadAdUnit *adUnit;
 @property (nonatomic, weak) id<BidmadAppOpenAdapterDelegate> delegate;

@@ -10,6 +10,21 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol BidmadInterstitialSC <NSObject>
+
++ (BOOL)isSupported;
+
+@end
+
+@protocol BidmadRewardSC <NSObject>
+
++ (BOOL)isSupported;
+
+@end
+
+@interface BidmadRewardAdapterSupportChecker : NSObject <BidmadRewardSC>
+@end
+
 @class BidmadFullscreenAdapter;
 
 @protocol BidmadFullscreenAdapterDelegate <NSObject>

@@ -15,6 +15,5 @@
 - (void)hide;
 - (void)show;
 - (void)remove;
-- (void)removeWithCompletion:(void (^ _Nullable)(void))completion;
 
 @end

@@ -7,7 +7,6 @@
 
 #import <UIKit/UIKit.h>
 #import <BidmadSDK/BIDMADNativeAdView.h>
-#import "BidmadAdapterInterfaceAccess.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface BidmadNativeAdapter : NSObject <BidmadAdapterInterfaceAccess>
+@interface BidmadNativeAdapter : NSObject
 
 @property (nonatomic, strong) BidmadAdUnit *adUnit;
 @property (nonatomic, weak) id<BidmadNativeAdapterDelegate> delegate;

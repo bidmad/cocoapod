@@ -6,8 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-FOUNDATION_EXPORT NSInteger const BidmadErasableViewTag;
+#import <BidmadSDK/BidmadBannerSizeStrategy.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,9 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)matchToSuperview:(UIView *)superview;
 - (void)centerSubview:(UIView *)subview
          subviewWidth:(CGFloat)width
-        subviewHeight:(CGFloat)height;
+        subviewHeight:(CGFloat)height
+             strategy:(BidmadBannerSizeStrategy)strategy;
 
 @end
 
 NS_ASSUME_NONNULL_END
-

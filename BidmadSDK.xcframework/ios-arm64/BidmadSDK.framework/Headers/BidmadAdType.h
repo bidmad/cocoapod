@@ -6,6 +6,4 @@ typedef NS_CLOSED_ENUM(NSInteger, BidmadAdType) {
     BidmadAdTypeReward,
     BidmadAdTypeNative,
     BidmadAdTypeAppOpen,
-    BidmadAdTypeSplash = 5,
-    BidmadAdTypeCustomRendered = 6,
 };
