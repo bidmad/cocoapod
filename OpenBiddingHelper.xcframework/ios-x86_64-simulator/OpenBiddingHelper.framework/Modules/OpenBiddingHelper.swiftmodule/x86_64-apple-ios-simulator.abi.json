@@ -934,56 +934,56 @@
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
-      "offset": 5708,
+      "offset": 5720,
       "length": 6,
       "value": "\"IDLE\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
-      "offset": 5758,
+      "offset": 5770,
       "length": 8,
       "value": "\"LOADED\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
-      "offset": 5811,
+      "offset": 5823,
       "length": 9,
       "value": "\"LOADING\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
-      "offset": 5868,
+      "offset": 5880,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
-      "offset": 5904,
+      "offset": 5916,
       "length": 61,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
-      "offset": 5922,
+      "offset": 5934,
       "length": 1,
       "value": "\": [Status: \""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
-      "offset": 5942,
+      "offset": 5954,
       "length": 1,
       "value": "\"] [ID: \""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/OpenBiddingHelper\/Sources\/BidmadFullscreenAd.swift",
       "kind": "StringLiteral",
-      "offset": 5963,
+      "offset": 5975,
       "length": 1,
       "value": "\"]\""
     }
