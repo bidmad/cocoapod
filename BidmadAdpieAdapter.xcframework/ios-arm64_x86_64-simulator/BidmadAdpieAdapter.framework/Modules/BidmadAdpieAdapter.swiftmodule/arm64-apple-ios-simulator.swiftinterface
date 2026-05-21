@@ -1,0 +1,52 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BidmadAdpieAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import AdPieSDK
+@_exported import BidmadAdpieAdapter
+import BidmadSDK
+import Combine
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class BidmadBannerAdpieAdapter : BidmadSDK.BidmadBannerAdapter, AdPieSDK.APAdViewDelegate, @unchecked Swift.Sendable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override dynamic public func loadAd(from viewController: UIKit.UIViewController, with completionHandler: @escaping (BidmadSDK.BidmadBannerAdapter?, UIKit.UIView?, CoreFoundation.CGSize, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func adViewDidLoadAd(_ view: AdPieSDK.APAdView!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func adViewDidFail(toLoadAd view: AdPieSDK.APAdView!, withError error: (any Swift.Error)!)
+  #endif
+  @objc override dynamic public func destroyed()
+  @objc required dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class BidmadInterstitialAdpieAdapter : BidmadSDK.BidmadFullscreenAdapter, AdPieSDK.APInterstitialDelegate, @unchecked Swift.Sendable {
+  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override dynamic public func loadAd(_ completionHandler: @escaping (BidmadSDK.BidmadFullscreenAdapter?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func interstitialDidLoadAd(_ interstitial: AdPieSDK.APInterstitial!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func interstitialDidFail(toLoadAd interstitial: AdPieSDK.APInterstitial!, withError error: (any Swift.Error)!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func interstitialWillPresentScreen(_ interstitial: AdPieSDK.APInterstitial!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func interstitialDidDismissScreen(_ interstitial: AdPieSDK.APInterstitial!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func interstitialWillLeaveApplication(_ interstitial: AdPieSDK.APInterstitial!)
+  #endif
+  @objc deinit
+}

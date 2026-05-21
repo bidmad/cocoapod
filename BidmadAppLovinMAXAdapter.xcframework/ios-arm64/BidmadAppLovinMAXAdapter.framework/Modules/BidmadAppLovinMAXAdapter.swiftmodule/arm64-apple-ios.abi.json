@@ -1,0 +1,3414 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "BidmadAppLovinMAXAdapter",
+    "printedName": "BidmadAppLovinMAXAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadAppLovinMAXAdapterInfo",
+        "printedName": "BidmadAppLovinMAXAdapterInfo",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppLovinMAXAdapterInfo(cm)adapterVersion",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0abcD4InfoC14adapterVersionSSyFZ",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "static": true,
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adNetworkSdkVersion",
+            "printedName": "adNetworkSdkVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppLovinMAXAdapterInfo(cm)adNetworkSdkVersion",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0abcD4InfoC19adNetworkSdkVersionSSyFZ",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "static": true,
+            "objc_name": "adNetworkSdkVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAppLovinMAXAdapterInfo",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadAppLovinMAXAdapterInfo",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppLovinMAXAdapterInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppLovinMAXAdapterInfo(im)init",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0abcD4InfoCACycfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppLovinMAXAdapterInfo",
+        "mangledName": "$s24BidmadAppLovinMAXAdapter0abcD4InfoC",
+        "moduleName": "BidmadAppLovinMAXAdapter",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadBannerAppLovinMAXAdapterSupportChecker",
+        "printedName": "BidmadBannerAppLovinMAXAdapterSupportChecker",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSupported",
+            "printedName": "isSupported()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapterSupportChecker(cm)isSupported",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD14SupportCheckerC11isSupportedSbyFZ",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "static": true,
+            "overriding": true,
+            "objc_name": "isSupported",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadBannerAppLovinMAXAdapterSupportChecker",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadBannerAppLovinMAXAdapterSupportChecker",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapterSupportChecker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapterSupportChecker(im)init",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD14SupportCheckerCACycfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapterSupportChecker",
+        "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD14SupportCheckerC",
+        "moduleName": "BidmadAppLovinMAXAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadSupportChecker",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "BidmadSDK.BidmadSupportChecker",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadInterstitialAppLovinMAXAdapterSupportChecker",
+        "printedName": "BidmadInterstitialAppLovinMAXAdapterSupportChecker",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSupported",
+            "printedName": "isSupported()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapterSupportChecker(cm)isSupported",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD14SupportCheckerC11isSupportedSbyFZ",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "static": true,
+            "overriding": true,
+            "objc_name": "isSupported",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInterstitialAppLovinMAXAdapterSupportChecker",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadInterstitialAppLovinMAXAdapterSupportChecker",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapterSupportChecker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapterSupportChecker(im)init",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD14SupportCheckerCACycfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapterSupportChecker",
+        "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD14SupportCheckerC",
+        "moduleName": "BidmadAppLovinMAXAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadSupportChecker",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "BidmadSDK.BidmadSupportChecker",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadRewardAppLovinMAXAdapterSupportChecker",
+        "printedName": "BidmadRewardAppLovinMAXAdapterSupportChecker",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSupported",
+            "printedName": "isSupported()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapterSupportChecker(cm)isSupported",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD14SupportCheckerC11isSupportedSbyFZ",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "static": true,
+            "overriding": true,
+            "objc_name": "isSupported",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadRewardAppLovinMAXAdapterSupportChecker",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadRewardAppLovinMAXAdapterSupportChecker",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapterSupportChecker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapterSupportChecker(im)init",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD14SupportCheckerCACycfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapterSupportChecker",
+        "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD14SupportCheckerC",
+        "moduleName": "BidmadAppLovinMAXAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadSupportChecker",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "BidmadSDK.BidmadSupportChecker",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadNativeAppLovinMAXAdapterSupportChecker",
+        "printedName": "BidmadNativeAppLovinMAXAdapterSupportChecker",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSupported",
+            "printedName": "isSupported()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapterSupportChecker(cm)isSupported",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6NativebcD14SupportCheckerC11isSupportedSbyFZ",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "static": true,
+            "overriding": true,
+            "objc_name": "isSupported",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadNativeAppLovinMAXAdapterSupportChecker",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadNativeAppLovinMAXAdapterSupportChecker",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapterSupportChecker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapterSupportChecker(im)init",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6NativebcD14SupportCheckerCACycfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapterSupportChecker",
+        "mangledName": "$s24BidmadAppLovinMAXAdapter0a6NativebcD14SupportCheckerC",
+        "moduleName": "BidmadAppLovinMAXAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadSupportChecker",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "BidmadSDK.BidmadSupportChecker",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadAppOpenAppLovinMAXAdapterSupportChecker",
+        "printedName": "BidmadAppOpenAppLovinMAXAdapterSupportChecker",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSupported",
+            "printedName": "isSupported()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapterSupportChecker(cm)isSupported",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD14SupportCheckerC11isSupportedSbyFZ",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "static": true,
+            "overriding": true,
+            "objc_name": "isSupported",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAppOpenAppLovinMAXAdapterSupportChecker",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadAppOpenAppLovinMAXAdapterSupportChecker",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapterSupportChecker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapterSupportChecker(im)init",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD14SupportCheckerCACycfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapterSupportChecker",
+        "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD14SupportCheckerC",
+        "moduleName": "BidmadAppLovinMAXAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadSupportChecker",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "BidmadSDK.BidmadSupportChecker",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadAppLovinMAXCore",
+        "printedName": "BidmadAppLovinMAXCore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAppLovinMAXCore",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadAppLovinMAXCore",
+                "usr": "s:24BidmadAppLovinMAXAdapter0abC7MAXCoreC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24BidmadAppLovinMAXAdapter0abC7MAXCoreC6sharedACvpZ",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0abC7MAXCoreC6sharedACvpZ",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadAppLovinMAXCore",
+                    "printedName": "BidmadAppLovinMAXAdapter.BidmadAppLovinMAXCore",
+                    "usr": "s:24BidmadAppLovinMAXAdapter0abC7MAXCoreC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24BidmadAppLovinMAXAdapter0abC7MAXCoreC6sharedACvgZ",
+                "mangledName": "$s24BidmadAppLovinMAXAdapter0abC7MAXCoreC6sharedACvgZ",
+                "moduleName": "BidmadAppLovinMAXAdapter",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(sdkKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24BidmadAppLovinMAXAdapter0abC7MAXCoreC10initialize6sdkKeyySS_tYaKF",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0abC7MAXCoreC10initialize6sdkKeyySS_tYaKF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "unownedExecutor",
+            "printedName": "unownedExecutor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnownedSerialExecutor",
+                "printedName": "_Concurrency.UnownedSerialExecutor",
+                "usr": "s:Sce"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24BidmadAppLovinMAXAdapter0abC7MAXCoreC15unownedExecutorScevp",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0abC7MAXCoreC15unownedExecutorScevp",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "implicit": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "15.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Final",
+              "Nonisolated",
+              "Semantics"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnownedSerialExecutor",
+                    "printedName": "_Concurrency.UnownedSerialExecutor",
+                    "usr": "s:Sce"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24BidmadAppLovinMAXAdapter0abC7MAXCoreC15unownedExecutorScevg",
+                "mangledName": "$s24BidmadAppLovinMAXAdapter0abC7MAXCoreC15unownedExecutorScevg",
+                "moduleName": "BidmadAppLovinMAXAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24BidmadAppLovinMAXAdapter0abC7MAXCoreC",
+        "mangledName": "$s24BidmadAppLovinMAXAdapter0abC7MAXCoreC",
+        "moduleName": "BidmadAppLovinMAXAdapter",
+        "intro_iOS": "15.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadAppOpenAppLovinMAXAdapter",
+        "printedName": "BidmadAppOpenAppLovinMAXAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadAdWith",
+            "printedName": "loadAdWith()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAppOpenAdapter",
+                "printedName": "BidmadSDK.BidmadAppOpenAdapter",
+                "usr": "c:objc(cs)BidmadAppOpenAdapter"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter(im)loadAdWith:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD0C10loadAdWithSo0abE7AdapterCyYaKF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "objc_name": "loadAdWith:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter(im)showAdFrom:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD0C6showAd4fromySo16UIViewControllerC_tF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "objc_name": "showAdFrom:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adUnit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAppOpenAppLovinMAXAdapter",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadAppOpenAppLovinMAXAdapter",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAdUnit",
+                "printedName": "BidmadSDK.BidmadAdUnit",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter(im)initWithAdUnit:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD0C6adUnitAC0A3SDK0a2AdG0C_tcfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdUnit:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAppOpenAppLovinMAXAdapter",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadAppOpenAppLovinMAXAdapter",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter(im)init",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD0CACycfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didLoad",
+            "printedName": "didLoad(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter(im)didLoadAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD0C7didLoadyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didLoadAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToLoadAd",
+            "printedName": "didFailToLoadAd(forAdUnitIdentifier:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAError",
+                "printedName": "AppLovinSDK.MAError",
+                "usr": "c:objc(cs)MAError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter(im)didFailToLoadAdForAdUnitIdentifier:withError:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD0C15didFailToLoadAd03forJ14UnitIdentifier9withErrorySS_So7MAErrorCtF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didFailToLoadAdForAdUnitIdentifier:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisplay",
+            "printedName": "didDisplay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter(im)didDisplayAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD0C10didDisplayyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didDisplayAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClick",
+            "printedName": "didClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter(im)didClickAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD0C8didClickyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didClickAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didHide",
+            "printedName": "didHide(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter(im)didHideAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD0C7didHideyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didHideAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFail",
+            "printedName": "didFail(toDisplay:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAError",
+                "printedName": "AppLovinSDK.MAError",
+                "usr": "c:objc(cs)MAError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter(im)didFailToDisplayAd:withError:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD0C7didFail9toDisplay9withErrorySo4MAAdC_So7MAErrorCtF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didFailToDisplayAd:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadAppOpenAppLovinMAXAdapter",
+        "mangledName": "$s24BidmadAppLovinMAXAdapter0ab4OpenbcD0C",
+        "moduleName": "BidmadAppLovinMAXAdapter",
+        "intro_iOS": "15.0",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadAppOpenAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "BidmadSDK.BidmadAppOpenAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadBannerAppLovinMAXAdapter",
+        "printedName": "BidmadBannerAppLovinMAXAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(BidmadSDK.BidmadBannerAdapter, UIKit.UIView, CoreFoundation.CGSize)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadBannerAdapter",
+                    "printedName": "BidmadSDK.BidmadBannerAdapter",
+                    "usr": "c:objc(cs)BidmadBannerAdapter"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter(im)loadAdFrom:with:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0C6loadAd4fromSo0aE7AdapterC_So6UIViewCSo6CGSizeVtSo0J10ControllerC_tYaKF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "objc_name": "loadAdFrom:with:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroyed",
+            "printedName": "destroyed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter(im)destroyed",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0C9destroyedyyF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "objc_name": "destroyed",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adUnit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadBannerAppLovinMAXAdapter",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadBannerAppLovinMAXAdapter",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAdUnit",
+                "printedName": "BidmadSDK.BidmadAdUnit",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter(im)initWithAdUnit:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0C6adUnitAC0A3SDK0a2AdG0C_tcfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdUnit:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadBannerAppLovinMAXAdapter",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadBannerAppLovinMAXAdapter",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter(im)init",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0CACycfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didLoad",
+            "printedName": "didLoad(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter(im)didLoadAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0C7didLoadyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didLoadAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToLoadAd",
+            "printedName": "didFailToLoadAd(forAdUnitIdentifier:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAError",
+                "printedName": "AppLovinSDK.MAError",
+                "usr": "c:objc(cs)MAError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter(im)didFailToLoadAdForAdUnitIdentifier:withError:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0C15didFailToLoadAd03forJ14UnitIdentifier9withErrorySS_So7MAErrorCtF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didFailToLoadAdForAdUnitIdentifier:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClick",
+            "printedName": "didClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter(im)didClickAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0C8didClickyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didClickAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFail",
+            "printedName": "didFail(toDisplay:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAError",
+                "printedName": "AppLovinSDK.MAError",
+                "usr": "c:objc(cs)MAError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter(im)didFailToDisplayAd:withError:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0C7didFail9toDisplay9withErrorySo4MAAdC_So7MAErrorCtF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didFailToDisplayAd:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didExpand",
+            "printedName": "didExpand(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter(im)didExpandAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0C9didExpandyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didExpandAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didCollapse",
+            "printedName": "didCollapse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter(im)didCollapseAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0C11didCollapseyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didCollapseAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisplay",
+            "printedName": "didDisplay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter(im)didDisplayAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0C10didDisplayyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didDisplayAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didHide",
+            "printedName": "didHide(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter(im)didHideAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0C7didHideyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didHideAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadBannerAppLovinMAXAdapter",
+        "mangledName": "$s24BidmadAppLovinMAXAdapter0a6BannerbcD0C",
+        "moduleName": "BidmadAppLovinMAXAdapter",
+        "intro_iOS": "15.0",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadBannerAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "BidmadSDK.BidmadBannerAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadInterstitialAppLovinMAXAdapter",
+        "printedName": "BidmadInterstitialAppLovinMAXAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadAdWith",
+            "printedName": "loadAdWith()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadFullscreenAdapter",
+                "printedName": "BidmadSDK.BidmadFullscreenAdapter",
+                "usr": "c:objc(cs)BidmadFullscreenAdapter"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter(im)loadAdWith:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD0C10loadAdWithSo0A17FullscreenAdapterCyYaKF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "objc_name": "loadAdWith:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter(im)showAdFrom:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD0C6showAd4fromySo16UIViewControllerC_tF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "objc_name": "showAdFrom:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adUnit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInterstitialAppLovinMAXAdapter",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadInterstitialAppLovinMAXAdapter",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAdUnit",
+                "printedName": "BidmadSDK.BidmadAdUnit",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter(im)initWithAdUnit:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD0C6adUnitAC0A3SDK0a2AdG0C_tcfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdUnit:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadInterstitialAppLovinMAXAdapter",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadInterstitialAppLovinMAXAdapter",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter(im)init",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD0CACycfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didLoad",
+            "printedName": "didLoad(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter(im)didLoadAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD0C7didLoadyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didLoadAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToLoadAd",
+            "printedName": "didFailToLoadAd(forAdUnitIdentifier:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAError",
+                "printedName": "AppLovinSDK.MAError",
+                "usr": "c:objc(cs)MAError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter(im)didFailToLoadAdForAdUnitIdentifier:withError:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD0C15didFailToLoadAd03forJ14UnitIdentifier9withErrorySS_So7MAErrorCtF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didFailToLoadAdForAdUnitIdentifier:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisplay",
+            "printedName": "didDisplay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter(im)didDisplayAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD0C10didDisplayyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didDisplayAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClick",
+            "printedName": "didClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter(im)didClickAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD0C8didClickyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didClickAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didHide",
+            "printedName": "didHide(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter(im)didHideAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD0C7didHideyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didHideAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFail",
+            "printedName": "didFail(toDisplay:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAError",
+                "printedName": "AppLovinSDK.MAError",
+                "usr": "c:objc(cs)MAError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter(im)didFailToDisplayAd:withError:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD0C7didFail9toDisplay9withErrorySo4MAAdC_So7MAErrorCtF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didFailToDisplayAd:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadInterstitialAppLovinMAXAdapter",
+        "mangledName": "$s24BidmadAppLovinMAXAdapter0a12InterstitialbcD0C",
+        "moduleName": "BidmadAppLovinMAXAdapter",
+        "intro_iOS": "15.0",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadFullscreenAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "BidmadSDK.BidmadFullscreenAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadNativeAppLovinMAXAdapter",
+        "printedName": "BidmadNativeAppLovinMAXAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadAdWith",
+            "printedName": "loadAdWith()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadNativeAdapter",
+                "printedName": "BidmadSDK.BidmadNativeAdapter",
+                "usr": "c:objc(cs)BidmadNativeAdapter"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapter(im)loadAdWith:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6NativebcD0C10loadAdWithSo0aE7AdapterCyYaKF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "objc_name": "loadAdWith:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(to:defaultSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BIDMADNativeAdView",
+                "printedName": "BidmadSDK.BIDMADNativeAdView",
+                "usr": "c:objc(cs)BIDMADNativeAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapter(im)showAdTo:defaultSize:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6NativebcD0C6showAd2to11defaultSizeSo6CGSizeVSo012BIDMADNativeG4ViewC_AHtF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "objc_name": "showAdTo:defaultSize:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAd",
+            "printedName": "removeAd(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BIDMADNativeAdView",
+                "printedName": "BidmadSDK.BIDMADNativeAdView",
+                "usr": "c:objc(cs)BIDMADNativeAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapter(im)removeAdFrom:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6NativebcD0C8removeAd4fromySo012BIDMADNativeG4ViewC_tF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "objc_name": "removeAdFrom:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adUnit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadNativeAppLovinMAXAdapter",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadNativeAppLovinMAXAdapter",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAdUnit",
+                "printedName": "BidmadSDK.BidmadAdUnit",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapter(im)initWithAdUnit:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6NativebcD0C6adUnitAC0A3SDK0a2AdG0C_tcfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdUnit:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadNativeAppLovinMAXAdapter",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadNativeAppLovinMAXAdapter",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapter(im)init",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6NativebcD0CACycfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didLoadNativeAd",
+            "printedName": "didLoadNativeAd(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppLovinSDK.MANativeAdView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MANativeAdView",
+                    "printedName": "AppLovinSDK.MANativeAdView",
+                    "usr": "c:objc(cs)MANativeAdView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapter(im)didLoadNativeAd:forAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6NativebcD0C07didLoadE2Ad_3forySo08MANativeH4ViewCSg_So4MAAdCtF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didLoadNativeAd:forAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToLoadNativeAd",
+            "printedName": "didFailToLoadNativeAd(forAdUnitIdentifier:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAError",
+                "printedName": "AppLovinSDK.MAError",
+                "usr": "c:objc(cs)MAError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapter(im)didFailToLoadNativeAdForAdUnitIdentifier:withError:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6NativebcD0C013didFailToLoadE2Ad03forJ14UnitIdentifier9withErrorySS_So7MAErrorCtF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didFailToLoadNativeAdForAdUnitIdentifier:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClickNativeAd",
+            "printedName": "didClickNativeAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapter(im)didClickNativeAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6NativebcD0C08didClickE2AdyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didClickNativeAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadNativeAppLovinMAXAdapter",
+        "mangledName": "$s24BidmadAppLovinMAXAdapter0a6NativebcD0C",
+        "moduleName": "BidmadAppLovinMAXAdapter",
+        "intro_iOS": "15.0",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadNativeAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "BidmadSDK.BidmadNativeAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BidmadAppLovinMAXAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidmadRewardAppLovinMAXAdapter",
+        "printedName": "BidmadRewardAppLovinMAXAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adUnit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadRewardAppLovinMAXAdapter",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadRewardAppLovinMAXAdapter",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadAdUnit",
+                "printedName": "BidmadSDK.BidmadAdUnit",
+                "usr": "c:@M@BidmadSDK@objc(cs)BidmadAdUnit"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter(im)initWithAdUnit:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD0C6adUnitAC0A3SDK0a2AdG0C_tcfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "objc_name": "initWithAdUnit:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAdWith",
+            "printedName": "loadAdWith()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadFullscreenAdapter",
+                "printedName": "BidmadSDK.BidmadFullscreenAdapter",
+                "usr": "c:objc(cs)BidmadFullscreenAdapter"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter(im)loadAdWith:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD0C10loadAdWithSo0A17FullscreenAdapterCyYaKF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "objc_name": "loadAdWith:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter(im)showAdFrom:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD0C6showAd4fromySo16UIViewControllerC_tF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "objc_name": "showAdFrom:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BidmadRewardAppLovinMAXAdapter",
+                "printedName": "BidmadAppLovinMAXAdapter.BidmadRewardAppLovinMAXAdapter",
+                "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter(im)init",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD0CACycfc",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didLoad",
+            "printedName": "didLoad(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter(im)didLoadAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD0C7didLoadyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didLoadAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToLoadAd",
+            "printedName": "didFailToLoadAd(forAdUnitIdentifier:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAError",
+                "printedName": "AppLovinSDK.MAError",
+                "usr": "c:objc(cs)MAError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter(im)didFailToLoadAdForAdUnitIdentifier:withError:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD0C15didFailToLoadAd03forJ14UnitIdentifier9withErrorySS_So7MAErrorCtF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didFailToLoadAdForAdUnitIdentifier:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisplay",
+            "printedName": "didDisplay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter(im)didDisplayAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD0C10didDisplayyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didDisplayAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClick",
+            "printedName": "didClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter(im)didClickAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD0C8didClickyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didClickAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didHide",
+            "printedName": "didHide(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter(im)didHideAd:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD0C7didHideyySo4MAAdCF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didHideAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFail",
+            "printedName": "didFail(toDisplay:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAError",
+                "printedName": "AppLovinSDK.MAError",
+                "usr": "c:objc(cs)MAError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter(im)didFailToDisplayAd:withError:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD0C7didFail9toDisplay9withErrorySo4MAAdC_So7MAErrorCtF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didFailToDisplayAd:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRewardUser",
+            "printedName": "didRewardUser(for:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAd",
+                "printedName": "AppLovinSDK.MAAd",
+                "usr": "c:objc(cs)MAAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAReward",
+                "printedName": "AppLovinSDK.MAReward",
+                "usr": "c:objc(cs)MAReward"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter(im)didRewardUserForAd:withReward:",
+            "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD0C03didE4User3for4withySo4MAAdC_So8MARewardCtF",
+            "moduleName": "BidmadAppLovinMAXAdapter",
+            "objc_name": "didRewardUserForAd:withReward:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BidmadAppLovinMAXAdapter@objc(cs)BidmadRewardAppLovinMAXAdapter",
+        "mangledName": "$s24BidmadAppLovinMAXAdapter0a6RewardbcD0C",
+        "moduleName": "BidmadAppLovinMAXAdapter",
+        "intro_iOS": "15.0",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)BidmadFullscreenAdapter",
+        "superclassNames": [
+          "BidmadSDK.BidmadFullscreenAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAppLovinMAXAdapter\/Sources\/BidmadAppLovinMAXCore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3243,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAppLovinMAXAdapter\/Sources\/BidmadInterstitialAppLovinMAXAdapter.swift",
+      "kind": "Array",
+      "offset": 262,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAppLovinMAXAdapter\/Sources\/BidmadNativeAppLovinMAXAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 455,
+      "length": 10,
+      "value": "48101001"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAppLovinMAXAdapter\/Sources\/BidmadNativeAppLovinMAXAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 493,
+      "length": 10,
+      "value": "48101002"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAppLovinMAXAdapter\/Sources\/BidmadNativeAppLovinMAXAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 530,
+      "length": 10,
+      "value": "48101003"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAppLovinMAXAdapter\/Sources\/BidmadNativeAppLovinMAXAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 575,
+      "length": 10,
+      "value": "48101004"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAppLovinMAXAdapter\/Sources\/BidmadNativeAppLovinMAXAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 10,
+      "value": "48101005"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAppLovinMAXAdapter\/Sources\/BidmadNativeAppLovinMAXAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 653,
+      "length": 10,
+      "value": "48101006"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAppLovinMAXAdapter\/Sources\/BidmadRewardAppLovinMAXAdapter.swift",
+      "kind": "Array",
+      "offset": 216,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadAppLovinMAXAdapter\/Sources\/BidmadRewardAppLovinMAXAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 808,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

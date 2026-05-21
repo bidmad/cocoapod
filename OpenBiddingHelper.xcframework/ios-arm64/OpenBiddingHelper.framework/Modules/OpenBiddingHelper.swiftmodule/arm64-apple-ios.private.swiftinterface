@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OpenBiddingHelper
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OpenBiddingHelper
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 @_exported import OpenBiddingHelper
 import Swift
 import _Concurrency
@@ -11,7 +11,9 @@ import _SwiftConcurrencyShims
   @objc optional func bidmadFullscreenLoad(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo)
   @objc optional func bidmadFullscreenLoadFail(ad: OpenBiddingHelper.BidmadFullscreenAd, error: any Swift.Error)
   @objc optional func bidmadFullscreenShow(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc optional func bidmadFullscreenShowFail(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo?, error: any Swift.Error)
+  #endif
   @objc optional func bidmadFullscreenClick(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo)
   @objc optional func bidmadFullscreenComplete(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo)
   @objc optional func bidmadFullscreenSkip(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo)

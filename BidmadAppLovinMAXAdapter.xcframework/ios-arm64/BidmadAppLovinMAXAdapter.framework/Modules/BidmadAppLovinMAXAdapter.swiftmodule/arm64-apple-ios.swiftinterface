@@ -1,0 +1,140 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BidmadAppLovinMAXAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import AppLovinSDK
+@_exported import BidmadAppLovinMAXAdapter
+import BidmadSDK
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @objcMembers open class BidmadAppLovinMAXAdapterInfo : ObjectiveC.NSObject, BidmadSDK.BidmadAdapterInfo {
+  @objc public static func adapterVersion() -> Swift.String
+  @objc public static func adNetworkSdkVersion() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class BidmadBannerAppLovinMAXAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
+  @objc override dynamic public class func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class BidmadInterstitialAppLovinMAXAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
+  @objc override dynamic public class func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class BidmadRewardAppLovinMAXAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
+  @objc override dynamic public class func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class BidmadNativeAppLovinMAXAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
+  @objc override dynamic public class func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class BidmadAppOpenAppLovinMAXAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
+  @objc override dynamic public class func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @available(iOS 15.0, *)
+public actor BidmadAppLovinMAXCore {
+  public static let shared: BidmadAppLovinMAXAdapter.BidmadAppLovinMAXCore
+  public func initialize(sdkKey: Swift.String) async throws
+  @objc deinit
+  @available(iOS 15.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+@objcMembers public class BidmadAppOpenAppLovinMAXAdapter : BidmadSDK.BidmadAppOpenAdapter, @unchecked Swift.Sendable {
+  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadAppOpenAdapter
+  @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
+  @objc required dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 15.0, *)
+extension BidmadAppLovinMAXAdapter.BidmadAppOpenAppLovinMAXAdapter : AppLovinSDK.MAAdDelegate {
+  @objc dynamic public func didLoad(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didFailToLoadAd(forAdUnitIdentifier adUnitIdentifier: Swift.String, withError error: AppLovinSDK.MAError)
+  @objc dynamic public func didDisplay(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didClick(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didHide(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didFail(toDisplay ad: AppLovinSDK.MAAd, withError error: AppLovinSDK.MAError)
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+@objcMembers public class BidmadBannerAppLovinMAXAdapter : BidmadSDK.BidmadBannerAdapter, @unchecked Swift.Sendable {
+  @objc override dynamic public func loadAd(from viewController: UIKit.UIViewController) async throws -> (BidmadSDK.BidmadBannerAdapter, UIKit.UIView, CoreFoundation.CGSize)
+  @objc override dynamic public func destroyed()
+  @objc required dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 15.0, *)
+extension BidmadAppLovinMAXAdapter.BidmadBannerAppLovinMAXAdapter : AppLovinSDK.MAAdViewAdDelegate {
+  @objc dynamic public func didLoad(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didFailToLoadAd(forAdUnitIdentifier adUnitIdentifier: Swift.String, withError error: AppLovinSDK.MAError)
+  @objc dynamic public func didClick(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didFail(toDisplay ad: AppLovinSDK.MAAd, withError error: AppLovinSDK.MAError)
+  @objc dynamic public func didExpand(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didCollapse(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didDisplay(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didHide(_ ad: AppLovinSDK.MAAd)
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+@objcMembers public class BidmadInterstitialAppLovinMAXAdapter : BidmadSDK.BidmadFullscreenAdapter, @unchecked Swift.Sendable {
+  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadFullscreenAdapter
+  @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
+  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 15.0, *)
+extension BidmadAppLovinMAXAdapter.BidmadInterstitialAppLovinMAXAdapter : AppLovinSDK.MAAdDelegate {
+  @objc dynamic public func didLoad(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didFailToLoadAd(forAdUnitIdentifier adUnitIdentifier: Swift.String, withError error: AppLovinSDK.MAError)
+  @objc dynamic public func didDisplay(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didClick(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didHide(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didFail(toDisplay ad: AppLovinSDK.MAAd, withError error: AppLovinSDK.MAError)
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+@objcMembers public class BidmadNativeAppLovinMAXAdapter : BidmadSDK.BidmadNativeAdapter, @unchecked Swift.Sendable {
+  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadNativeAdapter
+  @objc override dynamic public func showAd(to adView: BidmadSDK.BIDMADNativeAdView, defaultSize: CoreFoundation.CGSize) -> CoreFoundation.CGSize
+  @objc override dynamic public func removeAd(from adView: BidmadSDK.BIDMADNativeAdView)
+  @objc deinit
+  @objc required dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+}
+@available(iOS 15.0, *)
+extension BidmadAppLovinMAXAdapter.BidmadNativeAppLovinMAXAdapter : AppLovinSDK.MANativeAdDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc dynamic public func didLoadNativeAd(_ nativeAdView: AppLovinSDK.MANativeAdView?, for ad: AppLovinSDK.MAAd)
+  #endif
+  @objc dynamic public func didFailToLoadNativeAd(forAdUnitIdentifier adUnitIdentifier: Swift.String, withError error: AppLovinSDK.MAError)
+  @objc dynamic public func didClickNativeAd(_ ad: AppLovinSDK.MAAd)
+}
+@objc @available(iOS 15.0, *)
+@objcMembers public class BidmadRewardAppLovinMAXAdapter : BidmadSDK.BidmadFullscreenAdapter, @unchecked Swift.Sendable {
+  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc deinit
+  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadFullscreenAdapter
+  @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
+}
+@available(iOS 15.0, *)
+extension BidmadAppLovinMAXAdapter.BidmadRewardAppLovinMAXAdapter : AppLovinSDK.MARewardedAdDelegate {
+  @objc dynamic public func didLoad(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didFailToLoadAd(forAdUnitIdentifier adUnitIdentifier: Swift.String, withError error: AppLovinSDK.MAError)
+  @objc dynamic public func didDisplay(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didClick(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didHide(_ ad: AppLovinSDK.MAAd)
+  @objc dynamic public func didFail(toDisplay ad: AppLovinSDK.MAAd, withError error: AppLovinSDK.MAError)
+  @objc dynamic public func didRewardUser(for ad: AppLovinSDK.MAAd, with reward: AppLovinSDK.MAReward)
+}

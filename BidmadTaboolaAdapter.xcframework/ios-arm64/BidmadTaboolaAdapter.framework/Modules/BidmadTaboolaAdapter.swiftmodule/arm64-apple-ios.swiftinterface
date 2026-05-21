@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BidmadTaboolaAdapter
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BidmadTaboolaAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import BidmadSDK
 @_exported import BidmadTaboolaAdapter
 import Combine
@@ -16,9 +16,15 @@ import _SwiftConcurrencyShims
 public class BidmadBannerTaboolaAdapter : BidmadSDK.BidmadBannerAdapter, TaboolaSDK.TBLClassicPageDelegate, BidmadSDK.BidmadLoggable, @unchecked Swift.Sendable {
   public static let className: Swift.String
   @objc override dynamic public func loadAd(from viewController: UIKit.UIViewController) async throws -> (BidmadSDK.BidmadBannerAdapter, UIKit.UIView, CoreFoundation.CGSize)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func classicUnit(_ classicUnit: UIKit.UIView!, didLoadOrResizePlacementName placementName: Swift.String!, height: CoreFoundation.CGFloat, placementType: TaboolaSDK.PlacementType)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func classicUnit(_ classicUnit: UIKit.UIView!, didClickPlacementName placementName: Swift.String!, itemId: Swift.String!, clickUrl: Swift.String!, isOrganic organic: Swift.Bool, customData: [Swift.AnyHashable : Any]!) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func classicUnit(_ classicUnit: UIKit.UIView!, didFailToLoadPlacementName placementName: Swift.String!, errorMessage error: Swift.String!)
+  #endif
   @objc override dynamic public func destroyed()
   @objc required dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
   @objc override dynamic public init()
@@ -34,9 +40,15 @@ public class BidmadInterstitialTaboolaAdapter : BidmadSDK.BidmadFullscreenAdapte
   public static let className: Swift.String
   @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadFullscreenAdapter
   @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func classicUnit(_ classicUnit: UIKit.UIView!, didLoadOrResizePlacementName placementName: Swift.String!, height: CoreFoundation.CGFloat, placementType: TaboolaSDK.PlacementType)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func classicUnit(_ classicUnit: UIKit.UIView!, didClickPlacementName placementName: Swift.String!, itemId: Swift.String!, clickUrl: Swift.String!, isOrganic organic: Swift.Bool, customData: [Swift.AnyHashable : Any]!) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func classicUnit(_ classicUnit: UIKit.UIView!, didFailToLoadPlacementName placementName: Swift.String!, errorMessage error: Swift.String!)
+  #endif
   @objc deinit
   @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
   @objc override dynamic public init()

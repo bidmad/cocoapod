@@ -1,0 +1,136 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BidmadVungleAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import BidmadSDK
+@_exported import BidmadVungleAdapter
+import Foundation
+import Swift
+import UIKit
+import VungleAdsSDK
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+@objcMembers public class BidmadAppOpenVungleAdapter : BidmadSDK.BidmadAppOpenAdapter, @unchecked Swift.Sendable {
+  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadAppOpenAdapter
+  @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
+  @objc required dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 15.0, *)
+extension BidmadVungleAdapter.BidmadAppOpenVungleAdapter : VungleAdsSDK.VungleInterstitialDelegate {
+  @objc dynamic public func interstitialAdDidLoad(_ interstitial: VungleAdsSDK.VungleInterstitial)
+  @objc dynamic public func interstitialAdDidFailToLoad(_ interstitial: VungleAdsSDK.VungleInterstitial, withError: Foundation.NSError)
+  @objc dynamic public func interstitialAdDidPresent(_ interstitial: VungleAdsSDK.VungleInterstitial)
+  @objc dynamic public func interstitialAdDidFailToPresent(_ interstitial: VungleAdsSDK.VungleInterstitial, withError: Foundation.NSError)
+  @objc dynamic public func interstitialAdDidClick(_ interstitial: VungleAdsSDK.VungleInterstitial)
+  @objc dynamic public func interstitialAdDidClose(_ interstitial: VungleAdsSDK.VungleInterstitial)
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+@objcMembers public class BidmadBannerVungleAdapter : BidmadSDK.BidmadBannerAdapter, @unchecked Swift.Sendable {
+  @objc override dynamic public func loadAd(from viewController: UIKit.UIViewController) async throws -> (BidmadSDK.BidmadBannerAdapter, UIKit.UIView, CoreFoundation.CGSize)
+  @objc override dynamic public func destroyed()
+  @objc required dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 15.0, *)
+extension BidmadVungleAdapter.BidmadBannerVungleAdapter : VungleAdsSDK.VungleBannerViewDelegate {
+  @objc dynamic public func bannerAdDidLoad(_ bannerView: VungleAdsSDK.VungleBannerView)
+  @objc dynamic public func bannerAdDidFail(_ bannerView: VungleAdsSDK.VungleBannerView, withError: Foundation.NSError)
+  @objc dynamic public func bannerAdDidClick(_ bannerView: VungleAdsSDK.VungleBannerView)
+  @objc dynamic public func bannerAdDidTrackImpression(_ bannerView: VungleAdsSDK.VungleBannerView)
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+@objcMembers public class BidmadInterstitialVungleAdapter : BidmadSDK.BidmadFullscreenAdapter, @unchecked Swift.Sendable {
+  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadFullscreenAdapter
+  @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
+  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 15.0, *)
+extension BidmadVungleAdapter.BidmadInterstitialVungleAdapter : VungleAdsSDK.VungleInterstitialDelegate {
+  @objc dynamic public func interstitialAdDidLoad(_ interstitial: VungleAdsSDK.VungleInterstitial)
+  @objc dynamic public func interstitialAdDidFailToLoad(_ interstitial: VungleAdsSDK.VungleInterstitial, withError: Foundation.NSError)
+  @objc dynamic public func interstitialAdDidPresent(_ interstitial: VungleAdsSDK.VungleInterstitial)
+  @objc dynamic public func interstitialAdDidFailToPresent(_ interstitial: VungleAdsSDK.VungleInterstitial, withError: Foundation.NSError)
+  @objc dynamic public func interstitialAdDidClick(_ interstitial: VungleAdsSDK.VungleInterstitial)
+  @objc dynamic public func interstitialAdDidClose(_ interstitial: VungleAdsSDK.VungleInterstitial)
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+@objcMembers public class BidmadNativeVungleAdapter : BidmadSDK.BidmadNativeAdapter, @unchecked Swift.Sendable {
+  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadNativeAdapter
+  @objc override dynamic public func showAd(to adView: BidmadSDK.BIDMADNativeAdView, defaultSize: CoreFoundation.CGSize) -> CoreFoundation.CGSize
+  @objc override dynamic public func removeAd(from adView: BidmadSDK.BIDMADNativeAdView)
+  @objc required dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 15.0, *)
+extension BidmadVungleAdapter.BidmadNativeVungleAdapter : VungleAdsSDK.VungleNativeDelegate {
+  @objc dynamic public func nativeAdDidLoad(_ native: VungleAdsSDK.VungleNative)
+  @objc dynamic public func nativeAdDidFailToLoad(_ native: VungleAdsSDK.VungleNative, withError: Foundation.NSError)
+  @objc dynamic public func nativeAdDidClick(_ native: VungleAdsSDK.VungleNative)
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 15.0, *)
+@objcMembers public class BidmadRewardVungleAdapter : BidmadSDK.BidmadFullscreenAdapter, @unchecked Swift.Sendable {
+  @objc override dynamic public func loadAdWith() async throws -> BidmadSDK.BidmadFullscreenAdapter
+  @objc override dynamic public func showAd(from viewController: UIKit.UIViewController)
+  @objc override dynamic public init(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 15.0, *)
+extension BidmadVungleAdapter.BidmadRewardVungleAdapter : VungleAdsSDK.VungleRewardedDelegate {
+  @objc dynamic public func rewardedAdDidLoad(_ rewarded: VungleAdsSDK.VungleRewarded)
+  @objc dynamic public func rewardedAdDidFailToLoad(_ rewarded: VungleAdsSDK.VungleRewarded, withError: Foundation.NSError)
+  @objc dynamic public func rewardedAdDidPresent(_ rewarded: VungleAdsSDK.VungleRewarded)
+  @objc dynamic public func rewardedAdDidFailToPresent(_ rewarded: VungleAdsSDK.VungleRewarded, withError: Foundation.NSError)
+  @objc dynamic public func rewardedAdDidClick(_ rewarded: VungleAdsSDK.VungleRewarded)
+  @objc dynamic public func rewardedAdDidRewardUser(_ rewarded: VungleAdsSDK.VungleRewarded)
+  @objc dynamic public func rewardedAdDidClose(_ rewarded: VungleAdsSDK.VungleRewarded)
+}
+@_inheritsConvenienceInitializers @objc(BidmadVungleAdapterInfo) final public class BidmadVungleAdapterInfo : ObjectiveC.NSObject, BidmadSDK.BidmadAdapterInfo {
+  @objc public static func adapterVersion() -> Swift.String
+  @objc public static func adNetworkSdkVersion() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(BidmadBannerVungleAdapterSupportChecker) final public class BidmadBannerVungleAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
+  @objc override final public class func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(BidmadInterstitialVungleAdapterSupportChecker) final public class BidmadInterstitialVungleAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
+  @objc override final public class func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(BidmadAppOpenVungleAdapterSupportChecker) final public class BidmadAppOpenVungleAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
+  @objc override final public class func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(BidmadRewardVungleAdapterSupportChecker) final public class BidmadRewardVungleAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
+  @objc override final public class func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(BidmadNativeVungleAdapterSupportChecker) final public class BidmadNativeVungleAdapterSupportChecker : BidmadSDK.BidmadSupportChecker {
+  @objc override final public class func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @available(iOS 15.0, *)
+public actor BidmadVungleCore {
+  public static let shared: BidmadVungleAdapter.BidmadVungleCore
+  public func initialize(appId: Swift.String) async throws
+  @objc deinit
+  @available(iOS 15.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}

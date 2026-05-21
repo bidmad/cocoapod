@@ -1,0 +1,11 @@
+framework module BidmadAppLovinMAXAdapter {
+  umbrella header "BidmadAppLovinMAXAdapter.h"
+  export *
+
+  module * { export * }
+}
+
+module BidmadAppLovinMAXAdapter.Swift {
+  header "BidmadAppLovinMAXAdapter-Swift.h"
+  requires objc
+}
