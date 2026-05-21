@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     admob_bidding.dependency 'GoogleMobileAdsMediationPangle', '7.9.0.8.0'
     admob_bidding.dependency 'GoogleMobileAdsMediationFyber', '8.4.6.0'
     admob_bidding.dependency 'GoogleMobileAdsMediationUnity', '4.17.0.0'
-    admob_bidding.dependency 'AppLovinMediationGoogleAdapter', '13.2.0.0'
+    admob_bidding.dependency 'GoogleMobileAdsMediationAppLovin', '13.6.2.0'
     admob_bidding.dependency 'GoogleMobileAdsMediationFacebook', '6.21.1.0'
     admob_bidding.dependency 'GoogleMobileAdsMediationMintegral', '8.0.9.0'
     admob_bidding.dependency 'GoogleMobileAdsMediationInMobi', '11.2.0.0'
