@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
   s.name          = "BidmadPartners"
-  s.version       = "1.0.10"
+  s.version       = "1.0.11"
   s.platform      = :ios, "14.0"
   s.summary       = "BidmadPartners library is a collection of partnered adnetworks with third-party mediation support."
   s.description   = "BidmadPartners library is a collection of partnered adnetworks with third-party mediation support. The mediation currently includes AdMob Bidding or AppLovin Max."
   s.homepage      = "https://bidmad.net"
   s.license       = { :type => "MIT", :file => "LICENSE" }
   s.author        = { "Markus" => "markus@adop.cc" }
-  s.source        = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'BidmadPartners.1.0.10' }
+  s.source        = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'BidmadPartners.1.0.11' }
   s.swift_version = '5.0'
   s.static_framework = true
   s.requires_arc = true
@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
     admob_bidding.dependency 'GoogleMobileAdsMediationMintegral', '8.0.9.0'
     admob_bidding.dependency 'GoogleMobileAdsMediationInMobi', '11.2.0.0'
     admob_bidding.dependency 'GoogleMobileAdsMediationMoloco', '4.5.1.0'
+    admob_bidding.dependency 'BidmadPremiumAdsGoogleAdapter', '1.0.6.14.0'
   end
 
 end
