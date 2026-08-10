@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/BIDMADSetting.h</key>
 		<data>
-		mRpGcWxSH5fTY/SV299n/WSY8v0=
+		E2Kla2QT0jwY7ypegH/TzKKpLAo=
 		</data>
 		<key>Headers/BIDMADUtil.h</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uy99OKLjWqjq3O0I3CRG3Pci22o=
+		CU3KzaMdfR7Yoww2Ag/N6tksSGU=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -186,7 +186,7 @@
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uy99OKLjWqjq3O0I3CRG3Pci22o=
+		CU3KzaMdfR7Yoww2Ag/N6tksSGU=
 		</data>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -254,7 +254,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			34/5qdIUU6LHvW8Isx+DNI6WIS3PX1NWev0VxaZjv9c=
+			fDtEre4ReHsCmfSkkpjCwVu1iZCjii0Iu8/v8YGQyhA=
 			</data>
 		</dict>
 		<key>Headers/BIDMADUtil.h</key>
@@ -492,7 +492,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3/5cbTVPRxhLG/3smnRwAHP5/br3YHxT5udmTKMRbvc=
+			yn2cDlyF/5ltSOrTvD/iSs5GxTFG97LuWm1sOIUDGRQ=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -527,7 +527,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3/5cbTVPRxhLG/3smnRwAHP5/br3YHxT5udmTKMRbvc=
+			yn2cDlyF/5ltSOrTvD/iSs5GxTFG97LuWm1sOIUDGRQ=
 			</data>
 		</dict>
 		<key>Modules/BidmadSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

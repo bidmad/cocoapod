@@ -51678,7 +51678,7 @@
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BMBaseAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 14152,
+      "offset": 13856,
       "length": 5,
       "value": "false"
     },
@@ -51938,90 +51938,90 @@
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "Dictionary",
       "offset": 134,
-      "length": 1946,
-      "value": "[(\"41350b05-4415-44b2-8e17-b5fe52d1bd6e\", \"Google Ad Manager\"), (\"ce56da00-1a18-11e9-9ed2-02c31b446301\", \"Google AdMob\"), (\"9868ea6b-5afd-11e7-8214-02c31b446301\", \"Facebook\"), (\"2d4833cf-330b-11e8-bbc3-02c31b446301\", \"ADOP\"), (\"dc93051a-a4e6-11e8-bbc3-02c31b446301\", \"FacebookAppBidding\"), (\"1b7d485c-de41-11e8-9ed2-02c31b446301\", \"Mintegral\"), (\"143e7311-4538-11e9-9e1d-02c31b446301\", \"ADOP REWARD\"), (\"2e88609b-d916-11e9-9e1d-02c31b446301\", \"UnityAds\"), (\"b45c4d16-fa13-11e9-9e1d-02c31b446301\", \"AppLovin\"), (\"e0d7c94e-d391-11e9-9e1d-02c31b446301\", \"Ad Colony\"), (\"3419a3a1-4bc1-11ea-a87c-02c31b446301\", \"Mopub\"), (\"defa83bc-d2e0-11ea-8e02-021baddf8c08\", \"IronSource\"), (\"5e0ce4ec-57ec-4dbd-9703-dc330d027c40\", \"AdFit\"), (\"640ab9f2-d8b8-11eb-8e02-021baddf8c08\", \"Pangle\"), (\"e2678be7-2fbf-11ec-8e02-021baddf8c08\", \"Google AdMob OB\"), (\"ee5efa3b-6dd9-11ec-8e02-021baddf8c08\", \"ADOP REWARD NEW\"), (\"b0745bea-6069-11eb-8e02-021baddf8c08\", \"Fyber\"), (\"31534d43-944a-11ec-8e02-021baddf8c08\", \"AppLovin MAX\"), (\"1e1947d2-eff2-11e9-9e1d-02c31b446301\", \"Vungle\"), (\"ec4a2c71-58c8-11ed-a117-026864a21938\", \"PubMatic\"), (\"259737b6-b23d-11e7-8214-02c31b446301\", \"Mobon\"), (\"56ad4c2b-c956-11ed-b4f4-026864a21938\", \"Teads\"), (\"d34710de-0e82-11ee-bb90-026864a21938\", \"ADOP Coupang\"), (\"ccde2ee6-1e2d-11ef-8e98-026864a21938\", \"AdPopcorn\"), (\"d798f4b6-1e28-11ef-8e98-026864a21938\", \"AllianceInternet\"), (\"2057ac18-0841-11eb-8e02-021baddf8c08\", \"Covi\"), (\"c7923801-a94e-11ea-8e02-021baddf8c08\", \"Adpie\"), (\"5becd78a-55f7-11ef-8e98-026864a21938\", \"Mobwith\"), (\"20740912-f034-11ef-b6ba-021407ef2d0b\", \"Taboola(new)\"), (\"6b7647ea-b1c7-11ed-b4f4-026864a21938\", \"Admixer\"), (\"5ad10035-f252-11ef-b6ba-021407ef2d0b\", \"ORTB\"), (\"testtest-test-test-test-testtesttest\", \"TEST\"), (\"e1d98b1e-21a9-11f1-ac1e-021407ef2d0b\", \"DirectAd\")]"
+      "length": 1830,
+      "value": "[(\"41350b05-4415-44b2-8e17-b5fe52d1bd6e\", \"Google Ad Manager\"), (\"ce56da00-1a18-11e9-9ed2-02c31b446301\", \"Google AdMob\"), (\"9868ea6b-5afd-11e7-8214-02c31b446301\", \"Facebook\"), (\"2d4833cf-330b-11e8-bbc3-02c31b446301\", \"ADOP\"), (\"dc93051a-a4e6-11e8-bbc3-02c31b446301\", \"FacebookAppBidding\"), (\"1b7d485c-de41-11e8-9ed2-02c31b446301\", \"Mintegral\"), (\"143e7311-4538-11e9-9e1d-02c31b446301\", \"ADOP REWARD\"), (\"2e88609b-d916-11e9-9e1d-02c31b446301\", \"UnityAds\"), (\"b45c4d16-fa13-11e9-9e1d-02c31b446301\", \"AppLovin\"), (\"e0d7c94e-d391-11e9-9e1d-02c31b446301\", \"Ad Colony\"), (\"3419a3a1-4bc1-11ea-a87c-02c31b446301\", \"Mopub\"), (\"defa83bc-d2e0-11ea-8e02-021baddf8c08\", \"IronSource\"), (\"5e0ce4ec-57ec-4dbd-9703-dc330d027c40\", \"AdFit\"), (\"640ab9f2-d8b8-11eb-8e02-021baddf8c08\", \"Pangle\"), (\"e2678be7-2fbf-11ec-8e02-021baddf8c08\", \"Google AdMob OB\"), (\"ee5efa3b-6dd9-11ec-8e02-021baddf8c08\", \"ADOP REWARD NEW\"), (\"b0745bea-6069-11eb-8e02-021baddf8c08\", \"Fyber\"), (\"31534d43-944a-11ec-8e02-021baddf8c08\", \"AppLovin MAX\"), (\"1e1947d2-eff2-11e9-9e1d-02c31b446301\", \"Vungle\"), (\"ec4a2c71-58c8-11ed-a117-026864a21938\", \"PubMatic\"), (\"259737b6-b23d-11e7-8214-02c31b446301\", \"Mobon\"), (\"56ad4c2b-c956-11ed-b4f4-026864a21938\", \"Teads\"), (\"d34710de-0e82-11ee-bb90-026864a21938\", \"ADOP Coupang\"), (\"d798f4b6-1e28-11ef-8e98-026864a21938\", \"AllianceInternet\"), (\"2057ac18-0841-11eb-8e02-021baddf8c08\", \"Covi\"), (\"c7923801-a94e-11ea-8e02-021baddf8c08\", \"Adpie\"), (\"5becd78a-55f7-11ef-8e98-026864a21938\", \"Mobwith\"), (\"20740912-f034-11ef-b6ba-021407ef2d0b\", \"Taboola(new)\"), (\"5ad10035-f252-11ef-b6ba-021407ef2d0b\", \"ORTB\"), (\"testtest-test-test-test-testtesttest\", \"TEST\"), (\"e1d98b1e-21a9-11f1-ac1e-021407ef2d0b\", \"DirectAd\")]"
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 3670,
+      "offset": 3554,
       "length": 5,
       "value": "\"END\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "IntegerLiteral",
-      "offset": 3790,
+      "offset": 3674,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 3871,
+      "offset": 3755,
       "length": 173,
       "value": "\"BidmadAdUnit \""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 3902,
+      "offset": 3786,
       "length": 1,
       "value": "\"\n[NET: \""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 3934,
+      "offset": 3818,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 3944,
+      "offset": 3828,
       "length": 1,
       "value": "\"] [FP: \""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 3960,
+      "offset": 3844,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 3963,
+      "offset": 3847,
       "length": 1,
       "value": "\"]\n[AID: \""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 3985,
+      "offset": 3869,
       "length": 1,
       "value": "\"] [PID: \""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 4007,
+      "offset": 3891,
       "length": 1,
       "value": "\"]\n\n\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 4034,
+      "offset": 3918,
       "length": 14069,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/Utility\/BidmadDataParsingUtility.swift",
       "kind": "StringLiteral",
-      "offset": 4171,
+      "offset": 4055,
       "length": 26,
       "value": "\"BidmadDataParsingUtility\""
     },

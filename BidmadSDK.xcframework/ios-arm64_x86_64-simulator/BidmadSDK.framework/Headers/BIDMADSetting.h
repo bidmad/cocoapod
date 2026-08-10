@@ -103,8 +103,6 @@ extern NSString* _Nonnull const BIDMAD_CCPA_CONSENT;
 
 @property (nonatomic, readonly) NSString * _Nonnull customDomain;
 
-@property (nonatomic, strong) NSDictionary<NSString *, NSArray<NSString *> *> * _Nullable nasMediaInitializables;
-
 @property (nonatomic, readonly) BOOL isReachable;
 
 @property (nonatomic, strong) NSString * _Nullable siteIdx;
