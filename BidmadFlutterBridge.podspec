@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
   s.name             = "BidmadFlutterBridge"
-  s.version          = "7.0.1"
+  s.version          = "7.0.2"
   s.platform         = :ios, "14.0"
   s.summary          = "Integrated App Monetization Solution for Mobile Apps by all Publishers"
   s.description      = "BidmadSDK Flutter Bridge codes collection."
   s.homepage         = "https://bidmad.net"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Markus" => "markus@adop.cc" }
-  s.source           = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'BidmadFlutterBridge.7.0.1' }
+  s.source           = { :git => 'https://github.com/bidmad/cocoapod.git', :tag => 'BidmadFlutterBridge.7.0.2' }
   s.static_framework = true
   s.requires_arc     = true
   s.vendored_frameworks = "BidmadFlutterBridge.xcframework"
