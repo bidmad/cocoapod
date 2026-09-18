@@ -634,6 +634,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+enum BidmadFullscreenShowResult : NSInteger;
 SWIFT_CLASS("_TtC9BidmadSDK20BidmadFullscreenCore")
 @interface BidmadFullscreenCore : NSObject <BidmadFullscreenAdapterDelegate>
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
@@ -648,7 +649,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @property (nonatomic, copy) NSString * _Nullable testPath;
 - (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId OBJC_DESIGNATED_INITIALIZER;
 - (void)requestWithLoadCompletionHandler:(void (^ _Nonnull)(BidmadInfo * _Nullable, NSError * _Nullable))loadCompletionHandler adUnit:(BidmadAdUnit * _Nullable)adUnit;
-- (void)showWithViewController:(UIViewController * _Nonnull)viewController showCompletionHandler:(void (^ _Nonnull)(BidmadInfo * _Nullable, NSError * _Nullable))showCompletionHandler;
+- (void)showWithViewController:(UIViewController * _Nonnull)viewController showCompletionHandler:(void (^ _Nonnull)(BidmadInfo * _Nullable, enum BidmadFullscreenShowResult, NSError * _Nullable))showCompletionHandler;
 - (void)dismissedWith:(BidmadFullscreenAdapter * _Nonnull)ad;
 - (void)presentedWith:(BidmadFullscreenAdapter * _Nonnull)ad;
 - (void)failedToPresentWith:(BidmadFullscreenAdapter * _Nonnull)ad error:(NSError * _Nonnull)error;
@@ -658,6 +659,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+/// What became of the loaded ad when a show was attempted.
+/// Distinct from the error that accompanies it: the error carries the detail,
+/// this carries the meaning a caller has to branch on. Without it the three
+/// failure shapes — the adapter tried and failed, nothing was loaded, another
+/// ad is already up — are indistinguishable except by message text, and only
+/// one of them means the loaded ad was spent.
+typedef SWIFT_ENUM(NSInteger, BidmadFullscreenShowResult, open) {
+/// The adapter put the ad on screen.
+  BidmadFullscreenShowResultPresented = 0,
+/// The adapter was handed the ad and failed to present it.
+  BidmadFullscreenShowResultPresentationFailed = 1,
+/// Refused: nothing was loaded to show.
+  BidmadFullscreenShowResultNotLoaded = 2,
+/// Refused: another ad is already on screen.
+  BidmadFullscreenShowResultAlreadyShowing = 3,
+/// Refused: the core was gone before the show could start.
+  BidmadFullscreenShowResultUnavailable = 4,
+};
 
 SWIFT_PROTOCOL("_TtP9BidmadSDK17BidmadGDPRAdapter_")
 @protocol BidmadGDPRAdapter <NSObject>

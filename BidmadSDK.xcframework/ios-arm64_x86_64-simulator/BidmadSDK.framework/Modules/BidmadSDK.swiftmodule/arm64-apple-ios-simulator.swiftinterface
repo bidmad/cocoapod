@@ -369,6 +369,23 @@ extension BidmadSDK.BMNativeAd : BidmadSDK.BidmadNativeAdapterDelegate {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc public enum BidmadFullscreenShowResult : Swift.Int {
+  case presented
+  case presentationFailed
+  case notLoaded
+  case alreadyShowing
+  case unavailable
+  public var didConsumeLoadedAd: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @objc @objcMembers public class BidmadFullscreenCore : ObjectiveC.NSObject, BidmadSDK.BidmadLoggable, BidmadSDK.BidmadFullscreenAdapterDelegate {
   @objc public static let className: Swift.String
   @objc final public let zoneId: Swift.String
@@ -388,7 +405,7 @@ extension BidmadSDK.BMNativeAd : BidmadSDK.BidmadNativeAdapterDelegate {
   @objc public func request(loadCompletionHandler: @escaping (BidmadSDK.BidmadInfo?, (any Swift.Error)?) -> Swift.Void, adUnit: BidmadSDK.BidmadAdUnit? = nil)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc public func show(viewController: UIKit.UIViewController, showCompletionHandler: @escaping (BidmadSDK.BidmadInfo?, (any Swift.Error)?) -> Swift.Void)
+  @objc public func show(viewController: UIKit.UIViewController, showCompletionHandler: @escaping (BidmadSDK.BidmadInfo?, BidmadSDK.BidmadFullscreenShowResult, (any Swift.Error)?) -> Swift.Void)
   #endif
   @objc public func dismissed(with ad: BidmadSDK.BidmadFullscreenAdapter)
   @objc public func presented(with ad: BidmadSDK.BidmadFullscreenAdapter)
@@ -1499,6 +1516,9 @@ extension BidmadSDK.BMBanner.UITaskError : Swift.Hashable {}
 extension BidmadSDK.BMBaseAdLogTypes : Swift.Equatable {}
 extension BidmadSDK.BMBaseAdLogTypes : Swift.Hashable {}
 extension BidmadSDK.BMBaseAdLogTypes : Swift.RawRepresentable {}
+extension BidmadSDK.BidmadFullscreenShowResult : Swift.Equatable {}
+extension BidmadSDK.BidmadFullscreenShowResult : Swift.Hashable {}
+extension BidmadSDK.BidmadFullscreenShowResult : Swift.RawRepresentable {}
 extension BidmadSDK.BidmadLogLevel : Swift.Equatable {}
 extension BidmadSDK.BidmadLogLevel : Swift.Hashable {}
 extension BidmadSDK.BidmadLogLevel : Swift.RawRepresentable {}

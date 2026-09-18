@@ -23,6 +23,18 @@ import _SwiftConcurrencyShims
   @objc public static var className: Swift.String
   @objc weak public var delegate: (any OpenBiddingHelper.BidmadFullscreenAdDelegate)?
   @objc public var isAutoReload: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public var testHost: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public var testPath: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
   @objc public init(zoneID: Swift.String)
   @objc public func load()
   @objc public func show(on viewController: UIKit.UIViewController)

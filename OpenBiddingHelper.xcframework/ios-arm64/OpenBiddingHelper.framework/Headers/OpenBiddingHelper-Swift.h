@@ -314,6 +314,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull clas
 + (void)setClassName:(NSString * _Nonnull)value;
 @property (nonatomic, weak) id <BidmadFullscreenAdDelegate> _Nullable delegate;
 @property (nonatomic) BOOL isAutoReload;
+@property (nonatomic, copy) NSString * _Nullable testHost;
+@property (nonatomic, copy) NSString * _Nullable testPath;
 - (nonnull instancetype)initWithZoneID:(NSString * _Nonnull)zoneID OBJC_DESIGNATED_INITIALIZER;
 - (void)load;
 - (void)showOn:(UIViewController * _Nonnull)viewController;

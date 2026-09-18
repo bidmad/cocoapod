@@ -105,6 +105,19 @@ extern NSString* _Nonnull const BIDMAD_CCPA_CONSENT;
 
 @property (nonatomic, readonly) BOOL isReachable;
 
+#if DEBUG
+/**
+ Returns the SDK to its uninitialized state so a test can exercise initialization more than once.
+
+ `initializeSdkWithDomain:platform:completionHandler:` succeeds at most once per process — every later
+ call short-circuits and reports success — so without this a test bundle gets exactly one initialization
+ attempt and every test that depends on the uninitialized state becomes order-dependent.
+
+ Test-only. Compiled out of Release builds, so it is not part of the distributed API.
+*/
+- (void)resetInitializationForTesting;
+#endif
+
 @property (nonatomic, strong) NSString * _Nullable siteIdx;
 
 /// Extra data to be sent encrypted with Compass requests. Set via `setExtraData:`.

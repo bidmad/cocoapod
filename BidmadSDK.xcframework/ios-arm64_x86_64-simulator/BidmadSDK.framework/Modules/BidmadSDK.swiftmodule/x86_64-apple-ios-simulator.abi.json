@@ -11457,6 +11457,398 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "BidmadFullscreenShowResult",
+        "printedName": "BidmadFullscreenShowResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "presented",
+            "printedName": "presented",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BidmadSDK.BidmadFullscreenShowResult.Type) -> BidmadSDK.BidmadFullscreenShowResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadFullscreenShowResult",
+                    "printedName": "BidmadSDK.BidmadFullscreenShowResult",
+                    "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BidmadSDK.BidmadFullscreenShowResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidmadFullscreenShowResult",
+                        "printedName": "BidmadSDK.BidmadFullscreenShowResult",
+                        "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult@BidmadFullscreenShowResultPresented",
+            "mangledName": "$s9BidmadSDK0A20FullscreenShowResultO9presentedyA2CmF",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "presentationFailed",
+            "printedName": "presentationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BidmadSDK.BidmadFullscreenShowResult.Type) -> BidmadSDK.BidmadFullscreenShowResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadFullscreenShowResult",
+                    "printedName": "BidmadSDK.BidmadFullscreenShowResult",
+                    "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BidmadSDK.BidmadFullscreenShowResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidmadFullscreenShowResult",
+                        "printedName": "BidmadSDK.BidmadFullscreenShowResult",
+                        "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult@BidmadFullscreenShowResultPresentationFailed",
+            "mangledName": "$s9BidmadSDK0A20FullscreenShowResultO18presentationFailedyA2CmF",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "notLoaded",
+            "printedName": "notLoaded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BidmadSDK.BidmadFullscreenShowResult.Type) -> BidmadSDK.BidmadFullscreenShowResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadFullscreenShowResult",
+                    "printedName": "BidmadSDK.BidmadFullscreenShowResult",
+                    "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BidmadSDK.BidmadFullscreenShowResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidmadFullscreenShowResult",
+                        "printedName": "BidmadSDK.BidmadFullscreenShowResult",
+                        "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult@BidmadFullscreenShowResultNotLoaded",
+            "mangledName": "$s9BidmadSDK0A20FullscreenShowResultO9notLoadedyA2CmF",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "alreadyShowing",
+            "printedName": "alreadyShowing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BidmadSDK.BidmadFullscreenShowResult.Type) -> BidmadSDK.BidmadFullscreenShowResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadFullscreenShowResult",
+                    "printedName": "BidmadSDK.BidmadFullscreenShowResult",
+                    "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BidmadSDK.BidmadFullscreenShowResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidmadFullscreenShowResult",
+                        "printedName": "BidmadSDK.BidmadFullscreenShowResult",
+                        "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult@BidmadFullscreenShowResultAlreadyShowing",
+            "mangledName": "$s9BidmadSDK0A20FullscreenShowResultO14alreadyShowingyA2CmF",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "unavailable",
+            "printedName": "unavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BidmadSDK.BidmadFullscreenShowResult.Type) -> BidmadSDK.BidmadFullscreenShowResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadFullscreenShowResult",
+                    "printedName": "BidmadSDK.BidmadFullscreenShowResult",
+                    "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BidmadSDK.BidmadFullscreenShowResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidmadFullscreenShowResult",
+                        "printedName": "BidmadSDK.BidmadFullscreenShowResult",
+                        "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult@BidmadFullscreenShowResultUnavailable",
+            "mangledName": "$s9BidmadSDK0A20FullscreenShowResultO11unavailableyA2CmF",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "didConsumeLoadedAd",
+            "printedName": "didConsumeLoadedAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9BidmadSDK0A20FullscreenShowResultO18didConsumeLoadedAdSbvp",
+            "mangledName": "$s9BidmadSDK0A20FullscreenShowResultO18didConsumeLoadedAdSbvp",
+            "moduleName": "BidmadSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9BidmadSDK0A20FullscreenShowResultO18didConsumeLoadedAdSbvg",
+                "mangledName": "$s9BidmadSDK0A20FullscreenShowResultO18didConsumeLoadedAdSbvg",
+                "moduleName": "BidmadSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BidmadSDK.BidmadFullscreenShowResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BidmadFullscreenShowResult",
+                    "printedName": "BidmadSDK.BidmadFullscreenShowResult",
+                    "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9BidmadSDK0A20FullscreenShowResultO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9BidmadSDK0A20FullscreenShowResultO8rawValueACSgSi_tcfc",
+            "moduleName": "BidmadSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9BidmadSDK0A20FullscreenShowResultO8rawValueSivp",
+            "mangledName": "$s9BidmadSDK0A20FullscreenShowResultO8rawValueSivp",
+            "moduleName": "BidmadSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9BidmadSDK0A20FullscreenShowResultO8rawValueSivg",
+                "mangledName": "$s9BidmadSDK0A20FullscreenShowResultO8rawValueSivg",
+                "moduleName": "BidmadSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult",
+        "mangledName": "$s9BidmadSDK0A20FullscreenShowResultO",
+        "moduleName": "BidmadSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "BidmadFullscreenCore",
         "printedName": "BidmadFullscreenCore",
         "children": [
@@ -12599,7 +12991,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(BidmadSDK.BidmadInfo?, (any Swift.Error)?) -> ()",
+                "printedName": "(BidmadSDK.BidmadInfo?, BidmadSDK.BidmadFullscreenShowResult, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -12609,7 +13001,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(BidmadSDK.BidmadInfo?, (any Swift.Error)?)",
+                    "printedName": "(BidmadSDK.BidmadInfo?, BidmadSDK.BidmadFullscreenShowResult, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -12624,6 +13016,12 @@
                           }
                         ],
                         "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BidmadFullscreenShowResult",
+                        "printedName": "BidmadSDK.BidmadFullscreenShowResult",
+                        "usr": "c:@M@BidmadSDK@E@BidmadFullscreenShowResult"
                       },
                       {
                         "kind": "TypeNominal",
@@ -12646,7 +13044,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@BidmadSDK@objc(cs)BidmadFullscreenCore(im)showWithViewController:showCompletionHandler:",
-            "mangledName": "$s9BidmadSDK0A14FullscreenCoreC4show14viewController0E17CompletionHandlerySo06UIViewG0C_yAA0A4InfoCSg_s5Error_pSgtctF",
+            "mangledName": "$s9BidmadSDK0A14FullscreenCoreC4show14viewController0E17CompletionHandlerySo06UIViewG0C_yAA0A4InfoCSg_AA0aC10ShowResultOs5Error_pSgtctF",
             "moduleName": "BidmadSDK",
             "declAttributes": [
               "AccessControl",
@@ -51803,36 +52201,64 @@
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BidmadFullscreenCore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 614,
+      "length": 18,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BidmadFullscreenCore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 687,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BidmadFullscreenCore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 756,
+      "length": 14,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BidmadFullscreenCore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 844,
+      "length": 11,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BidmadFullscreenCore.swift",
       "kind": "StringLiteral",
-      "offset": 146,
+      "offset": 1618,
       "length": 22,
       "value": "\"BidmadFullscreenCore\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BidmadFullscreenCore.swift",
       "kind": "StringLiteral",
-      "offset": 223,
+      "offset": 1695,
       "length": 41,
       "value": "\"Techlabs.BidmadSDK.BidmadFullscreenCore\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BidmadFullscreenCore.swift",
       "kind": "Array",
-      "offset": 478,
+      "offset": 1950,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BidmadFullscreenCore.swift",
       "kind": "Array",
-      "offset": 533,
+      "offset": 2005,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BidmadFullscreenCore.swift",
       "kind": "Array",
-      "offset": 589,
+      "offset": 2061,
       "length": 2,
       "value": "[]"
     },
