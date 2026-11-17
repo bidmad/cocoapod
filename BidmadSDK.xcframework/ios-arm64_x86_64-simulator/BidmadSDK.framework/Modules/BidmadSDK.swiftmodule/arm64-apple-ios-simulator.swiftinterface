@@ -177,7 +177,7 @@ extension BidmadSDK.BMBanner.UITaskError : Foundation.LocalizedError {
   #endif
 }
 public enum BMBaseAdLogTypes : Swift.String {
-  case req, nofill, fail, noshow, load, click, show, showfail
+  case req, nofill, fail, noshow, load, click, show, showfail, close
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif

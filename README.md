@@ -1,4 +1,9 @@
 # BidmadSDK CocoaPods Change Logs
+## Version 7.1.1
+- Core: `BidmadSDK`, `OpenBiddingHelper`, `BidmadGoogleGDPRAdapter`, `BidmadFlutterBridge` 7.1.1. Interstitial, reward and app open ads send a `close` log again when dismissed (including the Flutter / Unity / Unreal bridge paths). `BMBaseAdLogTypes` gains a `close` case; code that switches over it exhaustively needs a `default` branch
+- `BidmadMobwithAdapter` 2.0.0.15.1: on wide windows (iPad, iPhone Duo, Stage Manager) the interstitial no longer covers the ✕ button; image and details are laid out side by side when the window is wider than tall
+- `BidmadTaboolaAdapter` 3.9.12.15.1: on wide windows the interstitial scales by the smaller of width and height so the ✕ button stays on screen
+- Podspec ranges unchanged (`BidmadSDK >=7.1.0, <7.2.0`)
 ## BidmadAppLovinMAXAdapter 13.6.2.15.1
 - MAX SDK initialization wait lengthened from 5 s to 10 s: a cold start whose MAX init ran past 5 s failed the first load and never retried in that process
 - Pair with `BidmadPartners/AppLovinMax` 1.0.14 for the MAX network adapters. Not for use alongside `BidmadAppLovinAdapter` (legacy AppLovin) in the same app

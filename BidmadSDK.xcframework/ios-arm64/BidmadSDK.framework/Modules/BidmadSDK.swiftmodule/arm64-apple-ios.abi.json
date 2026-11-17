@@ -5495,6 +5495,43 @@
             "moduleName": "BidmadSDK"
           },
           {
+            "kind": "Var",
+            "name": "close",
+            "printedName": "close",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BidmadSDK.BMBaseAdLogTypes.Type) -> BidmadSDK.BMBaseAdLogTypes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BMBaseAdLogTypes",
+                    "printedName": "BidmadSDK.BMBaseAdLogTypes",
+                    "usr": "s:9BidmadSDK16BMBaseAdLogTypesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BidmadSDK.BMBaseAdLogTypes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BMBaseAdLogTypes",
+                        "printedName": "BidmadSDK.BMBaseAdLogTypes",
+                        "usr": "s:9BidmadSDK16BMBaseAdLogTypesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BidmadSDK16BMBaseAdLogTypesO5closeyA2CmF",
+            "mangledName": "$s9BidmadSDK16BMBaseAdLogTypesO5closeyA2CmF",
+            "moduleName": "BidmadSDK"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -52048,35 +52085,35 @@
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BMBaseAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 628,
+      "offset": 635,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BMBaseAd.swift",
       "kind": "StringLiteral",
-      "offset": 787,
+      "offset": 794,
       "length": 10,
       "value": "\"BMBaseAd\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BMBaseAd.swift",
       "kind": "StringLiteral",
-      "offset": 1549,
+      "offset": 1556,
       "length": 31,
       "value": "\"Subclass must override adType\""
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BMBaseAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 5721,
+      "offset": 5728,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markus\/Documents\/GitHub\/BidmadSDK-DevSuite-NextGen\/BidmadSDK\/Sources\/BMBaseAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 13856,
+      "offset": 13863,
       "length": 5,
       "value": "false"
     },
