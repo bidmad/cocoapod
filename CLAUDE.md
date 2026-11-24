@@ -1,6 +1,8 @@
 # cocoapod — production CocoaPods source for Bidmad iOS
 
-This is the **public release repo** (`github.com/bidmad/cocoapod`) that CocoaPods trunk points at. Every production pod (`BidmadSDK`, `OpenBiddingHelper`, `BidmadGoogleGDPRAdapter`, `BidmadFlutterBridge`, every `Bidmad*Adapter`, `BidmadPartners`) has its podspec and XCFramework here. Source code and the build live in `../BidmadSDK-DevSuite-NextGen`; its `CLAUDE.md` ("Production CocoaPods Release") is the full runbook. This file covers what is specific to this repo.
+This is the **public release repo** (`github.com/bidmad/cocoapod`) that CocoaPods trunk points at. Every production pod (`BidmadSDK`, `OpenBiddingHelper`, `BidmadGoogleGDPRAdapter`, `BidmadFlutterBridge`, every `Bidmad*Adapter`, `BidmadPartners`) has its podspec and XCFramework here. Source code and the build live in `../BidmadSDK-DevSuite-NextGen`. This file covers what is specific to this repo.
+
+**Frozen at 7.1.1.** From 7.2.0 the iOS SDK ships through Swift Package Manager only, from the `bidmad/*-SPM` repositories that DevSuite's `bidmad-spm` publishes (see DevSuite's `CLAUDE.md`); CocoaPods trunk goes read-only on 2026-12-02. No new SDK or adapter pods are released from here. The notes below describe how 7.1.1 and earlier were released, for reference and for publishers still on those pods. The Flutter and Unity plugins keep consuming these pods until their own SPM migration.
 
 ## Publishing is gated
 
