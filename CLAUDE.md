@@ -35,26 +35,25 @@ Pushing commits or tags here and `pod trunk push` are publishing steps: state ex
 
 ## Downstream after a release
 
-Ask which follow-ups this release needs (never a fixed list): `Bidmad-iOS` Podfile (the gold-standard pins, see below), `Bidmad-Flutter` branch podspecs and README adapter lists, `Bidmad-Flutter-Sample` Podfile, `Bidmad-Unity` `OBHDependencies.xml`. The pins in DevSuite and Bidmad-iOS are intentional; never call one "outdated" because upstream moved.
+Ask which follow-ups this release needs (never a fixed list): `Bidmad-iOS` `BidmadPackages/Package.swift` (the gold-standard pins, see below), `Bidmad-Flutter` branch podspecs and README adapter lists, `Bidmad-Flutter-Sample` Podfile, `Bidmad-Unity` `OBHDependencies.xml`. The pins in DevSuite and Bidmad-iOS are intentional; never call one "outdated" because upstream moved.
 
 Repos that keep no `CLAUDE.md` of their own have their notes in one that does: `Bidmad-iOS` here (below); `Bidmad-Android`, its wiki and `Bidmad-Flutter-Sample` in the `master` branch of `../Bidmad-Flutter` (`git -C ../Bidmad-Flutter show master:CLAUDE.md`); `Bidmad-Unity` in `../Bidmad-Unity-SourceCode/CLAUDE.md`.
 
 ## Public iOS guide: `../Bidmad-iOS` (`bidmad/Bidmad-iOS`)
 
-Public repo for publishers: `README.md` (Korean), `README[EN].md` (English), `CHANGELOG.md`, and the sample app `BidmadSDKTest` with its `Podfile`. It has no `CLAUDE.md`; don't add one there.
+Public repo for publishers: `README.md` (Korean), `README[EN].md` (English), `CHANGELOG.md`, `images/spm/` (installation screenshots), the sample app `BidmadSDKTest` and `BidmadPackages/`. It has no `CLAUDE.md`; don't add one there. From 7.2.0 it documents Swift Package Manager only; the CocoaPods guide for 7.1.1 and earlier lives in its wiki (`CocoaPods-Installation-Guide-[KOR]/[ENG]`, linked from References).
 
-### Its `Podfile` is the gold standard
+### `BidmadPackages/Package.swift` is the gold standard
 
-The `Podfile` pins are the reference set that Unity (`OBHDependencies.xml`), every Bidmad-Flutter README and podspec, and the Flutter sample copy. Never call a pin "outdated" because a network SDK moved upstream — the versions are chosen on purpose.
+The guide has publishers create a local umbrella package, `BidmadPackages`: one line per `bidmad/*-SPM` repository with an exact version and its products, plus an empty `Sources/BidmadPackages/BidmadPackages.swift`, added via Xcode › Add Package Dependencies › Add Local… and linked to the app target, with `-ObjC` in Other Linker Flags (without it the static adapters — AdMob, Ad Manager, Pangle, Unity Ads, Fyber, AdPie — and Google's mediation adapters drop out silently). The sample uses this exact folder, and the README embeds the same `Package.swift` (indented inside the numbered list); keep them byte-identical. Its pins are the reference set Unity and Flutter copy. Never call a pin "outdated" because a network SDK moved upstream.
 
-- **AppLovin MAX is never listed:** no `BidmadAppLovinMAXAdapter`, no `BidmadPartners/AppLovinMax`. The regular `BidmadAppLovinAdapter` is fine.
-- `BidmadPartners/AdMobBidding` stays at **1.0.13** (see above).
-- When the core minor moves (7.0 → 7.1), every adapter moves to the next generation suffix (`.14.x` → `.15.x`) in the same change; mixing generations fails `pod install`.
+- **AppLovin MAX is never listed:** no `BidmadAppLovinMAXAdapter`, no `BidmadPartnersAppLovinMax`. The regular `BidmadAppLovinAdapter` is fine.
+- The general set is 14 adapters (AdMob, Ad Manager, AppLovin, Unity Ads, Pangle, Fyber, Vungle, Teads, AdFit, AdPie, Taboola, PremiumAdsGoogle, Mobwith, ORTB) plus `BidmadPartnersAdMobBidding` (both its products). Coupang, Covi and DirectAd stay out.
+- Every package stays on the core's `X.Y`; versions are the tags on each repository's Releases page.
 
 ### Updating it for a release
 
-1. Edit the `Podfile` pins to the versions the release published. `update_pod_versions.sh` sets every pod to the **latest on trunk** — read it before use; latest is not always what the release intends (e.g. BidmadPartners).
-2. `pod install` (with `LANG=en_US.UTF-8`), then build the sample: `DEVELOPER_DIR=/Applications/Xcode26_for_build.app/Contents/Developer xcodebuild …` — the default Xcode 27.2 rejects the iOS 14 deployment target. Run it on an **iOS 26** simulator (iOS 27 kills apps without UIScene adoption).
-3. `update_readmes.sh` regenerates the Podfile snippets in both READMEs from the `Podfile`. Edit Korean and English together.
-4. `CHANGELOG.md`: prepend `#### Version X.Y.Z` with a one-line summary, a short **변경 사항** list and the **버전** lines (`old → **new**`). Keep it very short — no internal detail (e.g. enum cases, log types) and no "just update your Podfile" boilerplate.
-5. Commit as `BidmadSDK Update to X.Y.Z`. No AI co-author lines. Pushing is a publishing step: show the diff and wait for a yes (the maintainer often pushes it personally).
+1. Edit the versions in `BidmadPackages/Package.swift` and the same block in both READMEs.
+2. Open `BidmadSDKTest.xcodeproj`, File › Packages › Resolve Package Versions (updates `Package.resolved`), then build with `DEVELOPER_DIR=/Applications/Xcode26_for_build.app/Contents/Developer` and run on an iOS 26 and an iOS 27 simulator. The sample uses the UIScene lifecycle (`SceneDelegate`, scene manifest in `Info.plist`); iOS 27 kills apps without it.
+3. `CHANGELOG.md`: prepend `#### Version X.Y.Z` with a one-line summary, a short **변경 사항** list and the **버전** lines (`old → **new**`). Keep it very short.
+4. Korean and English READMEs change together. Pushing is a publishing step: show the diff and wait for a yes.
